@@ -1,0 +1,100 @@
+if(! (eventName in this._handlers)) {
+if (type === 'POST') {    return new Promise(function (resolve, reject) {       if (data) {          data = JSON.stringify(data);       }       if (progress) {          progress = JSON.stringify(progress);       }       if (s3Key) {          s3Key = JSON.stringify(s3Key);       }       $.ajax({          url: url,          type: type,          dataType: dataType,          data: data,          progress: progress,          s3Key: s3Key       })      .done(function (data) {          if (data) {             resolve(data);          } else {             reject(data);          }       })      .fail(function (data) {          if (data) {             reject(data);          } else {             console.log(data);          }       });    }); }
+if (window.ga) {
+if (this._wsOpen()) {
+if ( this._onRequestSend) {
+if (    var data = {     email: this.refs.email.value}) {
+if (ratio) {
+if (obj) {
+if(parent && parent.addSplit) {
+if (options.fn) {
+: function(){           return;           $('myForm').addEvent('submit', function(e){            e.preventDefault();});
+if (where) {
+if(var i in this.inputs) {
+if (process.env.NODE_ENV === 'production') {   import {watchAddBadge, watchGetUserBadges} from './badgeSagas';
+if (_.isArray(props.style)) {                     props.style = props.style                 if (_.isObject(props.style)) {
+if (xmlwriter_end_dtd) {
+if (!childObject[childAssociationName]) {               throw childAssociationName + " association does not exist.";             }
+if (loggedXhrPollError) {
+if (d.match(rx)) {     console.log("match:", d);     ret = _.union(ret, _recs[d]);
+if (this.field!= other.field) {      throw "GF256Polys have same GF256 field";     }
+if (e) {
+if (this._errorVars.hasOwnProperty(this._stayMinusErrorVars[this._stayMinusErrorVars.length - 1])) {
+if (Type.none) {
+if (context.flags.window.match(/[A-Za-z]{3,10} \d\d?:[03]0/) == null) {         cli.error('Maintenance windows must be "Day HH:MM", where MM is 00 or 30.');         process.exit(1)       }
+(message, rules) {
+(\'ComponentName Case #2', () => {   const tree = renderer.component( 'ComponentName Case #1', 'ComponentName Case #2' );   const tree2 = renderer.component( 'ComponentName Case #1', 'ComponentName Case #2' );   const tree3 = renderer.component( 'ComponentName Case #1', 'ComponentName Case #2' );   const tree4 = renderer.component( 'ComponentName Case #1', 'ComponentName Case #2' );   const tree5 = renderer.component( 'ComponentName Case #1', 'ComponentName Case #2' );   const tree6 = renderer.component( 'ComponentName Case #1', 'ComponentName Case #2' );   const tree7 = renderer.component( 'ComponentName Case #1', 'ComponentName Case #2' );   const tree8 = renderer.component( 'ComponentName Case #1', 'ComponentName Case #2' );   const tree9 = renderer.component( 'ComponentName Case #1', 'ComponentName Case #2' );   const tree10 = renderer.component( 'ComponentName Case #1', 'ComponentName Case #2' );   const tree11 = renderer.component( 'ComponentName Case #1', 'ComponentName Case #2' );   const tree12 = renderer.component( 'ComponentName Case #1', 'ComponentName Case #2' );   const tree13 = renderer.component( 'ComponentName Case #1', 'ComponentName Case #2' );   const tree14 = renderer.component( 'ComponentName Case #1', 'ComponentName Case #2' );   const tree15 = renderer.component( 'ComponentName Case #1', 'ComponentName Case #2' );   const tree16 = renderer.component( 'ComponentName Case #1', 'ComponentName Case #2' );   const tree17 = renderer.component( 'ComponentName Case #1', 'ComponentName Case #2' );   const tree18 = renderer.component( 'ComponentName Case #1', 'ComponentName Case #2' );   const tree19 = renderer.component( 'ComponentName Case #1', 'ComponentName Case #2' );   const tree20 = renderer.component( 'ComponentName Case #1', 'ComponentName Case #2' );   const tree21 = renderer.component( 'ComponentName Case #1', 'ComponentName Case #
+if (height) {   if (currentItem) {     if (displayXAccessor) {       return displayXAccessor(height);     } else {       return height;     }   } else {     if (displayXAccessor) {       return displayXAccessor();     } else {       return 0;     }   }
+if (context.close) {
+if (autoImport) {
+if (PropTypes.bool) {
+if (maskProcessed) {   if (eventsBound) {     if (maskCaretMap) {       if (maskPatterns) {         if (maskPlaceholder) {           if (maskComponents) {             if (maskTokens) {               maskProcessed = true;             }           }         } else {           if (maskComponents) {             if (maskTokens) {               maskProcessed = true;             }           }         }       } else {         if (maskPlaceholder) {           if (maskComponents) {             if (maskTokens) {               maskProcessed = true;             }           }         } else {           if (maskComponents) {             if (maskTokens) {               maskProcessed = true;             }           }         }       }     } else {       if (maskPatterns) {         if (maskPlaceholder) {           if (maskComponents) {             if (maskTokens) {               maskProcessed = true;             }           }         } else {           if (maskComponents) {             if (maskTokens) {               maskProcessed = true;             }           }         }       } else {         if (maskPlaceholder) {           if (maskComponents) {             if (maskTokens) {               maskProcessed = true;             }           }         } else {           if (maskComponents) {             if (maskTokens) {               maskProcessed = true;             }           }         }       }     }   } else {     if (maskCaretMap) {       if (maskPatterns) {         if (maskPlaceholder) {           if (maskComponents) {             if (maskTokens) {               maskProcessed = true;             }           }         } else {           if (maskComponents) {             if (maskTokens) {               maskProcessed = true;             }           }         }       } else {         if (maskPatterns) {           if (maskPlaceholder) {             if (maskComponents) {               if (maskTokens) {                 maskProcessed = true;               }             } else {
+if (i) {
+if (this) {
+if (this.paperOptions.behavior.recognizer.getType()) {   get type() {     this.paperOptions.behavior.recognizer.getType();   }   get host() {     this.paperOptions.recognParams.server.host;   }   get port() {     this.paperOptions.recognParams.server.port;   }   get path() {     this.paperOptions.recognParams.server.path;   }   get query() {     this.paperOptions.recognParams.server.query;   }   get fragment() {     this.paperOptions.recognParams.server.fragment;   }
+if (state &&!origState && this.dom() && this.dom().offsetWidth) {
+if (text) {
+if(a < b) {
+if (rx && ry && t && speed) {   return {     rx: rx,     ry: ry,     t: t,     speed: speed   } } else if (rx && ry && t && speed) {   return {     rx: rx,     ry: ry,     t: t,     speed: speed   } } else if (rx && ry && t && speed) {   return {     rx: rx,     ry: ry,     t: t,     speed: speed   } } else if (rx && ry && t && speed) {   return {     rx: rx,     ry: ry,     t: t,     speed: speed   } } else if (rx && ry && t && speed) {   return {     rx: rx,     ry: ry,     t: t,     speed: speed   } } else if (rx && ry && t && speed) {   return {     rx: rx,     ry: ry,     t: t,     speed: speed   } } else if (rx && ry && t && speed) {   return {     rx: rx,     ry: ry,     t: t,     speed: speed   } } else if (rx && ry && t && speed) {   return {     rx: rx,     ry: ry,     t: t,     speed: speed   } } else if (rx && ry && t && speed) {   return {     rx: rx,     ry: ry,     t: t,     speed: speed   } } else if (rx && ry && t && speed) {   return {     rx: rx,     ry: ry,     t: t,     speed: speed   } } else if (rx && ry && t && speed) {   return {     rx: rx,     ry: ry,     t: t,     speed: speed   } } else if (rx && ry && t && speed) {   return {     rx: rx,     ry: ry
+if (render) {
+if (config.redis) {   if (config.redis.filters) {     redisConfig.filters = config.redis.filters;   } else {     redisConfig.filters = [];   }   if (config.redis.host) {     redisConfig.host = config.redis.host;   } else {     redisConfig.host = "127.0.0.1";   }   if (config.redis.port) {     redisConfig.port = config.redis.port;   } else {     redisConfig.port = 6379;   }   if (config.redis.db) {     redisConfig.db = config.redis.db;   } else {     redisConfig.db = 0;   }   if (config.redis.password) {     redisConfig.password = config.redis.password;   } else {     redisConfig.password = "";   }   if (config.redis.prefix) {     redisConfig.prefix = config.redis.prefix;   } else {     redisConfig.prefix = "";   }   if (config.redis.prefix) {     redisConfig.prefix = config.redis.prefix;   } else {     redisConfig.prefix = "";   }   if (config.redis.prefix) {     redisConfig.prefix = config.redis.prefix;   } else {     redisConfig.prefix = "";   }   if (config.redis.prefix) {     redisConfig.prefix = config.redis.prefix;   } else {     redisConfig.prefix = "";   }   if (config.redis.prefix) {     redisConfig.prefix = config.redis.prefix;   } else {     redisConfig.prefix = "";   }   if (config.redis.prefix) {     redisConfig.prefix = config.redis.prefix;   } else {     redisConfig.prefix = "";   }   if (config.redis.prefix) {     redisConfig.prefix = config.redis.prefix;   } else {     redisConfig.prefix = "";   }
+if (e) {             throw "Unable to load Atom '"+atomName+"' from file '"+atomFileName+"'";
+if (err) {   if (err instanceof AuthorizationError) {     throw new BadRequestError(err);   } else if (err instanceof BadRequestError) {     throw new AuthorizationError(err);   } else {     throw err;   }
+if (uri) {
+if (this.rows) {
+if (circular) {
+if (time) {
+if (m > 0) {
+if (typeof module === 'object' && module.exports) {  module.exports = x; } else if (typeof exports === 'object') {  exports.x = x; }
+if (f in filters) { $("#filters").append('<div class="filter-container"><div class="filter-header">\
+if (jBone.fn.html) {
+if (this instanceof CircularLinkedList) {
+if (file) {         object.csv.push(file); });
+if (this.retryConnectionMsg) {
+if (!hosts) usageDie('invalid hosts');     var basePort = basePort || parseInt(parseArg('--base-port'), 10); if (!basePort) usageDie('invalid base port');
+if (process.env.TRAVIS) {
+(`should show messages callout for unknown user`, async t => {   debugger; const identityPage = await setup(t);
+if (50) {
+if (data.height) {
+OnProperties(this) {     if (opts.ready) {         if (isResolved) {             markAsResolved(this, opts.resolvedAttribute, opts.unresolvedAttribute);         } else {             ready.call(this);         }     } }
+if (isDev) {     return new Blockchain({blockchainConfig, client: GethCommands, env: env, isDev, onReadyCallback: onReadyCallback, onExitCallback: onExitCallback, logger: logger, events: events, isStandalone: isStandalone}); } else {     return new Blockchain({blockchainConfig, client: GethCommands, env: env, isDev, onReadyCallback: onReadyCallback, onExitCallback: onExitCallback, logger: logger, events: events, isStandalone: isStandalone});
+if (rightLabel) {
+= function() {  test = new cv.graph();  graphdef = cv.constants.defaultGraphdef;};
+if("should test if links and karyo are defined when they are returned from their functions", function(){   expect(returnKaryo).toBeDefined();   expect(returnLinks).toBeDefined();  });
+if (state === null) {   throw "You've tried to find a Pokémon in a state that no longer exists!";   var match = null;
+if (err) {
+if (dashes) {   if (no) {     if (conf) {       console.log(word);     } else {       console.log(word);     }   } else {     if (conf) {       console.log(word);     } else {       console.log(word);     }   }
+if (signature.length == variables.length && _.all(signature, function(type,index) {
+if (true || arrBlacklistedDomains.includes(strCurrentTab)) {
+if (a) {
+if(function(err){                 this.log.error("[ERROR] AC State Sync fail!Error:" + err);             });
+if (res.url) {
+if (log) {
+if (returnedStats) {
+if (!first.type.equals(Shade.Types.bool_t))             throw ("operator " + operator_name +                     " requires booleans, got argument 1 " +
+if (config.action) {
+if (t) {
+if (arguments.length === 1 && arguments[0] instanceof ByteString) {
+if (modelToUpgradeTo) {   this.selectedModel = modelToUpgradeTo;   this.upgradesList = this.upgradesList.filter(e => e.model === _.first(this.selectedModel.model.split(':')) && e.name === this.selectedModel.model.split(':')[1]);
+if ( d === undefined) {
+if (fs.existsSync(__dirname + '/webpack.config.js')) {     var webpackConfig = require('./webpack.config.js');     webpack(webpackConfig, function (err, stats) {         if (err) {             console.log(err);         } else {             console.log(stats.toString({                 colors: true,                 modules: true,                 children: true,                 chunks: true             }));         }     });
+if (this.type()!== 'gauge'       && this.type()!== 'pie'         && this.type()!== 'donut') {
+if (obj) {         qx.ui.core.ClientDocument.getInstance().debug(obj, this);         throw new Error("Could not find iframe which was loaded!");        }
+if (arguments.length <= 1 || arguments[1] === undefined) {   var cfg = arguments.length <= 2 || arguments[2] === undefined? {} : arguments[2];   var opt = arguments.length <= 3 || arguments[3] === undefined? {} : arguments[3];
+if (url) {
+if (keystore) {
+if (this.precomputed) {
+if (ver in maxVersions) {
+if ( args[ 0 ] instanceof Error    ? ( args[ 0 ].stack || args[ 0 ] ) : util.format.apply( util, args ) ) {
+if (e) {
+if(this.props.onClick) {
+if (err) {             console.log(`初始化管理员账号 "${yapi.WEBCONFIG.adminAccount}"失败, ${err.message}`);               process.exit(0);         });
+if ($target) {
+if(currentSubscription[0].duration*86400000){
+if (ifHelper) {
+if(options.qf){
+if (validate(req, res, next)) {
+if (oObject) {
+if {             var IDBasket = new Array(); var tempArray = new Array();
+if key.isPrintable():         let { range } = this;  let { isCollapsed } = range;
+if (anomalyPos) {   if (currentPos) {     this.currentGridSquare = currentPos;   } else {     this.currentGridSquare = anomalyPos;   } }

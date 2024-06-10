@@ -1,0 +1,142 @@
+Namespace(log_name='./RQ5/defects4j_300/soft0_1_codet5p_220m.log', model_name='Salesforce/codet5p-220m', lang='java', output_dir='RQ5/defects4j_300/soft0_1_codet5p_220m', data_dir='./data/RQ5/defects4j_300_1', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=2, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'public TypeBasedCandidateFilter(MockCandidateFilter next) {          this.next = next;      }     public OngoingInjecter filterCandidate(Collection<Object> mocks, Field field, Object fieldInstance) {          List<Object> mockTypeMatches = new ArrayList<Object>();          for (Object mock : mocks) {              if (field.getType().isAssignableFrom(mock.getClass())) {', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': '', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'public TypeBasedCandidateFilter(MockCandidateFilter next) {          this.next = next;      }     public OngoingInjecter filterCandidate(Collection<Object> mocks, Field field, List<Field> fields, Object fieldInstance) {          List<Object> mockTypeMatches = new ArrayList<Object>();          for (Object mock : mocks) {              if (field.getType().isAssignableFrom(mock.getClass())) {'}]
+***** Running training *****
+  Num examples = 300
+  Batch size = 4
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 2
+  epoch = 0
+  eval_ppl = inf
+  global_step = 76
+  train_loss = 53.497
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:inf
+  ********************
+BLEU file: ./data/RQ5/defects4j_300_1/validation.jsonl
+  codebleu-4 = 78.2 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:78.2
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 2
+  epoch = 1
+  eval_ppl = inf
+  global_step = 151
+  train_loss = 29.9705
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/RQ5/defects4j_300_1/validation.jsonl
+  codebleu-4 = 78.26 	 Previous best codebleu 78.2
+  ********************
+ Achieve Best bleu:78.26
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 2
+  epoch = 2
+  eval_ppl = inf
+  global_step = 226
+  train_loss = 19.4395
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/RQ5/defects4j_300_1/validation.jsonl
+  codebleu-4 = 76.95 	 Previous best codebleu 78.26
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 2
+  epoch = 3
+  eval_ppl = inf
+  global_step = 301
+  train_loss = 13.3628
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/RQ5/defects4j_300_1/validation.jsonl
+  codebleu-4 = 77.95 	 Previous best codebleu 78.26
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 2
+  epoch = 4
+  eval_ppl = inf
+  global_step = 376
+  train_loss = 8.9318
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/RQ5/defects4j_300_1/validation.jsonl
+  codebleu-4 = 78.56 	 Previous best codebleu 78.26
+  ********************
+ Achieve Best bleu:78.56
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 2
+  epoch = 5
+  eval_ppl = inf
+  global_step = 451
+  train_loss = 5.8753
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/RQ5/defects4j_300_1/validation.jsonl
+  codebleu-4 = 78.01 	 Previous best codebleu 78.56
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 2
+  epoch = 6
+  eval_ppl = inf
+  global_step = 526
+  train_loss = 4.4063
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/RQ5/defects4j_300_1/validation.jsonl
+  codebleu-4 = 77.35 	 Previous best codebleu 78.56
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 2
+  epoch = 7
+  eval_ppl = inf
+  global_step = 601
+  train_loss = 3.239
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/RQ5/defects4j_300_1/validation.jsonl
+  codebleu-4 = 77.56 	 Previous best codebleu 78.56
+  ********************
+early stopping!!!
+reload model from RQ5/defects4j_300/soft0_1_codet5p_220m/checkpoint-best-bleu
+BLEU file: ./data/RQ5/defects4j_300_1/test.jsonl
+  codebleu = 74.22 
+  Total = 64 
+  Exact Fixed = 6 
+[33, 34, 46, 51, 57, 63]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 64 
+  Exact Fixed = 6 
+[33, 34, 46, 51, 57, 63]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 74.22 
+[0.5448048686005305, 0.8293469462676377, 0.6890579813955051, 0.3788321486588963, 0.7906925479531332, 0.877572165029932, 0.6341247058119213, 0.8295509438760991, 0.8318588019770055, 0.8924644874204966, 0.694567588964678, 0.7369092647119393, 0.6316733772548883, 0.6460867508533192, 0.3205070115741946, 0.8438720692633894, 0.7694729472672909, 0.8140266163521677, 0.763563151350293, 0.7904665899488785, 0.8721125152975062, 0.7176189204658862, 0.7421898091822523, 0.7143513682140774, 0.7819170925377384, 0.6620374200206556, 0.7977509497997374, 0.8681777725936917, 0.7829903885524012, 0.7684474502554247, 0.8683105217761831, 0.8365049773284279, 1.0, 1.0, 0.8693059718827794, 0.46390994156004267, 0.11082599315353786, 0.595153561733246, 0.889761361495617, 0.8459463132957461, 0.8727340070600411, 0.8028172817807042, 0.7011143192662692, 0.7051146102158162, 0.500866870296785, 0.9569487648577442, 0.8961434726030306, 0.5216692025787918, 0.6873740073884191, 0.4877742891969534, 1.0, 0.2862125618794039, 0.7398507191925657, 0.943022075447772, 0.863021098885395, 0.8232523732318835, 1.0, 0.6410378892354339, 0.6987970465854111, 0.8254084390841356, 0.8224642580186448, 0.8134417243841228, 0.9569487648577442, 0.458822321609924]
+Finish training and take 14m

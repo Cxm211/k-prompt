@@ -1,0 +1,1 @@
+{"id": "/data/all/data/oskariorg/oskari-frontend", "bugType": "no-extra-boolean-cast", "problem": "                if(!!unVisibleCols.length) {\n                    pagingHandler(groupHeader, {", "fixed": "                if(visibleCols.length < groupCols) {\n                    pagingHandler(groupHeader, {", "message": "Redundant double negation."}

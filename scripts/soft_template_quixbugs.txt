@@ -1,0 +1,10 @@
+{"placeholder":"text_a"} {"mask"} {"soft": "is the fixed version"}
+{"placeholder":"text_a"} {"soft": "the fixed version is"} {"mask"}
+{"soft": "Fix the bug in"} {"placeholder":"text_a"} {"mask"}
+{"soft": "Fix"} {"placeholder":"text_a"} {"soft": "fixed program is"} {"mask"}
+{"soft": "Fix"} {"placeholder":"text_a"} {"mask"} {"soft": "is fixed program"}
+{"placeholder":"text_a"} {"soft": "is buggy program"} {"mask"} {"soft": "is fixed program"}
+{"soft": "Fix"} {"placeholder":"text_a"} {"soft": "is buggy program"} {"mask"} {"soft": "is fixed program"}
+{"soft": "Please fix an buggy program"} {"placeholder":"text_a"} {"soft": "which is to"} {"meta":"hint"}. {"mask"} {"soft":"is the fixed version"}
+{"soft": "Please fix an buggy program"} {"placeholder":"text_a"} {"soft": "give input"} {"meta":"input"}, {"soft": "the output should be"} {"meta":"output"}. {"mask"} {"soft":"is the fixed version"}
+{"soft": "Please fix an buggy program"} {"placeholder":"text_a"} {"soft": "which is to"} {"meta":"hint"} {"soft": "give input"} {"meta":"input"} {"soft": "the output should be"} {"meta":"output"} {"mask"} {"soft":"is the fixed version"}

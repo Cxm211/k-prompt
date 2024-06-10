@@ -1,0 +1,21 @@
+Namespace(log_name='./RQ5/javascript_10/soft7_1_codet5p_220m.log', model_name='Salesforce/codet5p-220m', lang='javascript', output_dir='RQ5/javascript_10/soft7_1_codet5p_220m', data_dir='./data/RQ5/javascript_10_2', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=8, eval_batch_size=2, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': '', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' _handleError() {      this.emit("error", ...arguments)    }', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' prefer-rest-params', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '.', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': '', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '_handleError(...args) {      this.emit("error", ...args)    }'}]
+***** Running training *****
+  Num examples = 10
+  Batch size = 8
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 500
+  Batch size = 2
+  epoch = 0
+  eval_ppl = inf
+  global_step = 3
+  train_loss = 39.3063
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:inf
+  ********************
+BLEU file: ./data/RQ5/javascript_10_2/validation.jsonl

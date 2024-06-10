@@ -1,0 +1,420 @@
+RQ1_final/quixbugs_python/hard4_codet5p_220m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 88.02 
+[0.9246350539097654, 0.9046292183049148, 0.7669617847742995, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/hard3_codet5p_220m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 88.02 
+[0.9246350539097654, 0.9046292183049148, 0.7669617847742995, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/finetune_codet5p_220m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 85.04 
+[0.8054247737072815, 0.9046292183049148, 0.7669617847742995, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/soft8_codet5p_220m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 83.82 
+[0.7567750223752426, 0.9046292183049148, 0.7669617847742995, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/hard1_codet5p_770m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 72.96 
+[0.921795691032669, 0.9046292183049148, 0.1673197750078414, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/hard6_codet5p_770m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 86.71 
+[0.9246350539097654, 0.9046292183049148, 0.7669617847742995, 0.8719816656316841]
+
+RQ1_final/quixbugs_python/soft9_codet5p_220m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 87.49 
+[0.9246350539097654, 0.9046292183049148, 0.7458756408868255, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/hard2_codet5p_220m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 86.43 
+[0.921795691032669, 0.9046292183049148, 0.7669617847742995, 0.8637158857744637]
+
+RQ1_final/quixbugs_python/hard5_codet5p_220m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 87.38 
+[0.9246350539097654, 0.9046292183049148, 0.7415658664772448, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/hard7_codet5p_770m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 87.38 
+[0.9246350539097654, 0.9046292183049148, 0.7415658664772448, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/hard0_codet5p_770m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 72.8 
+[0.3158047621234443, 0.9046292183049148, 0.7669617847742995, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/soft1_codet5p_770m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 87.38 
+[0.9246350539097654, 0.9046292183049148, 0.7415658664772448, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/soft6_codet5p_770m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 88.02 
+[0.9246350539097654, 0.9046292183049148, 0.7669617847742995, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/hard8_codet5p_220m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 88.02 
+[0.9246350539097654, 0.9046292183049148, 0.7669617847742995, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/soft4_codet5p_220m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 88.02 
+[0.9246350539097654, 0.9046292183049148, 0.7669617847742995, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/soft3_codet5p_220m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 88.02 
+[0.9246350539097654, 0.9046292183049148, 0.7669617847742995, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/soft7_codet5p_770m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 87.38 
+[0.9246350539097654, 0.9046292183049148, 0.7415658664772448, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/soft0_codet5p_770m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 87.38 
+[0.9246350539097654, 0.9046292183049148, 0.7415658664772448, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/soft2_codet5p_220m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 88.02 
+[0.9246350539097654, 0.9046292183049148, 0.7669617847742995, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/soft5_codet5p_220m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 87.95 
+[0.921795691032669, 0.9046292183049148, 0.7669617847742995, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/hard9_codet5p_220m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 88.02 
+[0.9246350539097654, 0.9046292183049148, 0.7669617847742995, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/hard9_codet5p_770m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 73.69 
+[0.921795691032669, 0.35985433205201495, 0.7415658664772448, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/soft2_codet5p_770m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 88.02 
+[0.9246350539097654, 0.9046292183049148, 0.7669617847742995, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/soft5_codet5p_770m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 87.38 
+[0.9246350539097654, 0.9046292183049148, 0.7415658664772448, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/soft7_codet5p_220m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 88.02 
+[0.9246350539097654, 0.9046292183049148, 0.7669617847742995, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/soft0_codet5p_220m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 87.95 
+[0.921795691032669, 0.9046292183049148, 0.7669617847742995, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/soft4_codet5p_770m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 88.02 
+[0.9246350539097654, 0.9046292183049148, 0.7669617847742995, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/soft3_codet5p_770m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 88.02 
+[0.9246350539097654, 0.9046292183049148, 0.7669617847742995, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/hard8_codet5p_770m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 77.73 
+[0.921795691032669, 0.751591259608462, 0.7669617847742995, 0.6687534337419134]
+
+RQ1_final/quixbugs_python/soft1_codet5p_220m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 87.95 
+[0.921795691032669, 0.9046292183049148, 0.7669617847742995, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/soft6_codet5p_220m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 88.02 
+[0.9246350539097654, 0.9046292183049148, 0.7669617847742995, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/hard7_codet5p_220m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 87.95 
+[0.921795691032669, 0.9046292183049148, 0.7669617847742995, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/hard0_codet5p_220m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 86.43 
+[0.921795691032669, 0.9046292183049148, 0.7669617847742995, 0.8637158857744637]
+
+RQ1_final/quixbugs_python/hard2_codet5p_770m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 71.92 
+[0.9246350539097654, 0.35985433205201495, 0.7415658664772448, 0.8506404451025301]
+
+RQ1_final/quixbugs_python/hard5_codet5p_770m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 88.02 
+[0.9246350539097654, 0.9046292183049148, 0.7669617847742995, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/soft9_codet5p_770m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 87.38 
+[0.9246350539097654, 0.9046292183049148, 0.7415658664772448, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/hard1_codet5p_220m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 85.97 
+[0.921795691032669, 0.9046292183049148, 0.6878239440693094, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/hard6_codet5p_220m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 88.02 
+[0.9246350539097654, 0.9046292183049148, 0.7669617847742995, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/finetune_codet5p_770m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 85.04 
+[0.8054247737072815, 0.9046292183049148, 0.7669617847742995, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/soft8_codet5p_770m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 58.43 
+[0.921795691032669, 0.35985433205201495, 0.7669617847742995, 0.28871996384348425]
+
+RQ1_final/quixbugs_python/hard4_codet5p_770m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 87.31 
+[0.921795691032669, 0.9046292183049148, 0.7415658664772448, 0.9244980214694567]
+
+RQ1_final/quixbugs_python/hard3_codet5p_770m
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 72.49 
+[0.9246350539097654, 0.9046292183049148, 0.14569547738299268, 0.9244980214694567]
+

@@ -1,0 +1,11 @@
+{"placeholder":"text_a"} {"mask"} is fixed version
+{"placeholder":"text_a"} fixed version is {"mask"}
+Fix bug in {"placeholder":"text_a"} {"mask"}
+Fix {"placeholder":"text_a"} fixed program is {"mask"}
+Fix {"placeholder":"text_a"} {"mask"} is fixed program
+{"placeholder":"text_a"} is buggy program {"mask"} is fixed program
+Fix {"placeholder":"text_a"} is buggy program {"mask"} is fixed program
+Please fix an buggy program {"placeholder":"text_a"} by {"meta":"observations"} {"mask"} is the fixed version
+Please fix an buggy program {"placeholder":"text_a"} by taking repair actions {"meta":"repairAction", "shortenable":False}  {"mask"} is the fixed version
+Please fix an buggy program {"placeholder":"text_a"} by following repair patterns {"meta":"repairPattern", "shortenable":False}  {"mask"} is the fixed version
+Please fix an buggy program {"placeholder":"text_a"} by {"meta":"observations"} taking repair actions {"meta":"repairAction", "shortenable":False} following repair patterns {"meta":"repairPattern", "shortenable":False} {"mask"} is the fixed version

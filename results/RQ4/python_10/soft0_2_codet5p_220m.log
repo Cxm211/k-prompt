@@ -1,0 +1,202 @@
+Namespace(log_name='./RQ5/python_10/soft0_2_codet5p_220m.log', model_name='Salesforce/codet5p-220m', lang='python', output_dir='RQ5/python_10/soft0_2_codet5p_220m', data_dir='./data/RQ5/python_10_2', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=16, eval_batch_size=2, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+Namespace(log_name='./RQ5/python_10/soft0_2_codet5p_220m.log', model_name='Salesforce/codet5p-220m', lang='python', output_dir='RQ5/python_10/soft0_2_codet5p_220m', data_dir='./data/RQ5/python_10_2', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=16, eval_batch_size=2, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Namespace(log_name='./RQ5/python_10/soft0_2_codet5p_220m.log', model_name='Salesforce/codet5p-220m', lang='python', output_dir='RQ5/python_10/soft0_2_codet5p_220m', data_dir='./data/RQ5/python_10_2', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=16, eval_batch_size=2, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'def any_int_dtype(request):      return request.param  @pytest.fixture(params=ALL_REAL_DTYPES)  def any_real_dtype(request):', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': '', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'def any_int_dtype(request):      return request.param @pytest.fixture(params=ALL_EA_INT_DTYPES) def any_nullable_int_dtype(request):     return request.param  @pytest.fixture(params=ALL_REAL_DTYPES)  def any_real_dtype(request):'}]
+***** Running training *****
+  Num examples = 10
+  Batch size = 16
+  Num epoch = 10
+Namespace(log_name='./RQ5/python_10/soft0_2_codet5p_220m.log', model_name='Salesforce/codet5p-220m', lang='python', output_dir='RQ5/python_10/soft0_2_codet5p_220m', data_dir='./data/RQ5/python_10_2', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=16, eval_batch_size=2, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'def any_int_dtype(request):      return request.param  @pytest.fixture(params=ALL_REAL_DTYPES)  def any_real_dtype(request):', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': '', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'def any_int_dtype(request):      return request.param @pytest.fixture(params=ALL_EA_INT_DTYPES) def any_nullable_int_dtype(request):     return request.param  @pytest.fixture(params=ALL_REAL_DTYPES)  def any_real_dtype(request):'}]
+***** Running training *****
+  Num examples = 10
+  Batch size = 16
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 2
+  epoch = 0
+  eval_ppl = inf
+  global_step = 2
+  train_loss = 143.1917
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:inf
+  ********************
+BLEU file: ./data/RQ5/python_10_2/validation.jsonl
+  codebleu-4 = 18.59 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:18.59
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 2
+  epoch = 1
+  eval_ppl = inf
+  global_step = 3
+  train_loss = 138.7319
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:inf
+  ********************
+BLEU file: ./data/RQ5/python_10_2/validation.jsonl
+  codebleu-4 = 28.85 	 Previous best codebleu 18.59
+  ********************
+ Achieve Best bleu:28.85
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 2
+  epoch = 2
+  eval_ppl = inf
+  global_step = 4
+  train_loss = 100.6346
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:inf
+  ********************
+BLEU file: ./data/RQ5/python_10_2/validation.jsonl
+  codebleu-4 = 31.01 	 Previous best codebleu 28.85
+  ********************
+ Achieve Best bleu:31.01
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 2
+  epoch = 3
+  eval_ppl = inf
+  global_step = 5
+  train_loss = 87.2479
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:inf
+  ********************
+BLEU file: ./data/RQ5/python_10_2/validation.jsonl
+  codebleu-4 = 34.4 	 Previous best codebleu 31.01
+  ********************
+ Achieve Best bleu:34.4
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 2
+  epoch = 4
+  eval_ppl = inf
+  global_step = 6
+  train_loss = 72.5709
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:inf
+  ********************
+BLEU file: ./data/RQ5/python_10_2/validation.jsonl
+  codebleu-4 = 45.94 	 Previous best codebleu 34.4
+  ********************
+ Achieve Best bleu:45.94
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 2
+  epoch = 5
+  eval_ppl = inf
+  global_step = 7
+  train_loss = 68.1733
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/RQ5/python_10_2/validation.jsonl
+  codebleu-4 = 55.47 	 Previous best codebleu 45.94
+  ********************
+ Achieve Best bleu:55.47
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 2
+  epoch = 6
+  eval_ppl = inf
+  global_step = 8
+  train_loss = 57.8242
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/RQ5/python_10_2/validation.jsonl
+  codebleu-4 = 60.29 	 Previous best codebleu 55.47
+  ********************
+ Achieve Best bleu:60.29
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 2
+  epoch = 7
+  eval_ppl = inf
+  global_step = 9
+  train_loss = 55.1161
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/RQ5/python_10_2/validation.jsonl
+  codebleu-4 = 66.04 	 Previous best codebleu 60.29
+  ********************
+ Achieve Best bleu:66.04
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 2
+  epoch = 8
+  eval_ppl = inf
+  global_step = 10
+  train_loss = 50.5619
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/RQ5/python_10_2/validation.jsonl
+  codebleu-4 = 67.69 	 Previous best codebleu 66.04
+  ********************
+ Achieve Best bleu:67.69
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 2
+  epoch = 9
+  eval_ppl = inf
+  global_step = 11
+  train_loss = 48.8146
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/RQ5/python_10_2/validation.jsonl
+  codebleu-4 = 67.74 	 Previous best codebleu 67.69
+  ********************
+ Achieve Best bleu:67.74
+  ********************
+reload model from RQ5/python_10/soft0_2_codet5p_220m/checkpoint-best-bleu
+BLEU file: ./data/RQ5/python_10_2/test.jsonl
+  codebleu = 70.08 
+  Total = 113 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 113 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 70.08 
+[0.6728230800934798, 0.8834124216164225, 0.6601281703247908, 0.47166395418323315, 0.21372866725339262, 0.892134025359403, 0.8674433454759134, 0.8300638244826566, 0.5571314709024371, 0.7953587603777192, 0.7714650156104186, 0.7666045848523868, 0.8475864225311183, 0.7768711691119308, 0.6883720951974961, 0.7206462909510485, 0.5814410360649169, 0.6413921957402942, 0.6798907668533658, 0.8884573785188872, 0.725598015348109, 0.583933634540305, 0.9204219587780458, 0.5936056097912514, 0.8234479137638847, 0.6508693332230462, 0.4545507520171642, 0.7163669362752553, 0.6447304668879433, 0.568803606953774, 0.7896354401872717, 0.8808919461147899, 0.7420541780659815, 0.8235679216062044, 0.13852420763671597, 0.440688031360601, 0.8703246706459902, 0.7507982187182929, 0.9142445273649933, 0.6900299907977767, 0.788050295413492, 0.7572098935987482, 0.8548397899287874, 0.47275409118143114, 0.3778129901811716, 0.7715012035371895, 0.8077895563342797, 0.29444189468203646, 0.549916846856608, 0.4152377725154969, 0.8484585607242681, 0.7710039227236644, 0.7585846389475988, 0.49704166566860264, 0.7840747081441806, 0.5117566728908322, 0.8923125000332248, 0.6939112308588368, 0.1955174390345103, 0.860117164263619, 0.845087053073633, 0.20867343826082332, 0.6356257812621184, 0.5037077119806818, 0.8475332565755729, 0.6057788430165783, 0.7671059053225888, 0.848034624064077, 0.611577540967103, 0.5750974938187585, 0.6439391185600173, 0.28685955277063063, 0.9472873156881443, 0.676525822803221, 0.6164306579470418, 0.49150427670545643, 0.8096114788906146, 0.9056583090096291, 0.7449734989717058, 0.8912022993575596, 0.8727790091136098, 0.7318286091585733, 0.15326414430031654, 0.8358395384567638, 0.884250182279102, 0.8399114554115357, 0.4805181892075105, 0.7332519354895861, 0.600166947359297, 0.9178662308912058, 0.6221173995980736, 0.8021170040829606, 0.5266112195874727, 0.8736270526063763, 0.782053171927164, 0.8915112299883814, 0.7114128195436846, 0.8834630241782442, 0.7884485258508804, 0.8385834949297515, 0.7225931341121177, 0.7768277736984348, 0.7916237663883816, 0.610067068626702, 0.8300101016746005, 0.8631855387221548, 0.621240758456996, 0.8611544762176193, 0.5603346241114819, 0.9145862956929058, 0.9046292183049148, 0.7415658664772448, 0.9244980214694567]
+Finish training and take 53m

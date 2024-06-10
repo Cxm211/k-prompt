@@ -1,0 +1,1000 @@
+Date = sinon.timers.Date;
+status: COMPLETED,         href: this.location.href,         contents: [
+var modifiers = []
+exports.exec = function exec(command, options, callback) {   const opts = normalizeExecArgs(command, options, callback);   return exports.execFile(opts.file,
+var passport = require('passport')   , util = require('util');
+var touchList = e.changedTouches;
+module.exports = JSExpression;
+test('`https:       return Request.makeRequestTo(new Context({}, {         "domain": "unstable.hookflash.me",
+else if(state === 'registered_owners'){        if(obj.first_setup === 'yes'){    $('#startUpPanel, #tint').fadeIn();   }
+let index;   for (var i = todosList.length - 1; i >= 0; i--) {      index = bottom + ((top - bottom) >> 1);
+var arraySlice = Array.prototype.slice,     hasOwn = Object.prototype.hasOwnProperty,
+this.compilerInfo = [4,'>= 1.0.0']; helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
+var t;     var APA = [];     APA[0] = es * this.P00;
+return createBed(binaryParser, nTracks, type);         default:
+{         console.error("Can't route the message:" + JSON.stringify(message));       }
+isRead      = lengthTmpl === lenthPath;                  if (typeof callback !== 'function')             throw(Error('callback should be function!'));                  if (isRead) {
+} else {                      p0 = points[(idx -1 + len) % len];                      p2 = points[(idx + 1) % len];                      p3 = points[(idx + 2) % len];                  }
+import * as TYPE from 'actions/actiontypes'
+seekValue = parseInt(getNamedParameterValue(seekParam));     if (seekValue) {       return this.ready(function() {
+import React from 'react'; import Layout from '../layouts'; import Stage from '../components/stage';
+for (i = 0; i < geotypes.length; i++) {                 geomNodes = get(root, geotypes[i]);                 if (geomNodes) {                     for (j = 0; j < geomNodes.length; j++) {
+if (state.group.smooth) {                             for (k = 0; k < 3; k++) {                                 h = parts[k + 1];
+dispatchToGlobal(loadProject('reload'));      dispatchToGlobal(toggleFolderView(testFolderFilePath));
+class SubPath extends Path {  constructor(parent, name) {   super();   this._parent = parent;
+dataset.text = labels[i].innerHTML;       context.addChild(new J.Text(dataset));     }
+it('a function that takes an argument but never calls callback', function(done){     asyncDone(neverDone, function(){       done(new Error('Callback called'));
+case "bundle_id":                 namespace = "config_xml.widget.$.id";                 ret = this.getValueFromObj(this,namespace);                 return (ret[0]) ? ret[0] : "";             break;
+if (!(arg.layer instanceof featureLayer)) {     throw new Error('fileReader must be given a feature layer');   }
+}   }   function move(event) { if (!event.which) finish(event) }
+if (typeof data !== "string") {           throw new Error("Error - expected string data.");         }         return decodeURIComponent(escape(data));
+this.jqconsole.RegisterShortcut('E', function() {       that.jqconsole.MoveToEnd();       handler();
+var callable = require('../../Object/valid-callable')   , apply = Function.prototype.apply;
+var prev     = pi.list(pat)   var prevfind = prev[0] && prev[0].find
+if(db && db.length > 0) {    for(let i = 0; i < db.length; i++) {     if(db[i]['name'] && db[i]['name'] == 'mongo') {
+if (node instanceof UglifyJS.AST_Dot) {             if (node.property == "hasOwnProperty") {                 node.property = "__OV__hasOwn";                 return node;
+this._handle = this._handle.bind(this)
+for (var i = 0; i < scales.length; i++) {             if (x <= scales[i].domain[0] && x >= scales[i].domain[scales[i].domain.length - 1]) {
+throw new Error('fail');           });
+}           var shorthand = scope.shorthand || (scope.vlSpec ? vl.Encoding.shorthandFromSpec(scope.vlSpec) : '');
+}     function saveData(data) {
+case 'object': {         const { src, srcset, sizes, size, dataUri } = props.src         const isLazy = !isImmediate && dataUri
+var labeled = data.svgNode.querySelector('[aria-label]');     t.notOk(labeled, 'svg output has no aria-label');
+if (~specialNumbers.indexOf(i)) {     return i
+'use strict'; var LineBreaker = require('linebreak'); var LEADING = /^(\s)+/g;
+} else {      for(name in overwrite_data) {       if (data[name]!==overwrite_data[name]) {
+function ObjectDict() {          this.__data = [];      }
+});    return unique(parsed);   };
+if (isArray(current)) {       return acc + appendURL(...current)     }
+import Ember from 'ember'; const { observer } = Ember; export default Ember.Object.extend({
+var timeInMs = Date.now()   var prevtime = undefined   if (!prevtime) prevtime = timeInMs
+displayFont: function () {       var value;
+class LectureList {   constructor(baseUrl) {     this.baseUrl = baseUrl;
+var arg = arguments, argLen = arg.length;   for (var i = 0; i < argLen; i++) {    var module = arg[i];    if (module && module.init && typeof module.init == 'function')
+var express = require('express')   , exports = module.exports = express()
+case BUDGET_ITEM_DELETED:       item_deleted_idx = state.budgetItems.findIndex(i => {         return (
+sheets.Sheet1 = opts;  }
+iid = Object.keys(data)[0];
+setTimeout(() => process.exit(0), 500); };
+return false;             case "200002":
+"group__types_group.html#gabcc48b40a81fe302188f4ee06ea9c54e":[2,0,4], "group__types_group.html#gadcab54026c4ed78f344ce03ce31bb61a":[3,0,0,6], "group__types_group.html#gadcab54026c4ed78f344ce03ce31bb61a":[2,0,3],
+BSOscillator.prototype.constructor = BSOscillator;  BSOscillator.prototype.start = function start(currTime) {   BaseSound.prototype.start.call(this, currTime);   this.bufferSource.start(currTime);  };
+this.myExtensionServer = new ExtensionServer(this.options);     this.engineDelegate =
+import {delay} from "util"; import {DISMISSED, TIMED_OUT, ACTION_CLICKED} from "ui/Snackbar";
+_.each(field.locales, function(locale, localeName) {             if (localeName.match(/-draft$/)) {               return;
+var file = files[i];                     $upload.upload({
+var isDefineAjax = true; var results = [];
+model.register(this._db, params.url, params.model);   params.options = params.options || {};   params.options.maxTop = min(this.get('maxTop'), params.options.maxTop);   params.options.maxSkip = min(this.get('maxSkip'), params.options.maxSkip);
+return { error: { message: 'Requested page does not exist on the Fritz!Box.' } }     case 500:
+const target = this.target;     const json = typeof text === 'string' ? JSON.parse(text) : text;     em && em.trigger('asset:upload:response', json);
+cleanWork(function(){     console.log("");     callback();    });
+console.log(`\nDid not drop ${target}!`);     return endProgram(0);   };
+var paths = qualifiedPath.split('.');             target = base;             while (target && paths.length) {
+, filter = utils.filter   , keys = utils.keys;
+var $export = require('./_export'); var $imul = Math.imul;
+var first = true   var anyData = false   var stream = through(function (data) {     anyData = true
+console.log(test); }
+onDisconnect() {     this.peer.on('disconnected', () => {       this.controller.lostConnection();     });
+if(typeof boExpression !== 'undefined') {         implType = 'expression';
+var frame = ttlFrames-1;    for (i=0; i<map.length; i+=4) {     n = map[i];
+case 'rancherKubernetesEngineConfig':         if ( pools.length > 0 ) {           if ( firstTemplate ) {
+}     properties[""] = { value: strings.join("+") };     return properties;
+if (this.direction === 'leftRight') {       var rowPage = cursor.currentPage
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+const LgFruits = React.forwardRef(({ size, color, ...props }, ref) => (   <svg
+} else {         zoom = 1.0;     }
+Invoice = models.get(req.session.lastDb, 'dividendInvoice', DividendInvoiceSchema);         } else if (mid === 109) {             PaymentSchema = mongoose.Schemas.purchasePayments;
+return value;        case 'boolean':
+jojo.widget.loadClass = function(path, widgetName) {    if (!jojo.widget.loadedClasses.findById(path)) {
+$(output.css).html(data || '');         });
+let glMatrix = require('gl-matrix');
+]; const discover = async (toys, p) => {     const { advertisement, uuid } = p;
+try {       localListener(event);     } finally {
+$.WSConfig.set("HomeScreenHUDHidden",true);     hud.animateWithCSS({      top: 180,
+"pod": function() {                      throw new Error("internal error, pod pod");                  },
+} else if (objects.type(objects.read(hash)) !== "commit") {       throw new Error("error: Trying to write non-commit object " + hash + " to branch " +                       refs.readTerminalRef(refToUpdate) + "\n");     } else {
+this.runAsOwner(function() {    sap.ui.base.ManagedObject.runWithPreprocessors(function() {     that.setAggregation("rootControl", that.createContent());
+var all_entities = [];     for(var k in entities) {         if(entities.hasOwnProperty(k)) {             all_entities = all_entities.concat(entities[k]);         }
+cx: function (x) {       return x == null ? this.bbox().cx : this.x(x - this.bbox().width / 2)
+entries = self.dnsServer.getEntries()           for (var name in entries) {             if (entries.hasOwnProperty(name)) {               dnsEntries.push(name + ' &#8594; ' + entries[name])             }
+} else {     websocketServer = http.createServer((request, response) => {       response.writeHead(404);
+allPassed = allPassed && (this.currentTest.state === 'passed');     });
+for (key in this.table) {             if (this.table.hasOwnProperty(key)) {
+, http = require('http')   , socketIo = require('socket.io');
+return $compile(html)(scope);   };
+if (i < num_chunks) {             ok = compiler_process.stdin.write(stdInData.substr((i - 1) * CHUNK_SIZE, CHUNK_SIZE),                 "UTF-8");
+if (!group)             group = dc.constants.DEFAULT_CHART_GROUP;         if (!_chartMap[group])
+];     me.callParent();   },
+before(function(done){           mockedCdn.getFile = sinon.stub();
+import PaysBanner from './PaysBanner' import { BannerContainer } from './styles'
+var SchemaObject = require('./mixed')   , isoParse = require('./util/isodate')   , _ = require('lodash')
+this.clear();     }, true, config.dev);
+function initializeWithWave(waveOptions, callback) {    self.getSourceNode = function() {
+return images;
+let file;         before(function(done) {           file = new hdf5.File('./h5pt.h5', Access.ACC_TRUNC);
+if (config.datasources) {                             for (var i = 0; i < config.datasources.length; i++) {                                 scope.datasources.push({value: config.datasources[i]});
+function constructor(key) {     this.a = 0;
+$document.one('click', function (event) {    if (!$(event.target).is('.popover-content *')) {
+store.action(actions.MODALS_ADD, 'dmc-prettyprint', {       data : this.opts.data.cell     });
+it('paste', function(done) {       this.event.clipboardData.types = ['text'];       spyOn(this.event.clipboardData, 'getData').and.returnValue('|');
+}, function (err) {         throw new Error(err);       });
+nodemon = require('gulp-nodemon'),   watch = require('gulp-watch'),
+assert.deepEqual(this.storage.setItem.args[0], ['accessToken', accessToken]);     assert.deepEqual(this.dispatch.args[0][0], { type: LOGIN, status: IN_PROGRESS });
+if (activeObservers) {       activeObservers.forEach(args => removeObserver(...args));     }
+require(["use!backbone"], function(Backbone) {     Backbone.sync = (function() {         _dbs = {};
+var list = [];             array.forEach(moment.months, function(name, idx) {                 list.push({
+if(!(bi instanceof CANNON.RigidBody) || !(bj instanceof CANNON.RigidBody))     throw new Error("Arguments 1 and 2 must be instances of CANNON.RigidBody.");
+}             let hasSecret = !!this.secretKey;
+(function () {   'use strict';
+var hex = ColorKeywords[ style ];    if ( hex !== undefined ) {
+var rows = data.dim[0];                 var xScale = d3.scaleLinear().domain([0, cols]).range([0, width]);                 var yScale = d3.scaleLinear().domain([0, rows]).range([0, height]);                 var grid = (vm.gridlines) ? 1 : -1;
+});         $('#body').html(view.render().el);     },
+exports.default = cloudCodeActions; });
+var pre = this.precomputed;     var negate = function(p) {       return p.neg();
+if (!mods.length) return using[target];     var sheet = Object.assign({}, using[target]),       i;
+File.prototype.wrap = function () {  var lazy = this.options.runtimeOptions
+, PATH = require('path')     , chalk = require('chalk');
+if (Array.isArray(value)) {         value.forEach(v => set(u8, pc++, view, v));       } else {
+call.sendError(new Error('Deadline exceeded'), Status.DEADLINE_EXCEEDED);   call.emit('cancelled', 'deadline'); }
+'Index file: ' +          chalk.green(normalizePath(path.relative(cwd, options.file))) + '\n' +        'Output: ' +
+return app.go('#letters', {id: 2}).then(function () {     assert.deepEqual(app.route.params, {id: 2}, 'id');     return app.go('#letters', {id: 'str'}).then(function () {
+'use strict'; let Utils = require('./Utils');
+throw "layer undefined or null in Password()"       }
+square: this.squaredMenu,           transitionShow: this.transitionShow,
+const baseUrl = window.apiTripsBaseUrl; const apiKey = window.apiKey;
+class SampleMetadata extends BaseMetadata {     constructor(id) {       super();       this.id = id;
+}             if (!!this.options.has.sorting && !!this.options.displayOptions.sorting) {                 $container.append(_.template(templates.overlayContent.sortBy)({
+fetch(       appendToURI(uri || ''),       deepmerge.all([DEFAULT_OPTIONS, client.options.request, options, HTTP_METHOD])
+try {
+Sk.builtin.checkFloat = function (arg) {     return (arg !== null) && (arg instanceof Sk.builtin.float_); };
+function mixinHooks(option, index) {             for (var k in option) {                   if(!option.hasOwnProperty(k))                       continue                    var v = option[k]
+var event = {       trackId: this.trackId,       pts: this.currentPts,       dts: this.currentDts,       data: data
+var element = {};       for(j = 0, jlen = this.column_names.length; j < jlen ; j++) {         var cell = source[ "gsx$" + this.column_names[j] ];
+import Graph from './graph'; import { beginsWith, headerRegex } from './utils'; import * as file from './file';
+if (Firebug.alwaysOpenTraceConsole)         {
+if (err) {       callback(err);       return;
+swfobject.embedSWF( "http:                       this.playerId, this.width, this.height, "8", null, flashvars, params, attributes );
+!r.placeModule(function audio(require) {
+var express = require('express') var app = express() var join = require('path').join
+}   const delay = getValue(options.delay, 0)   if (delay) {
+var buildSymbolTree = function (symbolMap, inputTree) {
+.catch(function (err) {           reject(err);         });
+var type = this.get('content-type');     if (!type) return '';     return type.split(';')[0];
+import _ from 'lodash'
+return out.set(this.right, this.bottom);         }
+.replace(/ \)/g, ')')             .replace(/\)([^!;,\?\.:])/g, ') $1');     }
+var $export = require('./_export'); var $parseFloat = require('./_parse-float');
+;((root, factory) => {   "use strict";
+}       if (this.element.tagName === "FORM") {         _ref2 = this.element.querySelectorAll("input, textarea, select, button");
+gacha: 'ガシャ',      voiceBtn: 'ボイス',      noVoice: 'このキャラはボイスありません。'    },
+cell   : {1:true},   cross  : {},    border : {1:true, 2:true},
+}; _.each(_.omit(types, 'map', 'list'), function(originalType, npdType){
+combineBuffers() {           for (var transparency of [false, true]) {     var buffers = this.getBuffers(transparency, false);
+throw new Error('[pomelo-rpc] rpc send message error');       }
+if (!definition.type) {             throw new Twig.Error("Unable to extend logic definition. No type provided for " + definition);         }
+$form.find("input[name='mobile']").val(user.mobile);             var roleArr = [];             for (var i = 0; i < user.roleIds.length; i++) {
+console.log("Press Ctrl-C to stop."); while (continueReading) {
+import * as R from 'ramda'; import classNames from 'classnames';
+params: {         numberOfObjects: 100000       }
+var compiler = new CPPCompiler(ast);   compiler.compile();
+return CHAINS.MORDEN;     case 3:       return CHAINS.ROPSTEN;
+for (i = 0; i <= k + 1; ++i) {             if (bin.B[i].min == NONE)
+if (!Array.isArray(options)) {                 throw new TypeError(
+Translate.prototype = {     end: SculptBase.prototype.endTransform,     applyEditMatrix: function (iVerts) {
+const store = storeType.create(options);     store.on('sessionDataUpdated', (data) => {       this.trigger('sessionDataUpdated', data);     });
+cp.stderr.on('data', data => { errData += data })     cp.on('close', () => {       fs.unlinkSync(tmpFileName)
+} } module.exports = PluginRouterHapi;
+(function() {   var KKCountdown;
+onChange: livepreview.debounce(1000),         onConfig: config
+this.patchProcess()     return super.write(c, e)   }
+for (var i = 0; i < messages.length; i++) {               if (messages[i] === "Warning: Redis server does not require a password, but a password was supplied.") {                 warnMsg = messages[i];
+length = turn_servers.length;       for (idx = 0; idx < length; idx++) {         turn_server = turn_servers[idx];
+let link_regex = new RegExp(/<a.*? href=("|')(.*?)([\n|\r]*?)("|').*?>(.*?)([\n|\r]*?)<\/a>/gim);         let links = html.match(link_regex);
+name: cleanupRideName($wrapper('.ride-times-title').text()),         waitTime: isNaN(waitingTime) ? -2  : waitingTime,       };
+}    });    break;
+params += !!h ? '&h=' + h : '';                                          res.redirect('/v1/rand' + params);
+document.removeEventListener("keydown", this._events.keyboardNav);     }
+this.store.requestCache.subscribe(identifierForModel(this), (request) => {       if (request.state === 'rejected') {
+adjusted_scale : this.adjusted_scale,  asset_swf_v : "\/c2.glitch.bz\/items\/2012-12\/artifact_paper_bag-1354841888.swf",  admin_props : false,
+createRegex: function () {     var str = _REGEX_STRING;     var delim = utils.escapeRegExpChars(this.opts.delimiter);     str = str.replace(/%/g, delim);
+self.isAsyncCanceled = true;           self.endWithErr.call(self, err);         } else {
+bindDragEvent: function(table){   let Settings = Cache.getSettings(table);   var _this = this;
+var j, jLen;     var letterValue;
+var oCell={};
+describe('AdRoll', function () {
+adjusted_scale : this.adjusted_scale,  asset_swf_v : "\/c2.glitch.bz\/items\/2012-04\/door_key_1-1334257767.swf",  admin_props : false,
+var code = this.expression.charCodeAt(this.pos);    if (code === 111) {      if (this.expression.charCodeAt(this.pos + 1) !== 114) {
+console.log.apply(console, arguments);         },
+this.arrCurrency.push(oCurrency);           },
+console.log ('Command completed successfully.');         return;     })
+function tameException(ex) {     var tamedEx = orig.tameException(ex);
+class NodesTableContainer extends mixin(StoreMixin) {   constructor(...args) {     super(...args);
+updateViewWindow(currentPage);         }         function updateViewWindow(page) {
+performance.mark("dispatch-start");                         if (this.options.logDispatchedActions) {                             this.logger[getLogType(this.options, "dispatchedActions", LogLevel.info)]("Dispatching: " + reducer.name);                         }
+var UserColumn = require('../../user/userColumn')   , DataTypes = require('../../db/dataTypes'); var util = require('util');
+this.cell.element.find("div.input_prompt").addClass("panel_input_prompt").text("[ ]:");
+return qx.dom.DomDimension.getBoxHeight(el) - qx.dom.DomDimension.getInsetTop(el) - qx.dom.DomDimension.getInsetBottom(el);     }   } }
+this.dequeue = function () {       var queue   = this._getQueue();       var element = queue.splice(0,1)[0];
+, utils = require('./utils')   , cache = utils.cache   , trycatch = require('trycatch')   , _DEFAULT_DELIMITER = '%'
+'use strict'
+});  return themes.Algae; });
+const usage = `Usage: please provide a list of at least two integers to sort in the format "1, 2, 3, 4, 5"`; if (process.argv.length > 2) {
+if (vm.colorScale.name=="Quantile"){                             scale.domain(Object.keys(data).map(function(key){return data[key]},{data:data})).range(values);
+} catch( error ) {     setTimeout( arguments.callee, 0 );     return;
+});         it('finally third view is "a"', function() {             expect($(this.children[2]).is('.ns-view-a')).to.be.ok;         });
+if (val === false)     throw new Error("Path.intersects[X-Y] requires an value as parameter");   let intersections = [];
+getTestUrl: function(config) {     var url      = null;     var dbConfig = config[config.dialect];
+} else {       throw is.invalidParameterError('width', 'positive integer', width);     }
+export class RaceActionState extends RaceAction{   constructor(early, other){     super(other);     this.cancel = other._fork(x => early(new Rejected(x)), x => early(new Resolved(x)));
+if (this.isModified('profile')) {       this.name = fullName(this.profile) || sample.fullName;     }   };
+}       for(n=0; n<toExchangeLis.length; n++) {        if(toExchangeLis[n].Object) {
+g_devices[newDevice._addr] = old;             } else {
+for (var i = 0; i < children.length; i += 1) {       if (children[i].nodeType === ELEMENT_NODE) {
+}   move({sourceData, targetData}) {     const lanes = this.lanes;
+function leaveOrganization(organizationName, success, failure) {         if (!self.loggedInUser) {             failure();
+define(["dojo/_base/kernel","dojo/_base/declare","dojox/gfx","./BarLineIndicator"],function(dojo,ddeclare,gfx,BarLineIndicator) {
+const DOWNLOAD_PATH = 'http:     JAR = 'DynamoDBLocal.jar',     DB_PATH = './dynamodb/bin';
+},   inputChildrenHaveErrors () {     var errorIds = $.map(this.props.errors, function(error, errorId) {       return errorId;
+preview.close();     $.removeData($grid, 'preview');   }
+this.clientY = domEvent.clientY;    if (!tooltipControl.c.timeoutId) tooltipControl.moveTooltip(domEvent.clientX, domEvent.clientY);   }));
+manager.folders.push(manager.selected_file.name);      getFiles(manager.folders);
+} else    while ( (elem = second[ i++ ]) )     first[ pos++ ] = elem;   return first;
+if (imag > Math.PI) {         imag -= (2 * Math.PI);     }     var real = Math.log(s);
+children.hide('fast');                 $(this).text("+");             } else {
+it(`successfully loads`, () => {     cy.visit(`/`).waitForRouteChange()   })
+exports.module = angular.module('gmfapp', [   'gettext',
+if(typeof key != 'string') {   throw new Error('Key must be a string for function contains(key)');  }
+} else if (Object.getOwnPropertyDescriptors) {         Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));       } else {
+this.blockIndent = 0;   this.options = require("extend")(true, {}, defaults.options, options);   this.inline = new InlineCompiler(this.options);
+return;  }
+args.push(options);             result = instance[helper](...args);             return result;
+this._mouseDown = false;       this._set("active", false);       this.disconnect(mouseUpConnector);
+return body == '' ? null : JSON.parse(body);       });   },
+name = 'legacy';             }
+m = false;              }
+var className = Jii._.isString(behavior) ? behavior : behavior.className;    this._proxyBehaviorInternal(name, className);   }.bind(this));  },
+try {       st.inAsyncFunction = true ;       var pp = this ;
+Stream.prototype.readable = true; function Cbs(scope) {     this.scope = scope; } var EVENTS = require("../").EVENTS;
+}   return steal.config().root.mapJoin(path)+''
+return sink }
+return y2;     }     _predict() {         throw new Error('_compute not implemented');
+, uuid = require('node-uuid')   , sequelizeErrors = require('../../errors.js');
+if (!(type in content[i].ts)) {         content[i].ts[type] = [];
+step,     callback,     loopId,     timestamp,
+case LH:                             this.rotate_RR();
+if (layer.get("BoundingBox")) {                         extent = $scope.getExtentFromBoundingBoxAttribute(layer);                     } else if (angular.isDefined(layer.getSource().getExtent)) {
+clean = [];   for (i = 0; i < sentences.length; i++) {     sentences[i] = sentences[i].replace(/^\s+|\s+$/g, "");
+var attributes = this._drawnNode.attributes;
+if (arguments.length > 1) {
+server.listen(128); var sliceCount = 0, eofCount = 0; var writeCount = 0;
+}         res += child;     });     return res;
+log.info('result2: ' + JSON.stringify(result2));
+WMCore.namespace("GlobalMonitor.RequestMonitor");
+const ids = [scope.message.ID];                 $rootScope.$emit('messageActions', { action: 'move', data: { ids, mailbox } });
+.client()   .act('a:1,x:1', console.log)
+for (i = 0; i < event.added.length; i++) {             item = event.added[i];             var drawnItem = drawnItemFactory.getDrawnItemForCellItem(item);
+Renderer.prototype.getLayout = async function(id) {   if (!id) return false;
+.concat( [ `(@ ${file}:${line})` ] );       browserConsole[ logMethod ]( ...callArgs );    };
+if (err) return done(err);       assert.equal(typeof view.content, 'string');
+if (!ttml) {             throw new Error('TTML document could not be parsed');         }
+request = new Request(tmpUrl);                                 url = request.url;
+};    (new charts.BarChart(el[0], '.barchart', opts)).draw();   };
+if (!MONGODB_URL) {     throw new Error("ENV MONGODB_URL not specified."); }
+current = this.panes[name];         if (!current) throw new Error("Navstack: Unknown pane: "+name);         current.init($pane[0]);
+this.paperOptions.behavior.recognizer.getType();   }   get protocol() {     return this.paperOptions.recognitonParams.server.scheme;   }
+io.sockets.on("connection", function (socket) {     debug('a user connected');     socket.on('disconnect', function(){
+case 'Table':    if(Rn[1]==='/'){if((tmp=state.pop())[0]!==Rn[3]) throw new Error("Bad state: "+tmp.join("|"));}    else if(Rn[0].slice(-2) == "/>") break;
+toNext();               var toNext = function () {                 k++;
+this.lutMap = {};     Object.keys(this.compositePipeline.ranges).forEach(key => {       this.lutMap[key] = new Uint8Array(this.numLutSamples * 4);
+req.params.path = this.decodeFileId(req.params.id);   next();  }
+},     updateNodeBounds(element, newBounds) {       const { x, y, width, height } = this.node.diagram.bounds;       if (
+{      msg = removemsg;     }
+} else {          next({
+this.setState({ files: nextFiles });   }
+return function(test) {       shared.setupTest(test)       exports.resolve.call(this, test, opts, callback)
+var callable = require('./valid-callable')   , value    = require('./valid-value')   , bind = Function.prototype.bind, call = Function.prototype.call, keys = Object.keys   , propertyIsEnumerable = Object.prototype.propertyIsEnumerable;
+qx.lang.Array.contains = function(arr, obj) {   return arr.indexOf(obj) != -1; };
+isLWW() {         return this.get('props').last_write_wins;     },
+log('Please check the documentation for proper shipitfile formatting');   });
+if (!exports)         throw new Error("Unable to load dependency " + name + ".");     }
+validator('format', {         regex: /^[a-z0-9_\-()@.]*$/i,       }),     ]
+value = instance_defaults[key];             merged_defaults[key] = value;           }
+{   grunt.log.writeln (icsprintf('white',arguments)); };
+for (var x in functions) {       if (~functions[x].indexOf(name)) {         var fn = functions[x]
+if ( !OSjs.Compability.canvas ) {       throw new Error('Canvas is not supported on your platform!');     }
+return edges.sort(function(a,b){ return acc(b) - acc(a); }).slice(0,max);         }
+if ( safeRotation || testModule !== this.module ) {          this.rotationAngleLayout += ( Math.PI * 0.5 ) * _MathHelper.round_towards_zero( angleDelta / ( Math.PI * 0.5 ) );          this.layout = layoutRotated;
+var query={};    query[this.searchField]=label;
+if (agentPromise) {   return agentPromise;
+Meteor.loginWithMetamask = function () {     return Accounts.callLoginFunction('metamask');   };
+yAxes: [{                                          gridLines: {                         zeroLineColor: "transparent",
+app.use(koaBunyanLogger.requestLogger());       app.use(function () {         throw new Error('oh no');
+const file2 = matter([   '---',   'title: Home',
+var escapedRootSelectors = rootSelectors.map(function (rootSelector) {             return rootSelector.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&');           });
+} else {       _this.connector.createNode(['User'], {uid: userId}, function (err, userCreated) {         callback(null, userCreated);
+this.on('change:active', function (model, active) {                 console.log('active changed');                 if (active) {
+return this;     }
+console.error(output);         process.exitCode = 1;       }
+context.close();           callback.apply(fs, arguments);         }
+if (showIcon) {       if (iconComponent) {         return iconComponent;
+Template.Admin_Datamodel_Pagination_Widget.onCreated(function admindatamodelpaginationwidgetOnCreated() {      if (this.data) {
+total = 100,         formatPercent = d3.format('.0%');
+const STRING = 'string'; export class InstanceMetadata extends Metadata {
+var parentStateTuple = this._parents[i],               state = parentStateTuple[1];
+if (oRecursive) {                     r = r.replace(new RegExp("(" + oRecursive.digit + "(.*" + oRecursive.digit + ")?)"), "($1)?")                          .replace(new RegExp(oRecursive.digit, "g"), oRecursive.pattern);
+console.log('No seasons found in data directory!')     return   }
+var json = Object3DSerializer.prototype.toJSON.call(this, obj);     return json;
+var case_fn, tmp_ar = {}, argc = arguments.length, argv = arguments, key;     if (array instanceof Array) {
+localStorage.setItem(key, settings[key]);      }      ResultMessage.show('SAVE');
+var self = this;
+if (txCharacteristic === undefined) return;      if (typeof txDataQueue != "undefined" || txInProgress) {
+const privacy = options.private ? 'private' : 'public'         beforeHooks('gists.new', instance)
+import { util } from "../util/utils.js" export var AniFragWrap = function (bus, id, object) {
+}     } while ((parent = parent.parentPath));     return false;
+let match;         while ((match = pattern.exec(post.message)) !== null) {
+}   return function (hook) {     utils.checkContext(hook, 'before', ['create', 'update', 'patch'], 'validateSync');
+throw new Error(configFile + "No config.js found in this project, specified with --config, or found in process.env.ACTIONHERO_CONFIG");   }
+} else {         throw new Error(`Tried to add an item ${ constructor.name } already in the inventory!`);       }
+this.model.set(attrs).save();   return this; };
+this._class = "amchart_Funnel";     }     Funnel.prototype = Object.create(CommonFunnel.prototype);
+'waypoint': function(direction, component) {       console.log('waypoint (' + direction + ') triggered on:', component);     }
+for (var name in other) {   if (other.hasOwnProperty(name)) {
+appReady = true;     openPrefsOnFirstLoad();
+async getUserSessions(userId)     {
+let cookiesArr = this.props.newRequestCookies.cookiesArr.map((cookie, index) => {
+assert.notEqual(   ranges.eq( 0 ).slider( "values", 0 ),
+coreAddons: [] };
+import { _Courses } from '../../../api/courses/courses'; import ResourceRender from '../content/ResourceRender.jsx';
+const val = collectUntil(/[#.(:\s]/)
+grunt.registerTask('livereload', 'Inform the browser some files have changed', function () {          var files;
+let exercise = require('workshopper-exercise')() const exec = require('child_process').exec exercise.requireSubmission = false
+_.each(this.model.values, function (value, i) {             var handle, position;             if (value === self.lastDraw[i]) {
+return element && element.offsetWidth; }
+if(!value) {           value = key         }
+return <div>       <button onClick={((event)=>{console.log(this, event)})}>Save</button>       <button onClick={this.handleSave.bind(this)}>Save</button>
+_counter = this.helpers.intToHex(counter),       _counter = this.helpers.pad(_counter, 16),
+var m = ["("];     for(var i=0 ; i<this.types.length ; i++){  m.push(this.types[i]);  m.push(" -> ");
+var config = {             hourText  : text.localize('Hour'),             minuteText: text.localize('Minute'),             amPmText  : [text.localize('AM'), text.localize('PM')],         };
+match = /^([^:]+):(.+)/.exec(event) || [null, "", event];          eventId++;
+build = function (data, level, forceFull, forceLimit) {               var limit = $.isNaN(forceLimit) ? 3 : forceLimit;
+name = name.toLowerCase();         var cmdArgs = utils.argsToArray(arguments,1),
+seriesHover (opt, e) {     const chartGroups = this.ctx.getGroupedCharts()
+self.cache.push(message);       }     });
+tile = {                 data: null,
+var results = regExp.exec(this.modifiers[i]);                         if (!results || results.length < 2) ; else {                             var modParams = results[1].split(",");
+mediumType = execSync('cat /sys/block/' + logical + '/queue/rotational').toString().split('\n')[0];               } catch (e) {                 util.noop();               }
+this._doc = opts.doc || doc;      const pathMatch2 = process.mainModule.filename.replace(/\\/g, '/').match(/(\/(.*))*\/(.*?)\/[^/]*$/);   const appDir = opts.dir || (pathMatch2 ? pathMatch2[pathMatch2.length - 1] : '');
+resolve: {     modules: [       path.resolve('./'),
+defaultHeaders = _defaultHeaders;  transformer.t1 = transformer;
+config.params[varyingName] = value;   fn(config, function(args) {    callback([value].concat(args));
+case type.NUMBER_TYPE:         return number.eq(x, y);     case type.STRING_TYPE:
+Application.prototype._addWindow = function(w) {     if ( !(w instanceof OSjs.Core.Window) ) { throw new Error('Application::_addWindow() expects Window'); }     console.info('OSjs::Core::Application::_addWindow()');
+function getRecordsForDetector(     jobId,
+})(this);
+return callback();   }).catch((err) => {     return callback(new Error(err));
+this.setData(data);             deferredResults.resolve(data);             deferredResults.total.resolve(data.length);         }));
+}     return this[method](options);   },
+if( $this.hasClass( 'toggled' ) ) {        self.module.controller.onToggleOff( self.module.data, index );
+scope.gridItem = scope.gridDisplayItem.$$_gridItem;                             scope.isCustomized = isCustomized;
+else {       this[role].resource = helpers.getUrlFromDiscoveryResource(globals.discoveryResource, 'person-template', {pid: person});     }     delete this[role].resourceId;   };
+module.exports.parseSpread = function() {   var startc = this.c - 1 - 2;    var startLoc = this.locOn(1 + 2);
+for(var index = 0; index < args.length; index++) {       scope = args[index];
+throw err       })
+if (port.name === 'devtool-background-port') {     _DevtoolPort = port;
+mw.$('#mw-menu-liquify').show();    $(window).bind('hashchange', function(){
+if (isNewContainer) {             const existElement = this.dom.getFormatElement(contextImage._element);             existElement.parentNode.insertBefore(container, existElement);
+.pipe(gulp.dest("./dist/"))     .pipe(browserSync.stream()); });
+for (var toolName in me.selectedTools) {                 if (me.selectedTools.hasOwnProperty(toolName) && me.selectedTools[toolName]) {                     buttons.push(toolName);
+if (file.isNull()) {       return cb(null, file)     }
+slideItem(event) {        }
+{         history = [];
+var resourceFunction = "evaluate" + resourceType + resourceGroup;     var rule = ruleLib.getRules()[resourceType][ruleName];     awsLib.evaluate(event, context, function (event, context, configurationItem) {
+DataContainer.sc.init.call( this, config );          },
+if(!this._collection){             throw new Error('Collection must be defined');         }
+called = true     return loader(entry, parent, preload)   })
+return rescale(); }
+this.vSlices = vSlices;     this.hSlices = hSlices;     super(PROGRAM, null);     this.uniforms.u_normalMatrix = mat3.create();
+geolocation.on('change', function() {   var position = geolocation.getPosition();
+maptalks.Util.pushIn(this.vertexArray, bottom);
+const { children, height, width } = this.props;          if (height !== prevProps.height || width !== prevProps.width) {       this._app.renderer.resize(width, height);     }
+.switchClass(this.css.horizontalScrollArrowLeft, this.css.horizontalScrollArrowLeftActive);     this._scrollLeft(curPosX + scrollStep, false);
+var renderKeys = keys                  if (data.sortedCallback) {
+} else if (opt.transition == 'slide') {           steps.slideUp(opt.duration, function() {             if (--stepsCount > 0) {
+ct.shoe.checkAuth('admin');  let matches = ct.args.match(/@(\w[\w_\-\d]{2,})/g);  if (!matches) throw new Error('Bad syntax. Use `!!summon @some_other_user`');  if (!room.private) return;
+const listener = require('../../utils/event') const log = require('../../utils/log') const config = require('../../../config')
+break       }     }
+validate : [     {       validator : function(val, next) {         var ok = false;         if (validAction(this.action)) {
+if (e.toString().includes('Error: Could not find module')) {           return requireNode(...arguments);         } else {
+redrawDataPoints: function (duration) {       var _this = this;       if (duration == null) duration = _this.duration;
+let commands = []   let onSuccess = function () { }   let onError = function () { }
+if (_.isObject(arguments[0]) && !_.isError(arguments[0])) {    arguments[0] = _.clone(arguments[0]);
+} else {       gulp.stack(argv)();     }
+import { arrayPatchMethods } from './const'; import Dep from './Dep';
+,lirbcourtdetails: "Service.svc/lirbcourtdetails?$filter=appeal_id%20eq%20%id%&$format=json"     ,timeout: 20000
+var t;         for (var i=0; i<children.length; i++)         {
+constructor() {     super()     this.process = null     this.buffer = ''
+goog.require('lf.service');
+function cleanse(html) {       var cleaner = document.implementation.createHTMLDocument("cleaner");
+value: ['Hello', ' World'],   expected: 'Hello World',   children: 2  }, {   name: 'multiple numbers ( cast to string)',
+var $export = require('./_export'); var _isFinite = require('./_global').isFinite;
+value = kineticObj.fillGreen();                             break;                           case "fillBlue":                             value = kineticObj.fillGreen();
+let handler = () => {         height.value = element.value.clientHeight;
+'annotationComments',         AnnotationComments(videojs)     );
+let bundleName = shortName.replace(/[ .]/g, '').toLowerCase();     if (conditionValueOrVariationObject) {
+opera: setVersion('opera', elementData),         safari: setVersion('safari', elementData),         ie: setVersion('ie', elementData),     }; };
+Ti.API.info("ONLOAD = "+e);   };
+setTimeout: function() {     this.timeout = setTimeout(function() {         this.sipFromBuffer();     }.bind(this), TIME.betweenCommandsDelay);   },
+if (typeof this.props.validityCheck === 'function') {    return this.props.validityCheck(this.state.fieldValue, this.props.fieldKey);
+return responseText.contains('ccs-error-popup');   },
+ArgumentParser.prototype.exit = function (status, message) {   if (message) {     if (status === 0) {
+if (!openLiftCounts) {     const openLifts = resort.lifts.filter(lift => lift.status === 'open');     openLiftCounts = openLifts.length;
+generate(options) {         if (!options || (!options.schema && !options.fields)) throw new Error('Either fields or schema option must be specified');         this.validateFields(options.fields);
+target.removeAll = function (match) {             let index = this.findIndex(match);             while (index > -1) {                 this.splice(index, 1);
+}),   function * postUpload(next) {     log(this.request.body.fields);
+return QFS.read(PATH.resolve(__dirname, path)); }
+map.fitBounds(bounds);   }   return map;
+var path = require('path'); var rootPath = path.resolve(__dirname, '../../'); var configurations = {};
+app.use(function(ctx, next){           ctx.body = 'something else';
+if ($node.length === 0) {     throw new Error('$node must be set.');   }   this._selectedNodes = [node];
+if (!tree.entries[filePath]) {                     tree.entries[filePath] = {                         sha: null,
+(function(clock) {  'use strict';
+include: config.sourceDir,                     loader: 'style!css',                 },
+db._useDatabase(dbName);     if (modified && !skipReloadRouting) {       reloadRouting();
+});     } catch (error) {
+if(err) throw err       console.log(JSON.stringify(data, null, 2))       process.exit()     })
+try {     res = truthy(err) ? undefined : callResultFn(val);    } catch (e) {
+} } const config = {
+vgView.on("mouseout.tooltipClear", function(event, item) {       clear(event, item, options);     });
+for ( var i = 0 ; i < size ; i++ ) y3.push( y[i] + k3[i]*step );         var k4 = f( x+step, y3 );
+exports.buildTessel = (config) => {   var env = Object.assign({}, process.env);
+};         bindingHandlers.b = {             preprocess: function(value ) {
+} else {         throw new TypeError("Invalid Argument (" + a.toString() + "): Multiplicand must be of type String, Expression, Term, Fraction or Integer.");     }
+function cov(x){ return Math.round(x * 10000) / 10000 };   function mix(a, b, p){ return a + (b - a) * p };      function toSVGPath(glyph){    var buf = '';
+if (selectedOptionsArray.includes(activeOptionIndex)) {         const index = selectedOptionsArray.indexOf(activeOptionIndex);
+link(Type, 'to-code', function () {     return this instanceof Type$ ? sharedSymbolOf(this.name) : null   })
+function renderPattern(template, data, partials) {
+var trimPathTemplate = document.createElement('div');                 trimPathTemplate.innerHTML = child.data;                 checkChildElements(trimPathTemplate, page, true);
+module.exports = {   headerPattern: /^(\w*): (.*)$/,   headerCorrespondence: [
+export function axiosIntercept(Vue, router) {     const axiosIntercept = axios.create({
+$.when( firstRequest, thirdRequest  ).done(function (firstResponse, thirdResponse) {    routeDict[route1.id].distance = firstResponse[0];
+out = function (file) {       if (!file) return process.stdout
+return create(EEProto, {    connect : function () {     this.emit('connect');     setTimeout((function () {
+host: options,       port,       localAddress     };
+var events = require('events'); var _ = require('lodash');
+result = event.clipboardData.getData(type);   } else if (window.clipboardData !== undefined) {     result = window.clipboardData.getData(type);
+var required = ['tail', 'head'];     required.forEach(function(key) {       if (!this.get(key)) {         throw new Error(key + ' is required!');
+scroll(delta, target, update){     let compare = target.scrollY || target.scrollYOffset     check.call(this, delta, compare, window, update)   },
+let dotSrc = [       'digraph "' + targetFileName.replace(/^.*\/|\.[^/.]*$/g, '') + '" {\n',       'graph[rankdir=LR];',
+t.plan(1);     var n  = cls.createNamespace('inOnce')       , ee = new EventEmitter()
+var helper   = require('../support/spec_helper');
+compositionserver.request(req, res)  } })
+var through = require('through2') var eos = require('end-of-stream')
+function( err ){             self.set( 'overlayStatus', { overlayed: false, clickable: false } );              self.set( 'overlayStatus', { overlayed: true, clickable: true } );
+'use strict';
+res.then(function() {     _this.saving = false;
+for(var key in files) {         return files[key];        }
+import React from "react"; import { useCuri } from "@curi/react-dom";
+wrapper.addEventListener("tw-close",function(event) {   document.body.removeChild(wrapper);
+sprint = new SprintData(workItems, repository, viewByTasks);          container = document.getElementById("grid-container");
+if (this.options.languageTree) {       throw Error('Can\'t nullify an existing toolbox.');     }
+if (!config.insecure) {                 throw new Error('Missing required configuration parameter \'user\' specifying user\'s unique ID in your application');             }
+var options = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];         var StyleSheet = arguments[1];         _lodash2.default.defaultsDeep(options, {
+var Event = require('./rest/event.js');  new Event(app, models, io, logger);
+'extends': 'label',     behaviors: Polymer.cs.behaviors.csLabelSwitcher   });
+} }(function (_, $, Backbone) {     'use strict';
+var updateChannel = parseInt(colorChannel) + firstRgbChannelForDevice;        update[updateChannel] = color.values[colorChannel];       }
+_handle_createPixmap: function(client, props) {             var serverPixmap = this._createPixmapInternal(props);             return serverPixmap.xid;         },
+circle.vertexNormals.push(0, 0, 1);     }     for (i = 0; i < circle.vertices.length / 3; i++) {       circle.vertexIndex.push(i);
+callback(err);         }.bind(this));
+var debug = require('debug')('express:router:route')   , methods = require('methods')
+myOpenIssues: function(projectKey, callback) {     spinner.start();
+var sources = []     definition.fields.forEach(function (packet) {         sources.push(subSerialize(variables, packet, depth))     })     return joinSources(sources)
+define('mods/b/h',function(require,exports,module){     module.exports = function(){
+it('should pass with no value', function() {   var validator = new Validator({}, { age: 'numeric' });   expect(validator.passes()).toBeTruthy();
+memoryLimitInMB: '1024',     succeed: succeed,
+this.renderedElement = renderedElement; };
+var paranoid = {  ctx: {},  autopilot:true,
+class Mysql extends Datasource {   constructor(options) {     super(options);     this.options = options;
+var self = this;
+this.effectNames = ['fxaa', 'smaa', 'ssaa', 'taa', 'sao', 'ssao', 'pixel', 'dotScreen', 'rgbShift', 'afterimage', 'halftone', 'bokeh', 'glitch']; } EffectRenderer.prototype = Object.create(BaseRenderer.prototype);
+return examineScope((function(s) {                     var n = setUserData(node.target, (node.target.ud || ({})));                     (n.ud.id = n.id);
+ReactPIXIComponent.displayName = name;   for (var m of mixins) {     assign(ReactPIXIComponent.prototype, m);   }
+var match = str.match(/^(?:(\d{4})(?:-(\d{2})(?:-(\d{2}))?)?)?(?:T(\d{1,2}):(\d{2}):(\d{2}(?:\.\d+)?)(Z|(?:[+-]\d{1,2}(?::(\d{2}))?)))?$/);             if (match && (match[1] || match[7])) {
+Workspace.workspace;
+target && target.controller() !== this &&                     ( target = target.virtualize( root ) );
+catch (err) {     if (err.toString().indexOf('no such file or directory') !== -1 || err.toString().indexOf('not a directory') !== -1) {       err = 'not a library';     }
+describe('newRequest', () => {     it('should call the smartContractProxy.newRequest function with correct parameters', done => {         const smartContractProxy = {
+Object.keys(formatOptions).forEach(function (option) {             formatString = formatString.replace('{' + option + '}', formatOptions[option]);
+try {         fileContext = await nfs.create(fileContent)       } catch(err) {
+}   return esPhase;
+assocMemberDeviceAddressesBySigningPaths[path] = device_address;     break;    case 'definition template':     throw Error(op+" not supported yet");
+g, ", ") + ")" : "()", name);   }
+return _.reject(this.toArray(), function (asset) {     return this.__processedAsset__ === asset;   }.bind(this)); });
+if (imageFrame === undefined) {     throw new Error('decodeRGB: rgbBuffer must not be undefined');   }
+app: Applications.findOne(),         executors: Executors.find(),
+function Banana() {   this.render = (stylesheet) => {
+"meta": { "name": "testing foreach" },   "global": function* (ctx) {     ctx.scope.set("doubleThis", yield ctx.KRLClosure(ctx, function* (ctx) {       ctx.scope.set("arr", ctx.getArg(ctx.args, "arr", 0));
+}       }       durationTimer = setTimeout(update, 500)     },
+_paq.push(['setTrackerUrl', u+'piwik.php']);     if (!config.ignore && !location.search.match(/[\?&]kwcPreview/)) {
+return "Location devices are still initializing.";                 case Windows.Devices.Geolocation.PositionStatus.noData:
+default:         throw new Error('invalid mask:' + maskPattern);     }
+delete Package['iron:router'].Router; Package['iron:router'].Router = Router;
+sortfn: null,
+var form = new LuckyStar.FormAccount(executionContext);         if (form.FormType === OptionSet.FormType.Create) {             form.Body.Tab._64BC19B9_1311_4B93_BE4C_6407B98D2AB3.Section._64BC19B9_1311_4B93_BE4C_6407B98D2AB4.Visible = false;         }
+import { Session } from 'meteor/session';
+processArgs.push(fileInfo.s3Bucket);     logger.info('Starting to process: %s in S3 bucket: %s', processArgs[0], processArgs[1]);   } else {
+if (utils.isFunction(rule)) {     return rule.call(null, ...argus);   } else if (utils.isObject(rule)) {
+test2();     })();};$D$0 = $D$1 = $D$2 = void 0;     console.log(str1 === "012");
+transform: 'attributes'  };
+promise = this.transclusionModel.addPart( part, parts.indexOf( part ) + places );   if ( this.loaded && !this.preventReselection ) {
+}   };   clear_canvas = function(canvas, area) {    canvas.getContext('2d').clearRect(0, 0, canvas.width,canvas.height);
+layout == Layout.FILL); }
+return { config, proceed: true };     } else {
+let i_p = this.save_named_node(g_predicate.value, bat.XM_NODE_PREDICATE);      let i_o;
+if ( !file.path ) {       throw new Error('cannot save without a path');     }
+on() {     this.get('socket').on(...arguments);   },
+getBusinessObject = require('bpmn-js/lib/util/ModelUtil').getBusinessObject,   cmdHelper = require('../../../helper/CmdHelper'); module.exports = function(group) {
+});     this.tableToExcel(this.tableRows, this.settings.name);
+var name;             type = typeof(k);
+} else if (utils.flag(this, 'excludingEvery')) {         val = removeKeysFrom(val, props, true)       }
+'use strict';
+const info = UI.getItemData(item.id);
+export function join( ...fragments ) {    if( fragments.length === 0 ) {
+.append('g')
+punctuator = __o8["punctuator"],         reservedWord = __o9["reservedWord"],
+var oldRoute = currentRoute;    currentRoute = root;    arg1 || {};    var queryIndex = currentRoute.indexOf("?");
+} else {  throw e;
+before(function () {       for (var i = 0, qq = prompt.questions(), q; (q = qq[i]); i++) {         if (q.name === 'githubTarget') {           ghTarget = q;
+node.addEventListener('load', () => {         setTimeout(() => {
+vertexBuffer.bind();                 vertexBuffer.draw( overrides );
+}         throw new AssertionError({message: `Expected function, ${typeof value} given`});     }
+case 'bottomRight':    winX = farRight - width - padding;    winY = farBottom - height - padding - 0;    break;
+runner.test('custom plugin: invalid plugin, not a function', function () {   class InvalidPlugin {}   const renamer = new Renamer()   const options = {
+return fn.apply(this, args.concat([].slice.call(arguments)));         };
+this.oidc.session.account = result.login.account;
+type: Twig.expression.type.operator,                          regex: /(^[\+\/\-~%]|^[<>!]=?|^==|^\|\||^&&|^\*\*?)/,             next: Twig.expression.set.expressions,
+daemon.stop().once("stopped", function() {                 daemon.start();             });
+describe('#changePassword()', function() {     beforeEach(mongotest.prepareDb('mongodb:
+throw err; };
+menu = list         }
+var frameTags = ["frame","iframe"];             for (var f = 0; f < frameTags.length; ++f) {                 var frames = doc.getElementsByTagName(frameTags[f]);                 for (var i = 0, nframes = frames.length; i < nframes; ++i) {
+x:this.get("l_originx"),      y:this.get("t_originy"),      width:this.get("client_width"),
+bot.dom.isEnabled, [element], opt_window); };
+if (!el) { return; }     const durationSeconds = 60 * (wallInfo._duration / this.bpm);     el.setAttribute('wall', 'speed', speed);
+el.addClass('sm-'+node.referenceType);     return el;
+utils.getUnique = function (array) {         var u = {}, a = [];
+var render = cons(path, opts);
+s.supportBigNumbers = (s.supportBigNumbers || false);     s.timezone = (s.timezone || 'local');     if(!isNaN(s.connectionLimit)) {         s.connectionLimit = 10;
+return !!e.relatedTarget && goog.dom.contains(elem, e.relatedTarget); };
+set: function (type, key, value) {       var store = type === 'local' ? localStorage : sessionStorage;       if (!key || !value) return;
+if ((this.elizaPosts) && (this.elizaPosts.length)) {   let a = new Array()   for (let i = 0; i < this.elizaPosts.length; i += 2) {    a.push(this.elizaPosts[i])
+for (var key in this.model.attributes) {         if (this.model.attributes.hasOwnProperty(key)) {           this.$el.find('[name="'+ key +'"]').val(this.model.attributes[key]);         }       }
+return formatter.ascii.apply(formatter, arguments);             }
+return bitcoind.log(packet);     });     return;   }
+}; export const snakeCase = (string) => {   return string.replace(normalizeCase, ' ')
+import { RequestUtils } from '../commons/utils/RequestUtils'; import { StaticErrorMessage } from '../commons/errors';
+engine.Socket.prototype.sendMessages = function (messages) {   return thunk.call(this, (callback) => {     this.pendingRPC = new RpcCommand(this, messages, callback)     this.send(this.pendingRPC.data)
+var d3 = new Date('2018-01-01 20:09:31');  it(`getWeek`, function() {   assert.strictEqual(52, d1.getWeek());
+const CacheComponent = require('cache-component') const debug = require('debug')('sciencefair:view:searchinput')
+, base64ToString: string => CryptoJS.enc.Base64.parse (string).toString (CryptoJS.enc.Utf8)     , binaryConcat: (...args) => args.reduce ((a, b) => a.concat (b))
+export default class SimpleExample extends React.Component {   constructor() {     super();     this.state = {
+module.exports = scan;
+toggle();       }
+var msg       = 'no app is running.',         appnameRE = new RegExp(globalConfig.dir + rawAppnameRE)     var runner    = forever.stopAll()
+const workspaceToSave = { panes, projectPaths };     let savedWorkspaces = atom.config.get('save-workspace-Workspaces') || {};
+Component,   computed } = Ember;
+var cfg = this._cfg, cssPrefix = this._cssPrefix, tr, td, getDomElementChild = ariaUtilsDom.getDomElementChild;             this._computeSize();
+if ( args.sign != 'TJS' ) {   throw new Error( "Sign '" + args.sign + "' not supported! Use SEA3D Studio to publish or SEA3DLegacy.js" );  }
+for (var i in this.rules) {       if(this.rules.hasOwnProperty(i)) {         var rule = this.rules[i];
+, generateAndPrint = function (args, out, filename, options, packages, tree, callback) {       var generateSpec = function (callback) {             if (options && packages && tree) {
+import { Link } from 'react-router'; import style from './IdentityTypesList.css';
+, levelup = require('levelup')     , Stats = require('fast-stats').Stats;
+function patchRule(ruleName, ruleBuilder) {     return function(...params) {         const ruleValidator = ruleBuilder(...params);         const ruleArgs = Array.prototype.splice.call(arguments, 0, arguments.length - 1 );
+const modelReference = modelParam;   const data = buildInput(paperOptions, modelParam);
+}         return Url.normalizeURL(url);     }
+tmp = template({           csrfToken: res.locals.csrfToken,
+if (options) {   for (var key in options) {    if (options.hasOwnProperty(key)) {
+}     } else {
+tui.util.forEachArray(groupDots[index], function(item) {             self._showDot(item.dot);         });     },
+row.appendChild(cell);      cell = document.createElement("th");   cell.colSpan = 2;
+class JobDetailPage extends mixin(TabsMixin) {   constructor(...args) {     super(...args);     this.renderBreadcrumbStates = this.renderBreadcrumbStates.bind(this);
+}                   if(data.user.prefs == {                       "skin" : "",
+poll.start = function(forceResetLock) {   console.log('Checking for new articles...');
+name,   regex: ytRegex(),   gAuthKey: "",
+, perfRegex = /^\S+\s+\d+(\s+\[\d+\])?\s+\d+\.\d+:(\s+\d+)? \S+:\s*$/ var go = module.exports = function getConverter(trace, traceStart, type) {
+}else if(result.attemptsLeft === 0 ){      errorStatus = new Error("Application startup process timeout, please refresh page.");      errorStatus.code = "400";
+Editor.error = function () {     var text = Util.format.apply(Util, arguments);     Winston.error(text);     console.trace();
+}         moduleManager.initialize(callback);     },
+var alias = this.driller_rules[domain];          for(a in alias){              if(alias.hasOwnProperty(a)){                                   var url_pattern  = alias[a]['url_pattern'];
+node.inParens = null;       for (var key in node) if (node.hasOwnProperty(key)) {         normalise(node[key]);
+};         if (!usePost) {
+for (j = 0; j < 1; j += 0.1) {             first = true;             for (i = 0; i < 1; i += 0.1) {                                     p = calculate(i, j, n, m, k);
+if (more_users_count == USER_COUNT) {                                     }
+var closeIce = function closeIce(socket, requestId, dataChannel) {     try {         if (dataChannel && dataChannel.msgs && dataChannel.msgs[requestId]) {
+todayLink = $('<div class="TodayLink"><a class="link-today">'+ def.navLinks.t +'</a></div>').click(function() {      $.J.ChangeMonth(new Date());      return false;
+expect(1);     ok('Hello World'.score('Hel') > 'Hello World'.score('Hld'), '"Hel" should match "Hello World" better then "Hld"');   });
+if (!this.config.type) {     if (meta.visualization && meta.visualization.chart_type) {
+var doc = new jsPDF();
+module.exports = {     isArray: function(variable) {
+var tok;       while((tok = readToken())) {
+M.eC = eC;                         ;             ;                         ;
+, Modal = require('../../src/Modal')   , Playground = require('@jquense/component-playground');
+get: function () {         return this.data.angularForce;
+var files = require('./files')   , refresh = module.exports = require('./refresh');
+numberOfCellsChanged: function() {           this.notifyPropertyChange('numberOfCells');         }.observes('*model.numberOfCells'),
+phantomas.setMetric('DOMidDuplicated');   phantomas.on('DOMids', ids => {   var Collection = require('../../lib/collection'),
+var stream = canvas.createJPEGStream({     bufsize : 2048,     quality : 80   });
+var checksum = md5( result );
+require('moonstone');
+var connectKey = 'mysql:         return _lib2.default.await(connectKey, function () {             var deferred = _lib2.default.getDefer();             var connection = driver.createConnection(_this2.config);
+export function consumeStatusBar(bar) {   statusBar = bar; }
+frappe.new_doc = function (doctype, opts) {  if(opts && $.isPlainObject(opts)) { frappe.route_options = opts; }  frappe.model.with_doctype(doctype, function() {
+Graph.EdgeExistsError = class EdgeExistsError extends Error {  constructor(from, to, value) {   super();
+console.debug('searchUsersAsync ' + term);              return new Ember.RSVP.Promise(function(resolve) {         if (term.length === 0) {
+var af = actorFactory(base);   if (options != null) {     actor = Dispatch.getSystem().actorOf(new Props().withCreator(af).withRouter(new RoundRobinRouter(options["n"])));
+} else {     clientRef = "Unknown";     console.warn("Unknown platform browser ["+ navigator.appVersion +"]");    }
+vLocSumY += vWidget.getRowBoxHeight(i) + vSpacingY;   }
+selectFont: function(pos) {         var fontMorphs = this.submorphs, selected;
+ancestors: function(element, fn, testSelf, stopFn) {         var ancestor = element,             ret = [];
+'use strict';             throw new Error(
+return <CmsContainer configuration={configuration} />;       case 'CONTAINER_ITEM_COMPONENT':         return <CmsContainerItem configuration={configuration} />;
+this.data = [];         this.index = 0;         this.blackout = options.blackout ? Toolkit.Blackout.factory() : null;
+to: function (dataFrame) {    assert.isObject(dataFrame, "Expected 'dataFrame' parameter to 'json.to' to be a data frame object.");
+var bbox = $element[0].getBBox();         var ctm = $element[0].getCTM();         width = bbox.width * ctm.a;         height = bbox.height * ctm.d;
+}   if (typeof destination === 'string' || destination instanceof java.lang.String){     var player = utils.player(destination);
+return;         }         if (!app.request || !app.isAdminAuthorized || !app.config || !app.isAdminAuthorized(app.request, app.config)) {             var adminAuthorization = require('basic-auth');
+update(id, data) {     avali(['num, str'], id);     return this.callApi('PUT', { id, data, type: 'update' });
+}     this._type = "Model";   }
+poolConnection.prototype.release = function() {     this.connection.release(); };
+import React from 'react' import find from 'lodash.find'
+return false;     }   },
+var type = !!action.type ? action.type : 'default';         var data = !!action.data ? action.data : null;     }
+if(as_json !== true){         for(var i = 0; i < records.length; i++){           records[i] = this.new(records[i]);
+this.ops.length = 0;   this.emit('connect'); }; Proxy.prototype.setKeepAlive = function setKeepAlive(enable, delay) {
+var callback = function(error, response, body) {       if (error) {
+vent = spyOn(Neatline.vent, 'trigger').andCallThrough();   });
+const pythonStrategy = isBinaryAvailableInPath(PYTHON_PACKAGE_EXEC)
+subkey = keyparts[i];     arrayMatch = subkey.match(reArray);     if (arrayMatch) {
+return options.error('set the EDGEMICRO_LOCAL or EDGEMICRO_LOCAL_PROXY; not both');                                      } else {
+}   el.setAttribute(attrClick, "load")
+'use strict'; var webpackConfig = require('./config');
+return 'failed';
+keypathCache = {}; Keypath = function ( str ) {  var keys = str.split( '.' );
+"DELETE_ARTICLE": "Delete article?",                  "CONFIRM_DELETE_ARTICLE_DESCRIPTION": "Are you sure you want to permanently remove this article?",         "ADD_VIDEO": "Add a video"     }
+res.format = function(obj){   var req = this.req;   var next = req.next;
+} else {                             for (k = 0; k < 3; k++) {                                 gn.push(n[0], n[1], n[2]);
+const TypeaheadMobileChipComponent = Radium(React.createClass({   mixins: [PureRenderMixin],
+var concat = require('concat-stream')   , context = require('../context')
+var plugin = can.$(this).control(control);
+return Ember.RSVP.resolve();
+zepto: 'libs/zepto'     , underscore: 'libs/underscore'     , backbone: 'libs/backbone'     , text: 'libs/require/text'     , handlebars: 'libs/handlebars'   }
+Mk.each(this, d.events, function (t, v) {             Dom.off(n, t);         });
+if (typeof window.scene.config.textures !== 'undefined') {
+} else {      ko.logError('Invalid namespace [' + typeof namespace + ']');      return observable;    }
+var issuesByID = {};         entitiesToCheck.forEach(function(entity) {             var entityIssues = validateEntity(entity);
+while (nodeHeap.size() > 0) {     var fromNode = nodeHeap.pop();
+let [tree, index] = getCurrentTreePosition()     setCurrentTreePosition(...gametree.navigate(tree, index, -1)) }
+this.stop = function*() {    const keys = Object.keys(connections);   for(let i = 0; i < keys.length; i++) {    storageManager.removeStorageHandler(keys[i]);   }
+welcome: function () {     const that = this;     const View = require("./build/welcome");
+}); }; module.exports = FrameIsNotUsed;
+class BooleanPrototype extends EasyObjectValue {
+var $         = require("jquery-browserify")   , rle       = require("../../src/index.js"); $(document).ready(function() {
+return _video.setMediaKeys(_mediaKeys);         }).then(function() {
+$(this).parent().parent().find(".custom-combobox-input").val("");     })
+again: "WEITERE ÜBERWEISUNG",         see: "ÜBERWEISUNGSÜBERSICHT"     },
+{         options = options || {}         super(options)         this.empty = true     }
+import React from 'react'; import PropTypes from 'prop-types';
+(function() {
+);             _this.exit(0);         }
+}    event.name = event.name.replace(/^ava-/, '');    event.data.file = relFile;
+PropertyAssignment: 'PropertyAssignment',   TrueKeywordTrue: 'TrueKeyword[value="true"]',
+return function() {     var value0, value1 = value(this);     if (value1 == null) return void this.removeAttributeNS(fullname.space, fullname.local);
+try {             inheritProtoI(type, IdentifiableObject);             proto.toString = origToString;
+else if (arguments.length === 1 && Array.isArray(c)) {   this._buffer = new Buffer(c);  }
+console.log(line);
+mzUserAPI.get('/api/scenes/'+user.id, 'json', receiveScenes); }
+, assert("_$ has acts method from acts", funcs2.acts, "object")         , assert("_$ has routes method from acts", funcs2.routes, "object")       ]
+this.onFadeIn();                             }.bind(this)                         });
+arg = arg.replace(/lang:\w+/i, '');   }
+let newForm = await HashBrown.Helpers.ResourceHelper.new(HashBrown.Models.Form, 'forms');
+}         this.loadingIndicator.hide();       }, this)
+if (definition.events) {                 for (event in definition.events) {                     if (definition.events.hasOwnProperty(event)) {                         this.addEventListener(event, gameBroadcast(definition.events[event]));                     }
+return INFO_STATUS;       case /^2/.test(status):
+module.exports = emberPlugin;
+var refs = this.filterAllChildren(function (child) {
+DiffableStateHelper.prototype.reset = function() {     for (var prop in this.diff)       if (this.diff.hasOwnProperty(prop) && prop !== 'undefined')         delete this.diff[prop];     for (var prop in this.patch)
+function disableUserInteractions(time) {   isTransitioning = true;
+return Promise.resolve().then(     () => crypto.digest({ name: hashAlgorithm }, cmsSignedData.signerInfos[signerIndex].signature.valueBlock.valueHex),     error => Promise.reject(error)
+async function main() {   Object.keys(projects).forEach((projectName) => {     const project = projects[projectName];
+_addIK: function(data) {             var bones = [];             var effector = this.table[data.bone_index];             var target = this.table[data.target_bone_index];             for (var i = 0, l = data.child_bones.length; i < l; i++) {
+var wrap_with_foreign_objects = function(item) {                 console.log('wrapping with foreign object');
+for(var m = 0; m < vfStaves.length; m++) {
+Meteor._wrapAsync(self._collection[method],                               numRequiredArgs[method]).               apply(self._collection, _.toArray(arguments));           } else {
+display: "grid",             gridTemplateColumns: "min-content auto",             "@media (max-width: 1128px)": { display: "block" },             padding: "40px 28px 40px 28px"           }}
+}         }, _callee, this, [[0, 15]]);     }));
+import React from 'react' import { AppRegistry } from 'react-native' import { Provider } from 'react-redux'
+if (global.opera && toString.call(opera) == "[object Opera]") {       engine = "presto";
+for (i = 0; i < this.positions.length; ++i) {         var line = this.positions[i].str;
+common.debug('Start of test' + testSubName + 'Visualization');                      var expectedTableData = [ 'dn 1,429', 'dp 1,418', '9y 1,215', '9z 1,099', 'dr 1,076',
+this.manualConfirmSubscriptions = [];
+to: {           'left': HELIX_WIDTH         },         position: interpolator,
+var rt = blob.read_shift(2); length -= 2;     if(!opts.enc && rt !== RecordType) throw new Error("rt mismatch: " + rt + "!=" + RecordType);     if(R.r == 12){ blob.l += 10; length -= 10; }
+RANDO.CameraContainer.prototype._buildAttachedLight = function () {         var scene = this._scene;         this._camLight = new BABYLON.HemisphericLight("Camera Light", new BABYLON.Vector3(0,1000,0), scene)
+app.use(require('browserify')({             mount : '/browserify.js'           , filter:  (USE_UGLIFY_JS ? uglifyFilter : undefined)
+console.error('Cannot open', filePath + ': is a directory')       app.exit(1)     }
+var $noti = document.createElement('div');                 var $noti_text = document.createTextNode(i18n.getMessage('cache_copied'));                 $noti_container.classList.add('noti');
+if (cachedObj) return cachedObj;             }             obj = new Long(value, (value | 0) < 0 ? -1 : 0, true);             if (0 <= value && value < 256) {
+switch (selectedNode.type) {       case 'property': {         let attributes = dataobject.get('attributes');         let deleteAttribute = attributes.findBy('name', selectedNode.original.name);
+name:'ngAnimate',                        files:['bower_components/angular-animate/angular-animate.js']                      }),                      $ocLazyLoad.load(                      {
+_classCallCheck(this, Page);       return _possibleConstructorReturn(this, Object.getPrototypeOf(Page).call(this, router, $cont, context, type, isHome));     }
+link: function(scope, element, attrs){             $log.debug("Progress Tracker");         }
+this.simpleBodyDef = {     "extends": "http:
+this.keydown = function(ev) {       for (var k in this.keystates) {
+function (require) {         return require('fonteditor-core/graphics/pathsUtil');     }
+window.log = function(){         if(this.console){
+qx.io.local.CookieTransport._setCookie(vIndex++, vString);   }
+for (k = 0; k < curveSegments; k += 1) {                 point = createSizedArray(len);                 perc = k / (curveSegments - 1);
+logger.info(         "You can check on their status at " + utils.consoleUrl(projectId, "/functions/logs")       );       return Promise.reject(new FirebaseError("Failed to get status of functions deployments."));
+if(steps & Warp.TO_PATH)   {    normalize.toPath(this.element)   }
+import Link from '../../link/components/link';
+if (obj.tense !== '--') {       res.tense = obj.tense;     }
+, inherits      = require('inherits')
+unpublish : function($id) {        var master = {};        master.id= $id;         $(mwd.body).addClass("loading");
+var getBaseUrlAsync = async function () {
+for (var property in list[item]) {                     if (list[item].hasOwnProperty(property)) {                         var regex = new RegExp('{{ '+ property +' }}', 'gi');                         template = template.replace(regex, list[item][property]);
+avocado.transporter.module.create('programming_environment/programming_environment', function(requires) {
+} else {       throw new Error("'select' editor requires the enum property to be set.")     }
+vertices: json.meshes[mesh_i].vertices,         indices: [].concat(...json.meshes[mesh_i].faces),         normals: json.meshes[mesh_i].normals
+var _options = {};                 _options.log = !!plugin.options[map.from];                 plugin.options = $.extend(true, {}, plugin.options, _options);
+} else {                 var expander = node.find(".expander");                 if (!expander.hasClass("empty")) {
+if (typeof module !== "undefined") {     var IntersectionArgs = require('./IntersectionArgs'); }
+ScaleContainer.prototype._getTexture = function(x, y, w, h) {     var frame = new PIXI.Rectangle(this.frame.x+x, this.frame.y+y, w, h);
+let rules = names.map(prop => getLastNode(props, prop)).filter(Boolean);             if (hasAllProps(props, ...names)) {                 insertCloned(rule, lastNode, {
+}     return [].concat(...migrations)   }
+,   PORT = process.env.PORT || 4000
+var arcPoints = point.fromArc(arc);         var Vertical = new paths.Line([x + tools.solveTriangleASA(90, outer, speed), 0], arcPoints[0]);         if (!outer) {
+if (tags && isFunction(metaInfo.changed)) {       metaInfo.changed(metaInfo, tags.addedTags, tags.removedTags)     }
+drag: function(ev, ui) {     minuteDelta = Math.round((ui.position.top - origPosition.top) / slotHeight) * opt('slotMinutes');
+const obj = clearObj(chart);           const container = clearChart(cont);
+it('MusicClefInput Y Anchor getter', function () {         expect(musicClefInput.getYAnchor()).to.be.undefined;
+}                 return findJSDocComment(node.leadingComments, node.loc.start.line);
+for(var s = 0, len = serviceMatches.length; s < len; ++i)   {
+}, data.chart, data.constr, data.callback);         }
+if (value === null) {                 return retval;
+mhlp.updateOptions(this.config.options, mOpt);
+if (method) {                     target = this.convert(method, Pandyle.$.extend({}, target));                 }
+define(['gv', 'models/Model'], function(gv, Model) {
+return root; } module.exports = smartquotes;
+response.workflowId = data.workflowId;         models.get(req.session.lastDb, "Department", DepartmentSchema).aggregate(             {
+qx.OO.defineClass("qx.ui.pageview.AbstractPageView", qx.ui.layout.BoxLayout,  function(vBarClass, vPaneClass) {
+var Layer = require("geoscript/layer").Layer; var nutil = require("util");
+case GO_BACK:       return getStateForAction(
+class Page extends Component {   render({showDescriptions = false, onUpdateOption = noop}) {     const {kataBundles} = this.props;
+_errorHandler(e){         throw new Error(e.message + " (" + e.filename + ":" + e.lineno + ")");
+previous: lastVersion.hash,         entries,     });
+for(i in scripts){             if(scripts[i].src == res || scripts[i].readyState == "interactive"){               return scripts[i];             }
+, basename = require('path').basename   , request = require('request')   , fs = require('fs');
+return value + ' ' + arg + 's';             }
+}         var url = lessfly_api +"/pods/"+ lessSession.Get("podid") +"/fs/get";         url += "?access_token="+ lessCookie.Get("access_token");
+'use strict'; var isFunction = require('../../Function/is-function')   , forEach    = require('../plain/for-each').call module.exports = function (scope, source) {
+configMod.changed() &&             that.send(connection.id, {               method: 'CONFIG',
+} else {                     [, username] = newUrl.match(/(?:https:\/\/|http:\/\/)?(?:www\.)?(?:\w+\.\w+\/+)?(\S+)/mi);                 }
+p.right = repaint(RED, s)           continue
+{         for (i = 0; i < attribs.length; i++)         {
+if (objJs.methodId[agent.objectPath]) {   while (objJs.methodId[agent.objectPath].length) {    try {
+mainWindow.webContents.send('deviceFound', device.serialize())     }
+if (!isDebug) {     webpackconf.plugins.push(
+_OriginalFunction = Function;  Function = function(...args) {   const source = rewrite(args.pop());   logJS(source);
+if (vHue < 0) vHue = vHue + 1.0;   }
+script: copy(                     './src/public
+'postcss-mixins': {},     'postcss-simple-vars': {},     'postcss-nested': {},
+.catch(err => {                  this.props.dispatch(A.accountRefCreateError(err));
+if(color.contains('rgb')){       color = color.replace(/rgba/g, '').replace(/rgb/g, '').replace(/\(|\)/g, "").replace(/\s/g, "");     }     color = color.split(',');     if(color !== 'transparent'){
+function onKeyDown(e) {             var keyCode = ('which' in e) ? e.which : e.keyCode;             switch (keyCode) {
+document.documentElement.removeChild(node);           document.removeEventListener('markdown_here-options-response', optionsResponseHandler, false);           callback(response);
+for (var index in parents) {           if (Object.prototype.hasOwnProperty.call(parents, index)) {             var parent = parents[index];
+for (let key in ret) {                 let questionId = parseInt(key.replace(/^id\_/, ''));
+return featureCollection(results); }
+if ( !internals.diff.fullindizies )             internals.diff.fullindizies = [];         internals.diff.fullindizies = db;
+var parts = v.split("~");         $.each(parts, function(index, part) {             var segments = part.split(",");             self.active[segments[0]] = segments[1];
+} } export { WebGLCapabilities };
+helpers.each(points, function(point, index) {     me.updateElement(point, index, reset);    });   },
+keyframe = flattenStyle(keyframe);     Object.keys(keyframe).forEach((key) => {       if (!(key in compiled)) {
+, targetFolder = path.resolve(nm, target.name)     , prettyWhere = path.relative(process.cwd, where)     , parent = context.parent
+if (opts.server) {       return (ClojureScript.usingPort = opts.server, startServer());     }     if (opts.interactive) {       return repl.prompt();
+document.body.style.cursor = 'auto';   activeLayer.draw();  };
+var servicesInnerStyle = {};     servicesStyle['transition'] = animated ? 'height 200ms ease-out' : '';     servicesStyle['height'] = headerHeight + 'px';
+this.x = d3.scaleTime().rangeRound([0, this.width - this.margin.right]);     this.y = d3.scaleLinear().rangeRound([this.height - this.margin.bottom, 0]);
+transform : function () {
+var arr = fn ? defaultArr() : defaultArr || [];              return arr;     });
+list = '<ul>';  var dropdown = [];  for (var item in json)
+this[slot].hasReading = false;   } };
+, query = link$uri$query ? `?${link$uri$query}` : "";     route(ctx, `${link$uri$path}${query}`);
+_onwindowmousedown : function() {       try {
+overboughtRsiPeriods: simulationResults.overbought_rsi_periods,
+, objc_copyProtocolList: [ 'pointer', [ 'pointer' ] ]     , objc_getAssociatedObject: [ 'pointer', [ 'pointer', 'pointer' ] ]
+this.setZoom = function(dir){    if(Number(dir)){
+var output = "\"{";     for (var p = 0; p < props.length; p++) {         output += "\\\"" + props[p].name + "\\\": ";
+this.attached();         this.init();
+var wf = plot.workflow;     var text = [];
+var result =         { tests: suite.results         , numFailures: 0
+});   exit(1); }
+.then(user => {         if(user){           return done(null, user);
+}         }          if (this.compare(this.array[i],ai)) {
+const contextAsOptions = assign({}, context)         contextAsOptions.depth = recurseTimes
+};         self.$map.mapael($.extend(true, {}, CST_MAPCONF_NOANIMDURATION, {             map: {
+var TRANSITION_INTERVAL_VALIDATOR = function TRANSITION_INTERVAL_VALIDATOR(v) {   v = (v || 0).toString()   var match, num, ret
+let parser;         if (param.parser){             debug("Parse method found in parameter definition.");
+result = result && recurseCompare(childA, childB);     }
+,  drawback = require('../../lib/drawback')
+ENV.APP.rootElement = '#ember-testing';   }   if (environment === 'production') {     ENV.rootURL = 'ember-charts';   }
+function DriverTree(props)
+}     var soptions = $sortable.data('opts');     if (typeof soptions === 'undefined') {
+this._timer = Ember.run.later(this, function() {                 this._elementValueDidChange();             }, this._setValueDelay);
+}   associationOptions = null   if (associationOptions) {
+Then('the translation is written', function () {   this.injection.write.verify() })
+case "val":      if (truthy(err)) {       throw err;
+if (DEBUG) {                                     warn("Cannot find uid of " + o);
+if (matchedAttr) {       hasMatch = matchedAttr;
+const Knex = require('knex'); const Promise = require('bluebird');
+case 'code' :                 return this.processPackage();         }
+return Meteor.users.find({}, {fields: {       secret_id: false,
+while (i < len) {             result = apl(method, null, [list[i], i, list].concat(extraArgs));             if (result !== undefined) {
+if (!obj) {         throw new Error('include(obj) requires obj');       }
+}     for (let i = 0; i < otherProperties.length; ++i) {       if (elementsAdded)
+for (var i = 0; i < minItems; i += 1) {             textToInsert += "<li>" + friendlyLink(value[i]) + "<\/li>";         }
+'use strict'; var assert = require('yeoman-generator').assert   , helpers = require('yeoman-generator').test   , path = require('path'); describe('module generator', function () {
+};     RxjsTransport.prototype.publish = function (action) {
+var _ = require('lodash'),     util = require('./util');
+var type = ast.type,   i, x, length;  if (type_Body === type) {
+if (matches) {       const user = matches[1]       const playlist = matches[2]       argv.db.logger.info('Adding playlist of user \'' + user + '\': ' + playlist)
+describe("port backpressure", function() {   it("capacity of 1 (default)", async function() {     let _ = createOrderedExpectation(5);
+lockOrientation(); }); $('#touch-ctrl').click(function () {     if (this.checked) {         control = "touch";     }
+create: function() {   this.inherited(arguments);   var v = this.axis == "v";   this.dimension = v ? "height" : "width";
+{     constructor : function (oFormatOptions, oConstraints) {      this.setConstraints(oConstraints);     }    }
+}); })(jQuery);
+adjusted_scale : this.adjusted_scale,  asset_swf_v : "\/c2.glitch.bz\/items\/2012-03\/garden_new-1333148466.swf",  admin_props : true,
+function() {    Client.loadFromConfig('something');   },
+this._bufferAriaEndMarker = _Global.document.createElement("div");                         this._bufferAriaEndMarker.id = uniqueID(this._bufferAriaEndMarker);
+it('should merge properties', function(done){     app1.use(function(ctx, next){       assert.equal(ctx.msg, 'hello');
+_.each(this.state.Current, function(instances, protocol) {    _.each(instances, function(key) {     protocols.push(<Protocol key={key} protocol={protocol} name={key} />);    }, this);
+else if (input == "site") { var http = "https:         if (args.length > 1) { http += "." + args[1] }}   else { var http = "http:  window.location = http;
+var similarity;                     for (i = 0, ii = molecules.length; i < ii; i++) {                         if (String(molecules[i].actID.value) === targetID) {
+var r = array.filter(filterFn);     check.call(this, r);   })
+book.percent = Number(book.cnt_readed / book.cnt_doc * 100).toFixed(2)       that.setData({
+}   url = url.replace(/&/, '?')   window.history.replaceState(null, null, url)
+if (this.options.requestParams) {       Util.extend(query.params, this.options.requestParams);     }
+var splitRegex = /[^a-zA-Z_0-9\$\-\u00C0-\u1FFF\u2C00-\uD7FF\w]+/;
+removeMember(groupId, userId) {     const [gId, uId] = [groupId, userId].map(Utils.parse);     return this.delete(`groups/${gId}/members/${uId}`);   }
+var readStream = require('fs').createReadStream('./test/iTunes.xml') ,   pickup = require('../lib/pickup.js')()
+default:   throw new Error("Unknown platform: '" + process.platform + "'.  Send this error to xavi.rmz@gmail.com."); }
+handlers: {         formula() {           this.quill.theme.tooltip.edit('formula');         },
+}     for (var o in paths) {       if (!paths.hasOwnProperty(o)) continue;       var pp = paths[o];
+var el = makeElement("script");         el.innerHTML = joinText(js);         return el;
+if (obj) {                                      for (var attr in obj) {                                          if (obj.hasOwnProperty(attr)) {                                              vObj[attr] = obj[attr];                                          }
+oldLog.apply(this, arguments);     throw new Error(msg);   }
+if (factory) { return factory; }   };
+if (err) {       throw err;     }
+DocumentDeleteDialog = injectIntl(DocumentDeleteDialog); export default connect(null, { deleteDocument })(DocumentDeleteDialog);
+process.exit(0);  });
+onLoad: function (options) {     app.mta.Page.init()
+it('should properly configure actors in forked process', async function() {     testSystem = actors({
+} else {       $parent.data('hour', Number($parent.data('hour')) + 1)     }
+},   handleSubmit: function() {     var val = this.refs.newField.getDOMNode().value.trim();     if (val) {
+var i, l, dataItem, newView, itemWrap, itemsWrap, itemResult, parentContext, tmpl, props, swapContent, isLayout,    self = this,
+base.apply(this, arguments);    }      };
+module.exports = function(Cam) {  const linerase = require('./utils').linerase
+if (jsonType == 'object') {                             delete jsonVal[key];
+while (i < oldVnode.children.length) {       let oldChild = oldVnode.children[i]       let oldKey = oldChild.props ? oldChild.props.key : null       if (null == oldKey) {
+for (let i = 0; i < urlConventions.length; i++) {                     result = urlConventions[i].re.exec(req[urlConventions[i].field]);                     if (result) {
+function validationMiddlware(req) {   return Joi.validate(
+}; Context.prototype.setReady = function() {   this.isReady = true;   this._emitter.emit('ready');
+getProjectColumns().forEach(column => calculateStoryPoints(column, pattern)); }
+args[0] = prefix + args[0].split('\n').join('\n' + prefix);
+for (var i = 0 ; i < category.commands.length; i++) {         newCategory.commands[i] = (process(category.commands[i], newCategory));       }
+}                  return _this.find({ where: where });
+var express = require('express'),     router = express.Router();
+SftpUpload.prototype.addFiles = function(files, baseDir, uploads){     files.forEach(function(file){
+let value = node.attribs[k];      let hasBind = reg_tag.test(value);      if (hasBind) {
+, data = Rye.require('Data')     exports.show = function(){
+this._scene.add(this._mesh);     this._renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, premultipliedAlpha : false });     this._renderTarget = null;
+return res; } export default Ember.Route.extend({
+];   return Mink.metaStep(Driver, stepsArray, callback); }
+catchLinks(rootElement, function (href) {       history.push(href)
+function ouibounce(el, custom_config) {   "use strict";   var config     = custom_config || {},     aggressive   = config.aggressive || false,
+date: {year, month, day}         }, () => {             this.props.onSelect(year, month, day)         });
+const session = this.get('session');     return session.invalidate(...arguments);   },
+} } Toast.propTypes = propTypes;
+module.exports = makeRouter; const fork = require('../lib/router');
+var replacements = result['replacements'];     for (var i = 0; i < replacements.length; i++) {
+var param = text.substring(startIndex+1, endIndex);         if(param) {
+document.write('<script type="text/javascript" src="scripts/mousetrap.min.js"></script>');
+if (event.keyCode === 37) {              selectNextAvailableCellInDirection.call(this, 'left');              return;
+$el.live('keypress', function(e){       var k ={};
+'attacker': useridEnrichment,
+var VISION_VERSION = 100001
+this.mHeartbeat.clear();     this.mPort.close(function(err) {                  if (err) {
+console.log('Command failed.');         throw error;     });
+$http.get( "/i18n/" + this.userLanguage + "/" + name ).success( function( translated ) {           $rootScope.i18n[ name ] = translated;
+if (modeChanged) {                 var sortedList = this._getSortedPlugins();                 _.each(sortedList, function(plugin) {
+onClickToClose() {     this.props.history.push('/');
+value = [];           for (j in input.options) {
+var lenient = !!env.opts.lenient;
+ATTACH_AND_SEQ_STORE,   META_STORE,
+yDomain = [0, +d3.max(generalChartData, (d) => { return d.frequency; })],     yScale = 'linear',     yAxisClassName = 'y-axis',
+return dispatchIncomingMsg('dataConfirm', msg); }
+grid.attachEvent("onCheck", miqGridOnCheck);   grid.attachEvent("onBeforeSorting", miqGridSort);   grid.attachEvent("onResize", miqResizeCol);    grid.attachEvent("onResizeEnd", miqResizeColEnd);
+${regexName}\\s*-->`,   ')\\s+'
+this.table.removeChild ( this.tbody );          for ( let i = 0, l = this.sortData[index].length; i < l; i++ ) {           this.tbody.appendChild ( this.sortData[index][i][0] );
+commandNames.forEach(function (commandName) {     executeCommand(commandName, args);   });
+'_waitingForResolution': false,         get waitingForResolution() { return this._waitingForResolution; },         set waitingForResolution(val) {             if (val !== this._waitingForResolution) {
+break;
+const express = require('express'); const router = express.Router();
+});   if (options.logMessages) {     console.log(response.messages);   }
+afterEach(function() {            });
+})     case Actions.RECEIVE_POPULATED_SINGLE_POST:
+add: function (method, args, type) {       this.last()[type || 'animations'][method] = args
+})             }).then(() => {
+var Transaction = bitcore.Transaction; var TxProposal = require('./TxProposal'); var Script = bitcore.Script;
+var array = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : null
+function query(firstLevelArgs) {
+var SelectArea = ( function () {         var startPos = null;
+});             this.send(x, presence);         }.bind(this));     }
+$scope.onSelect = function (item) {             if (attrs.macTagAutocompleteOnEnter) {
+for (fieldName in rsp.fields) {                 if (rsp.fields.hasOwnProperty(fieldName)) {                     $errorList = this.$(".errorlist")                         .css("display", "block")[nameToRow[fieldName]];
+_.each(CQ.WCM.getEditables(), function(e){             if (isParsysNew(e)) {                 this[e.path] = e;
+}           } catch (e) {             deferred.reject({ data: { message: 'fail to upload file!' } });             return;           }
+module.exports = {   required: name => `${name} is required`,
+} else {                 throw new Error('Expected id or forUsername');             }
+return tokens;   });   var indent = (function(args) {
+NAME_94: '64式',
+$scope.connectToLedger = () => {     $scope.connectionFailed = false;
+text = '<ul>';     var len = obj.data.length;     for (var i = 0; i < len; i++)     {
+flexo.nop = function () {   };
+this.closeDrawer_();         console.error('File is not an image : ' + file.type);       }
+'use strict';
+'Z': function(cmd, chunk) {   this.write('\x9a');   return 2;
+scout.NumberField.parent.prototype._init.call(this, model);   if (!(this.decimalFormat instanceof scout.DecimalFormat)) {     this.decimalFormat = new scout.DecimalFormat(this.session.locale, this.decimalFormat);
+var _ = require('lodash');
+if(1){             await this.session();
+return v1.decode(data);
+var el = this.el;     var data = this.data;     if (!data.canLoseOwnership) { return; }
+sEmitter.emit = function(event, args) {   var cmd = JSON.stringify({ event: event, args: args })
+return this.dynamicXLabelling(start, stop);         };       } else {
+}           });           $container.mousedown(function () {             _this2.skipFocusout = true;
+if(this.options.excludeFooter) {         thtb = thtb.not('tfoot');       }
+equal(entities[1].get('dbp:conventionalLongName'), 'Federal Republic of Germany');             start();
+do {         p = list;
+if (replyWzin) replyWzin.remove();    replyWzin = wzin($this.closest('.message'), $target, { zIndex:60, fill:'rgba(139, 69, 19, .2)', scrollables:'#messagescroller' });   }
+(name.substring(0, 11) !== "gl_FragData")) {                 throw new Error("the only allowed output variables on a fragment"                        + " shader are gl_FragColor and gl_FragData[]");
+that.templates.forEach(function(template) {         var rules = template.generateRules(that.corpus, site);         rules.forEach(function(rule) {
+case Stick.Absolute:         rect = spacer[0].getBoundingClientRect();         top = rect.top - this.baseTop;         left = rect.left - this.margin.left;         if(top >= 0) {
+initializer: function() {             Pusher.log = Y.log;                 document.WEB_SOCKET_DEBUG = true;
+while (this.updateRequests.length > 0) {       this.updateRequests.shift()()
+if (vnodes) {     for (key in vnodes) {       this.vnodes[key] = vnodes[key];
+passport.loadStrategies = function () {   const self       = this,     strategies = sails.config.passport;
+NOVAE.SheetCount++;
+} else {         var handshakeData = manager.handshaken[sessid];
+that.saveKeyFromCore("pre_" + filename);             },
+({  0:  function(module, exports, __webpack_require__) {
+var attributesChanged = function (event) {      if (event.key === 'points') {
+exports.buildRemoveRange = function(rep, builder, start, end) {
+return false;    }    var file = RESOURCE_PATH + "/" + pathname;
+default:       throw new Error('Unsupported cardinal direction: ' + direction);     }
+var nodesize = device.getElementSize(node);       w = node.cloneOfWidget || this._childWidgetOrder[i - this._prefixClones];       if(!w) { continue; }
+try { common.unlinkSync(paramsFile); } catch (e) {}
+import LightGLEngine from './jscad-viewer-lightgl' import {colorRGBA, parseColor} from './jscad-viewer-helpers'
+addSources: function(sources) {     this.$el.html('');     sources.forEach(function(source) {
+function formatDate(date) {        var myyear = date.getFullYear();
+db.nodes.addContentTypes(id, types)                     .then(function(){                         deferred.resolve('Success');
+, ["Admin", .2]       , ["Pass", .2]       , ["Total", .2]     ]);
+options = $.extend(defaults, options);   options = $.extend(true, settings, options);
+case 'GUESSTIMATE_ME_LOADED':     return {       token: state.token,
+await message.channel.send('👋\u2000Restarting, see you!')         return this.client.destroy()  }
+default:             throw Error( 'Unsupported complex function case' );         }
+const prettyConsole = {     log(...args) {       console.log(simpleTimestamp(), chalk.green.apply(null, args));     },
+}     return {         searchMusic: function VK_searchMusic(query, params, callback) {
+, Request = require("request")   , Typpy = require("typpy")   ;
+pre: props => props.children,    }
+const minContentWidth = atom.config.get(`${NAMESPACE}.minimumContentWidth`);     const ambiguousAsWide = atom.config.get(`${NAMESPACE}.eawAmbiguousAsWide`);
+if (settings.defer[ref]) {   settings.debug(' * Found ID', ref, 'as', realId);   _.forEach(settings.defer[ref], function(childItem) {

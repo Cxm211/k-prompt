@@ -1,0 +1,152 @@
+Namespace(log_name='./RQ5/defects4j_10/soft8_2_codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='java', output_dir='RQ5/defects4j_10/soft8_2_codet5p_770m', data_dir='./data/RQ5/defects4j_10_2', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=2, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': '', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' public static Node labelName(String name) {    }    public static Node tryFinally(Node tryBody, Node finallyBody) {     Preconditions.checkState(tryBody.isLabelName());     Preconditions.checkState(finallyBody.isLabelName());      Node catchBody = block().copyInformationFrom(tryBody);      return new Node(Token.TRY, tryBody, catchBody, finallyBody);    }', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' Assignment expression modification, Method call parameter value modification, Method call replacement, Method definition addition, Object instantiation addition, Return statement addition, ', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': '', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'public static Node labelName(String name) {    }    public static Node tryFinally(Node tryBody, Node finallyBody) {     Preconditions.checkState(tryBody.isBlock());     Preconditions.checkState(finallyBody.isBlock());      Node catchBody = block().copyInformationFrom(tryBody);      return new Node(Token.TRY, tryBody, catchBody, finallyBody);    }'}]
+***** Running training *****
+  Num examples = 10
+  Batch size = 4
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 2
+  epoch = 0
+  eval_ppl = inf
+  global_step = 4
+  train_loss = 72.4739
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:inf
+  ********************
+BLEU file: ./data/RQ5/defects4j_10_2/validation.jsonl
+Namespace(log_name='./RQ5/defects4j_10/soft8_2_codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='java', output_dir='RQ5/defects4j_10/soft8_2_codet5p_770m', data_dir='./data/RQ5/defects4j_10_2', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=2, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': '', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' public static Node labelName(String name) {    }    public static Node tryFinally(Node tryBody, Node finallyBody) {     Preconditions.checkState(tryBody.isLabelName());     Preconditions.checkState(finallyBody.isLabelName());      Node catchBody = block().copyInformationFrom(tryBody);      return new Node(Token.TRY, tryBody, catchBody, finallyBody);    }', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' Assignment expression modification, Method call parameter value modification, Method call replacement, Method definition addition, Object instantiation addition, Return statement addition, ', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': '', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'public static Node labelName(String name) {    }    public static Node tryFinally(Node tryBody, Node finallyBody) {     Preconditions.checkState(tryBody.isBlock());     Preconditions.checkState(finallyBody.isBlock());      Node catchBody = block().copyInformationFrom(tryBody);      return new Node(Token.TRY, tryBody, catchBody, finallyBody);    }'}]
+***** Running training *****
+  Num examples = 10
+  Batch size = 4
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 2
+  epoch = 0
+  eval_ppl = inf
+  global_step = 4
+  train_loss = 72.4739
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:inf
+  ********************
+BLEU file: ./data/RQ5/defects4j_10_2/validation.jsonl
+  codebleu-4 = 22.29 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:22.29
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 2
+  epoch = 1
+  eval_ppl = inf
+  global_step = 7
+  train_loss = 30.7313
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/RQ5/defects4j_10_2/validation.jsonl
+  codebleu-4 = 42.87 	 Previous best codebleu 22.29
+  ********************
+ Achieve Best bleu:42.87
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 2
+  epoch = 2
+  eval_ppl = inf
+  global_step = 10
+  train_loss = 15.3318
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/RQ5/defects4j_10_2/validation.jsonl
+  codebleu-4 = 70.02 	 Previous best codebleu 42.87
+  ********************
+ Achieve Best bleu:70.02
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 2
+  epoch = 3
+  eval_ppl = inf
+  global_step = 13
+  train_loss = 11.1269
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/RQ5/defects4j_10_2/validation.jsonl
+  codebleu-4 = 73.13 	 Previous best codebleu 70.02
+  ********************
+ Achieve Best bleu:73.13
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 2
+  epoch = 4
+  eval_ppl = inf
+  global_step = 16
+  train_loss = 4.7181
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/RQ5/defects4j_10_2/validation.jsonl
+  codebleu-4 = 72.12 	 Previous best codebleu 73.13
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 2
+  epoch = 5
+  eval_ppl = inf
+  global_step = 19
+  train_loss = 2.6189
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/RQ5/defects4j_10_2/validation.jsonl
+  codebleu-4 = 71.39 	 Previous best codebleu 73.13
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 2
+  epoch = 6
+  eval_ppl = inf
+  global_step = 22
+  train_loss = 1.7647
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/RQ5/defects4j_10_2/validation.jsonl
+  codebleu-4 = 70.17 	 Previous best codebleu 73.13
+  ********************
+early stopping!!!
+reload model from RQ5/defects4j_10/soft8_2_codet5p_770m/checkpoint-best-bleu
+BLEU file: ./data/RQ5/defects4j_10_2/test.jsonl
+  codebleu = 71.25 
+  Total = 64 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 64 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 71.25 
+[0.2840998773692258, 0.8312275036503283, 0.8096645620006775, 0.3788321486588963, 0.7906925479531332, 0.8120551027810303, 0.5443454451372073, 0.8050512308948439, 0.6308467143225297, 0.8924644874204966, 0.6907701206102476, 0.7369092647119393, 0.6316733772548883, 0.5790645009657646, 0.31073320532339166, 0.7942254785288936, 0.7197666527435577, 0.8772101276126214, 0.7958826511929267, 0.7904665899488785, 0.8721125152975062, 0.7176189204658862, 0.8465431889115163, 0.7143513682140774, 0.6383798215570213, 0.6620374200206556, 0.7285429338906425, 0.849525697245348, 0.7829903885524012, 0.7792339222047229, 0.8683105217761831, 0.8365049773284279, 0.8899407308130634, 0.8899407308130634, 0.8693059718827794, 0.46390994156004267, 0.28139460759896684, 0.595153561733246, 0.889761361495617, 0.8459463132957461, 0.8727340070600411, 0.8028172817807042, 0.7011143192662692, 0.7384479435491496, 0.500866870296785, 0.9199440403895656, 0.6319686043714435, 0.5216692025787918, 0.6415621607895179, 0.5561941694745134, 0.8734502199950254, 0.301983607643672, 0.7398507191925657, 0.8555472367532375, 0.7991937484772897, 0.8232523732318835, 0.615561809570122, 0.6410378892354339, 0.4897540492345357, 0.8254084390841356, 0.8224642580186448, 0.8434417243841228, 0.9199440403895656, 0.4312598667607357]
+Finish training and take 33m

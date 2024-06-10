@@ -1,0 +1,83 @@
+Namespace(log_name='./RQ5/javascript_1/soft7_3_codet5p_220m.log', model_name='Salesforce/codet5p-220m', lang='javascript', output_dir='RQ5/javascript_1/soft7_3_codet5p_220m', data_dir='./data/RQ5/javascript_1_3', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=16, eval_batch_size=2, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': '', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' if (!!mResult) {', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' no-extra-boolean-cast', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '.', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': '', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'if (mResult) {'}]
+***** Running training *****
+  Num examples = 1
+  Batch size = 16
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 500
+  Batch size = 2
+  epoch = 0
+  eval_ppl = inf
+  global_step = 2
+  train_loss = 22.4766
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:inf
+  ********************
+BLEU file: ./data/RQ5/javascript_1_3/validation.jsonl
+  codebleu-4 = 10.7 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:10.7
+  ********************
+
+***** Running evaluation *****
+  Num examples = 500
+  Batch size = 2
+  epoch = 1
+  eval_ppl = inf
+  global_step = 3
+  train_loss = 24.1595
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:inf
+  ********************
+BLEU file: ./data/RQ5/javascript_1_3/validation.jsonl
+  codebleu-4 = 14.93 	 Previous best codebleu 10.7
+  ********************
+ Achieve Best bleu:14.93
+  ********************
+
+***** Running evaluation *****
+  Num examples = 500
+  Batch size = 2
+  epoch = 2
+  eval_ppl = inf
+  global_step = 4
+  train_loss = 10.6524
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:inf
+  ********************
+BLEU file: ./data/RQ5/javascript_1_3/validation.jsonl
+  codebleu-4 = 17.76 	 Previous best codebleu 14.93
+  ********************
+ Achieve Best bleu:17.76
+  ********************
+
+***** Running evaluation *****
+  Num examples = 500
+  Batch size = 2
+  epoch = 3
+  eval_ppl = inf
+  global_step = 5
+  train_loss = 9.5111
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/RQ5/javascript_1_3/validation.jsonl
+  codebleu-4 = 17.71 	 Previous best codebleu 17.76
+  ********************
+
+***** Running evaluation *****
+  Num examples = 500
+  Batch size = 2
+  epoch = 4
+  eval_ppl = inf
+  global_step = 6
+  train_loss = 3.9098
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/RQ5/javascript_1_3/validation.jsonl

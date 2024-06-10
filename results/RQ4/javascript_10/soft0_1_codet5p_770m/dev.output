@@ -1,0 +1,100 @@
+case key.isPrintable():         let { range } = this;         let { isCollapsed } = range;
+if (!first.type.equals(Shade.Types.bool_t))             throw ("operator " + operator_name +                     " requires booleans, got argument 1 as " +
+for(var i in this.inputs) {
+calculateDimensions();             var vendor = {                 transform: "-webkit-transform"             };
+else {             var IDBasket = new Array();             var tempArray = new Array();
+var $target = $(event.target);           debugger;           app.queue.add({
+_this = __create(_proto2);         } else {
+if (state === null) {   var match = null;
+errorAndExit('--action=ACTION must be specified')   default:     errorAndExit(`Unsupported action ${config.action}`)
+, websocket = global.websocket = require("./server/routes/websocket"), redisConfig = global.redisConfig =  {filters:[]} , config = global.config = jsonfile.readFileSync("./runtime.json")
+jBone.fn.html = function() {     var value = arguments[0], result;
+const timestamp = new Date().toISOString();   const message = args[ 0 ] instanceof Error    ? ( args[ 0 ].stack || args[ 0 ] )     : util.format.apply( util, args );
+} catch (e) {             throw "Unable to load Atom '"+atomName+"' from file '"+atomFileName+"'";         }
+init = function() {  test = new cv.graph(graphdef);  graphdef = cv.constants.defaultGraphdef;
+} else if (rightLabel) {       var tooltip = Network.NetworkTimeCalculator._downloadFormat.format(rightLabel);     }
+return ret; export {bind, _triageMustacheHelper, resolveHelper, bindHelper, boundIfHelper, unboundIfHelper, withHelper, ifHelper, unlessHelper, bindAttrHelper, bindAttrHelperDeprecated, bindClasses}
+case '2v':       case '3v':         const w = this.width - m;         return (w > 0) && {
+var strCurrentTab = window.location.hostname;                  if (true || arrBlacklistedDomains.includes(strCurrentTab)) {                      document.body.innerHTML = "";
+test(`should show messages callout for unknown user`, async t => {   debugger;   const identityPage = await setup(t);
+var fs = require('fs'),    webpack = require('webpack'),
+var yQuery = cocb.wrap(function(eci, rid, name, args, callback){     var yQuery2 = cocb.wrap(function(eci, rid, name, args, callback){     var yQuery3 = cocb.wrap(function(eci, rid, name, args, callback){     var yQuery4 = cocb.wrap(function(eci, rid, name, args, callback){     var yQuery5 = cocb.wrap(function(eci, rid, name, args, callback){     var yQuery6 = cocb.wrap(function(eci, rid, name, args, callback){     var yQuery7 = cocb.wrap(function(eci, rid, name, args, callback){     var yQuery8 = cocb.wrap(function(eci, rid, name, args, callback){     var yQuery9 = cocb.wrap(function(eci, rid, name, args, callback){     var yQuery10 = cocb.wrap(function(eci, rid, name, args, callback){     var yQuery11 = cocb.wrap(function(eci, rid, name, args, callback){     var yQuery12 = cocb.wrap(function(eci, rid, name, args, callback){     var yQuery13 = cocb.wrap(function(eci, rid, name, args, callback){     var yQuery14 = cocb.wrap(function(eci, rid, name, args, callback){     var yQuery15 = cocb.wrap(function(eci, rid, name, args, callback){     var yQuery16 = cocb.wrap(function(eci, rid, name, args, callback){     var yQuery17 = cocb.wrap(function(eci, rid, name, args, callback){     var yQuery18 = cocb.wrap(function(eci, rid, name, args, callback){     var yQuery19 = cocb.wrap(function(eci, rid, name, args, callback){     var yQuery20 = cocb.wrap(function(eci, rid, name, args, callback){     var yQuery21 = cocb.wrap(
+} else {             debugger             errors = [e];
+pageConnectModal.remove();      this.retryConnectionMsg && this.retryConnectionMsg.remove();
+if (context.flags.window.match(/[A-Za-z]{3,10} \d\d?:[03]0/) == null) {         cli.error('Maintenance windows must be "Day HH:MM", where MM is 00 or 30.')         process.exit(1)       }
+CL.Tableau.call(this);     this._stayMinusErrorVars = new Array();     this._stayPlusErrorVars = new Array();     this._errorVars = new Hashtable();
+]     console.log(feed)     items.forEach(i => {
+export default function sendTextureRequest (url, type, dataType, data, progress, s3Key) {   return new Promise(function (resolve, reject) {
+require('components/SongPlanet/SongPlanet.scss') var Vec2 = require('util/vec2'),   SvgUtil = require('util/svgutil') function getPosition(rx, ry, t, speed) {
+return _.all(signature, function(type,index) {     var signature2 = signature.match(/\w+/g) || [];     return signature2.length == variables.length && _.all(signature2, function(type2,index2) {     var signature3 = signature2.match(/\w+/g) || [];     return signature3.length == variables.length && _.all(signature3, function(type3,index3) {     var signature4 = signature2.match(/\w+/g) || [];     return signature4.length == variables.length && _.all(signature4, function(type4,index4) {     var signature5 = signature2.match(/\w+/g) || [];     return signature5.length == variables.length && _.all(signature5, function(type5,index5) {     var signature6 = signature2.match(/\w+/g) || [];     return signature6.length == variables.length && _.all(signature6, function(type6,index6) {     var signature7 = signature2.match(/\w+/g) || [];     return signature7.length == variables.length && _.all(signature7, function(type7,index7) {     var signature8 = signature2.match(/\w+/g) || [];     return signature8.length == variables.length && _.all(signature8, function(type8,index8) {     var signature9 = signature2.match(/\w+/g) || [];     return signature9.length == variables.length && _.all(signature9, function(type9,index9) {     var signature10 = signature2.match(/\w+/g) || [];     return signature10.length == variables.length && _.all(signature10, function(type10,index10) {     var signature11 = signature2.match(/\w+/g) || [];     return signature11.length == variables.length && _.all(signature11, function(type11,index11) {     var signature12 = signature2.match(/\w+/g) || [];     return signature12.length == variables.length && _.all(signature12, function(type12,index12) {     var signature13 = signature2.match(/\w+/g
+}           debugger;           thisDoesntRun();
+case 50:return 5 break; case 51:return 'INVALID' break; }
+}             }.bind(this));
+break;     default:
+else{                     var startdate = dateFormat(Date.now(), 'yyyy-mm-dd HH:MM:ss');                     var enddate = dateFormat(Date.now() + current_subscription[0].duration*86400000, 'yyyy-mm-dd HH:MM:ss');                 }
+Ember.run.next(this, function() {       if(parent && parent.addSplit) {         parent.addSplit(this);       }
+import {delay} from'redux-saga'; import {put, call, takeEvery, all} from'redux-saga/effects'; import {watchAddBadge, watchGetUserBadges} from './badgeSagas';
+var split = word.match(/^(-*)((?:no-)+)?(.*)$/)    , dashes = split[1]    , no = split[2]    , conf = split[3]
+stylus.render(styl, {filename: path, compress: true}, function (err, css) {       debugger;       if (err) {
+} else {         qx.ui.core.ClientDocument.getInstance().debug(obj, this);         throw new Error("Could not find iframe which was loaded!");        }
+var maxVersions = require('./check_update').check();     for (var ver in maxVersions) {       console.log('Patch for v' + max +'should be created.');     }     break;
+import React, { PureComponent } from'react'; import PropTypes from 'prop-types';
+for (var f in filters) {         $("#filters").append('<div class="filter-container"><div class="filter-header">\
+var req = org.eclipse.swt.Request.getInstance();     req.addEventListener( "send", this._onRequestSend, this );   } );
+it("should test if links and karyo are defined when they are returned from their functions", function(){   expect(returnKaryo).toBeDefined();   expect(returnLinks).toBeDefined();  });
+export default function () {   this.copy('api/adapters/.gitkeep', 'api/adapters/.gitkeep');   this.copy('test/unit/adapters/.gitkeep', 'test/unit/adapters/.gitkeep'); }
+}   })
+window.ga ||         function() {           (window.ga.q = window.ga.q || []).push(arguments);         }
+var colors = require("colors"); function getMessageType(message, rules) {
+callUpdateOnProperties(this);     isResolved || markAsResolved(this, opts.resolvedAttribute, opts.unresolvedAttribute);   })
+var autoImport = arguments.length > 1 && arguments[1]!== undefined? arguments[1] : true;   var mark = arguments.length > 2 && arguments[2]!== undefined? arguments[2] : false;   var _load = function _load() {
+height: PropTypes.number.isRequired,  currentItem: PropTypes.object,  displayXAccessor: PropTypes.func.isRequired,
+var anomalyPos = this.sceneNode.sceneBlackboard[ "signalPosition" ];         var currentPos = this.currentGridSquare;
+Socket.prototype.close = function() {   if (!!this._wsOpen()) {     this._socket.close(); }
+}).bind(this);
+&& this.type()!== 'gauge'       && this.type()!== 'pie'         && this.type()!== 'donut'
+keystore = jose.JWK.createKeyStore();       await keystore.generate.apply(keystore, preset.keystore);     })
+if(a < b) return -1;   }.bind(this));
+});       console.error('Error clearing the history', e);       throw e;
+if (d.match(rx)) {     console.log("match:", d);     ret = _.union(ret, _recs.srv[d]); }
+this.props.onClick(event);     } else if(!!this.props.href) {       window.location = this.props.href;
+if(! (eventName in this._handlers)) {         throw "Unknown event: " + eventName;       }
+import URL from 'url'; export default function textToHtml(text) {   text = text.replace(/(?:\n\n)/g, '<p />');
+, ModelList = enyo.ModelList  , Source = enyo.Source  , oObject = enyo.Object;
+if (circular) {         debugger;         var forwardSequence = sequence;
+if (this.field!= other.field)      {      throw "GF256Polys do not have same GF256 field";     }
+export default class CircularLinkedList extends LinkedList {   constructor () {        }
+return `wadors:${uri}`;
+var validate = require('../../../../models/blog/validate/handle').bind(this, ''); module.exports = function (req, res, next) {
+if (state &&!origState && this.dom() && this.dom().offsetWidth) {             this.update();         }
+let url = this.filterStreams(info.formats);                     console.log(url);                     if (url) {
+var maskProcessed = false, eventsBound = false;             maskCaretMap, maskPatterns, maskPlaceholder, maskComponents, maskTokens,
+if (_.isArray(props.style)) {                     props.style = props.style                 } else if (_.isObject(props.style)) {
+var parser = csv();     busboy.on('file', function(fieldname, file, filename, encoding, mimetype) {         object.csv = [];
+render() {    debugger     console.error('runner');
+context.close();           callback.apply(this, arguments);         }
+this.order = null;     const modelToUpgradeTo = _.find(this.upgradesList, e => e.model === _.first(this.selectedModel.model.split(':')) && e.name === this.selectedModel.model.split(':')[1]);
+var cfg = arguments.length <= 1 || arguments[1] === undefined? {} : arguments[1];   var opt = arguments.length <= 2 || arguments[2] === undefined? {} : arguments[2];
+function * resetTime () {     time = null
+function xmlwriter_end_dtd() {
+} ;                  return _this.find({ where: where });
+linkGoogleObject: Ember.observer('googleObject', function () {     var obj = this.get('googleObject');     if (obj) {
+if (!childObject[childAssociationName]) {               throw childAssociationName + " association does not exist.";             }
+var empty = '';  return options.fn?  buffer.write(empty) : empty; };
+throw new Error('Bazooka: No applications found!');         return;     }
+}else{       var parameter = encodeURIComponent(options.qf);     }
+}, function (err) {             console.log(`初始化管理员账号 "${yapi.WEBCONFIG.adminAccount}" 失败, ${err.message}`);               process.exit(0);         });
+else if (arguments.length === 1 && arguments[0] instanceof ByteString) {   return arguments[0];  }
+test('ComponentName Case #1', () => {   const tree = renderer.create(
+else {    var data = {     email: this.refs.email.value, }
+var util = require('util')  , AuthorizationError = require('../errors/authorizationerror')  , BadRequestError = require('../errors/badrequesterror')
+this.paperOptions.behavior.recognizer.getType();   }   get protocol() {     this.paperOptions.recognitonParams.server.scheme;   }
+function log () {   console.log.apply(console, arguments);  }
+var j = {}   for (var k in this.rows)     j[k] = this.rows[k].state   return j })
+this.precomputed = null;
+var ia = parseNormalIndex( na );     var ib = parseNormalIndex( nb );     var ic = parseNormalIndex( nc );     if ( d === undefined ) {
+onLoaded: function(e) {           return;           $('myForm').addEvent('submit', function(e){            e.stop();
+return returnedStats; }.bind(this));
+if (!hosts) usageDie('invalid hosts');     var basePort = basePort || parseInt(parseArg('--base-port'), 10);     if (!basePort) usageDie('invalid base port');
+typeof define === 'function' && define.amd? define(factory) :  (factory()); }(this, (function () { 'use strict';  const x = globalFunction; })));
+socket.on('connect_error', err => {     if (err.message = 'xhr poll error') {     if (loggedXhrPollError) {

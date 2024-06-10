@@ -1,0 +1,1000 @@
+if (!before) firstCircle = circle;   }
+this.testCase.saveAsNew(this.options);  document.getElementById("filename").value = this.testCase.filename; }
+log('Cluster graceful shutdown: done.');                 exit(0);             } else {
+Inputmask({             regex: "\\+7 \\(\\d{3}\\) \\d{3} \\d{4}"         }).mask(testmask);
+var express = require('express'),     Article = require('../models/article');
+var colors = require("colors"); function getMessageType() {
+MOTION.Interoplation.Hermite = function(t, y0, y1, y2, y3, tension, bias) {         if (tension == undefined) tension = 0;
+book.percent = Number(book.cnt_readed / book.cnt_doc * 100).toFixed(2)       that.setData({
+window.dismissMediaLibrary = function(win, pk, url) {         self.input.val(pk);
+async function findOCSP(certificate, issuerCertificate)    {
+function deleteFileReferences () {     let { references } = this.fileStructure;
+total = 100,         formatPercent = d3.format(".0%");
+case 'TTY':       var tty = require('tty');       stream = new tty.WriteStream(fd);
+case "test":                 return function( nodeID, matchPattern, testID ) {                     return that.kernel[kernelFunctionName]( nodeID, matchPattern, testID );                 };
+this.dispatchEvent = function ( event ) {   for ( var i = 0; i < listeners[ event.type ].length; i ++ ) {    listeners[ event.type ][ i ]( event );
+this.data = [];         this.blackout = options.blackout? Toolkit.Blackout.factory() : null;
+return;   }   if (this._objects)
+speed,                  callback)             );
+}; function test(){     this.a = '23'; }
+Object.keys(countries).forEach(code => {     let names = countries[code];
+break;                         default:                             return cb(DENYSOFT, 'Temporary resolver error (' +                                                       + err.code + ')');                     }
+'.\n');   return (statements_op == '')?             '' :
+coreAddons: [],     util: require('dgutil');
+{           if (data.match(/_\_DM\_SPLIT_\_/))           {
+, assert("_$ has acts method from acts", funcs2.acts, "object")        , assert("_$ has routes method from acts", funcs2.routes, "object")       ]
+animateOrphans(removedSprites, transition, duration) {     this._newOrphanTransitions.push({ removedSprites, transition, duration });
+let dotSrc = [       'digraph "' + targetFileName.replace(/^.*\/|\.[^/.]*$/g, '') + '" {\n',       'graph[rankdir=LR];',
+if ( o.customData.length === 1 ) { hRow.css( "width", "90%" ); }     for ( i = 0; i < lineArr.length; i++ ) {      tmp = ( i!== o.customDataLen )? o.themeOpt : o.themeOptPick;
+},         sl_ios_safari_7: {             base: 'SauceLabs',
+return this.render(items.slice(0, this.options.items)).show()         },         matcher: function (item) {             return ~item.toLowerCase().indexOf(this.query.toLowerCase())         },
+for (i = 0; i < event.added.length; i++) {             item = event.added[i];             var drawnItem = drawnItemFactory.getDrawnItemForCellItem(item);
+var saveLocation = function(location) {   Users.update(Meteor.userId(), {$set: {'profile.location': pick(location, 'lat', 'lng')}}); }
+HTTPClient.prototype._open = async function _open() {   var self = this;   var IOClient;
+return this.updateAABBPoint(collider);         }
+constructor() {     super();     this.ansiFilter = new AnsiFilter();     this.headerView = new HeaderView();
+posts.find()      .where(function (expr) {         expr.gt('id', 2);       })
+import { Divider, Header, Message, Button } from'semantic-ui-react'; import { actionCreators } from '../../HackerStore';
+var patterns=_.map(terms, function(term) {           return new RegExp(term.toLowerCase());         });         results = _.filter(results, function(rawdoc) {
+var redis = require("redis") var client = null function RedSess (req, res, opt) {
+function setCssFontRule(sheet, cssFontFamily, weight, srcStr) {     var rule_str = '@font-face{' +
+var output = "\"{";     for (var p = 0; p < props.length; p++) {         output += "\\\"" + props[p].name + "\\\": ";
+let beforeStateActions = []
+this.hasError=true;     cb(args.join(" "));     clean();
+_deprecationWarning("ZeroClipboard.prototype.addEventListener", _globalConfig.debug);   return this.on(eventName, func); };
+var ctor = function () {
+if (typeof arguments[0] === 'object' && arguments[0]!== null) {    arguments[0] = _.clone(arguments[0]);
+for (var j = 0; j < data.length; j++) {         var sprops = common.areaProps(env, 'Series', serie, env.opt.type == 'pie'? j : false);
+);             case'release':
+Sugar.extend = function (obj) {  util.extend.call(this, obj); }
+this[i][name].apply(this[i], arguments);         }         return this;
+_('safeCb negate filter'); exports = function(obj, predicate, ctx) {     predicate = safeCb(negate(predicate), ctx);
+Document.prototype.$__path = function (path) {   var adhocs = (this.$__)? this.$__.adhocPaths : undefined    , adhocType = adhocs && adhocs[path];
+var configLocation = './generators/pattern-library/example/config.js'; var util = require( 'util' )    , glob = require( 'glob' )
+console.log(test); }
+qx.lang.String.trim = function() {     var b = 0;     while(this.substr(b,1) == " ") {
+}      }    }else{      return current_config.language[text];
+var ObjectID = configuration.require.ObjectID      , Binary = configuration.require.Binary;
+return "sanctuary";                 case "fort":
+constructor(resource) {     avali(['str'], resource);
+outModule = new global.Module({ 'default': g.module.exports });                 for (var p in nodeGlobals)                   if (nodeGlobals.hasOwnProperty(p))                     delete g[p];                 return outModule;
+heartMonitor = new HeartMonitor({       onDead: function() {
+var templates = config.json.templates = arguments[0][0];
+exports.keys = function(req, res) {   var elementId = req.params.elementId;   var keys = req.body.value.join('');   req.device.keys(elementId, keys, getResponseHandler(req, res)); };
+if (typeof env!== 'object' || Array.isArray(env)) {             throw new Error('Environment set is not an object.')         }         let setEnv = this.model.profile.setEnv
+verify.not.completionListContains('x');  edit.insert('foo()');
+var FFT_SIZE = fft_size || 1024;     this.analyser = p5sound.audiocontext.createAnalyser();
+case 'assets':       promise =  balance_req(payload)       break     case 'prices':
+keys = Object.keys(MESSAGES);     for (index = 0; index < keys.length; index++) {       key = keys[index];
+toWidget.onBeforeTransitionIn.apply(toWidget, arguments);     topic.publish("/dojox/mobile/beforeTransitionIn", [toWidget].concat(topic._toArray(arguments)));    }
+if (!annotationsToBeAdjusted) {             throw new Error('no annotations passed!');         }
+if(arguments.length == 2) {      this.addSegment(new Segment(arguments[0]));      this.addSegment(new Segment(arguments[1]));     } else if(arguments.length == 4) {
+module.exports = {     getAvailableWindows: function (callback, scope) {         console.log("getAvailableWindows("+scope.id+")");     },
+mapSpecularPreview:'specular',
+const match = require('./support/match'); const { isMatch } = require('..');
+} module.exports = co.wrap(function (options) {   options = options || {}
+for (let i = 0; i < last.length; ++i) {       let span = last[i]       if (span.to!= null) span.to += offset
+class SearchLog extends React.PureComponent {   constructor(...args) {     super(...args);
+} else if (obj.ws.mode == 3) {              r = obj.ws.acc;             obj.ws.acc = "";
+token : "keyword",             regex : "Feature:|Background:|Scenario:|Scenario Outline:|Examples:|Given|When|Then|And|But|\\*",         }, {             token : "string",
+return this.map(function(x){     if (fn(x)) {       return x;
+_classCallCheck(this, _MapCollectionStrategy);           _CollectionStrategy.call(this);           this.observerLocator = observerLocator;         }
+compiler = new CPPCompiler(ast, infolder, outfolder);   compiler.compile();
+if((req.path!= urls.login)){
+return lo >>> 0; } exports.sum64_4_lo = sum64_4_lo;
+this._.ar = false;             this.on("ar", this._.ar);         }
+comments = $(as[as.length - 1]);         var by = _this.find('a:eq(0)');         if (score.length == 0)
+function getHandleNearImagePointTouch(element, data, coords) {         for (var handle in data.handles) {             if (!data.handles.hasOwnProperty(handle)) continue;             var handleCanvas = cornerstone.pixelToCanvas(element, data.handles[handle]);
+__extends(CenterLocationDirective, AbstractLocationDirective);         function CenterLocationDirective(...args) {             AbstractLocationDirective.apply(this, args);         }
+self.listen(augur.rpc.customSubscriptionCallback);         };         if (utils.is_function(setup_complete)) setup_complete(self.filter);
+runQuerySelector: "#search-criteria-search",      clearCriteriaSelector: "#clear"  };
+self.apos.utils.warn('Unable to set permissions on'+ path + ', most likely already done');
+var keys = []                 fragments = []                 for (var key in pos) {
+}             err = new Error("Found nowhere to deliver to");             err.code = 'NOMX';
+var paths = [node._id];   if(parentNode){     paths = paths.concat(path(parentNode));
+styleNodes: function (rng, options) {     rng = rng.splitText();
+if (missingOptions.length) {     throw new Error('The following options are required:'+ missingOptions.join(', '));   }
+custom(_el$, () => binding);   r.classList({     selected: selected
+let formattedErrorPromiseResponses = {}     let dataBatchNo = 1     let formattedErrorCount = 1
+}     event.returnValue = [null,...guest]   } catch (error) {
+{    this.func();   }
+if(device_type == "mobile") {   $("#navigation").prepend('<a id=\"updateThread\"><i class="fa fa-refresh fa-2x"></i></a>&nbsp;');
+for (key in this.directoryElements) {         this.directoryElements[key].removeClass('hide')
+saveToc: PropTypes.func,   restoreToc: PropTypes.func };
+if (result.error) {       return tools.log("critical", "Problem requesting new OAuth2 token: "+result.error.errors[0].message, result.error);     }
+export function echo(...args) {   console.log('echo'+ args.join(' ')) }
+return;     }     Turtle.drawFractal = drawFractal;
+}   if (args.length > 0) {    args = args;   }
+marginTop: 20,     color: colors.highlight,     fontFamily: typography.primary,
+update.activeTracks[i].artists = [];        for (j = 0; j < this.activeTracks[i].artists.length; j++) {         update.activeTracks[i].artists[j] = {
+function compileTemplate (templateUrl, templateString) {   return handlebars.templates[templateUrl] = handlebars.compile(templateString);
+api = {};   if (util.keys(cs.signals).length > 0) {     throw new Error("New signal values are not reflected in the visualization." +       " Please call view.update() before updating data values."
+import {Option, Placeholder, Select, Separator, TextInput} from 'belle'; import Code from './Code';
+return css; } if (typeof module!== 'undefined') {
+for(var p = 0; p < loadPaths.length; p++) {     var scssPath = path.normalize(loadPaths[p] + "/" + sassPathName + ".scss");
+return (         <Rocket id="rocket" display={display} animationType={animationType}>             <Falcon9SideRocket position='24px' heavy={true} animationType={animationType}/>
+Drawing.SphereGraph = function(options) {   this.layout = options.layout || "2d";
+ipc.on('synchronous-message', function(event, arg) {     event.returnValue = app.getPath(arg)
+const task = new Task(function (argv) {   if (!argv.password ||!argv.email ||!argv.screenName) {
+for (var idx = 0; idx < preset.length; idx++) {             var key = preset[idx];             var callback = callbacks[key];
+import { createActionCreators } from 'utils/redux';
+const CacheComponent = require('cache-component') const debug = require('debug')('sciencefair:view:searchinput')
+let retrieveInstances = () => {       this.instancesCount = 0       this.selectedGroups = ClusterFilterModel.multiselectInstanceGroups
+lvl = formatRule.val;           break;         case consoleJSON.ATTRS.LINE_LEN:           var lineLen = formatRule.val;
+this.gmfAuthentication_.changePassword(oldPwd, newPwd, confPwd).then(       function() {         this.changePasswordModalShown = true;         this.changePasswordReset();
+],             type:'shortcut',             });         });
+ATTACH_AND_SEQ_STORE,   META_STORE,
+$('#' + this.options.id + '_header_multi_input').on('click', function (e) {             if (oThis.hasChecked) {                 oThis.setAllRowUnSelect();
+switch (this.props.eventStatus){
+let usedValues = stateAccessor.getState(applicationState, directValues.repeatSelector);         let unusedValues = [];
+if (this.options.accept.call(this.element,(draggable.currentItem || draggable.element))) {    this._trigger('over', event, this.ui(draggable));
+VIntY( qz, 7, fx, fy, fz2, field4, field6 );         }
+var DogeRelay = artifacts.require("./DogeRelay.sol");
+this                .fire('zoom', {scale: t_scale})                .fire('move');
+this.client().retweetStatus(active.id_str, (tweet) => {           this.dispatch(this.actions.addTweet(tweet, this.state.activeAccount(), this.state.activeTab()));         });
+})        .when(/^I delete the cookie "$string"$/, function(name, done) {             browser.deleteCookie(name).call(done);         });
+, "package-server"               , "package-build"               , "package-build"               , "package-build"               , "package-build"               , "package-node-modules"               , "package-build"               , "package-build"               , "package-publish"                ]
+const readmeOptions = options.map(function(option) {     return option.replace(/</gi, '&lt;').replace(/>/gi, '&gt;');   });
+if(opts && opts.deep) {       for (key in this) {         if (this.hasOwnProperty(key)) {           result[key] = asDeepMutable(this[key]);         }
+tui.util.forEachArray(groupDots[index], function(item) {             self._showDot(item.dot);         });     },
+case MESSAGE.getNextFrame: {       const emuState = emu.getUiState();       const parameter = {
+(function() {   var async, exec, fileUtil, filterForJsFiles, fs, path, walkTree, _;   fs = require('fs');
+height: iDocumentHeight,                         top: $rootEl.scrollTop() * -1                     }
+} })(typeof window!== 'undefined'? window : global);
+const useAnalyticsData = createAPIHook(async (api, { id, projects, fromDate }) => {        return getSampleAnalytics();
+async _createRunTimeInfo (hostName, configString, allowMultipleWindows) {         return await EdgeChromiumRunTimeInfo.create(hostName, configString, allowMultipleWindows);
+define(["jquery", "core"], function($, core) {
+process.exit(1); }
+while (checker) {     arg = args[argIndex++];
+if (argv['packets']) {     bitcoind.on('parsed', function(packet) {       bitcoind.log(packet);     });     return;
+return record.getData().display.type; }
+return createFixedStep(binaryParser, nTracks);         case "variableStep":
+} else {                  result.suffix += '<span style=\"font-weight:normal;color:orange\">';              }
+var Base = new function() {   var hidden = /^(statics|generics|preserve|enumerable|prototype|toString|valueOf)$/,
+if ( ds.debug_mode ) { if ( typeof console.log!= "undefined" ) { console.log(results); } };
+var tokenized = slack.text.trim().split(' ');   if (tokenized.length > 1) {
+setOptions: function setOptions( options ){   if( this.addListener ){    for( var opt in options ){
+throw null       }
+claimCreatedEvents.watch(async (error, result) => {             if (error) {
+_.isArray(this._done) && _.invoke(this._done, _.apply, scope, _.tail(arguments));             _.isFunction(callback) && callback.apply(scope, args);         }.bind(this));
+that.saveKeyFromCore("pre_" + filename);             },
+var fileWatcher = require('./app/fileWatcher.js'),  common = require('./app/common.js')
+bottom = "\\Downarrow";     } else if (delim === "," || delim === "\\lbrack") {
+$ERROR('#P'); } var \u0051 = 1; if (Q!== 1) {   $ERROR('#Q');
+if (layout) {     var finish = function(context, render) {       try {
+var arcPoints = point.fromArc(arc);         that.Vertical = new paths.Line('Vertical', [x + tools.solveTriangleASA(90, outer, speed), 0], arcPoints[0]);         if (!outer) {
+if (!window.T2MediaLib) window.T2MediaLib=t; });
+}else if(scrollAmount < 0){     node = this.downArrowNode;     dir = -1;    }else{ return; }
+}   getAAverageCoord () {     var dataArray = this.getRenderDataArray()
+if (!this.worker) {       throw new Error('Loader not ready yet.');     }
+var Db = require('../../')  , Base = Db.Base, ObjectType = Db.Object, BooleanType = Db.Boolean; module.exports = function (a) {
+const data = this._data;   return data[key](...arguments); };
+runner.test('custom plugin: invalid plugin, not a function', function () {   const renamer = new Renamer()   const options = {
+this.$tab.find('.filter-clear').on('click', function () {             that.$tab.find('.filter-input').val('').trigger('change');         });
+} var common = require('../common'); var assert = require('assert');
+import CatalogPropTypes from 'core/PropTypes'; import hamburgerSrc from 'assets/menu-icon.svg';
+var lenient =!!env.opts.lenient;
+if (!timedOut) {                 callback(...args);                 clearTimeout(timer);
+try {     AlarmObj.remove(alarm.id);    } catch(e) {}
+(name.substring(0, 11)!== "gl_FragData")) {                 throw new Error("the only allowed output variables on a fragment"                        + " shader are gl_FragColor and gl_FragData[]");
+} else if (e.name === 'SourceUnavailableError') {                  callback(that, 'conflict', undefined, e);             } else if (e.name === 'SecurityError' && e.message === 'The operation is insecure.') {
+function e() {                  var e = t.call(this) || this;                  return._layer = new PIXI.Container,._layer.y = -30,._layer.addChild(e._layer),._img3 = new PIXI.Sprite,._layer.addChild(e._img3),._img2 = new PIXI.Sprite,._layer.addChild(e._img2),._img1 = new PIXI.Sprite,._layer.addChild(e._img1),._basePos1 = new PIXI.Point,._basePos2 = new PIXI.Point,._basePos3 = new PIXI.Point,._basePos3 = new PIXI.Point,._basePos3 = new PIXI.Point,._basePos2 = new PIXI.Point,._basePos3 = new PIXI.Point,._basePos3 = new PIXI.Point,._basePos3 = new PIXI.Point,._basePos3 = new PIXI.Point,._basePos3 = new PIXI.Point,._basePos2 = new PIXI.Point,._basePos3 = new PIXI.Point,._basePos3 = new PIXI.Point,._basePos3 = new PIXI.Point,._basePos3 = new PIXI.Point,._basePos3 = new PIXI.Point,._basePos2 = new PIXI.Point,._basePos3 = new PIXI.Point,._basePos3 = new PIXI.Point,._basePos3 = new PIXI.Point,._basePos3 = new PIXI.Point,._basePos3 = new PIXI.Point,._basePos3 = new PIXI.Point,._basePos3 = new PIXI.Point2 = new PIXI.Point,._basePos3 = new PIXI.Point,._basePos3 = new PIXI.Point,._basePos3 = new PIXI.Point,._basePos3 = new PIXI.Point,._basePos3 = new PIXI.Point2 = new PIXI.Point,._basePos3 = new PIXI.Point,._basePos3 = new
+let [tree, index] = getCurrentTreePosition()     setCurrentTreePosition(...gametree.navigate(tree, index, -1)) }
+}   Function.prototype.trampoline = function (...args) {     return apply_thunk([this, args]);   };
+y = offset[1],         dom = {
+if(className === 'form-control') {           dropdownToggle.addClass(className);
+render() {         const { viewState, model, icon } = this.props;
+var match;         while ((match = regexp.exec(httpd))!== null)         {
+$('[data-role="CmdLaunch"]').on("click", function () {     var button = container.find('[data-role="CmdLaunch"]');
+unknownContextCritical: false,         loaders: [ {                 test: /\.(glsl|vs|fs)$/,
+var isIntK = Util.isArray(ds)?true:false;   for(var i = 0; i < ds.length; i++){    var target = this.viewManager.createPlaceholder('');
+if (!(tx instanceof Transaction) || tx.state!== Transaction.STATE.OPEN ||!this._txBaseStates.has(tx.id)) {             throw new Error('Can only abort open transactions');         }
+function shouldEscape(value) {   return /[*+?]/.test(value); }
+default:       throw Error('Unknown mouse property:'+ property);   }
+var req = socket.request   var token = req.session.jwt   if (token) {
+if (wasOpen) {         newMenuCtrl = angular.element(newMenu).controller('mdMenu');         this.scheduleOpenMenu(newMenuCtrl);
+exports.configure = function(config) {   server = new GithubHandler(config);
+chunk = packet.buffer.slice(offset, offset + MAX_PACKET_LENGTH);       if (chunk.length ===  MAX_PACKET_LENGTH) {         header = Buffer.from([0xff, 0xff, 0xff, this.sequenceId]);
+let newForm = await HashBrown.Helpers.ResourceHelper.new(HashBrown.Models.Form, 'forms');              NavbarMain.reload();
+if (objSubType!== 'even' && objSubType!== 'first') {         throw new Error('objSubType can be either "even", "first" or false value')       }
+} ).debounce(),         onConfig: config
+app.use(favicon(faviconPath));   } catch (e) {     console.error(e);   }
+, urlLib = require('url')
+}else{                 var id = this.tree.model.getIdentity(this.current);       if(!(id in this.selection)){
+return this.getActionsColumn(item, tableRow);
+}, function(error) {     self.karma__.error(error.stack || error); });
+console.log("THIS RAN"); setInterval(()=>{}, 1000);
+var key;         for (key in this.table)             if (this.table.hasOwnProperty(key))                 delete this.table[key];     },
+if (!process.env.SAUCE_USERNAME ||!process.env.SAUCE_ACCESS_KEY) {   throw new Error('Environment variables SAUCE_USERNAME and SAUCE_ACCESS_KEY must be set to run saucelabs with Karma.'); }
+entries = self.dnsServer.getEntries()           for (var name in entries) {             if (entries.hasOwnProperty(name)) {               dnsEntries.push(name +'&#8594;'+ entries[name])             }
+const iconregex = /(\$[\w]+)\s*:\s*"\.\.\/\.\.\/images\/backgrounds\/([\w./-]+)"!default;/g;             const iconmatch = iconregex.exec(match[0]);
+export function aspectRatio(width = 16, height = 9) {   return {     position:'relative',
+runs(function() {     expect(browser.getLocationAbsUrl()).toBe('/list/details');   });
+if (!(key in config.config) ) {                 throw new Error("config." + key + " is required in the map configuraiton");             }
+const warning = _t('Warning');         if (!('getUpdateCheckStatusEnum' in PlatformPeg.get())) {             return <div></div>;
+for (i = 0; i < names.length; i++) {
+construct : function(firstSize, secondSize) {     super();
+if (data && data.code === 0) {         fnAddDynamicMenuRoutes(data.menuList)
+that._select(current);             if (!that._options.html) {                 that.el.value = (current!== -1)? that._suggestions[current] : that._currentQuery;
+if( _inHTMLTag )     _typingGo();    else {
+if(n === 0 &&!UNIT_TEST_REGEX.test(result[1])) {         throw new QtyError("Unit not recognized");       }
+ErrorContainer.prototype.removeErrorMessage = function (fieldId) {     this.$el.find(`#${fieldId}-top-error`).remove();
+define('ace/mode/groovy', ['require', 'exports','module', 'ace/lib/oop', 'ace/mode/javascript', 'ace/tokenizer', 'ace/mode/groovy_highlight_rules'], function(require, exports, module) {
+import React from'react'; import { Page } from '../../framework/page/Page';
+if (obj instanceof Array) {         copy = [];         for (var i = 0, len = obj.length; i < len; ++i) {
+.addFilter('$dot_prop', function (name) {             var re = /(.*)([#~]\w+)/g,                 match = re.exec(name);
+alert_element.parent().remove();
+module.exports = function hmrAlamoLoader(content) {   if (!jsEntries.includes(this._module.resource)) {     return content
+function findFeedObject( data ) {         let feed = that._findFeed( {           url: data.feedUrl
+return'start';       case'mousemove' :
+calculateDimensions();             scrollBarElm.style.height = data.height + "px";
+Editor.warn = function () {     var text = Util.format.apply(Util, arguments);     Winston.warn(text);     console.trace();
+.then(([registryAddress, account]) => {       const registry = new web3.eth.Contract(toJS(registryAbi), registryAddress)
+if (callbackName && angular.isFunction(originalCallback)) {         originalCallback(...arguments);       }
+it("should never change the order of the source array", function() {       let players = ['0', '1', '2', '3'];       PlayerOrder.determine(players, dealerButton, 'flop');
+test: /node_modules\/auth0-lock\/.*\.js$/,           loaders: ['transform/cacheable?brfs', 'transform/cacheable?packageify']
+const LgFruits = React.forwardRef(({ size, color,...props }, ref) => (   <svg
+fetchPage(page_no,sort_on){         var sort;
+getProductByURL: function ($url) {                     var locale = Aisel.getLocale();                     var url = Aisel.settings.api + '/' + locale + '/product/view/url/' + $url + '.json';                     console.log(url);
+channel_header.extension = proto_channel_header.getExtension().toBuffer().toString('hex');
+failDeferred.reject(yesE());         return onUnhandledFail(testFunction);     });
+assets.forEach(({ source, dst }) => {       writeFileSync(path.resolve(buildDir, 'dist', dst), source, 'utf-8')     })
+getCenter: function() {   return LinkedPoint.create(this,'setCenter',     this.getCenterX(), this.getCenterY());  },
+} else if (cmd.indexOf(word) > -1) {             newPoints += Math.round((word.length / cmd.length) * 100) / 100;             finds++;
+if (argv.package) {             buildCommand +='-0size';         }
+useFn.get = function() {     return hookleton.get.call(hookleton);   };
+viewPost: function() {              var thisSlug = this.model.get('slug');
+if ((width + offset.left) > $window.innerWidth || offset.left < 0) {                     dropdown.css("margin-" + $.UIkit.langdirection, "");
+processFileToDisk(gltfPath, outputPath, options, function() {             expect(spy.calls.args[0]).toEqual('./output/');             done();
+throw new Meteor.Error(campaignError)       }
+function saveItem (itemUrl, options) {         return $http.put('/fs' + itemUrl, options);     }
+var _runner = function () {         if ((_name = _names.shift())) {           console.log('Running'+ _name);
+$.when.apply(window, xhrs).always(function () {                 self.loadUsersTable();             }).fail(errorHandler.handleAjaxError);
+);     }, this));   };
+class StoryStore extends EventEmitter {   constructor(type) {     super()     this.type = type
+$('a[action="sync-fountain"]').click(function() {                  if (this.isSyncEnabled) {                      this.fire('disableSync');                  }
+switch (this.props.type) {       case 'component': {         let componentName = pathAsArray[pathAsArray.length - 1];         if (pathAsArray.length === 1) {
+var liftStatement = function(statement) {     return function(ctx) {         return statement(ctx,
+let commands = []   let onSuccess = function () { process.exit(0) }   let onError = function () { process.exit(1) }
+Device.prototype.toJSON = function () {         return {
+{         var commands = ["log", "debug", "info", "warn", "error", "assert", "dir",
+if (!lively.hasGlobalFocus()) return     evt.stopPropagation()
+}                     return tmp;
+});         it("read varlen's", function(done) {             const array=h5lt.readDataset(file.id, 'player');
+var Math2D = {
+, val = ''        , c;
+var init_data = context.transformData(data);                 context.draw(init_data);               }                  }, 500);
+!$.rightoffold(this, settings)) {                             $(this).attr("src", $(this).attr("original"));                     } else {
+if (this.element.domElement.tagName!== 'SELECT') {     throw new TypeError('You can only use Prime.Widget.MultipleSelect with select elements');   }
+module.exports = Cylon.Drivers.GPIO.Led;
+addresses.unshift(address);         const order = pluck(addresses, 'Order');         saveOrder(order);
+console.log("wrtc", wrtc);         throw new Error("wrtc needs to be set in headless mode");       }
+var utils = require('../utils')  , methods = require('methods')
+case "CREATE_PERSON":             stateClone = _.cloneDeep(state);             stateClone.people.push({name: action.name});
+case "string":             val = "s:" + encodeURIComponent(mixed_value).replace(/%../g, 'x').length + ":\"" + mixed_value + "\"";
+} function DynamicInputGroupController ($scope, $compile) {     let vm = this || {};     let scope;
+require('components/SongPlanet/SongPlanet.scss') var Vec2 = require('util/vec2') var SvgUtil = require('util/svgutil') function getPosition(rx, ry, t, speed) {
+},     fn: {       description: '',       returns: '',       example: `nlp('').fn()`
+return require('./generate-route').handler(event, context, callback)     case 'PUT':       break     case 'DELETE':       break     }
+wait += 1;         self.queryAll('PRAGMA table_info(' + self.tableEscaped(model)+')', function (err, fields) {             self.alterTable(model, fields, done);
+}       return LispyNode.Call(         "tryFinally",
+implOpts =  implOpts || { defaultExchangeName: 'amq.topic' };
+var ctrl = this;       this.newConversation = {subject: '', body: '', receiver_ids: [], previewBody: ''};
+if(!!this.reader){    var DDhandler = function(e){
+this.gameMove = function(socket, data){   thisRoom[data.gameMove](socket, data.clientData);  }; }
+this.name = '';     this.state = Element.createState();     this.xdata = Element.createXData();     this.children = [];     this.parent = null;
+componentWillReceiveProps(nextProps){         let props = this.props;         let keys  = Object.keys(controlledValues);
+if (root.Stamplay.USESTORAGE) {    var jwt = store.get(root.location.origin + '-jwt');    if (jwt) {
+if (moving_set.length > 0) {             for (var i=0;i<moving_set.length;i++) {                 var node = moving_set[i].n;
+result = result && recurseCompare(childA, childB);     });
+_handleClose() {      this.emit("close")   }
+'users/:id(/:section)': 'usersShow',         'lists/:id': 'listsShow',
+ScaleContainer.prototype._getTexture = function (x, y, w, h) {     var frame = new PIXI.Rectangle(this.frame.x+x, this.frame.y+y, w, h);
+if (err) {         console.error(err);       }
+views: [         'Main',
+if (feed.active && value) {       log('%s: tried to activate active feed (invalid state) %d',           db_write_feed_property.name, feed_id);
+if (node.parentNode === this.xsd &&!hasRef) {     this.rootDefinitions[name] = definition;
+for (key in this.table) {     if (this.table.hasOwnProperty(key)) {
+const previousCards = (this.state.cards || []);     const cards = _.sortBy(previousCards.concat(newCards), card => toMomentFromTime(card.timestamp).unix()).reverse();
+curTop++;             setTimeout(checkTop, delay / window.__level__);         } else {
+done();    });   }
+const settings = this[_settings]
+return type;     case isObjectType(type):
+case "bundle_id":                 namespace = "config_xml.widget.$.id";                 ret = this.getValueFromObj(this,namespace);                 return this.config_xml.widget.$.id;             break;
+if (!key) {      result[name] = cookie;     }
+square: this.squaredMenu,           transitionShow: this.transitionShow,
+for (var optionName in options) {              if (options.hasOwnProperty(optionName)) {                 pub.setOption(optionName, options[optionName]);              }
+var walker, cursor;      var result = [];        filter = typeof filter =='string'? getter(filter) : filter || Function.$true;
+}; BinaryStreamer.prototype = NGL.createObject(     Streamer.prototype, {
+if (Math.abs(lat) > common.HALF_PI) {     lon = common.adjust_lon(this.long0 + p.x / (this.a * Math.cos(this.lat0)));     p.x = lon;
+var addresses = [];   for (var k in interfaces) {     for (var k2 in interfaces[k]) {       var address = interfaces[k][k2];
+for (i = 0; i < rows.length; i++) {                     result[rows[i][key]] = rows[i][value];
+RED.editor.updateNodeProperties(ev.node);                     for (i=0;i<ev.links.length;i++) {                         RED.nodes.addLink(ev.links[i]);
+this.status.set('useid', useid);           this.status.set('use', use);           this.status.set('wdpaid', wdpaid);
+var firstArg = a.shift();         myUtil.checkErr(firstArg!= '$scope', 'Found handler:'+ v +'that do not take $scope as its first argument');
+import { FormattedMessage, defineMessages } from'react-intl'; import { View } from'react-native';
+during: function (fn) {       var c = this.last()
+this.toggleSaveSelected();         },
+extractId(modelName, payload) {     return payload.id;
+wire.on('end', function() {   peer.wire = null;
+io.sockets.on("connection", function (socket) {     debug('a user connected');     socket.on('disconnect', function(){
+renderData: function (stopInfo) {     if (stopInfo.rEdge.getType() === 'TRANSIT') {
+done();       });     });
+delete localStorage.parcel[key];                 that.updateLocalParcel();             }
+def(makeQ);    })(this);
+"use strict"; define(['js/KeyboardManager/IKeyTarget'], function (KeyboardTarget) {     var SnapEditorWidgetKeyboard;
+dismissView:function() {         var onSuccess = function(res) {             var modal = $(this).parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent();
+if (startPos) {             for (let l = startPos / 2; l >= Math.max(min, eps); l /= 2) doublingLabels.push(l);           }           if (startNeg) {
+return Restangular.one('items', id).remove();       }     };
+results: this.data.preview,                 })
+import ImageActions from '../../actions/ImageActions'; import ImageStore from '../../stores/ImageStore';
+case 'tags':                     _id = window.encodeURIComponent(`#${id}`);                     break;             }
+removeMember(groupId, userId) {     [gId, pId] = [groupId, userId];     return this.delete(`groups/${gId}/members/${pId}`);   }
+vLocSumX += vWidget.getColumnBoxWidth(i) + vSpacingX;   }
+}          if (schemaBean.schema.type === "array") {              this.validateArraySchema(schemaBean.schema.values);          } else if (schemaBean.schema.type === "object") {
+_getContentLength() {     return this._contentLength;
+_handle_createPixmap: function(client) {         },
+, originalFiles = section.files             ;
+helpers.each(points, function(point, index) {     this.updateElement(point, index, reset);    }.bind(this));   },
+function addVarargs(a) {   return arguments.length > 1? add(...copy(arguments)) : add(a);  }
+var animatingCount = 0;                     done = function () {                         animatingCount--;
+DocumentDeleteDialog = injectIntl(DocumentDeleteDialog); export default connect(mapStateToProps, { deleteDocument })(DocumentDeleteDialog);
+if (!buddyData.archiveExhausted) {          enableLink(link);       }
+var list = Array.prototype.slice.call(arguments);     var base = path.resolve(baseDir);     var files = [];
+it('should ignore dyslexic when flag is off', (done) => {    response.dyslexic = true    clientSyncFont(client).then(() => {
+}  allow(...args) {   return this.model.allow.apply(this.model, args);  }
+testPE("pico-engine - Wrangler", function(t, pe, root_eci){     var yQuery = cocb.wrap(function(eci, rid, name, args, callback){
+showAddAnotherPopup = showRelatedObjectPopup;
+let I_SetNode = (oldNode, newNode, oldParent, ref) => {
+getNextSibling: function() {         if (!this.owner ||!this.owner.submorphs || this.owner.submorphs.length <= 1) {
+let containerForShell = get(this, 'containerForShell');     let choices = [
+mapChildren,  hasKey } from 'util'
+var texture = Cut.Texture._list[tname];   var cache = prefix? Cut.Texture._cache.many : Cut.Texture._cache.one;
+this.get('target').send('collectTitleTokens', []);     debounce(       this, this.onTitleChanged, this.get('debounceTitleChangeMs'));   }),
+event.preventDefault();                 usermsg.val('').trigger('autosize.resize');
+}             this.setIndex(index);
+if (Buffer.isBuffer(body)) return body.length       if (isJSON(body)) return Buffer.byteLength(JSON.stringify(body))     }
+} else if (array[0] == 'f') {         vals = vals.map(function(s){return s.split('/').map(parseFloat)})
+var factory = new asyncBuilder.BuilderFactory()   factory.add('str-toUpper', upperCase, ['str'])
+callback(err);         }.bind(this));
+CoreWM.prototype.applySettings = function(settings, force, save) {     if (!WindowManager.prototype.applySettings.apply(this, [settings, force, save]) ) {       return false;     }
+if (!this.gmapLoader) {             this.gmapLoader = this.mapContainer.find('#gmapLoader');
+computedPosition: computed('position', function() {     return this.get(`styles.c-notification__container--${this.get('position')}`);   }),
+if (!result || result < 5) {         throw new Error('Default admin permissions count error! Should greater or equal to 5, but got'+ result);       }
+expect(pageSize).to.be('' + expectedDefaultPageSize);       });     });
+if (!args.path ) {         throw new Error('download() expects a path');       }
+this._keepAliveInterval = setInterval(function() {   this.keepAlive(function(error) {    if (error) {
+coUtils.Debug.reportWarning(       _("%s sequence [%s] was ignored."),       "DC2", Array.slice(arguments));   },
+var Task            = require('./-task'); var fsUtils         = require('../utils/fs-utils');
+var xPrivKey = new Bitcore.HDPrivateKey(this.get(password).xPrivKey,NETWORK);   var deriveFn = this.compliantDerivation? _.bind(xPrivKey.deriveChild, xPrivKey) : _.bind(xPrivKey.deriveNonCompliantChild, xPrivKey);   return deriveFn(path);
+if (this.keyForRelationship) {       typeClass.eachRelationship((key, relationship) => {         payloadKey = this.keyForRelationship(key, relationship.kind, 'deserialize');         if (key === payloadKey) { return; }
+for(key in state.servers) {    if(state.servers.hasOwnProperty(key)) {
+assert.strictEqual('2015-12-29 01:11:01', d1.dateAdd('d', -1).date2Str());  });  it(`dateAdd时`, function() {   assert.strictEqual('2015-12-29 02:11:01', d1..dateAdd('h', 1).date2Str());
+isODKOnly: false,         __init__: function (options) {             this.options = sanitise.options(options) || {};             var self = this;
+function errorFormatter(param, msg, value) {     var root    = param.split('.')        , formParam = root;
+#!/usr/bin/env node var express = require('express') var mdns    = require('../lib/mdns') var app     = express.createServer()
+}     });     return obj;
+function genBufLength(length) {   var pos = 0    , buffer = new Buffer(calcLengthLength(length))
+for (let v of inactiveModels) {             tops.push(parseInt(v).top.replace('px', '')));         }
+Object.defineProperty(Object.prototype,'map', {enumerable: false, configurable: true, value: function*(map) {   verify(map);   for(var item of this) {
+}         }, _callee9);       }));
+for (i = 0; i < marks.length; ++i) {         var cMark = marks[i];
+this.addOperator('ilike', function(attr, value, query, cond){       query.where(attr, 'ilike', '%' + value + '%')     }, {
+if (_.isUndefined(opts.array)) {         throw new Error("opts.array must be defined");     }
+}    if (c === '\'' || c === '"') {     if (builder.length) {
+importModel (decoder) {     this.transact(() => {       integrateRemoteStructs(decoder, this)       message.readDeleteSet(decoder, this)
+this._field = field;   }
+countOrFunction = function(pV) {                         if (vals && vals.length) {
+return changeDrawingDef(drawLayer,action,factory);             case DrawLayerCntlr.ATTACH_LAYER_TO_PLOT:
+self._collection[method](...arguments);           } else {
+this.body = yield render('index.html', {
+addEventsToDocument (eventMap) {     Object.keys(eventMap).forEach(key => {       document.addEventListener(key, eventMap[key], false);
+}         statusTable += "</table>";         $("#status-table").html(statusTable).show("blind");
+this.y = e.y+1;       if (! window.requestAnimationFrame) {         this.updateLocation();       }
+_.forEach(['message','messageBuffer'], function (event) {     _this.subscriber.on(event, function (arg1, arg2) {       _this.emit(event, arg1, arg2);
+this.map[hat0.i][hat0.j] = null;   for (i=hat0.i, j=hat0.j-1; j>=0; j--) {    var hat = this.map[i][j];
+this._cachedPosition = position;             return [
+},   getSelectedItems : function ( options ) {    var _this = this;
+var program = require("commander") var tracer = require("tracer").colorConsole() if (require.main) {
+host: options,       port: arguments[2]     };
+var TINY = {};
+return str;     }
+var $noti = document.createElement('div');                 var $noti_text = document.createTextNode(this._i18n.getMessage('cache_copied'));                 $noti_container.classList.add('noti');
+type: Observable.CHANGETYPE_UPDATE,       object: this,       name: "length"      });
+var start = this.offset;   while(this.buffer[this.offset++]) { break; }   return this.buffer.toString(this.encoding, start, this.offset - 1);
+import debounce from 'lodash/debounce' import animatedScrollTo from 'animated-scrollto'
+import { defineMessages, injectIntl, FormattedMessage } from'react-intl'; import Waypoint from'react-waypoint';
+async function getFromCacheOrApi(cache, id) {   let item = cache.get(id);
+if(!privalMatch) privalMatch = message.match(/^.*<(\d+)>/);  returnVal = {   prival:  parseInt(privalMatch[1], 10),  };
+} else {     this._resetView(center, targetZoom, true, true);
+Classify.Class.observables = {};
+.fold(x => assert.equal(x, null), x => assert(false)) fromNullable('Simon')  .chain(Just.of)  .fold(x => assert.equal(x, 'Simon'))
+wire: function(target, channelName, events) {     var channel = this.connectChannel(channelName),
+this.movePiece = function(file, rank, piece) {     piece.rendered.move(getX(file), getY(rank));
+for (var i = 0; i < that.documents.length; i++)             {
+const Item = ({ parentProps, parentState, parentMethods, item, itemIndex }) => {   if (parentProps.itemRenderer) {     return parentProps.itemRenderer(item, itemIndex, parentProps, parentState, parentMethods);
+return this;
+return matchBrackets(type, rtype);   }   function rtypemaybeparam() {     if (content == "<") return cont(typarams);
+for (var i = 0, l = this.length; i < l; i++) {       if (__hasProp.call(this, i)) return i;     }
+"meta": { "name": "testing foreach" },   "global": function* (ctx) {     ctx.scope.set("doubleThis", yield ctx.KRLClosure(ctx, function* (ctx) {       ctx.scope.set("arr", ctx.getArg(ctx.args, "arr", 0));
+var DisplayableComponent = require('components/widgets/displayableComponent')
+var RestWatch = require('grommet/utils/RestWatch'); var Header = require('grommet/components/Header');
+switch (action.type) {     case CONFIG_SUCCESS: {       const publishMode = action.payload && action.payload.get('publish_mode');       if (publishMode === EDITORIAL_WORKFLOW) {
+bbox = $element[0].getBBox();
+case '2v':       case '3v': {         const w = this.width - m;         return (w > 0) && {
+var isAllowedView = function (viewRoles) {         var userRolesLength = userRolesList.length;         if (viewRoles === undefined) {           return false;         }         var viewRolesLength = viewRoles.length;
+processArgs.push(fileInfo.s3Bucket);     debug('Starting to process: %s in S3 bucket: %s', processArgs[0], processArgs[1]);   } else {
+} } window.swagger = SwaggerUI(window.drsSettings);
+restore() {     this.props.dispatch({ type: 'TASKS_RESTORE', task: this.focusedTask() })
+case 40:        els = document.querySelectorAll('.demo-menu-item');       index = indexOf(els, document.activeElement);       nextIndex = (index + 1) % els.length;       els[nextIndex].focus();
+this.fadeIn();     this.toggleInfospotVisibility( true );    } else {
+}     this.keydown = function() {       for (var k in this.keystates) {
+kpop = require('kpop'),        ostb = require('os-toolbox'),
+let nodeError = 0    for (let k = inputErrors.length - 1; k >= 0; k--) {     let weight = nextLayer[k][j]
+destImg:'scratch/sprite.png',         destCSS:'scratch/sprite_positions_custom_template.styl',         cssTemplate: function (str) {           console.log(str);         }
+middleware.push(Wrapper.query(hooks.query, model, true));   router.patch(`/${model}/:id`,...middleware, (req, res) => {
+$(video).dblclick(function() {       fullScreen(this);     });
+activate() {     if (this.bell.badge.content.length > 0) {
+if (!err) {       var match = /inflating: ([^/]+\.app)\       if (match) {
+var x = "hello world";
+var _classCallCheck2 = require('babel-runtime/helpers/classCallCheck2');
+beforeEach(function () {       this.torqueLayerModel.renderRange(1, 2);     });
+debug( 'Current value: %d.', this._yMin );
+}); $("#algorithm input").change(function() {   $(".jwt-playground.btn.filter-option").text($(this).val());     equalHeight($(".jwt-playground.input,.jwt-playground.output"));
+function destroy() {             return _ref8.apply(this, arguments);         }
+}   this.vu=[];   for(var i=0;i<this.channels;i++) this.vu[i]=0.0;      i=0;
+} else    while ( (elem = second[ i++ ]) )     first[ pos++ ] = (elem);   return first;
+} else {    error = err.message;   }
+for (var option in formatOptions ) {             if (formatOptions.hasOwnProperty(option)) {                 formatString = formatString.replace('{' + option + '}', formatOptions[option]);
+, routes = require('./routes')    , routes_jobs = require('./routes/jobs/index.js')    , api = require('./routes/api')
+} finally {                     if (_didIteratorError) {                         throw _iteratorError;                     }
+var CATEGORIES = [ 'info', 'debug', 'warning', 'error' ]; var REF_PATTERN = /^ref:/;
+console.trace();             throw new Error("UndoController._beginTransaction() called with a " +                 "transaction already in place");         }
+constructor(sekshi, options) {     this.author = 'brookiebeast'
+, height : 200                    , animation : { duration : 500, easing : 'out' }                     }
+var page = args.object;
+next(err); }
+throw new Error('stroked round lineCap not implemented.. add arc/arcTo' );                     case'square':
+diff: function(context, literal, actual) {       if (typeof literal!=='string' &&!(literal instanceof null)) {         context.throw('literal value must be string if exists');
+returnValue = true;     }
+class CategoriesModel {   constructor($http) {     'ngInject';
+ENTER_JST: [/[^\x00<]*?(?={BEGIN})/, function(all,one){     this.enter('JST');
+atom.workspace.toggle(this);   } }
+if (typeof funcs[i] === "string" &&!isFunction(this[funcs[i]])) {      throw new Error("class.js " + (this.fullName || this.Class.fullName) + " does not have a " + funcs[i] + "method!");     }
+ChromeStorage.set('currentWeather', curWeather);     return Promise.resolve();
+cmd = [arguments[0],arguments[1]];     cb = arguments[2];     stdout = arguments[3];     stderr = arguments[4];   }
+import React from'react' import './LangClass.css'
+var _ = require( "lodash" ); var time = new Date().now;
+append: function (type, text, timeout) {         var div = mw.notification.build(type, text);
+for (const commandClassName in commandClasses) {       if (!commandClasses.hasOwnProperty(commandClassName)) continue;       const commandClass = commandClasses[commandClassName];
+__dirname = '.'; }
+tab = {                 init: function () {
+{         throw new Error("it not possible to get the active window");       }
+args.splice(1,Object.keys(paramsObject).length,scryptParams);      passwordHash.apply(that, args);     });
+}             }).catch((err) => {                 this.log.error("[ERROR]AC State Sync fail!Error:" + err);             });
+}  callback(undefined, result);
+beforeEach(function() {     this.hoodie = this.MOCKS.hoodie();
+} App.prototype.model = function(model) {   _zoro.injectModels.call(_zoro, [model])   return this
+track.nbNalu = 0;     if(window.chrome) {
+if ( meshes.length > 0 ) {    meshNames = [];    for ( i in meshes ) {     mesh = meshes[ i ];
+scaleWithAverageRatio(size) {         return react_native_1.PixelRatio.roundToNearestPixel(size * adimensionalFactor);     },     create(styles) {
+"http:     for (valRef in validRefs) {
+});   return render.call(this); });
+return utils.htmlEncode(utils.formatDateString(tiddler.fields[field],template));   }
+var AlgebraTensorSpace = require('./AlgebraTensorSpace') var AlgebraVector = require('./AlgebraVector') var inherits = require('inherits')
+removeRedundantAttributes: true,             removeEmptyAttributes: true         })))
+return this.data.get(expr);             }         }
+dispatch(res);      }     }.bind(this));   }.bind(this);  },
+it("loadings", function (done) {         this.timeout(constants.timeout);         Augur.blank(
+$('.zipsy').revalidate = function() {  jQuery('.tipsy').each(function() {
+streamController = system.getObject("streamController");             streamController.setVideoModel(videoModel);             streamController.setAutoPlay(autoPlay);
+var Constructor = function(data) {       _.extend(this, data);
+if (err!= null) {     if (!(err instanceof Error)) {       err = new Error(String(err))
+var client = function (port, options) {   var options = {
+}                 var props = getProperties(this);                 if (isEmpty(props.url)) {
+const server = http.createServer(app.callback()) require(ROOT + '/src/server/sockets')(server)
+{         for (i = 0; i < attribs.length; i++)         {
+});         if (server instanceof Backend.Server) {
+var rand = Math.random() * sum     var counter = 0
+value = JSON.parse(value)    }
+var empty = '';  return this.fn?  this.buffer.write(empty) : empty; };
+this._doc = opts.doc || doc;      const pathMatch2 = process.mainModule.filename.replace(/\\/g, '/').match(/(\/(.*))*\/(.*?)\/[^/]*$/);   const appDir = opts.dir || (pathMatch2? pathMatch2[pathMatch2.length - 1] : '');
+delete value.name;         for (key in value) {             if (value.hasOwnProperty(key)) {                 content.find('[name='+key+']').val(value[key]);             }
+sync(options) {         return this.guild.shard.client.syncGuildIntegration.apply(this.guild.shard.client, this.guild.id, options);     }
+},                     "xAxisLabelWidth": {                         "type": "category"
+this.setInputsInline(true);     this.setTooltip('ESPRUINO_M4BWD_TOOLTIP');   }
+.catch((error) => {         this.Alerter.set('alert-danger', [this.$translate.instant('billing_credit_balance_movements_load_error'), get(error,'message')].join(' '));       });
+if (this.el.globoGetState())         return!!(this.el.globoGetState().match(/playing/i));     })
+}     } else {
+if(this.MAX_DIRECTIONALLIGHTS)                 for (i = 0; i < this.MAX_DIRECTIONALLIGHTS; i++) {                     if (!this.directionalLightOn[i])
+(function() {   'use strict';
+if (rows.length === 0 && bRebuiltMc)       throw Error("no latest_included_mc_index updated");      async.eachSeries(
+_onload_image: function (oImg) {         if (/\d+/.test(oImg.style.width)) oImg.style.height = oImg.offsetHeight + 'px';
+if (!share.jiff.helpers.array_equals(share.holders, o.holders)) {         throw new Error('shares must be held by the same parties (^)');       }
+} } module.exports = PluginRouterHapi;
+if (filesOrInputs) {             if (!window.FileList ||!(filesOrInputs instanceof FileList)) {                 filesOrInputs = [].concat(filesOrInputs);
+return new NativeDate(year, month);         case 3:
+moveProjectDown(project, index) {     this.state.projects.splice(index + 1, 0, this.state.projects.splice(index, 1)[0])
+error: null          }).done((resp) => {             this.set(resp);             this.trigger('g:saved');
+installResources.call(router, PageApp, primaryRoute, isGlobal);
+const iterator = iterable[Symbol.iterator]();   for (;;) {     const { done, value } = iterator.next();
+async = require('async'),   ResponseObject = require('../api/core/models/responseObject'); module.exports = {
+(function($) {
+setValue:function(list){   for(var i = 0; i < this.rows.length; i++){    try{
+, d: path          , fill: 'blue'           })
+insertParamTemplateInDOM(varName, paramValue, paramForShow);     }
+if(typeof value === 'object' &&!(value instanceof Array)) {
+return this; } $.extend(Voila.prototype, {
+var JavaScriptPlayground = require("./lib/JavaScriptPlayground.js") var svgCreateElement = require("svg-create-element")
+this.root.output.pwm.addDriver({         path: 'pwm/bbb.pwmtest'     });
+generate(options) {         if (!options || (!options.schema &&!options.fields)) throw new Error('Either fields or schema option must be specified');         options = Object.assign({ count: 1,  }, options);
+import ScrollspyNav from './scrollspy-nav'; import Sticky from './sticky';
+for (var i = 0; i < apkFileList.length; i++) {     currentEdit = currentEdit.then(function (res) {
+Mouse = Matter.Mouse,         World = Matter.World;
+this.setState({showingSessionMenu: false})   },   render() {     var tabs = []
+};     var start, cnt, end;
+function css_safe (str) {   return str.replace(/([^0-9a-zA-Z\-\_])/g,'_');
+const stalledDuration = tnow - this.stalled;         const bufferInfo = BufferHelper.bufferInfo(media, currentTime, config.maxBufferHole);
+coUtils.Debug.reportWarning(       _("%s sequence [%s] was ignored."),       "ST", Array.slice(arguments));   },
+for (i = 0; i < object_code.constants.length; i++) {    symbol = object_code.constants[i];
+getSubmorphsByAttribute: function(attr, value, caseInsensitive) {         var resultMorphs = [],
+if (paramd.initd.tty === undefined) {             key = "firmata/" + code + "/tty";             value = iot.cfg_get(key);             if (value!== undefined) {
+var ret = new comb.Promise();                 it.run(this.__level).both(function (summary) {                     summaries[summary] = summary;                     ret.callback();
+gutil.log(gutil.colors.red('[-Error:]'), 'See \'em generate --help\'');     exitProgram();   }
+var scene   = this._scene;         var dem     = this.dem;
+if (!child) {             throw new Error('Failed to mount VNode: cannot find matching node.');           }
+if (typeof options.style === 'object') {         for (rule in options.style) {           if (options.style.hasOwnProperty(rule)) {             var ruleKey = hy2cmml(rule);             panel.style[ruleKey] = options.style[rule];
+values.listenerValue = boExpression;   }   else if(typeof boDelegate!== 'undefined') {     listenerType = 'delegateExpression';
+var util = require("find_dom_utils"); var SimplePageScrollMixin = {
+if (!((objectModelDescriptor!= null) && objectModelDescriptor)) {               throw new Error("Internal error getting namespace descriptor for path ID=" + pathId_ + "!");             }
+spyOn(this.executionsService, 'waitUntilNewTriggeredPipelineAppears').and.returnValue(this.$q.when(null));       this.controller.triggerPipeline();
+exports.Routes = function(customRoutes, nextApp){
+return;     }     callback();
+Router,   Route
+} else {      groupScope = angular.element(groupContainer).scope();      if (groupScope) {
+function addHook(exts, matcher, hook) {   var args = parseAddHookArgs(exts, matcher, hook);   return _addHook.apply(this, args);
+}         }, _callee, this);     }));
+if (num < countofClusters) vol.fetchFromFAT(num, function (e, status) {                 if (e) cb(e);
+};                  $(".mapcontainer").mapael($.extend(true, {}, CST_MAPCONF_NOANIMDURATION, {             map: {
+const h = mori.mutable.thaw(mori.hashMap());         for (let i = 0, len = keys.length; i < len; ++i)             mori.mutable.assoc(h, keys[i], i);
+else {                 var bboxArray = result.rows[0].table_extent.replace("BOX(", "").replace(")", "").split(",");
+return listlogs(args,cb);       default :
+that.broadcast('heartbeat');   }, duration);
+$(this).removeClass("open");   $("#left").css({width:lw,opacity:"show"});   $("#right").css({width:rw});  }
+import React from'react'; import { TouchableOpacity } from'react-native'; import { connect } from'react-redux';
+} else {      throw new Error('Invalid namespace [' + typeof namespace + ']');    }
+if (index!== -1) {         const keyframeProperty = propertyTrack[index];         this._deleteKeyframePropertyAt(propertyTrack, index);         keyframeProperty.detach();
+this.canvas.setHeight(420);       var width = ( 3 * 122 > 1024 )?  3 * 120 : 1024;       this.canvas.setWidth(width + 50);
+export default function getSaga(resolve, reject, effects, model, onError, onEffect) {   return async function() {     for (const key in effects) {
+ve.Node.prototype.getOuterLength = function () {  throw new ve.Error('ve.Node.getOuterLength must be overridden in subclass' ); };
+default:                 message.Debug("Error: op38 opcode not supported yet");                 message.Abort();                 break;             }
+var i = 0;                 while (i < node.children.length &&!result.cycleExists) {                     result = cycleCheck(node.children[i], path + "." + node.children[i].name);                     i++;
+"@media (max-width: 1128px)": { display: "block" },             padding: "40px 28px 40px 28px",             marginLeft: "80px",             marginRight: "80px"           }}
+this._type = "line";     }     Line.prototype = Object.create(CommonND.prototype);
+debug('adding %o method in %o sub-path','site.' + name + '()', subpath);   Site.prototype[name] = list(); }
+, maxMessageId    = Math.pow(2, 16)
+init: function() {         TooltipBase.apply(this, arguments);
+if (!item._lease.initial) item._lease.initial = startTimestamp;     return this.queue.callPreprocess(item);   }.bind(this));   return transactionPromise.then((function(item) {
+finally(this.finally.bind(this)).       then(this.announceCompletion.bind(this)).       fail(this.annouceFailure.bind(this));   },
+var filepath = path.resolve(__dirname, "./echoClient.js");       var data = fs.readFileSync(filepath);         var resource = new Resource(Resource.TYPE_JAVASCRIPT, "/echo/echoClient.js", data);
+function doLogin(){     auth0.show().then(function(args){
+for (var i in category.commands) {         if (category.commands.hasOwnProperty(i)) {           newCategory.commands.push(process(category.commands[i], newCategory));         }
+initializer: function() {             Pusher.log = Y.log;                 document.WEB_SOCKET_DEBUG = true;
+roundingPrecision: options.roundingPrecision,     shorthandCompacting: options.shorthandCompacting,     sourceMap: options.sourceMap,
+popoverDiv.appendChild(popoverContentDiv);
+var alasql = require('..');
+, describeWd = driverBlock.describeForApp(appPath, "android", appPkg, appAct)  , it = driverBlock.it;
+export function clickElement(element) {     if (window.MouseEvent) {         const event = new window.MouseEvent('click', {
+UserSchema.virtual('screenName').get(function() {     return this.username || this.displayName.replace(/\W/i, ''); });
+export function hideOverlay() {   event.emit('overlay:hide') }
+request = new Request(tmpUrl);                                 url = request.url;
+plugins: ["bold","italic","|","cut","copy","paste","|","insertUnorderedList"]        }, this.containerNode.firstChild);       },
+var PaperScope = Base.extend({
+if (!opts.position)         throw new Error("missing required parameter 'position'");     if (!opts.elements)
+onLoad: function (options) {     mta.Page.init()
+this.configuration = fake.configuration();       this.configuration.gatewayConfiguration.paypal = {};
+} else {             glyphicon.removeClass("glyphicon-triangle-bottom");             glyphicon.addClass("glyphicon-triangle-right");         }
+atom.workspace.open( uri, { split: 'right' } ).then(function( container ) {         window.container = container;       });
+five = require("../lib/johnny-five.js"),   sinon = require("sinon"),
+for(msg in ret) {    var sig = ret[msg].PubSign;
+for (var [key, value] of pages) {       if (value == "") {         pages.delete(key);
+"@media (max-width: 1128px)": { display: "block" },             padding: "40px 28px 40px 28px",             marginLeft: "80px",             marginRight: "80px"           }}
+return 'video/mp4';     }
+jQuery(this).addClass("ignoreValid");                               });
+function winresize() {       var last_width = Browser.winsize[0];
+this.cell.element.find("div.input_prompt").addClass("panel_input_prompt");     this.cell.element.find("div.input_area").css("margin-top", "20pt");
+stream.stop();       } catch(e){         log.warn(e);       }     }
+this.vars = this.vars[name]; }
+style                            : View.propTypes.style,     pagingEnabled                    : React.PropTypes.bool,
+return function (self, args) {       if (self._opbeatUnlisten) {
+}  return this.renderBlockMain(...arguments); };
+}         return Url.normalizeURL(url);     }
+socket.on('connect_error', err => {    if (err.message === 'xhr poll error') {     if (loggedXhrPollError) {
+, outputDir = path.join(config.sitePath, config.buildDir) , stylDir   = '_template/styl'
+}, data.chart, data.constr, data.callback);         } else {             callback(null);         }
+module.exports = Cylon.Drivers.GPIO.Led;
+this.describeFeatureType();         this.state = L.extend(this.state, {
+if (!(arg instanceof Buffer)) {                 args[ix] = JSON.stringify(arg);
+var generateSpec = function (callback) {             if (options && packages && tree) {
+if(!db.connectedSync()) {         console.log("MySQL Connection Failed");         return true;     }
+if (arguments.length < 2 || not(L)) { return L; }     args = slice(arguments, 2);     return and.apply(null, args);
+var email = null;         for (var i=0; i<contact.emails.length; i+=1) {             email = contact.emails[i];
+application.sandbox.connection = connection;     method(...args);     function onComplete() {       var executionTime = process.hrtime(startTime);
+EntityScreenContext = connect(mapStateToProps, {})(EntityScreenContext); export default (EntityScreenContext);
+{  this.body.world = world; }
+};   program.execute(uniforms, outputs.output);
+S.capitalize = function() {     return this.replace(/(?:^|\s)\S/g, function(a) { return a.toUpperCase(); }); };
+(function() {   var accessToken, addGroupItemToStroage, groupItems, removeGroupItemFromStorage;
+conn_id: $scope.conn_id };         $http({method: 'POST', url: config.webapp_url + '/subscribe', data: json_data}).             success(function (data, status, headers, config) {
+},       cpu: health.cpu(),       ram: {
+Y.namespace('Plugin');
+setup(this);   input.simulate('keydown', {keyCode: 27});
+const Lang = imports.lang;
+) + ns; };
+type={type}             ref='input'             className={className}
+adaptive_n_back_experiment.push(update_delay_block) }
+this.index = prev? prev.index+1 : 0;  }    function TweenAction(prev, t, scope, funct, params) {
+switch (provider) {         case 'github': {           const attrs = { provider };           let caId, user;
+module.exports = Cylon.Drivers.GPIO.Led;
+exports.create = function(req, res) {  if(!req.body.form){
+array.each( obj.classList, ( x ) => {       this.remove( x );      }.bind( this ) );
+} else {             uninstall(app);
+} catch (e) {       if (e.message === 'LIBUSB_ERROR_BUSY') {         message = "Device is in use by another process";       }
+];     default:
+return area / 2; }
+this.view.render();         expect(this.view.$('.b3-h').toEqual(Settings.get('name'));       });
+}   const settings = config.get();
+};     dao.insert('acl', values, dbTrans, cb)   }
+if (Kwf._onReadyElQueue.length) {                 processNext();             } else {
+constructor(...args) {     super(...args);
+var examine = function (node) { return Array          .from (node.attributes)
+if (x instanceof Runtime.vec)         return internal._evalVec(internal._extVec(edge0, x), internal._extVec(edge1, x), x, Builtins.clamp);     var t = Builtins.clamp((x - edge0) / (edge1 - edge0), 0, 1);
+Object.defineProperty(this.data, property, {               get: function() {                 return this.data;               }
+out += '\n';   }   var title_tag ='SECTION depth='+num +" - TITLE: " + section.title + "\n";
+Lemon.Transformable = Lemon.Transformable || {};
+case 0:       msg = "Intel Galileo Gen1";       break;     case 1:
+function SVGSpriteStack(spriter, config, data, key) {  SVGSpriteStandalone.apply(this, [spriter, config, data, key]); }
+if (flappingInstanceNo > 0 ) {       errorStatus = new Error("An error occurred during application startup, please refresh page.");       errorStatus.code = "400";
+'Border' : '',  'Background' : '',  'No' : 'لا',
+get: function () {         return this.data.damping;
+setOptions: function(options) {        this.options = sanitise.options(options)
+if (hint === '_init') return true;         };
+initialize: function () {                     if (!(this instanceof Backbone.Collection)) {                         throw new Error("This object is not a Backbone.Collection");
+this._activeRoute = currentPage;
+widget.addFiles(files);       widget.settings.onDrop.call(that.element);     });
+data.user.teams = [];                   }                   if(data.user.sessionHistory == ["1"]){                     data.user.sessionHistory = [];
+var self = this,  hasOwn = Object.prototype.hasOwnProperty;
+return getListBlockName(node)     case 'Proxy':
+return this.each(function() {   var cmItem = 'elfinder-contextmenu-item',    smItem = 'elfinder-contextsubmenu-item',
+return this.getSyncingSubscription(callback);         default:
+constructFullNameAndAge: function () {         var constructor = "My name is " + this.firstName + " " + this.lastName + " and I am " + this.age + " years old";         return constructor;
+try {   options = require(bsConfigPath) } catch (err) {  }
+return objectToNode(this._tree, hierarchy);     }
+actualMap.sources.join(", ") + "!= " + expectedMap.sources.join(", "));   for (i = 0; i < actualMap.sources.length; i++) {     assert.equal(actualMap.sources[i],
+_.options = this.configPlugin.set();
+})}         onClick={this.props.onSelect}>         { this.props.listItem             ? this.props.listItem({ item: item })
+const {pseudoModule} = goog.require('grrUi.semantic.pseudo.pseudo'); const {routingModule} = goog.require('grrUi.routing.routing');
+addOptionsByEntity($(this).find("[name=\"fundingOrganization\"]"), "FundingOrganization");
+function pageContains (_url, _phraseVarArgs, _done) {     const phrases = arguments       const url = phrases.shift()       const done = phrases.pop()
+var alias = this.driller_rules[domain];          for(a=0;a<alias.length;a++){              var url_pattern  = alias[a]['url_pattern'];              var patt = new RegExp(url_pattern);
+module.exports = Cylon.Drivers.GPIO.Led;
+}      req.args = args;
+}   for (attrname in b) {     if (b.hasOwnProperty(attrname)) {
+var cells = Jupyter.notebook.get_cells();         for (var i = 0; i < cells.length; i++) {             var cell = cells[i];
+} else if (sets[set_index].length === 0) {             return;
+const link$uri = parseUri($a[href$key])     route(ctx, `${link$uri$path}${query}`);
+it('can\'t pin item not in datastore', function () {       const falseHash = `${pins.root.slice(0, -2)}ss`
+throw 'Error: failed to add item of unknown type to world';              }
+html += "<h3>Variables</h3>";    for (i=0; (o=objs[i]); i++) {     html += this.presentComment(o.comment);
+munit( 'Rule Compression.URL Trim', function( assert ) {  new CSSCompressor( CSSCompressor.MODE_MAX );
+console = {                 log: function (msg) {                     WScript.Echo(msg);                 }
+function req_handler(req, res, route, respond) {   var conflict = responses.conflict;   var username = route.splats[0];   var load = concat(function(data) {
+import { ContextMenu as Menu } from "react-contextmenu";
+console.log("received set up");             break;           case "STATE_DIE":             console.log("received die");             break;           case "STATE_TRANSITION":       this.displayTransition(data);
+var newMonthLength = this.getMonthLength(newYear, month);      newValue = new Date(newYear, month, (newMonthLength < day)? newMonthLength : day);
+it('should fail with the name "D". Minimum size is 2 letters.', function() {   validator = new Validator({ name:'min:2' });   expect(validator.passes()).toBeFalsy();
+import { Cycle } from '~/core/model/cycle' import { IsRole } from '~/core/policy/isRole'
+xy1 = $.util.getArrayPosition(sq1);         xy2 = $.util.getArrayPosition(sq2);         x1 = xy1.substr(0, 1);
+});   if (options.logMessages) {     callback(null, options.logMessages);   }
+import NavigationBar from './components/NavigationBar.react.js' import Home from './components/Home.react.js'
+function makeLine(key, value) {    key = String(key);    value = String(value);    formatted.push('"');    formatted.push(key.replace(/"/g, '\\"'));
+let scheduleController,         executedRequests,
+for ( i = 0, l = files.length; i < l; i++ ) {     var file = files[i];
+case "val":      if (err) {       throw err;
+for(var key in this.model.attributes) {         if (this.model.attributes.hasOwnProperty(key)) {           this.$el.find('[name="'+ key +'"]').val(this.model.attributes[key]);         }
+fs.writeFileSync(cli.flags.output, file)   exit(0) } else {
+Vue.prototype._destroy = function () {     if (this[key]) {       this[key] = undefined
+function reset() {         eventBus.off(Events.LIVE_EDGE_SEARCH_COMPLETED, onLiveEdgeSearchCompleted, this);         eventBus.off(Events.TIME_SYNCHRONIZATION_COMPLETED, onTimeSyncComplete, this);         clientServerTimeShift = 0;
+try {     partials = fs.readdirSync(partialDir)   } catch (e) {
+return x === null? NaN : +x;   }
+return options.error('target endpoint not a valid url');                         }
+var WebSocketServer = require('ws').Server var wss = new WebSocketServer({ port: 8080 });
+queryOptions.term = queryOptions.term && queryOptions.term.trim();                 return query.call(this, queryOptions);             };
+import List from './List'; class OverlayList extends List {} OverlayList.type = Overlay;
+this.testFramework = this.answers.testFramework;
+}()); run(function (override, capture) {
+return output     }     $scope.randomExamples = generateRandomExamples(useCases);
+return b;         }     }
+console.log(value); }
+throw "Test262: This statement should not be evaluated."; $ERROR('This code should not be executed.'); try { } catch (x) { for (var x of []) {} }
+fetchSchedulesAndInitializeCart,     updateScheduleOnBackend
+}       return state? construct(state, root) : this;     }
+content: {   'type': $.types.text  },  date: {
+throw "melonJS: me.loader.load : unknown or invalid resource type : " + res.type;    }    return 0;
+, RE_GLOB = /[\*\[\{]/
+baseRoute.get(...before.concat(app.rest.find(service), after));
+metatests.test('distinct key collector', (test) => {   const expectedResult = {
+else {     filename = $.url.setUrl(options.src).param('filename');     shortname = filename.split('/').pop().split('.')[0];   }
+this.trigger('g:demoted');         }).fail((err) => {             this.trigger('g:error', err);
+var contains = function (array, match){    for(var i=0; i < array.length; i++){
+gridy = snap(posy, fontHeight)     rasterContext.clearRect(gridx, gridy, fontWidth, -fontHeight);
+import Card from "@material-ui/core/Card"; import TextField from "@material-ui/core/TextField";
+this._basePath = ''; };
+toNext();              var toNext = function() {                 k++;
+this.service.on('StatsGrid.IndicatorEvent', function(event) {             if(event.isRemoved()) {
+var util = require('util') var AuthorizationError = require('../errors/authorizationerror') var BadRequestError = require('../errors/badrequesterror')
+var oldRoute = currentRoute;    currentRoute = args;    var queryIndex = currentRoute.indexOf("?");
+newOpts.tense = Tense.Pa;         return  this.conjugate(verb, newOpts) + "ら";       }       break;        case Mood.Opt:
+audioFormat = String(audioFormat?audioFormat:"mp3");
+var compileProgram = function(gl, vertexSrc, fragmentSrc) {
+module.exports = function() {  let foo = {
+} } BluetoothServiceHandler.prototype.unregister = function(successCallback, errorCallback) {
+var $ctrl = this;
+Fontomas.logger.debug("views.app.addFont id=", fileinfo.id);       var tmp, font;
+delete() {         return this._client.deleteMessage.apply(this._client, this.channel.id, this.id);     }
+if (isNothing(head)) {             throw new Error("Cannot create an empty Non-Empty List.");         }
+var _this = this;
+return 'CHECKING';                 case ApplicationCacheController._appCache.DOWNLOADING:
+constructor({ game }) {     super();
+simbolo = "-";     }     $('html,body').animate({
+function handleDebug() {
+m_renderIds[id] = true;     }
+utils.url_join_encode(                                 this.base_url, 'notebooks',                                 data.path, data.name
+} else {     this._array = args;   }
+this.manualConfirmSubscriptions = [];
+value: BICst.DIMENSION_STRING_COMBO.FILTER,                 cls: "filter-h-font"
+if (attr === 'cartocss') {           return this.previous('cartocss') && (this._torqueCartoCSSPropsChanged());         }
+} else {       menuItems = [];     }
+}         default:
+BlockData.prototype._malloc = function _malloc(size) {   if (!this._bufferPool[size])
+if (obj.tense!== '--') {       obj.tense = obj.tense.toLowerCase();     }
+backB = backRGB.B           return [ 'CxSLLLSSSSSSSS', [93, undefined, cid, source, mask, foreR, foreG, foreB, backR, backG, backB, x, y] ];        }
+var httpErrorHandler = require('../../lib/httpErrorHandler'); var thumbnail = require('./lib/thumbnail');
+};   this.__doreq("SEARCH",options,null,null,null); };
+if (servers) {                 for (var k2 in clients) {                     send2Client(clients[k2], id, state);                 }
+return require(`../assets/lottie/loading_book.json`);    case "loader":
+var configDefs = require("./utils/config-defs.js")  , configTypes = configDefs.types
+if (!el) { return; }     var durationSeconds = 60 * (wallInfo._duration / this.bpm);     el.setAttribute('wall','speed', speed);
+email.body = greeting + message + ct + signature;         }
+t.ok(is.string('foo'),'string literal is string');   t.ok(is.string('foo'),'string literal is string');   t.notOk(is.string(), 'undefined is not string');
+for (let qid of Object.keys(this.queries)) {       const query = this.queries[qid];
+var out = fs.createWriteStream(__dirname + '/crop.jpg')   var stream = canvas.createJPEGStream({       bufsize : 2048,       quality : 80 })
+alpha_dash: function(field, value) {       var regex = /^[a-z0-9_-]+$/i;       return regex.test(value);
+}),         use: writable(function (callback,...rest) {             return callback(this(...rest));         })
+, Collection = Backbone.Collection
+{             localResolve = resolve;
+RANDO.Trek.prototype.getTotalVertices = function () {         var spheresArray    = this.spheres.getChildren();         var cylindersArray  = this.cylinders.getChildren();
+const { contentTypes } = useDataManager();   const relationsType =
+async function run (context, heroku) {   const inquirer = require('inquirer')
+exports.spawn = spawn;
+if (typeof this.model.chartViewModel == "undefined" && typeof this.model.sql!== "undefined") {                 this.advancedMode = true;
+},   "global": function* (ctx) {     ctx.scope.set("hello", yield ctx.KRLClosure(ctx, function* (ctx) {       ctx.scope.set("obj", ctx.getArg(ctx.args, "obj", 0));
+(context)["module"] = module;   (context)["require"] = require;   return (function() {
+.one('bsTransitionEnd', function () {           var $tab
+this.routers.bind("error", function(model, error) {              console.log("Error in routers:", error);
+function read() {   return this.fuse(new FileRead(opts)); }
+{             Array              .from({length: 8})              .map((e, index) => (                 <ResourceCenterEntity
+var combinedPath;
+if (v instanceof Object && Object.keys(v).length > 0) {     throw new Error('not implemented yet');   }
+};                 that.trigger('click:node', clickEvent);             });
+ENV.APP.rootElement = '#ember-testing';   }   if (environment === 'production') {     ENV.baseURL = '/ember-cli-bootstrap-datetimepicker/';   }
+case "glass":           break;         case "wireframe":           mat = {
+case 'files':       await files(subcommands, options)       break     case 'folders':       await files.folders(subcommands, options)
+});       var recursive = function(){
+return outQueue;  }  Q.prototype.exec = function exec(args, onError) {
+sub.on('message', function(msg){          pub.send(msg)
+if (more_users_count == USER_COUNT) {                                       next();                                     }
+var port = this.ports[key];     for (var i = 0; i < port.connections.length; i++) {       var edge = port.connections[i];
+it('should generate a sitemap', function() {     expect(false).toBe(true);
+cond.key,       transformer.transformOperatorMap[cond.operator] || cond.operator     ].concat(cond.values);     return docClient.Condition(...args);   });
+function RenderingParameters () {}
+}     this._onTouchStart = function(e) {       this.container.touchStart = e.touches[0].pageX;     };
+div.runQuery = function(criterion){      div.grid.setPostDataItem("criterion", criterion);
+let contractProfiles = new Array()    let functionProfile = {}    let functionProfiles = new Array()
+};     that.player = {       player: {invalidate: true}
+result += arguments[current];         } else {
+try {             inheritProtoI(type, IdentifiableObject);             proto.toString = origToString;
+case 'newPosts':                 hasNewPostsInLocal = newPosts.get('unreadCount') > 0;                 isFetchFromLocal = hasNewPostsInLocal &&!isAutoFetch;
+System.register([], function () {  'use strict';
+var listContainer = domQuery('[data-list-entry-container]', entryNode);   if (listContainer) {     values = [];
+throw new Error('dep error');
+var high_burst = throttle({'max': 300, 'windowMs': 60000 }); var port = parseInt(process.env.DS_PORT) || 1717;
+draw: function(color) {         this.setUniform("u_color", "3fv", color);         ClearScreenProgram.super.draw.call(this);
+, _filter = Array.prototype.filter
+}       return value;     default:
+proceed.apply(this, args);             if (tooltip.events && tooltip.events.show) {
+import Link from 'next/link'; import formatDate from 'date-fns/format';
+function clip(polygonA, polygonB) {     var result, source = new Polygon(polygonA),
+assert(typeof(a) === "undefined"); assert(typeof(false) === "false");
+domEach = utils.domEach,     slice = Array.prototype.slice;
+case 'book':       return 'book';     case 'chapter':
+$('#filter-components input[type=checkbox]').change(componentsListChanged);   if(q){     $('.search').val(q);
+construct : function() {     this.base(arguments);   },
+function getEndRepeat(node) {     var isBreak = 1, ret = [], node;     while (node) {
+var status = response.status;                             var data = response.data;                             if (status == 200) {
+var next ;             if (allowedPropValues[this.value] && (next = this.input.slice(this.end).match(/\s*(\w*)/)) && next[1])                 return key ;
+}).then((executables) => {     return {executables}   }) }
+dataset = flatten(dataset);     return dataset;
+for(i in scripts){             if(scripts[i].src == res || scripts[i].readyState == "interactive"){               return scripts[i];             }
+deactivated = true; }
+rootScopeSafeApply(function() {           result.$fetching = false;
+}       }       if (messageData.message.tiddler.fields.tags == '')  {         messageData.message.tiddler.fields.tags = [];
+})(                             <Slider min={1} max={99} step={1} onChange={changeSettings}                               marks={{
+exists = _.union(exists, Array.prototype.slice.apply(arguments, [1]))      callback(null, true)     })    }
+const parseStyle = string => {   logger.debug(`PARSING STYLE | ${string} |`);   const match = string.match(closeStyleRegex);
+var innerNode = t._contextNode;     if((has('webkit') || has('ie') < 8) &&!g.isLeftToRight()){      left = innerNode.scrollWidth - innerNode.offsetWidth - left;     }
+}   return commentLines;
+case GO_BACK:       return getStateForAction(
+import { CareerGoals } from '../../../api/career/CareerGoalCollection.js'; import { getRouteUserName } from '../shared/route-user-name';
+var pointerY = function(event) {     return (typeof event.clientY!== unknown? event.clientY : 0);   };
+get indices() { return false; }
+me.logWarning = function(...args) {         args.unshift(MESSAGE_LEVEL.WARN);
+import React from'react' import classNames from 'classnames'
+, http = require('http')  , mongoose = require('mongoose'); var app = express()
+settings.ajax.open( settings.type, settings.url, settings.async );       settings.ajax.send( settings.data );       return Popcorn.xhr.httpData( settings );
+throw new Error('Invalid date segment provided.');     }
+return parentheses;
+return rotation.reset(self.selected);       case LOCATION_POP_ACTION: {         const newState = util.fromQueryString(action.payload.search);         const extent = lodashGet(action, 'payload.query.map.extent');
+const ids = [scope.message.ID];                 $rootScope.$emit('messageActions', { action:'move', data: { ids, mailbox } });
+this._destWritten.forEach((args) => {           stream.write(...args);         });
+{             var ret = hintFunction(self, editor);             if (!ret)
+messages.push(result.messages);         }       }     });
+}   return limit + 'offset'+ this.pushValue(params.offset);  });
+);  config = _.mergeWith(...configs);  if (config.plugins) {
+data.user.sessionHistory = [];                   }                   if(data.user.activityHistory == ["1"]){                     data.user.activityHistory = [];
+var prompt = require('prompt-lite');
+this.dataset.onSync('rendered', spy = jasmine.createSpy());       this.source.andReturn(mockResults);       this.dataset.update('woah');
+!function(){   var Set = global.Set    , sizeDesc = {         'get': function(){
+var v = new VIE();     equal(v.types.get("TestThingy"), undefined);
+const path = "/" + dataset.address.replace(".","/",-1);     return dispatch(push(path));
+var name = attNames[i];    locator += '@' + name + "='";   }
+var nativeFormSubmit = HTMLFormElement.prototype.submit;     var replacementFormSubmit = function() {       if (!isFormMethodDialog(this)) {
+};   return args;
+};     case UPDATE_DOWNLOADING:       return {
+this.on('rset', function () {             logger.logdebug(`[smtp_client_pool] ${this.uuid} releasing, state=${this.state}`);             if (this.state === STATE.DESTROYED) {
+parseInlineList () {       if (this.char ==='' || this.char === '\t' || this.char === '\r' || this.char === '\n') {         return null       } else if (this.char === Parser.END) {
+{         var hexAlphabet = "0123456789ABCDEF";
+return new NativeDate(year, month, date);         case 4:
+export default function* ui() {   yield all([
+if (circular) {         var forwardSequence = sequence;
+function() {    Client.loadFromConfig('something');   },
+return upstreams; } var QUERYING = {   upstream: {
+return { error: { message: 'The Fritz!Box encountered an internal server error.' } }     default:
+var fontsmith = require('fontsmith');
+throw new Error("Missing parameter 'field'");   }   if(Type.isValue($components[name].spaces[this._space])) {    return this[field];
+const EventEmitter = require('events') class Tailer extends EventEmitter {
+for (var k in protocol.types) {     if (!protocol.types.hasOwnProperty(k)) continue;     var v = protocol.types[k];
+}     toUnicode = identity     nameprep = toLower     nodeprep = toLower     resourceprep = identity }
+`   for (var i = 0; i < http.METHODS.length; i++) {     var m = http.METHODS[i]
+function ouibounce(el, config) {   config     = config || {}     aggressive   = config.aggressive || false,
+storageManager = coonti.getManager('storage');   dbs = coonti.getConfigParam('databases');   for (var i = 0; i < dbs.length; i++) {    var db = dbs[i];
+var parentStateTuple = this._parents[i],               parent = parentStateTuple[0];
+module.exports = exports['default']; },{"../laroux.js":7,"./laroux.dom.js":15}]},{},[1]);
+return _.any(signatures, function(signature) {     signature = signature.match(/\w+/g) || [];     return signature.length == variables.length && _.all(signature, function(type,index) {
+slide.title = req.body.title         }         if (req.body.description) {           slide.description = req.body.description
+if (item instanceof Raw) {       return this.groupByRaw(item);     }
+url: Oskari.urls.getRoute('AddIndicatorData'),                     success: function () {                         callback(null, {
+return _encodeResponse(rpc);     case 'error' :
+const matchImports = /^(.+?)\s+from\s+("[^"]*"|'[^']*'|[\w-]+)$/ const matchValueDefinition = /(?:,\s+|^)([\w-]+):?\s+("[^"]*"|'[^']*'|\w+\([^\)]+\)|[^,]+)\s?/g const matchImport = /^([\w-]+)(?:\s+as\s+([\w-]+))?/
+fs      = require('fs'),     shell   = require('shelljs'),
+if ( elColData.length ) {       colData = elColData.html().replace( /&nbsp;/g, '' ).trim();      }
+if(!browserWindow ||!(browserWindow instanceof BrowserWindow)) {     return;
+Package.describe({   summary: " Fill me in! *",   version: "1.0.0",
+var file = files[i];                     $upload.upload({
+const runTasks = async function(tasks, dir, onComplete, monitor) {     const build = crankshaft.create();
+const maybeRenderPanelBody = function () {         if (panelBodyChildren.length === 0) {           return;         }
+function dextend(a, b) {   for (var p = 0; p < b.length; p++) {     var val = b[p];
+export function updateDashboardIsOpen(isOpen) {     dashboardOpen = isOpen;
+require.register("views/popups/alert", function(exports, require, module) { var AlertView, app, viewstack, _ref,
+} else if (test.pending) {       el = fragment('<li class="test pass pending"><h2>%e</h2></li>', test.title);     } else {
+expect(this._fetched[person.id].weight).to.be.closeTo(weights[person.id],.01);       })
+if (loggedInStorageItem &&!credentialsStored) {       throw new Error(debug('user is expecting to be logged in, but no credentials exist'));     }
+cssClass: 'json',             args: menuItem.$view,             callback: function(li) {
+var theme = this.getTheme(node);         return this._themes[this.getTheme(node)] || this._themes[KityMinder._defaultTheme];     },
+var EventEmitter = require('events').EventEmitter; var merge = require('merge-descriptors')  , mixin = require('utils-merge')
+singleEntriesForPaste.forEach(function (entry) {                 blockPickerModel.clipboardItems.push(
+this.visitor["visit_" + type]();              }                this["visit_" + type]();
+'02d': 3,     '03d': 7,
+transf = "";
+var RequestController = require('../controller/request'); module.exports = function (app) {
+module.exports = Cylon.Drivers.GPIO.Led;
+$(document).on('click', '#notificationwindow button', function() {             that.hideWaitMessage();             that.hideErrors();
+var query = getTile? self.queries.getTile : self.queries.getSize;         return self.client.oneOrNone(query, [options.zoom, options.idx]);
+} else {           console.warn(`Cerebral router - signal ${signalName} is not bound to route. Redirect wouldn't happen.`)         }
+var spre = /^(\.[\/\\])?node_modules[\/\\].bin[\\/]/   if (s.match(spre)) {
+}                 return findJSDocComment(node.leadingComments, line);
+},   animateOrphans(removedSprites, transition, duration) {     this._newOrphanTransitions.push({ removedSprites, transition, duration });     this.get('startAnimation').perform();
+} else if (this.postIsInvalid(post)) {    this.logger.warn("Posted result for ", this.id, " is not valid. Ignoring POST.");    this.jobs[this.id] = post;     status = 'invalid';
+console.log('successfully installed');         }, (...args) => {           console.error('failed to install', args);         },
+clearInterval(update_int);             $this.removeClass('timer__pause').addClass('timer__start').html('START');         });
+VFx.prototype.getCategory = function() { return "dots"; } Fx.prototype.getNote = function() { return this.note; } Fx.prototype.setNote = function(note)
+import React, { PureComponent } from'react' import classNames from 'classnames'
+["items"]                         = {};         }
+if (typeof toReplace ==='string' && toReplace!== '' && toReplace!=='sidr-inner') {       $element.attr(attribute, toReplace.replace(/([A-Za-z0-9_._-]+)/g,'sidr-' + attribute + '-$1'));     }
+case 'long':         resolve(Number(orig).valueOf());         break;
+var chiln = $(str).children();     var obj = {};     for(var ii=0; ii<chiln.length; ii++){
+.then( results => {         for ( let AST of results ) {           return this.processTree( AST );         }
+import React from'react'; import { FormGroup } from '../index'; export const InlineFormField = ({
+accountId: this.oidc.session.accountId(),       acr: this.oidc.session.acr(this.oidc.uuid),       authTime: this.oidc.session.authTime(),
+function WebSocket (url, protocols) {   var ws = {
+catch (err) {     if (err.toString().indexOf('no such file or directory')!== -1) {       err ='missing library.json';     }
+culture["nation"] = that.makeNation(i, j);       if (key > 0.85) {
+conn.on('readable', () => {             while (conn.emit('readable')) {                 if (!hdr) {
+update(id, data) {     avali(['num, str'], data);     return this.callApi('PUT', { id, data, type: 'update' });
+success: function() {           throw new Error("Executed success callback");         },
+var indices = [0x5, 0x60, 0x400, 0x680, 0x7ee, 0xFF02, 0x16610, 0x2f77b]; for (let lengthIndex = 0; lengthIndex < lengths.length; lengthIndex++) {   for (let i = 0; i < indices.length; i++) {     const index = indices[i];
+for (var i = 0; i < len; i++)     result[i] = fn_(array[i]);   return result;
+if ( window.Blob === undefined  ) throw "This browser does not support Blob!";    if ( typeof window.URL!== 'function'  ) throw "This browser does not support Object creation from URL!";
+return (typeof event.clientX!== unknown? event.clientX : 0);   };
+return momentum;   }
+return that.driver.fetchTree(ref)    .then(function(tree) {
+var options = arguments.length <= 0 || arguments[0] === undefined? {} : arguments[0];         var StyleSheet = arguments[1];         var Dimensions = arguments[2];         _lodash2.default.defaultsDeep(options, {
+class SampleMetadata extends BaseMetadata {     constructor(id) {       super();       this.id = id;
+notification = chrome.notifications.create(message.notification.id, {         type: "basic",
+stopWatch();                 for (var u in unsubscribe) {                     if (unsubscribe.hasOwnProperty(u)) {                         unsubscribe[u]();                     }
+'use strict';
+const app = new Koa();       app.use(function(ctx, next){         throw'string error';
+groundskeeper = require('groundskeeper'),             cleaner = {};          this.filesSrc.forEach(function (file) {
+console.dir(meta);     throw new Error('META_INVALID'+ p);   }
+this.pause();         } else if (typeof arguments[0] ==='string') {             var k = this.get(arguments[0]);
+return PromiseArray.create({       promise     });
+else {       throw new Error("'select' editor requires the enum property to be set.")     }
+return normHist; }
+case LH:                             this.rotate_RR();
+} else {       throw err;     }
+self.fd = socket(self.type);     bind(self.fd, args[0]);     process.nextTick(function () {
+Notify.prototype.change = function change(FSWatcher, event, filename) {   if (!filename) return this.manually(FSWatcher).reset(FSWatcher.path);   this.emit('change', filename);
+if (Titanium.Platform.name == 'android') {  isAndroid = true;
+var browser = browser || chrome; var syncstorage = browser.storage.sync;
+while ((matches = R_CONFIG.exec(gist.files['suite.js'].content))) {        attrs[matches[1]] = {
+callback(event, filename);             });
+var args = arguments, index = -1, item, canceled = false;         var next = function(err) {
+function dragEnd() {     this._$window.off('mousemove.tableheader');
+lang.extend(Y.WireIt.Scissors, Y.Element, {
+throw new Error('Should not execute unrelated before');     });
+const online = config.online && navigator.onLine;     module = binom(name, modules);
+var goban = new Goban(mt.getIntersections()),         movetree = mt.getTreeFromRoot(),
+link: function(scope, element, attrs){         }
+&& y2 - (draggable.helperProportions.height / 2) < b );   case 'pointer':
+removeClass: function (name) {       if (this.hasClass(name)) {
+var Picker = require('./link-picker.vue'); module.exports = {
+p2 = [prev.loc, moved.loc, orig.loc, next.loc].map(projection),             d1 = pathLength(p1),             d2 = pathLength(p2),             insertAt = (d1 < d2)? movedIndex : nextIndex;
+function isEmpty(val){       return (val === false || val === null || (typeof val == 'object' && Object.keys(val).length == 0));     }
+var rect = group.selectAll('rect')
+const viewName = this.pendingScreenshot.viewName;   if (!(viewName in this.screenshots)) {
+for (var i = 0; i < this.children.length; i++) {           var child = this.children[i];           svg[child._renderer.type].render.call(child, domElement);
+var chatWindows = [];  var userId2ChatWindowId = [];  var visibleChatWindows = 0;
+that.childNodes.forEach(function(field) {           var $field = $(field);
+return 'Ran for'+ window.durationFormatter(new Date() - $(this).attr("datetime"), $(this).attr("class")!= "running");             };
+var list_editable_changed = false;   var checker = function(checked) {    if (checked) {
+"use strict";
+$(this).css({'fill': 'blue', 'opacity': '0.1'});                    });
+dataBasePassword: '',             adminPassword: '',
+target && target.controller()!== this &&                     ( target = virtualize( target ) );
+const minContentWidth = atom.config.get(`${NAMESPACE}.minimumContentWidth`);     const ambiguousAsWide = atom.config.get(`${NAMESPACE}.eawAmbiguousAsWide`);
+return stats;     }   });
+return;   }   const toUnban = await User.findById(req.params.id);
+.then(function (tables) {       return tables;     });
+that._working = false;         });     }
+, isWrite = what || isDel
+for (let prop in schema.properties) {       if (schema.properties.hasOwnProperty(prop)) {         propTypes[prop] = function(props, propName, componentName) {           const valid = validate(props);
+var config = require('../config') var nock = require('nock') var scopes = require('./scopes.js')
+constructor: function EmailTemplateCollection(...args) {             EmailTemplateCollection.__super__.constructor.apply(this, args);         },
+if(duration.indexOf("ms")!==-1){                          scale ='ms';                      } else {
+event.preventDefault();         ContactListView.sendSubscribe($(this));
+}   this.setZoom = function(dir){    if(Number(dir)){
+scope.$digest();                     }                 }
+$p.com.alert($p.locale.exception, "warning");                 return false;             case 404:
+return 'Y';     case 'flurries' :
+export default function() {  return this.image? this.image.toDataURL(`image/${this.imageType}`, this.imageEncoderOptions); }
+return false;

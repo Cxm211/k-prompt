@@ -1,0 +1,11 @@
+Namespace(log_name='./RQ5/python_10/2_codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='python', output_dir='RQ5/python_10/2_codet5p_770m', data_dir='./data/RQ5/python_10_2', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=2, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'def any_int_dtype(request):      return request.param  @pytest.fixture(params=ALL_REAL_DTYPES)  def any_real_dtype(request):', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': '', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'def any_int_dtype(request):      return request.param @pytest.fixture(params=ALL_EA_INT_DTYPES) def any_nullable_int_dtype(request):     return request.param  @pytest.fixture(params=ALL_REAL_DTYPES)  def any_real_dtype(request):'}]
+***** Running training *****
+  Num examples = 10
+  Batch size = 4
+  Num epoch = 10
+Namespace(log_name='./RQ5/python_10/2_codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='python', output_dir='RQ5/python_10/2_codet5p_770m', data_dir='./data/RQ5/python_10_2', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=2, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!

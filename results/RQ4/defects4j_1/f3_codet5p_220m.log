@@ -1,0 +1,170 @@
+Namespace(log_name='./RQ5/defects4j_1/f3_codet5p_220m.log', model_name='Salesforce/codet5p-220m', lang='java', output_dir='RQ5/defects4j_1/f3_codet5p_220m', data_dir='./data/RQ5/defects4j_1_3', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=128, max_target_length=128, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: Salesforce/codet5p-220m
+model created!
+Total 1 training instances 
+***** Running training *****
+  Num examples = 1
+  Batch size = 8
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 63
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.00334
+  global_step = 1
+  train_loss = 1.3613
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.00334
+  ********************
+BLEU file: ./data/RQ5/defects4j_1_3/validation.jsonl
+  codebleu-4 = 9.17 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:9.17
+  ********************
+
+***** Running evaluation *****
+  Num examples = 63
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 1.00334
+  global_step = 1
+  train_loss = 1.4154
+  ********************
+Previous best ppl:1.00334
+BLEU file: ./data/RQ5/defects4j_1_3/validation.jsonl
+  codebleu-4 = 9.17 	 Previous best codebleu 9.17
+  ********************
+
+***** Running evaluation *****
+  Num examples = 63
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 1.00334
+  global_step = 1
+  train_loss = 1.4214
+  ********************
+Previous best ppl:1.00334
+BLEU file: ./data/RQ5/defects4j_1_3/validation.jsonl
+  codebleu-4 = 9.17 	 Previous best codebleu 9.17
+  ********************
+
+***** Running evaluation *****
+  Num examples = 63
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 1.00334
+  global_step = 1
+  train_loss = 1.2475
+  ********************
+Previous best ppl:1.00334
+BLEU file: ./data/RQ5/defects4j_1_3/validation.jsonl
+  codebleu-4 = 9.17 	 Previous best codebleu 9.17
+  ********************
+reload model from RQ5/defects4j_1/f3_codet5p_220m/checkpoint-best-bleu
+BLEU file: ./data/RQ5/defects4j_1_3/test.jsonl
+  codebleu = 6.25 
+  Total = 64 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 64 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 6.25 
+[0.011538461538461539, 0.30948136485184624, 0.024585637295112244, 0.013793103448275862, 0.03092783505154639, 0.025609756097560978, 0.1596077792735865, 0.07173913043478261, 0.060733148067682326, 0.061538461538461535, 0.11484392129832767, 0.017857142857142856, 0.049735189168958624, 0.02692307692307692, 0.017857142857142856, 0.014285714285714284, 0.018815968877430853, 0.027210965225699983, 0.35867325377188725, 0.07453420305160591, 0.05384615384615384, 0.02162162162162162, 0.052531586075772935, 0.029268292682926828, 0.021790936807800122, 0.029918051106505403, 0.0003134345040425917, 0.034944739805254935, 0.020736241399175695, 0.21722371744077965, 0.08076923076923076, 0.022087912087912085, 0.042352941176470586, 0.042352941176470586, 0.047388612837388815, 0.023595505617977526, 0.10834043455259944, 0.030303621826395327, 0.3141897222240101, 0.01125, 0.03846153846153846, 0.05709119621674511, 0.013636363636363636, 0.03108930205886945, 0.000605026128378748, 0.011108015405105757, 0.06411315749484861, 0.006818181818181818, 0.02195121951219512, 0.0002333407907969096, 0.1965180281467139, 0.3659785074442653, 0.051219512195121955, 0.057692307692307696, 0.03487966713646505, 0.020274056602965603, 0.019373433392441082, 0.03626373626373626, 0.019195498958517264, 0.011307274221379648, 0.075, 0.030769230769230767, 0.011108015405105757, 0.13322653553150163]
+Finish training and take 11m
+Namespace(log_name='./RQ5/defects4j_1/f3_codet5p_220m.log', model_name='Salesforce/codet5p-220m', lang='java', output_dir='RQ5/defects4j_1/f3_codet5p_220m', data_dir='./data/RQ5/defects4j_1_3', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=128, max_target_length=128, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: Salesforce/codet5p-220m
+model created!
+Total 1 training instances 
+***** Running training *****
+  Num examples = 1
+  Batch size = 8
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 63
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.00334
+  global_step = 1
+  train_loss = 1.3613
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.00334
+  ********************
+BLEU file: ./data/RQ5/defects4j_1_3/validation.jsonl
+  codebleu-4 = 9.2 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:9.2
+  ********************
+
+***** Running evaluation *****
+  Num examples = 63
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 1.00334
+  global_step = 1
+  train_loss = 1.4154
+  ********************
+Previous best ppl:1.00334
+BLEU file: ./data/RQ5/defects4j_1_3/validation.jsonl
+  codebleu-4 = 9.2 	 Previous best codebleu 9.2
+  ********************
+
+***** Running evaluation *****
+  Num examples = 63
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 1.00334
+  global_step = 1
+  train_loss = 1.4214
+  ********************
+Previous best ppl:1.00334
+BLEU file: ./data/RQ5/defects4j_1_3/validation.jsonl
+  codebleu-4 = 9.2 	 Previous best codebleu 9.2
+  ********************
+
+***** Running evaluation *****
+  Num examples = 63
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 1.00334
+  global_step = 1
+  train_loss = 1.2475
+  ********************
+Previous best ppl:1.00334
+BLEU file: ./data/RQ5/defects4j_1_3/validation.jsonl
+  codebleu-4 = 9.2 	 Previous best codebleu 9.2
+  ********************
+reload model from RQ5/defects4j_1/f3_codet5p_220m/checkpoint-best-bleu
+BLEU file: ./data/RQ5/defects4j_1_3/test.jsonl
+  codebleu = 6.26 
+  Total = 64 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 64 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 6.26 
+[0.011538461538461539, 0.30948136485184624, 0.024585637295112244, 0.013793103448275862, 0.03092783505154639, 0.025609756097560978, 0.1596077792735865, 0.07173913043478261, 0.060733148067682326, 0.061538461538461535, 0.11484392129832767, 0.017857142857142856, 0.049735189168958624, 0.02692307692307692, 0.017857142857142856, 0.014285714285714284, 0.018815968877430853, 0.027210965225699983, 0.3555804702667326, 0.07453420305160591, 0.05384615384615384, 0.02162162162162162, 0.052531586075772935, 0.029268292682926828, 0.021790936807800122, 0.029918051106505403, 0.0003134345040425917, 0.034944739805254935, 0.020736241399175695, 0.21722371744077965, 0.08076923076923076, 0.022087912087912085, 0.042352941176470586, 0.042352941176470586, 0.047388612837388815, 0.023595505617977526, 0.10834043455259944, 0.030303621826395327, 0.3141897222240101, 0.01125, 0.03846153846153846, 0.05709119621674511, 0.013636363636363636, 0.03108930205886945, 0.000605026128378748, 0.011108015405105757, 0.06411315749484861, 0.006818181818181818, 0.02195121951219512, 0.0002333407907969096, 0.1965180281467139, 0.3659785074442653, 0.051219512195121955, 0.057692307692307696, 0.03487966713646505, 0.020274056602965603, 0.019373433392441082, 0.03626373626373626, 0.019195498958517264, 0.011307274221379648, 0.075, 0.030769230769230767, 0.011108015405105757, 0.1381445683183869]
+Finish training and take 11m

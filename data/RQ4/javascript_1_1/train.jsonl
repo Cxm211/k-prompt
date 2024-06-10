@@ -1,0 +1,1 @@
+{"id": "/data/all/data/binaryage/dirac", "bugType": "no-undef", "problem": "    }\n    return  (InlineEditor.ColorSwatch._constructor());\n  }", "fixed": "    }\n    return  (ColorSwatch._constructor());\n  }", "message": "Undefined variable."}

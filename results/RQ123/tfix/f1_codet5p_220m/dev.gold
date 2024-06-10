@@ -1,0 +1,1000 @@
+var Gun = Gun || require('../gun');  if(typeof window !== 'undefined'){ root = window }  describe('Gun', function(){   var t = {};   describe('Utility', function(){
+.find("rdl\\:EmbeddedImage[Name='" + this.value() + "']");             return new RdlEmbeddedImage().init(this, dom);         }.call(this);     },
+(function($){   $.floatThead = $.floatThead || {};   $.floatThead._  = window._ || (function(){
+var index = ++this.requestIndex;   return function( content ) {    if ( index === this.requestIndex ) {     this.__response( content );
+if (rows.length === 0 && bRebuiltMc)       throw Error("no latest_included_mc_index updated");      async.eachSeries(
+var neighbors = node.innerNode.getNeighbors(this.graph);   for(var n = 0; n < neighbors.length; n++){    var neighbor = this._getWrapperNode(neighbors[n]);
+ts.echo('已加载输入框...');         message.send(ts, CONST.HELLO_WORLD);         ts.echo('已发送欢迎语...');
+getSchemaOfSchema: function() {
+this.servers.forEach(server => {             server.registerServices(...this.services);         });
+for (; v.b; v = v.b)     {
+class ProvidePromise extends Provide {   constructor(token) {     super();     this.token = token;
+constructor(sekshi, options) {     this.author = 'ReAnna'
+matches: function (selector) {       return matches(this.node, selector)
+var folders = [];
+it("extending function", function(done) {     Function.prototype.wrap = flow.extension.wrap;     var readdir = fs.readdir.wrap();
+}             }).catch((err) => {                 this.log.error("[ERROR]AC State Sync fail!Error:" + err);             });
+var contentMessage = runContentProcessors(messageStub);         if (contentMessage) {
+});   return {
+process.stdout.write = function() {         logs.push(arguments[0]);     };
+if (store.getters['security/isAuthenticated']) {
+export default function(event) {  event.preventDefault(); }
+var pack = d3.pack()         .size([size[0], size[1]])         .padding(padding);
+if ((cap = this.rules.text.exec(src))) {
+var arr = fs.readdirSync(dir);         for (var i = 0; i < arr.length; i++) {             var curr = arr[i];
+}    event.name = event.name.replace(/^ava-/, '');    event.data.file = relFile;
+this.bjInvInertiaTimesRjxn =  new Vec3(); }
+return _chart }
+exports.requires = function() {   var props = util.toArray(arguments).map(getPropString);   var msg = 'Verifying option' + (props.length === 1 ? '' : 's') +
+debug( 'Current value: %d.', this._yMin );
+this._ask.each(function(e) {         e.arr.forEach(function(o) {
+} else if (project_target - num < closest && project_target > num) {                     closest = project_target - num;                     best = images[i];
+ENV.APP.rootElement = '#ember-testing';   }   if (environment === 'production') {     ENV.baseURL = '/ember-c3';   }
+this.$api_demo2.load('requests/index')         .then(function (response) {
+if (soundStateChanged) {     const parent = tab.$TST.parent;     if (parent)
+value = JSON.parse(value)    } catch (error) {         }
+var link = $(this).find('.youtube-link').first();                 var fav = [];                 fav[0] = link.html().trim();
+var error = function() {     callback(new Error('SQLite Error: cannot open database \'' + that.name + '\''));   }
+var oTablePersoDialog = this.getAggregation("_tablePersoDialog");   if (oTablePersoDialog) {
+var       reflect = function (node) { return Array           .from (node.attributes)
+});  }( window.db , window.describe , window.it , window.expect , window.beforeEach , window.afterEach , window.jQuery ));
+var FIELD_NAME_REGEXP = /^[!#$%&'*+\-.^_`|~0-9A-Za-z]+$/
+rule: function () {                 var name, value, c = input.charAt(i), important;                 save();
+toggletab(index);      }     }     setTimeout(function() {
+init: function() {     this._super(...arguments);
+let objectTypeCount = 0     for (let i = 0; i < length; i++) {
+NodeMain.NodeMain = class extends Common.Object {
+$(document).ready(function() {   var clipboard = new ClipboardJS('.copy-btn');
+var bid = domAttr.get(node, attrName)-1, b = this._bindings[bid], h;    while((h = b.connects.pop())){     h.remove();
+if(!result) {       throw new QtyError(val + ": Quantity not recognized");     }
+it('should fail with the name "D". Minimum size is 2 letters.', function() {   var validator = new Validator({ name: 'D' }, { name: 'min:2' });   expect(validator.passes()).toBeFalsy();
+return DirectionSelection; }
+};              if (kendo.ui.MultiSelect && widget instanceof kendo.ui.MultiSelect) {
+} ); export { KeyframeTrack }
+if ( !$.isArray(value) ) {         throw new State.DefinitionError();
+if (isNaN(fileSize)) {    self.onError(e(1008, self.url));   }
+let Waypoint = require('waypoints')   , filmstrip2gif = require('filmstrip2gif')
+return _dontLink ? pos     : LinkedPoint.create(this, 'setPosition', pos.x, pos.y);
+}   stop(...args) {     this.server.stop.apply(this.server, args)   }
+}     return s   }
+el: document.body,         model: self.me       });
+});         it('finally third view is "a"', function() {             expect($(this.children[2]).is('.ns-view-a')).to.be.ok;         });
+this.testFramework = this.answers.testFramework;
+for(let i = 0; i < 6; i++) {           headers.push('Week ' + i);
+it('makes superProto properties available to proto', function() {         expect(proto.superProperty).to.equal('super value');       });
+} var assert = require('assert');
+return config_envelope; } function decodeConfig(proto_config) {
+if (index !== -1) {         const keyframeProperty = propertyTrack[index];         this._deleteKeyframePropertyAt(propertyTrack, index);         keyframeProperty.detach();
+break;     }
+slide.title = req.body.title         }         if (req.body.description) {           slide.description = req.body.description
+if (params.fn) {    this.append((("\ \n      return " + (this.returnResult())) + (";\
+function(resolveValue){           var passed = resolveValue && (typeof global.astResult != 'undefined') && (typeof global.loadedResult != 'undefined');
+children.hide('fast');                 $(this).text("+");             } else {
+v= $().jquery.split('.'),       low= +v[0]*10 + +v[1] < 15     if (low) throw 'FATAL: Reel needs jQuery 1.5 or higher'     return low
+return client_api(selector, from || context, data);       }
+} const enter_dorling = (selection, stylings, force, data, isMobile) => {  d3.selectAll('.carto-shapes.' + isMobile).remove();
+console.log('An error ocurred on login to Spark Cloud: ', err);       callback(err, null);     }
+} else {       throw (new Error('error: format not supported: ' + opts.format))     }
+var groups = firedAlertGroups.list();             console.log("Fired alert groups:");
+import 'bfd-bootstrap' import React, {PropTypes} from 'react' import { Link } from 'react-router' import classNames from 'classnames'
+var touchList = e.changedTouches;
+var questions = [];       while (questions.length < n) {
+String.prototype.startsWith = function (string, position) {   if (!position) {    position = 0;
+type = 'pointerup';           break;         case 'mousedown':           data._dragId = targetId;
+Object.keys(formatOptions).forEach(function (option) {             formatString = formatString.replace('{' + option + '}', formatOptions[option]);
+} else if (options.textAlignment === 'right') {                 this.lines[i][1] = this._maxLineWidth - currentLineWidth;             }
+$(".line_selected").removeClass("line_selected");                            $(this).addClass("line_selected");
+to: function (dataFrame) {    assert.isObject(dataFrame, "Expected 'dataFrame' parameter to 'json.to' to be a data frame object.");
+ctrl[name] = val;         }
+process: function(mt, sgf, idGen) {   }
+default:             throw Error( 'Unsupported complex function case' );         }
+return __awaiter(this, void 0, void 0, function* () {             this._display.info("Removing package...");             return new Promise((resolve, reject) => {
+console.log(`${emoji(':heart:  ')}Your modules look ${chalk.bold('amazing')}. Keep up the great work.${emoji(' :heart:')}`);         process.exitCode = 0;     }
+if (inProperties) {    for (var j=0, p; (p=inProperties[j]); j++) {
+if (!objects.readExists(hash)) {       throw new Error("fatal: " + refToUpdateTo + ": not a valid SHA1");     } else if (!refs.isRef(refToUpdate)) {
+let repeatedValuesTemplate;
+console.log(xclap._tasks._namespaces.join("\n"));     return exit(0);   }
+for ( pName in envs ) {    CV.environment.set ( pName , envs[ pName ] );
+if(arguments.length == 2) {      path.addSegment(new Segment(arguments[0]));      path.addSegment(new Segment(arguments[1]));     } else if(arguments.length == 4) {
+class QuestionnaireItemSystemViewportSize extends QuestionnaireItemSystem {     constructor() {         super(null, "Viewport size", false);     }
+let items = this._data()       , listID = this._id('_listbox');     focusedItem = focused
+return this.setAVTransport(playlist.uri, '');     }); }
+modelOverlay = null;     if (!(this instanceof ToolIcon)) {         return new ToolIcon();
+var config = {             hourText  : text.localize('Hour'),             minuteText: text.localize('Minute'),             amPmText  : [text.localize('AM'), text.localize('PM')],         };
+var moment = require('moment');
+var r = request.post(href); var keyboard = through(function (buf) {
+'appstore.deploy': '部署',
+UniqueRestrictedTextField = Class.extend('UniqueFormField'); UniqueRestrictedTextField.applyTo('input.UniqueRestrictedTextField');
+adjusted_scale : this.adjusted_scale,  asset_swf_v : "\/c2.glitch.bz\/items\/2011-08\/mental_consideration-1312586023.swf",  admin_props : false,
+var repo = h5p.push(function (error, result) {     if (error === -1) {
+method: 'DELETE'         }).done((resp) => {             this.set(resp);
+static async update(id, values) {         try {
+function compileTemplate (templateUrl, templateString) {   return handlebars.templates[templateUrl] = handlebars.compile(templateString);
+$scope.isSelected = function (user) {             for (var i in $scope.groupUsers){                 if( user == $scope.groupUsers[i] ){
+if( this.start != this.goal){      for(var i = 0; i < path.nodes.length; i++){
+, websocket = global.websocket = require("./server/routes/websocket") , config = global.config = jsonfile.readFileSync("./runtime.json")
+}     return handler({ type, path, args, cb })   }
+});   },   send: function(actionName, ...args) {     var target;
+var fileEvents = files.event
+}, options);         elements    = UI.$(elements).removeClass(options.cls);         var group = {}, mintop = false;
+if (typeof(language) === 'undefined') { var language = {}; } language.romanian = {
+var thisCallSeq = ++this._lastCallSeq;       layer.validateTemplateURL({         success: function () {
+name = 'legacy';             }
+lighting = rvertex.lighting2;     const r = (lighting & 0x7C00) >> 10, g = (lighting & 0x03E0) >> 5, b = (lighting & 0x001F);     lighting = ((b << 3) + 0x000007) + ((g << 11) + 0x000700) + ((r << 19) + 0x070000);
+g,    absUrlRe = /^\/|^[^:]*:\/\
+geolocation.on('change', function() {   var position = geolocation.getPosition();
+}     return { width: target_width, height: target_height }; }
+let file;         before(function(done) {           file = new hdf5.File('./h5ds.h5', globs.Access.ACC_TRUNC);
+var Rx = require('../../dist/cjs/Rx'); var Observable = Rx.Observable;
+module.exports = amazon({}, [{}]);
+props: {     disabled: props.disabled,     flat: true,
+var attributesChanged = function (event) {      if (event.key === 'points') {
+SgdgIntegerSettingsComponent.prototype.toggle = function() {  this.block.setAttribute( this.name, undefined !== this.block.getAttribute( this.name ) ? undefined : this.state.value ); }; SgdgIntegerSettingsComponent.prototype.change = function( e ) {
+let runDev = require("./runner.js") let config = require("../app/src/config.js")
+});     this.Super('init', [config]);    },
+delete taxonomy.ORDER;                     }                     if(taxonomy.FAMILY && taxonomy.FAMILY.length > 0){
+this.ApiResource = swaggerService.ApiResource();       this.ApiResource.bind("refresh", this.addAll);
+if ($node.length === 0) {     throw new Error('$node must be set.');   }   this._selectedNodes = [node];
+this[slot].hasReading = false;   } };
+var T     = toObject(target)     , aLen  = arguments.length     , index = 1
+return area / 2; }
+keydown(e) {         if (e.ctrlKey || e.metaKey) {           if (e.keyCode >= 48 && e.keyCode <=57) {             return true;
+end: token.end,     loc: token.loc.clone(),     extra: {tokenValue: token.value, tokenIndex: token.index, tokenType: token.type.key},
+import { isEmpty } from 'lodash'; import { Modal } from 'UI';
+}   return res; };
+process.exit(0);  });
+content: {   'type': Schema.Text  },  date: {
+poolConnection.prototype.release = function() {     this.connection.release(); };
+if (obj.tense !== '--') {       res.tense = obj.tense;     }
+lazyLoadInit(this);       self.getIframe().off('load', iframeLoadHandler);     });
+p1y = positions[i1 * 3 + 1],                     p2y = positions[i2 * 3 + 1],                     p3y = positions[i3 * 3 + 1],                     p1z = positions[i1 * 3 + 2],
+this.onSearchResultsCompleted = function(event, data) {             if (data.success) {
+var srcCSS = options.srcCSS                                       , files
+enterFullScreen: function(){     if (this.supportsFullScreen()) {       this.api("enterFullScreen");
+})     this.on('remove', function(removed){       var currentTab = self.appview.get('currentTab')
+exports.initWebApp = function(options) {   var config = options.config.email;   var mailer = nodemailer.createTransport(config.method, config.transport);
+for (var i = 0, l = this.length; i < l; i++) {       if (this[i] === item) return i;     }
+coUtils.Debug.reportWarning(       _("%s sequence [%s] was ignored."),       "GS", Array.slice(arguments));   },
+},       defaultOptions: {         noFormControl: false,         ngModelAttrs:{
+case 'PUT':              return     case 'DELETE':              return   }
+value={settings.shortWordLength}         onChange={changeSettings}         style={{ width: 60 }}
+var $ = require('../') $.import('Foundation')
+function makeCallback(taskName) {             return function(...args) {                 var callback = _.last(args);                 runningTasks.push(taskName);
+scope.resetForm = function() {       scope.device.name     = scope.deviceCopy.name;       scope.device.physical = scope.deviceCopy.physical;     }
+Joose.O.each(this.properties, function (property, name) {             if (property != null) func.call(scope, property, name)         })
+Hoek.assert(this.constructor === exports.Server, 'Server must be instantiated using new');     return exports.createServer.apply(null, arguments); };
+acc[Score] = (acc[Score] || []);     acc[Score].push(elem);     return acc;
+if (!ipRangeCheck(ip, config.get('githubIpRange'))) {         throw new ApiError('IP does not match GitHub whitelist.');       }
+return ' el' + textSuffix + '.match(new RegExp("^"+' + val + textSuffix + ')) ';                 case 'end':
+append: function( views ) {         var target = this[0];
+]   return Number('0b' + arr.join('')).toString() }
+})   })   .catch((err) => {     return exitError(err)   })
+var self=this;
+if (process.env.RESOURCE_DEBUG) {                     page.onResourceRequested = function () {                         console.log.apply(this, [                             "PhantomJS resource requested:"
+, Contact      , PuppetWeb
+if (typeof GM_addStyle == 'undefined') {   this.GM_addStyle = (aCss) => {     'use strict';
+var edge = [];          var yfirst = this.getSort() === "y";
+{  constructor(name, sendUpdates = true){   super();   Object.assign(this, {name, sendUpdates});
+this.testCase.saveAsNew(this.options);    updateTitle(); }
+if (Array.isArray(value)) {         value.forEach(v => set(u8, pc++, view, v));       } else {
+exports.build = function () {   for (var key in resources) {     if (resources.hasOwnProperty(key)) {       buildResource(resources[key]);     }
+function clean(s) {     return cleanCache.g(s) || cleanCache.s(s, s.replace(/([.*+?^=!:${}()|[\]\/\\])/g, '\\$1'));   }
+var MB = 1048576;     var maxJpipCacheSize = maxJpipCacheSizeConfig || (10 * MB);          var sessionWaitingForReady;
+callback: function () {                                                                  if( i !== nCommands - 2 && i < nCommands ) {                                     line.find(".typed-cursor").remove();
+scout.NumberColumn.parent.prototype.init.call(this, model);   if(!(this.decimalFormat instanceof scout.DecimalFormat)) {     this.decimalFormat = new scout.DecimalFormat(this.session.locale, this.decimalFormat);
+attachNecessaryHandlers(window, isBlocked);
+}      if ( parameters.direction instanceof THREE.Vector3 ) {
+OpenSeadragon.Viewer.prototype.initializeAnnotations = function () {   this.addHandler('open', () => {     const size = this.viewport.homeBounds;
+this._newOrphanTransitions.push({ removedSprites, transition, duration });     this.get('startAnimation').perform();   },
+} else {       throw new Error("bad arg");     }
+_test: function(value, data) {          var errors = [], tests = this._tests.length ? this._tests : [isPresent], value = value || '';          tests.forEach(function(block) {
+JSXAttributes: 'JSXAttributes',   JSXAttributeValue: 'JSXAttributeValue',
+function isOne() {     return maxNumberAllowed >= 1; }
+const templateUrl = file.replace(           /^src\/(.*\/[^.]*).*$/,           `${prefix}$1.html`
+stop: function() {     this.playing = false;
+grid.devices({type: 'worker', jobId: ''}, opt.wmax, function(err, res) {    if (!res.length) throw new Error('no worker available');    for (var i = 0; i < res.length; i++)
+item = getObject(unqiueField, item);     }     var value = item[unqiueField];
+module.exports = 'bar';
+getInvites() {         return this.shard.client.getGuildInvites.apply(this.shard.client, this.id);     }
+let retrieveInstances = () => {       this.instancesCount = countInstances();       this.selectedGroups = ClusterFilterModel.multiselectInstanceGroups
+var ports = command.proxy.split(',');     Object.keys(reqs).forEach(function(key, i) {       f(key, i, ports, proc, reqs, portargs, localhost, emitter);
+this._updateWatchedItems(value, oldItems, newItems, function() {     this._queue(this._getValue(value));    });
+}   this.emit( 'undo', state );
+else if (arguments.length === 3 && typeof arguments[1] === "number" && typeof arguments[2] === "number") {         this._bytes     = arguments[0];
+return Evol.UI.Validation.checkFields(this.$el, fs, this.prefix);          }          if(this._subCollecs){
+constructor(resource) {     avali('str', resource);
+if (format != '-') {                 if (round || val == Math.round(val)) format = format.substr(0,1)+'0';
+};     var start, cnt, end;
+var result = true;  for (var alpha = 0x0061; alpha <= 0x007A; alpha++) {   var str = String.fromCharCode(alpha);   var arr = regexp_w.exec(str);    if ((arr === null) || (arr[0] !== str)) {
+checkVersion() {         var currentVersion = this.getGlobalItem('storage_version');         if (currentVersion !== global.window.mm_config.Version) {
+if (!((resolveActions_ != null) && resolveActions_)) {         throw new Error("Internal error: missing resolve actions structure input parameter.");       }
+{     if (opts.userCancelled === true) {      return     } else if (opts.taskFinished === true) {
+draw: function(color) {         this.setUniform("u_color", "3fv", color);         ClearScreenProgram.super.draw.call(this);
+throw err       })
+return examineScope((function(s) {                     var n = setUserData(node.target, (node.target.ud || ({})));                     (n.ud.id = n.id);
+BS = 0x8,     OVER_AND_OUT = [ 79, 79 ],
+if (path._closed && length > 1)    drawSegment(0);
+return createBed(binaryParser, nTracks, type);         default:
+if (hasSiteController) {
+, boards = require('../boards')   , runtime = require('../lib/config')   , out  = require('../lib/output');
+});                                     css = autoprefixer(autoprefixerOptions).process(css);                                 } else {
+document.addEventListener('click', function(e) {     var el = e.target;     var dataset = el && el.dataset;     if (el && el.nodeName === 'A' && (
+return new Rgb(r, g, b);   }
+throw finalLog;         });
+return bitcoind.log(packet);     });     return;   }
+} else {         klass = this.find('code').attr('class');         var m = klass.match(/lang-([a-z]+)/);
+ActionTokens.prototype.create = function(type, user, data, options) {   options = _.extend({
+})( typeof window !== 'undefined' ? window : global );
+utils.formatDate = function (date, fmt) {     var o = {
+}      var done = this.async();
+var str = makeString("a-b-c")             var res = str.split("-")
+if (source instanceof Phaser.RenderTexture)         {
+this.mHeartbeat.clear();     this.mPort.close(function(err) {                  if (err) {
+if (!params.nodeId) {         throw  SceneJS_errorModule.fatalError("SceneJS.utils.query.QueryNodeBoundary.execute expects params.nodeId");     }
+else {       this[role].resource = helpers.getUrlFromDiscoveryResource(globals.discoveryResource, 'person-template', {pid: person});     }     delete this[role].resourceId;   };
+Object.keys(this[CALLBACKS]).forEach((id) => {   this[IS_PENDING][id] = false;
+REGEX_OBJTYPE = /\[object Object\]/,   REGEX_QUOTE = /^\s|\"|\n|,|\s$/,
+disableEditor: function (data) {       var widgetName = jQuery(data.element).data('createWidgetName');       data.disabled = true;
+var str = JSON.stringify(payload);   var len = Buffer.byteLength(str, enc);
+anInstance(this, C, 'forEach');         var f = ctx(callbackfn, arguments.length > 1 ? arguments[1] : undefined, 3);         var entry;         while (entry = entry ? entry.n : this._f) {
+if (l = checkSC(_i)) _i += l;         while ((l = checkRuleset(_i)) || (l = checkAtrule(_i)) || (l = checkSC(_i))) {             _i += l;
+markAsForbidden(pathsByDepth, edges) {         for (let j = 0; j < edges.length; j++) {
+this.p({ class: 'block' }, `Command not configured for ${lang}!`);       this.p({ class: 'block' }, () => {         this.text('Add an ');         this.a({ href: `https:
+};     for (tc in xyz) {       if (xyz.hasOwnProperty(tc)) {         xyz2[tc] = xyz[tc] / white[tc];
+nodemon = require('gulp-nodemon'),   watch = require('gulp-watch'),
+var TRANSITION_INTERVAL_VALIDATOR = function TRANSITION_INTERVAL_VALIDATOR(v) {   v = (v || 0).toString()   var match, num, ret
+return {      'millisecond': this.millisecond      ,'name': this.name
+RANDO.Trek.prototype.getTotalVertices = function () {         var spheresArray    = this.spheres.getChildren();         var cylindersArray  = this.cylinders.getChildren();
+exports.default = cloudCodeActions; });
+} else {       throw is.invalidParameterError('width', 'positive integer', width);     }
+word = word.replace(arg.prefix, '');             if ((arg.type === 'dynamic' || arg.type === 'number') && !isNaN(word)) word = parseFloat(word);             if (arg.type === 'number' && isNaN(word)) word = arg.defaultValue;
+this.defaultDestroy();   return this.tor.destroy(); };
+exports.LispJs = LispJs;
+return true;     }     return getPromise(this.http.controller + " controller not found", true);
+}       let bn = BN(this.stack[this.stack.length - 1].length);       this.stack.push(bn.toScriptNumBuffer());
+Command.extend = function(options) {     options = options || {};     var params = options.params || [];
+constructor(map) {         super();         this.map = map;
+}     Object.keys(data).forEach(function(page) {       data[page].name = page;
+var Engine = require('engine.io').Server     , Spark = this.Spark;   var service = this.service = new Engine();
+, logs: []         , cache: []         , spares: []
+return res; } module.exports = AzureTable;
+this.prepareBudget = 0;     this._prepareQueue = [];     this.autoPurgeResources = true;
+childProcess = require('child_process'),     fs = require("fs"),     objectAssign = require('object-assign'); module.exports = function(options, requestOptions, id, cb) {
+gutil.log(gutil.colors.red('[-Error:]'), 'See \'em generate --help\'');     exitProgram();   }
+module.exports.process = function(context) {         var compare, value;
+})     var template = new Template()     template.set({things: things})
+var $ = cheerio.load(result.data, {xmlMode: true});     var description = $('content\\:encoded').html()       .replace(/^<!\[CDATA\[/, '')
+this.events.off('resize', this.myResize, this);     this.gitVisuals.tearDown();
+init(services, args);  }
+} else {                 this._tryToDraw(this);             }
+{                  var hexAlphabet = "0123456789ABCDEF";
+var cameraScrollY = camera.scrollY * gameObject.scrollFactorY;     var chars = gameObject.fontData.chars;
+viewdata['title'] = 'rulee viewData';         setTimeout(function() {
+function Payload() {   this.name = NAME;   this.fields = {
+}       control = control || this.base(arguments, id);       return control;
+PropertyAssignment: 'PropertyAssignment',   TrueKeywordTrue: 'TrueKeyword[value="true"]',
+var _getControllerConstructors = function (next) {         var dirname = '/app/controllers'
+this._callbacks = {};         } else if (calls) {             if (!callback) {
+Fly.prototype.source = function (globs, options) {  globs = flatten(arrify(globs))
+var crypto = require('crypto')   , pbkdf2 = require('../utilities/pbkdf2.js');
+import DropdownStyles from '../panel.scss';
+$scope.$parent.title = (_ref = (_ref1 = $routeParams.group) != null ? _ref1 : $routeParams.channel) != null ? _ref : "Search Result '" + $scope.key + "'";     $scope.currentPage = (_ref2 = $routeParams.p) != null ? _ref2 : 1;
+} else {     deviceChannel = 'main';   }
+var reviver = function(key, val) {
+_log: function() {                               }
+}     CurrentThreadScheduler.prototype.schedule = function(state, action) {       var si = new ScheduledItem(this, state, action, this.now());       if (!queue) {
+}  }  return false;
+if (!isShown()) {             throw new Error('Tooltip not visible');           }
+'cd' in this.console
+this._foldRow(row, function (r) {                                 ModelReps.highlightRow(r, type ? type : 'row-warning');                                 this._bubbleUpRow(r);
+throw 'Error: failed to add item of unknown type to world';                              }
+let peerId = config.peerId     if (!peerId) throw new Error("peerId required, not found in config")     this.peergroup.join(peerId, name)
+describe('deactivate app', () => {     it('should background the app for the specified time', async () => {
+}, this ) );         }
+, originalFiles = section.files                          ;
+function JoinNode(x, y, z, w) {     TempNode.call(this, 'f');     this.x = x;
+var constructor = function() {     if (this.initialize) this.initialize.apply(this, arguments)          this.validate = this.validate.bind(this)          this.validate.schema = this.validate
+getProjectColumns().forEach(column => calculateStoryPoints(column, pattern)); }
+({     open : function(cmp){         var topicName = cmp.get("v.topic");
+this.ops.length = 0;   this.emit('connect'); }; Proxy.prototype.setKeepAlive = function setKeepAlive(enable, delay) {
+if (typeof (chars = charSpec.validChars) !== 'undefined') {             if (chars.indexOf(char) !== -1) { returned.push(child); }
+constructor: function TransitionDefinitionCollection(...args) {             TransitionDefinitionCollection.__super__.constructor.apply(this, args);         }
+this.movePiece = function(file, rank, piece) {     piece.rendered.move(getX(file), getY(rank));
+cy.get('body:last footer button:first').click();       cy.get('body').should('not.contain', item);
+options.where = { [rel.primaryPk]: result };                         let primaryModel = new schema.collections[rel.primaryName](config);                         yield primaryModel.update({ [rel.fkey]: relIdArr }, options);
+dependencyDetection.begin();                  for (var a = this._subscriptions[event].slice(0), i = 0, subscriptionInstance; subscriptionInstance = a[i]; ++i) {
+} else if (this.postIsInvalid(post)) {    this.logger.warn("Posted result for ", post.id, " is not valid. Ignoring POST.");    status = 'invalid';
+firebaseConnect(({ uid }) => [     {
+if (url === undefined || !URL_REGEX.test(url)) {         errorHandler(Error('Invalid URL'));     }
+} else if (pathParts[1] == "members") {     event = ['dimension', pathParts[2]];
+this.on('mount', () => {
+};     if (node.parentNode) {
+toNext();               var toNext = function () {                 k++;
+list.PY$pop = function() {     if (len(this) > 0) {         this._len = -1;
+class SubPath extends Path {  constructor(parent, name) {   super();   this._parent = parent;
+const componentStateHandler = (err, state) => {   if (err) {    FSBL.Clients.Logger.error(err);
+const Buffer = require('safer-buffer').Buffer const YAML = require('yamljs')
+}                 var props = getProperties(trigger);                 if (isEmpty(props.url)) {
+Document.prototype.$__path = function (path) {   var adhocs = this.$__.adhocPaths     , adhocType = adhocs && adhocs[path];
+import React from 'react'; import { connect } from 'react-redux';
+export function clearArray(a) {     return a.splice(0, a.length); }
+var group = opt_group || this.defaultGroup;   if (!(group in this.feature_)) {     this.log_.warn('Feature group', group, 'is unknown, yet.');
+var autoImport = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;   var _load = function _load() {
+this.text.textNode = textNode; };
+} else {                  result.suffix += '<span style=\"font-weight:normal;color:orange\">';              }
+if (!_.src) {                 return dfd.reject().promise();             }
+throw err;     })   .on('drain', function() {
+constructor(){   super()   this.name = 'pdf'   this.response.type = 'link'  }
+var el = makeElement("script");         el.innerHTML = joinText(js);         return el;
+let bar = [];  bar.push(0, ...foo, 99); }
+try {       return yield new Q((resolve, reject) => {         let params = this._buildAccessTokenParams();
+import { createStructuredSelector } from 'reselect';
+console.error('Failing monitors detected!')   process.exitCode = 1 }).catch((err) => {
+}   return nativeClearTimeout(timer); }
+Router,   Route
+if (Utils.domIsReady(sourceDoc)) {             destDoc.close();
+resolve.push(draft);       }       if (!live.workflowLocale.match(/-draft$/)) {         resolve.push(live);
+engine: function() {    var tricks = bcpie.extensions.tricks,trick,instances,instance,arr=[],str="",options={},module = [],functions = {},defaults = {};    for (trick in tricks) {
+console.log('Command failed.');         throw error;     });
+qx.lang.Number.limit = function(nr, vmin, vmax) {
+s = fmt.mdStringToHtml(s, username, noThumb);    if ((m=s.match(/^(?:&gt;\s*)(.*)$/))) {     lout.push('<span class=citation>'+(m[1]||'&nbsp;')+'</span>');
+case 'texture':     case 'thumbnail':
+} else {           _before(this, placeholder);         }
+, Painting = require('../painting')   , Location = require('../location') module.exports = inject;
+_deferred.resolve();     }   });
+if( $this.hasClass( 'toggled' ) ) {        self.module.controller.onToggleOff( self.module.data, index );
+done();       });     });
+var numberItems = count;         if (count == 0) {          $('.no-results').fadeIn();         }
+promises.push( this.advancedSettingsPage.setup( surfaceModel.metaList, config ) );    return ve.promiseAll( promises );   }, this )
+); } export default store;
+cx: function (x) {       return x == null ? this.bbox().cx : this.x(x - this.bbox().width / 2)
+} else if (/\.html($|\?)/.test(resource)) {                             var storeKey = key;                             var xhr = new XMLHttpRequest();
+if (!record) {         throw new Error('Unknown record');       }
+mapUri(stubCluster(), '/elasticsearch')(request, function (err, upstreamUri) {         expect(err).to.be(null);
+const previousCards = (this.state.cards || []);     const cards = _.sortBy(previousCards.concat(newCards), card => toMomentFromTime(card.timestamp).unix()).reverse();
+const {listViewData} = this.props     if (!listViewData) {
+}( Anglebars ));
+, body       , headers: {
+}.bind(this),               iKey,               this.$('iframe')[0],               this.extractOrigin(tValue)
+return localStorage.setItem(key, JSON.stringify(value));   } catch (err) {     return null;   }
+if (props.length) {     var selector = new nodes.Selector([new nodes.Literal('&')]);     selector.lineno = node.lineno;
+'use strict';
+chromeMyAdmin.controller("MainFooterController", ["$scope", "modeService", "mySQLClientService", "rowsPagingService", "rowsSelectionService", "targetObjectService", "Events", "Modes", "relationSelectionService", "TableTypes", "routineSelectionService", function($scope, modeService, mySQLClientService, rowsPagingService, rowsSelectionService, targetObjectService, Events, Modes, relationSelectionService, TableTypes, routineSelectionService) {     "use strict";
+module.exports = yeoman.Base.extend({   constructor(...args) {     yeoman.Base.apply(this, args);     this.name = args['0'][0];   },
+var regex = /%%|%(\d+\$)?([-+'#0 ]*)(\*\d+\$|\*|\d+)?(?:\.(\*\d+\$|\*|\d+))?([scboxXuideEfFgG])/g   var a = arguments
+var self = this     fn = fn || function () {}
+var element = {};       for(j = 0, jlen = this.column_names.length; j < jlen ; j++) {         var cell = source[ "gsx$" + this.column_names[j] ];
+var M = [];   for (var i=0; i<n; i++) {     var empty = [];
+} ); export { Spherical }
+}       break;     case "UnaryExpression":           if (node.operator == '!') {
+if (this.status != "ready") {             throw new Error('Task can only be started in "ready" status.');         }
+if (su || su === 0) {
+if(!localStorage) {          throw new Error('localStorage support is required');      }
+Mesh.run_and_render_code();                     break;                 default:                     break;             }
+IfNode.prototype._attachHTML = function (buf) {     var me = this;     var elseIndex;
+var spawn = exports.spawn = function(file, args, options) {   args = args ? args.slice(0) : [];   args.unshift(file);
+export default {
+import React from 'react' import Img from 'gatsby-image'
+parent = lib.node(parent);    if (!parent) { throw new Error("no parent"); }     if (!options.outlineService) {throw new Error("no outline service"); }     this._parent = parent;
+var Home = true; ;; })(); (function(){ var iphone = true;
+export function useState(state) {   if (Object.keys(save).length > 0) {
+mhlp.updateOptions(this.config.options, mOpt);
+return 'lowp';
+var fs = require('fs');
+src: [                     'src/dop.js',                     'src/core
+delete $tw.MultiUser.EditingTiddlers[internalTitle];         $tw.MultiUser.UpdateEditingTiddlers(false);
+$("#results ul").empty();             for(i=0; i < data.length;i++){                 self.addResult(data[i]);             }
+if (!child) {             throw new Error('Failed to mount VNode: cannot find matching node.');           }
+} else {       el.off();        el.observe_field(interval, function () {
+loader: 'babel-loader',             query: {
+addNode: function(node, args) {    if(this.features[node]) { throw node + ' exists'; }    this.features[node] = args;
+} else if (test.pending) {       el = fragment('<li class="test pass pending"><h2>%e</h2></li>', test.title);     } else {
+let peerNames = org.peers;         let peers = [];         peerNames.forEach((peer) => {
+originalName: name,     handler: typeof handler == 'string' ? view[handler] : handler   };
+, RE_NOT_FILEPATH = /[\r\n<>]/gm;
+call.sendError(new Error('Deadline exceeded'), Status.DEADLINE_EXCEEDED);   call.emit('cancelled', 'deadline'); }
+vgView.on("mouseout.tooltipClear", function(event, item) {       clear(event, item, options);     });
+for (var i = 0; i < attributeNames.length; i++) {                 var name = attributeNames[i];                 var attr = templateGeo.attributes[name];
+assets.forEach(({ source, dst }) => {       writeFileSync(path.resolve(options.clientBuildDir, dst), source, 'utf-8')     })
+throw new Error(meta.message + "\n" + meta.stack);     default:
+var compiler = new CPPCompiler(ast);   compiler.compile();
+}     event.returnValue = [null, guest[method](...args)]   } catch (error) {
+,sortFunction: nll     }
+me.logWarning = function(...args) {         args.unshift(MESSAGE_LEVEL.WARN);
+return a < b ? -1 : a > b ? 1 : a >= b ? 0 : NaN;   }
+describe('built-in apps', function () {   this.timeout(MOCHA_TIMEOUT);      let driver;
+while ((c = str.charAt(i++)) && s < 4) {     if ((j = m[c])) {       if (j !== p) {
+'use strict';
+slice: function() {   return this.pushStack( core_slice.apply( this, arguments ) );  },
+if (!('fuzzyMatching' in importOptions)) importOptions.fuzzyMatching = false;  if (!('onProgress' in importOptions)) importOptions.onProgress = function() {};  if (!('onError' in importOptions)) importOptions.onError = function() {};
+NAME_94: '64式',
+console.time('  [POST] /unpack');     gRequest.post({'url': url, 'formData': formData, 'headers': headers},         function optionalCallback(error, httpResponse, body) {             if (error) {                 callback(false, body);
+this.route( "watching" );  this.route( "search" );  this.route( "featured" );
+newEvent: value,                 data: that.data             }))
+} else {     throw new Error("You must either set an 'is' value, a single minimum and maximum value, or both a minimum and maximum value.");   }
+var $export = require('./_export'); var _isFinite = require('./_global').isFinite;
+const assert = require('assert'); const http = require('http');
+});   if (voronois.length !== 0) {
+get title() {   return Window.getTitle(this.handle);  }
+pageServicesParams,                 addedEvents = [];
+_this = __create(_proto2);         }         if (Type.none) {
+token : "keyword",             regex : "\\*",         }, {             token : "string",
+this.v3pool = new Vec3Pool(); }
+})         if (syncTaggedPoints instanceof Error) {           throw syncTaggedPoints;
+Mouse = Matter.Mouse,         World = Matter.World,         Bodies = Matter.Bodies;
+var utils = require('../utils');
+for (i = 0; i < length; i = i + 1) {
+return this.depthFirst(opts)     case 'manhattan':
+static async insert(values) {         try {
+copy() {     return new Vector(this.x, this.y);   }
+if (related[pluralized + 'Relation']) { inverse = pluralized; }
+}   group.on('click', selectNode) }
+syncIntegration(integrationID) {         return this.shard.client.syncGuildIntegration.apply(this.shard.client, this.id, integrationID);     }
+this.radius = defaultValue(options.radius, 1.0);     }
+}   rc.isFetchingContacts = true   let contacts = []
+var type = consoleJSON.Util.type(json);   if (!(type in delimDict)) {
+if (substitutions) {                 for (var x in substitutions) {                     html = Alpaca.replaceAll(html, "${" + x + "}", substitutions[x]);                 }
+);            document.body.style.setProperty("overflow", "hidden");         }         if (!visibility && typeof window !== "undefined") {           document.body.style.removeProperty("margin-right");
+world.update_queue.forEach(function(update, index){      var _complete = function(processed_change) {
+function forEach(o, fn) {  if (Array.isArray(o)) {   return o.forEach(fn);
+var root = global; var connectHandlers; var connect; if (typeof __meteor_bootstrap__.app !== 'undefined') {
+}); }; module.exports = TableAxisHasCorrespondingId;
+if (typeof this.props.validityCheck === 'function') {    return this.props.validityCheck(this.state.fieldValue, this.props.fieldKey);
+if(db.tables[tableid])      throw new Error('Can not create table \''+tableid      +'\', because it already exists in the database \''+db.databaseid+'\'');
+return string.replace(         /(-|_)([a-z])/g, (result, delimeter, char) => char.toUpperCase()     );
+for(let element of (nodes || this)) {       let funcCall = element[key](...args);       funcCall instanceof Node ? newNodes.add(funcCall) : funcCall !== undefined ? arr.push(funcCall) : null;
+this.app.log("Connection error " + this.conn.connectErrno + ": " + this.conn.connectError);        } else {
+{                     xtype: 'tbspacer',
+_.each(sel.getRanges(), function(range) {       if (range.isEnclosed() || range.isFull()) {
+var arg = arguments, argLen = arg.length;   for (var i = 0; i < argLen; i++) {    var module = arg[i];    if (module && module.init && typeof module.init == 'function')
+var pingServer = function() {     this.proxyTo('/wd/hub/status', 'GET', null, function(err, res, body) {       if (body === null || typeof body === "undefined" || !body.trim()) {
+path:        this.path,             base:        this.base,
+export function clickElement(element) {     if (window.MouseEvent) {         const event = new window.MouseEvent('click', {
+attributes = $element[0].attributes;       for (var i = attributes.length; i--; ) {         attribute = attributes[i];
+webpackJsonp([0],{  2:  (function(module, exports) {
+.then(function (tables) {       return _.indexBy(tables, 'table');     });
+move:function(){    var v = randomDirection();    setInterval( function() { moveBody(v,v); }, 10);   },
+if ('licence' in this.config) {      throw new Error(`Incorrect spelling of license property in ${this.name}`);     }
+var helper   = require('../support/spec_helper');
+} var collection2 = new Mongo.Collection("test_insert_collection2"); if (Meteor.isServer) {
+try {     AlarmObj.remove(alarm.id);    } catch(e) {}
+})(HttpMethod || (HttpMethod = {})); (function (HttpMethod) {
+};             for (var prop in extra) {                 settings[prop] = extra[prop];             }
+module.exports = (directory = false) => {     if (!directory) return process.cwd();     return (apiResponse, type = "generic") => {
+for (var name in other) {   if (other.hasOwnProperty(name)) {
+response.fromBuffer(buffer);                  updateTimeout(self, response.payload.timeOut);
+runSequence( [ "clean", "install-packages" ]              , "favicons"              , "serve"              , "webpack-dev-server"
+this.prompt(prompt, function (data) {     _this4.appFramework = data.appFramework;     done();
+let renderer = null;             if (!viz.symbol._default) {                 renderer = viz.symbolShader.shader;
+program = new Command(),         pluginConfigFilename,
+, json: 'application/json'   , form: 'application/x-www-form-urlencoded' };
+urlchars: function() {     var captures;
+case 1:return 6         case 2:yy_.yytext = yy_.yytext.substr(1,yy_.yyleng-2); return 4
+priority = Queue.priority.HIGH         } else if (client === 'yarn website') {
+_visibilityChanged: function(visibility) {         visibility = (visibility !== undefined) ? visibility : this.visible;         if (visibility) this._sizingHack();
+}         this.document.body.style.opacity = 1;     }
+}     };     server.on("afterLoad", func);      } else {
+var x1 = line.solveForX(-1);     y1 = line.solveForY(x1);     x2 = line.solveForX(1);     y2 = line.solveForY(x2);
+if (nodeItem[0] === 'atruler' || nodeItem[0] === 'ruleset') {                     value = (i < 2 && isFirst ? '' : '\n') + new Array(level + 1).join(this._value);                     isFirst = false;
+};     this.server = server;
+export function getOwner(instance) {   if (EmberGetOwner) {     return EmberGetOwner(instance);   } else {
+import { shallow } from 'enzyme'; import ReactEcharts from '../src'; import option from './option';
+}; Person.prototype.renderBlockMain = function() {   var self = this;
+case 'gameover':      console.log('* Game Over.');      return;
+Array.prototype.slice.call(arguments, 1).forEach(function (transmitter) {     if (!!transmitter && 'object' === typeof transmitter) {       Object.getOwnPropertyNames(transmitter).forEach(function (k) {
+if (!Array.isArray(edgeDefinitions) || edgeDefinitions.length === 0) {     err = new ArangoError();     err.errorNum = arangodb.errors.ERROR_GRAPH_CREATE_MISSING_EDGE_DEFINITION.code;
+return node     }
+}   throw Error( 'Unsupported Fourier input' ); }
+this.validateDifferentFormElements(this, requestBody, validations)     if (this.isFormValid(this, validations)) {
+return $compile(html)(scope);   };
+Index = 0;           Source = "" + source;           result = get(lex());
+Interceptor.prototype.listen = function(port) {   this.port = port;   if (!this.inStream._handle) {
+} exports.archify = function(obj) {   var tree = {}
+autoScroll: {writeonly: 0},
+setExtraData : function(component){   this.common.setExtraData.call(this, component);
+ENV.APP.rootElement = '#ember-testing';   }   if (environment === 'production') {     ENV.rootURL = 'ember-charts';   }
+var Primus = require('primus')   , rooms = require('primus-rooms')
+return {     type: actions.TRANSACTION_ERROR,     message: err.message,
+var e = function () {      if (typeof completed === 'function')
+speed = Fn.scale(ch, 1, 9, 0, 255);         controller(...commands);       }
+async function run (context, heroku) {   const inquirer = require('inquirer')
+function Forward(signal, deferred) {   var services = $.map(this.services, function map(service) {    return $.Deferred(function deferredSignal(deferSignal) {
+}), errorCb);    this.emit('ice_candidate', socket, data);   }
+History.replaceState = function(data,title,url,queue){
+});  if(ct.xmlns !== XMLNS_CT) throw new Error("Unknown Namespace: " + ct.xmlns);  ct.calcchain = ct.calcchains.length > 0 ? ct.calcchains[0] : "";
+var seed = [{}];             model._getPathSetsAsJSON(model, [['genreList', 0, 0, 'summary']]);
+else {         for (i = 0; i < yieldPorts.length; i++) {             yieldPort = yieldPorts[i];
+function log(...aArgs) {  TreeStyleTabUtils.log('fullscreenObserver', ...aArgs); }
+this.pushTransport = compose(         transport.push.createSender({token: this.pushToken}),          helpers.encryptWith({publicEncKey: this.publicEncKey}),         helpers.messageToDeepLinkURI
+fs.writeFileSync(cli.flags.output, file) } else {
+var linkify = exports.linkify = function(message) {     var regex = /(?:https?:\/\/)?(?:[-a-zA-Z0-9@:%_\+~#=]+\.)+[a-z]{2,6}\b(?:[-a-zA-Z0-9@:%_\+.~#?&\/\/=()]*)/gi;     return message.replace(regex, function(e) {
+, Pointer = module.exports = ffi.Bindings.Pointer
+self.apos.utils.warn('Unable to set permissions on ' + path + ', most likely already done');
+constructor(ctx) {     this.S3 = ctx.s3;     this.bucket = ctx.bucket;
+for (i in oldDirection) {             if (oldDirection[i] === this.direction[i]) {
+, togExp$   = click('.toggle-exp')
+var newURL = this._workspace.urlForPath(this._fileSystem.path(), filePath);             var extension = this._extensionForPath(validNewName);             var newOriginURL = this._fileSystemURL + filePath
+this.membrane.handlerStack.shift();       if (mayLog) {         this.logger.trace(
+const fn = async () => { };
+arr = Array.prototype.slice.call(arr);         }         if (typeof n !== 'number' || n.isNaN()) {             n = 2;
+export function unbindRoute(...args) {     let [route, handler] = args;     const prevLength = libs.handlers.length;
+var concat = Array.prototype.concat,         values = concat.apply(this, arguments);
+Math.round(_.mean(gaps)).should.be.approximately(config.period, 0.05 * config.period);
+var webserver = require("./webserver");
+detachEvents = function (stream) {                          stream.unsubscribe(Stream.eventList.ENAME_STREAM_BUFFERING_COMPLETED, this);         },
+return snippet.map(snippet.range(0, tickCount), function() {             var limit = {
+scheduler.addSelectValue( this );   return this;
+} function matcher(...args) {   const regex = toRegex(...args);   return function(num) {
+{             localResolve = resolve;
+K.prototype.readKey = function(str){   if (!arguments.length) return this.config.readKey;   this.config.readKey = str ? String(str) : null;
+nodes = {},     name = me.getNameElement(),
+this._class = "amchart_Funnel";     }     Funnel.prototype = Object.create(CommonFunnel.prototype);
+modDeleted = /^!!deleted/.test(message.content);   status.answerable = !deleted && message.author!==locals.me.id;   status.old =  Date.now()/1000 - created > chat.config.maxAgeForMessageEdition;
+if (~validKeys.indexOf(match[1])) {         return true;
+.catch((error) => {         this.Alerter.set('alert-danger', [this.$translate.instant('billing_credit_balance_movements_load_error'), get(error, 'message')].join(' '));       });
+if(type == "neuralnetwork")     constructor = brain.NeuralNetwork;   else if(type == "bayesian")     constructor = brain.BayesianClassifier;
+import Response from 'src/response'
+}     }, initialValidation)   }
+if ( render === void 0 ) render = true;         return (event.prevent = function (_) { return ! (render = false) && event.preventDefault (); })       && handler.call (this$1, event) !== false
+throw new Error('No mutate method given!');     } else if (!(method.name in Methods.Mutation)) {       throw new Error('This method does not exist!');
+attributeChangedCallback(attribute, oldValue, newValue) {             this.updateNodeProperty(attribute, oldValue, newValue)
+const clone = memoizeHTML(query);    return r(clone, ...args);  };
+spawn(`"${command}"`, toArgv(argv), { stdio: 'inherit', shell: true }); };
+poll.start = function(forceResetLock) {   console.log('Checking for new articles...');
+assert.strictEqual('2015-12-29 01:11:01', d1.dateAdd('w', -1).date2Str());  });  it(`dateAdd日`, function() {   assert.strictEqual('2015-12-30 01:11:01', d1.dateAdd('d', 1).date2Str());
+if (!self.datumFields || !self.datumFields.clone) {           throw new Error("This corpus has no default datum fields... It is unable to create a datum.");         }
+if (func.outputs && !~func.outputs.indexOf(key)) {           throw new Error(`function-tree - Outputs object doesn't match list of possible outputs defined for function.`)         }
+uniqueGeneDiseaseNames: uniqueGeneDiseaseNames(state),     currentDisease: currentDisease(state),
+{                     var realm = urlResolve(this._path, '/');                 }
+compiler.addRecord(data);       this.bibitemsByGuid[bibItem.guid] = bibItem;     }.bind(this));
+sourcesList = appConfig.getIn(["metrics", sourcesListType, sourceName], List());     compsList = appConfig.getIn(["metrics", "computation-by-worker", sourceName], List());     break;
+} else {         log.debug('Name not transformed for File "' + preMapped + '"')       }
+file = "";             for (i in files) {                 if (files.hasOwnProperty(i)) {                     file = files[i];                     if (file.indexOf('.cfg') !== -1) {
+})       .reduce(this._arrayToArrayLikeObject, {});   }
+, check = miloCore.util.check     , logger = miloCore.util.logger; var FrameMessageSource = _.createSubclass(MessageSource, 'FrameMessageSource', true);
+adjusted_scale : this.adjusted_scale,  asset_swf_v : "\/c2.glitch.bz\/items\/2012-04\/door_key_2-1334257799.swf",  admin_props : false,
+console.error(err);   process.exitCode = 1; });
+munit( 'Rule Compression.Margin, Padding Combinations', function( assert ) {  testRule( assert, 'Margin, Padding Combinations', [
+for(msg in ret) {    var cmdStr = JSON.stringify(ret[msg].cmd).replace("+", "%2B");    var sig = ret[msg].PubSign;    if(checkPubSign(cmdStr, sig, ret[msg].cmd.SenderSub.n) == true) {
+it('should allow refunds after end if goal was not reached', async function () {     await increaseTime(moment.duration(1, 'week'))     await this.crowdsale.sendTransaction({value: lessThanGoal, from: investor})
+var updateChannel = parseInt(colorChannel) + firstRgbChannelForDevice;        update[updateChannel] = color.values[colorChannel];       }
+addAction: function(name, location) {   actionPlugins.push({
+if (!definition.type) {             throw new Twig.Error("Unable to extend logic definition. No type provided for " + definition);         }
+wire: function(target, channelName, events) {     var channel = this.connectChannel(channelName),
+link: function(scope, element, attrs, ctrl) {        var node = scope.node;          element.addClass('ivh-treeview-toggle');
+{   this.scene = undefined;
+status: 'error',     description: 'An exception occurred from the underlying WebSocket.'   },
+if (name == IncrementalFont.BASE) {
+});         case 'src':                       default:
+import _ from 'lodash'; import expect from 'expect.js';
+},       "foreach": function* (ctx, foreach, iter) {         yield foreach([           1,
+var verifyModelMethodContext = require('waterline/lib/waterline/utils/query/verify-model-method-context');
+if (this.state.market.type === "combinatorial") {       var events = this.state.market.events;
+if (!key) {      result[name] = cookie;     }
+this._sortOrder = null; }, {
+questions.push(_askForCollection);    break;   case 'prompt':   case 'prompts':
+setPanelVisibility(this.$panel.attr('id'), true);     };     saveLayoutState(container, $panel) {
+catch (err)     {      console.error("Error in user preferences");     }    }
+if ($rootScope.groupPubid) {       if (!$rootScope.map || $rootScope.map.length == 0) {         $rootScope.map = [];         $rootScope.map = all();
+} finally {                     if (_didIteratorError21) {                         throw _iteratorError21;                     }
+define(['gv', 'models/Model'], function(gv, Model) {
+newPath = `/${newPath}`;        newPath = newPath.replace(/'/g, '\\\'');        return newPath;
+extend: function (target, members) {         for (var member in members) {             if(members.hasOwnProperty(member))                 target[member] = members[member];         }
+} function _isUrl(url) {   return /^https?:\/\/[^\s$.?#].[^\s]*$/i.test(url); }
+if (publishers[from] === undefined) {             logger.info("Adding publisher peer_id ", from);             var muxer = new addon.OneToManyProcessor(),
+exports.__esModule = true; exports["default"] = singleton;
+}       this.font = new font_types[this.type.toUpperCase()](new EndianBuffer(data), 'pcf' );       cb();
+fs = require('fs'),     path = require('path'),
+it('should open and close connection twice  with photo added ', async () => {     let conn = await SQLConnection.getConnection();
+'show-comments': ui_strings.S_SWITCH_SHOW_COMMENT_NODES,        'show-whitespace-nodes': ui_strings.S_SWITCH_SHOW_WHITE_SPACE_NODES,
+if (!cache.openFlag) {                     throw new Error('Must call after open() has successed.');                 }
+this.effectNames = ['fxaa', 'smaa', 'ssaa', 'taa', 'sao', 'ssao', 'pixel', 'dotScreen', 'rgbShift', 'afterimage', 'halftone', 'bokeh', 'glitch']; } EffectRenderer.prototype = Object.create(BaseRenderer.prototype);
+function(){       return parseInt(this.get('unPublishableSessions.length'));     }
+var Promise = require('promise'); module.exports = main; function main(options) {   var options = options || {};
+if (parts) {                 method = parts[1];
+};     $_this.html(nameButtonDecreaseFont).attr('title', nameTitleButtonDecreaseFont);
+var returnComponent = function(err, data){         if(!!err){           res.errorDetails = strings.errors.registry.COMPONENT_EXECUTION_ERROR;
+const info = UI.getItemData(item.id);
+$.each(this.cfg.id, function(index, id){         _self.jq = _self.jq.add($(PrimeFaces.escapeClientId(id)));     });
+util_log(this._name + ".setInterval(" + Array.prototype.slice.call(arguments, 0).join(",") + ")");         _setInterval_calls[_setInterval_calls.length] = arguments[0].toString();                  arguments[0].apply(this, Array.prototype.slice.call(arguments, 1));
+"account_login": "Account Login",     "search": "Search",     "search": "Search",     "search": "Search",
+if (parsed.length !== 1) {                 throw new Error('RawHtml must wrap a single element');               }
+}     }     fullType = parts[0].replace(/^\s+/, '').replace(/\s+$/, '');
+exports.installWithBower = function ( location, packages ) {   var def     = Promise.defer( );   async.each( packages, function ( pkg, next ) {
+case 'polygon':         this.setPolygonParams(cartoColor, cartoUser);
+return type;     case isObjectType(type):
+if (err) {             log().error({'err': err}, 'Could not unbind from the previews queue.');             return callback(err);         }
+if ($callableFromMasterProcess.is (def)) {                         return (...args) => {
+(function() {   var compilers, cs, eco, fs, jade, path, stylus;   fs = require('fs');
+creditCreators: Ember.computed.readOnly("controller.creditCreators"),  payoutTotal: Computed.sum("creditCreators.valid", "credit.amount"),  escrowTotal: Ember.computed.oneWay("controller.controllers.marketplace.in_escrow").readOnly(),
+this.SUPER();       if ( ! this.hasSeenDesignerView )         this.constructHelpSnippets();
+if (!needsRefresh && suffixStripped) {      for (i = 0, l = opts.suffix.length; i < l; i++) {       buffer.push(opts.suffix.charAt(i));
+executeOnFiles(patterns) {         const startTime = Date.now();
+function execSync(command, options) {   var opts = normalizeExecArgs(command, options, null);   var inheritStderr = !opts.options.stdio;
+var cache = prefix ? Cut.Texture._cache.many : Cut.Texture._cache.one;
+this.props.request(urlName, param, opts); }
+for (var testCase in testCases) {         test.assertEquals(utils.cleanUrl(testCase), testCases[testCase], 'cleanUrl() cleans an URL');     }
+_onwindowmousedown : function() {       try {
+} else if (firstRemainingArgument instanceof Array) {     childJSXElements = firstRemainingArgument;
+app.use(function(ctx, next){           ctx.body = 'something else';
+(function() {   var accessToken, addGroupItemToStroage, groupItems, removeGroupItemFromStorage;
+} else {                      p0 = points[(idx -1 + len) % len];                      p2 = points[(idx + 1) % len];                      p3 = points[(idx + 2) % len];                  }
+import * as Styled from './CaptureImg.style'; const CaptureImg = ({onChange, capturedImg, onClick}) => (   <Box
+}; Math.toRadians = function(v)
+'easter+49': 'Pfingstsonntag',   'easter+50': 'Pfingstmontag',   '03-10': 'Tag der Deutschen Einheit',
+performance.mark("dispatch-start");                         if (this.options.logDispatchedActions) {                             this.logger[getLogType(this.options, "dispatchedActions", LogLevel.info)]("Dispatching: " + reducer.name);                         }
+Renderer.prototype.getLayout = async function(id) {   if (!id) return false;
+pageProperties.forEach(function(property) {     tabris.Page._properties[property] = {
+utils.forEach = function( object, callback, context ) {     var name, i = 0, length = object.length;
+export default function () {   GIT_KEEP_FILES.forEach(file => this.copy(file, file)); };
+}   findOne(...args) {     return this.where.apply(this, args).first();   }
+} else if (!this.isConnect) {       throw new Error('User is\'t connections.')     }
+, cliPackage = require('../package')   , nopt = require('nopt');
+}  for (var i = 0; i < this.graph.edges.length; i++) {   var edges = this.graph.edges[i];
+} else if (!this.utils.isString(id) && !this.utils.isNumber(id)) {     deferred.reject(new this.errors.IA(errorPrefix + 'id: Must be a string or a number!'));   } else {
+cornerstoneWADOImageLoader.decodeJPEGBaseline = decodeJPEGBaseline; }(cornerstoneWADOImageLoader));
+window.clearTimeout(timeout);                     $parent.addClass('open');                 }
+var targets = fs.readdirSync(targetsDir);     for (var i = 0; i < targets.length; i++) {         var target = targets[i];
+{  this.child = function(path)  {
+};   program.execute(uniforms, outputs.output);
+, i       , el       , crlf = /\r?\n/g
+throw "layer undefined or null in Password()"       }
+if(valuePath) {       defineProperty(this, 'value', computed.readOnly(`row.${valuePath}`));     }
+];     default:
+myOpenIssues: function(projectKey, callback) {     spinner.start();
+},  watch: function ( callback ) {   var node = this, relay, options, changes = [];   node.callbacks.push( callback );
+var that = this;         return load_user_notebooks(username)             .then(function() {
+if ( fragment ) {    for ( i = 0; ret[i]; i++ ) {     if ( scripts && jQuery.nodeName( ret[i], "script" ) && (!ret[i].type || ret[i].type.toLowerCase() === "text/javascript") ) {
+Plugin.call($target, options)     if (slideIndex) {       $target.data('bs.carousel').to(slideIndex)
+for (var property in list[item]) {                     if (list[item].hasOwnProperty(property)) {                         var regex = new RegExp('{{ '+ property +' }}', 'gi');                         template = template.replace(regex, list[item][property]);
+return;             case IDLE:
+return relativeUrl;     } };
+splice.apply(out, [out.length,1].concat(resolvePathObjects(path(root), root)));     continue;
+case 'article-newspaper':       return 'article'     case 'book':
+if (it.loc && it.loc.length) {   s = it.loc[0];   if (it.loc.length > 1) s += ' (' + it.loc.slice(1).join(', ') + ')';
+return listlogs(args,cb);       default :
+{institutionId: this.details.id, userId: parseInt(this.userId)})             .then(angular.bind(this, function successCallback() {                 alert("Membership requested for user " + this.userId + ".");
+this.setIndexArray( indices );  this.addAttribute( 'position', new Float32BufferAttribute( vertices, 3 ) );
+this.hasImage = () => {     return Boolean(this.getImage());   };
+TreeBindingAdapter.prototype._isNodeSelectable = function (oNode) {    return !!oNode;   };
+if(lastfm.album) {    var items = [];   items[0] = [];   var summary = '';
+computedPosition: computed('position', function() {     return `ember-cli-notifications-notification__container--${this.get('position')}`;   }),
+$('#h_albumartist').html('');         showLoading(true);         mopidy.library.lookup(uri).then(processAlbumResults, console.error);
+else {         data = vars.data.viz;       }
+context.sched(startTime, function(t0) {     _this._state = STATE_RUNNING;     emit(_this, t0, false);   });
+if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {       let log = gl.getShaderInfoLog(shader);       gl.deleteShader(shader);       throw new Error(log);     }
+{    this.show(_.unescape($(this).attr('data-passage')));   }.bind(this));
+fetch(       appendToURI(uri || ''),       deepmerge.all([DEFAULT_OPTIONS, client.options.request, options, HTTP_METHOD])
+}, "AAM": function (cpu) {
+for (var i = 0; i < messages.length; i++) {               if (messages[i] === "Warning: Redis server does not require a password, but a password was supplied.") {                 warnMsg = messages[i];
+try {      data = parseJSON(buffer);     } catch (e) {}
+useFn.get = function() {     return hookleton.get.call(hookleton);   };
+import { _Courses } from '../../../api/courses/courses'; import ResourceRender from '../content/ResourceRender.jsx';
+var self = this;     params = params || {};     self.textField = uiElement.input().val("");
+function e() {                  var e = t.call(this) || this;                  return e._img = new PIXI.Sprite, e.addChild(e._img), e              }
+var setSelectionLayer = require('./setSelectionLayer'); export default function selectAll(input, tree, output) {
+p2 = [prev.loc, moved.loc, orig.loc, next.loc].map(projection),             d1 = pathLength(p1),             d2 = pathLength(p2),             insertAt = (d1 < d2) ? movedIndex : nextIndex;
+this.stopObservingRepoStatus();     return this._super(...arguments);   },
+args.push(true);     return Element.prototype.on.apply(this, args);
+import editor from '../../editorFixture';
+showUserDialog: function () {             return dialogService.open(                 {
+var dummyElement = document.createElement('div');         this.addEventListener = function(eventName, callback) {             dummyElement.addEventListener(eventName, callback.bind(this));         };
+var path           = require("path"); var fs             = require("fs");
+constructor(sekshi, options) {     this.author = 'brookiebeast'
+}                     break;                 case "generate":                     if (value=="true" || value=="false")
+masker.appendChild(gg);                 gg.setAttribute('filter','url(#'+filId+')');
+updateMovieObject(e,tab1doc) ;                      var realElement = CKEDITOR.dom.element.createFromHtml(e.getInnerHTML());
+const mbtiles = new MBTiles(filepath)
+this.i = 0; }
+$scope.onSelect = function (item) {             if (attrs.macTagAutocompleteOnEnter) {
+cssColorField: [1, 1, 1, 1],     };
+var page = args.object;
+return u0;                 };                 w = function(s) {                     return w0 * Math.exp(k * rho * s);
+import _ from "underscore";
+this.startByte = resp.offset;             this._uploadChunk(this.resumeInfo.file, this.resumeInfo.uploadId);         }).fail((resp) => {             var msg;
+var unixParts = this.uri.path.split(':')   var host = unixParts[0]   var path = unixParts[1]
+if (handle === false)                 return;               offset = readUInt64BE(buffer, buffer._pos, this, callback);               if (offset === false)
+if (aboveleft_.mbmi.mv.as_int) {                 var this_mv = new MotionVector();                 this_mv.as_int = aboveleft_.mbmi.mv.as_int;
+if (!(key in this._elementTypes)) {                 throw new Error('No field type of ' + key + ' found in schema.');             }
+instance: '<data></data>'                 } ).then( function() {                     done();
+this.loggedIn = Session.isAuthenticated;     this.viewType = 'unread';
+for (let i = 0; i < last.length; ++i) {       let span = last[i]       if (span.to != null) span.to += offset
+var members =  {         _Select: _Base.Namespace._lazy(function () {             var encodeHtmlRegEx = /[&<>'"]/g;
+(() => {   const _newId = ((id = 0) => () => id += 1)()
+COMPONENT_TYPE_AXIS: 'axis',          COMPONENT_TYPE_POLAR: 'polar',          COMPONENT_TYPE_X_AXIS: 'xAxis',
+it('should work with multiple edge graph', () => {       const [a, b] = [0, 1]       const graph = new Graph()
+return opNames; };
+Vex.Flow.Dot.prototype.getCategory = function() { return "dots"; }
+return this.client.start();   });
+var CATEGORIES = [ 'info', 'debug', 'warning', 'error' ]; var REF_PATTERN = /^ref:/;
+_model_name: "ToolbarModel",             _view_name: "Toolbar",             _model_module: "bqplot",
+modified_state.f[dest] = { t: 'c', c: modified_state.c[src].pop() };         } else if (my_move.t == 's2s') {             modified_state.c[dest].push(modified_state.c[src].pop());
+import classNames from "classnames"; import PureRender from "react-addons-pure-render-mixin";
+var instances = null;    if( mouse_pos )    {
+app.id.register($scope.username, $scope.password1, function(key){         $scope.password = Array($scope.password1.length+1).join("*");
+const fn = onClick.bind(this, title);   const src = require(iconUrl(title));   return (
+this.stats.push(Number(pageData.yslow.g.redirects           .components[0]));
+let link_regex = new RegExp(/<a.*? href=("|')(.*?)([\n|\r]*?)("|').*?>(.*?)([\n|\r]*?)<\/a>/gim);         let links = html.match(link_regex);
+this.options.enableArrows && this.createArrows();         super.setUserInterface();     }
+for (var i = 0; i < bondCount; ++i) {  this.rd ();  var atomIndex1 = this.parseIntStr (this.line);
+'use strict';
+function formatDate(date) {        var myyear = date.getFullYear();
+}   return limit + 'offset ' + this.pushValue(params.offset);  });
+unspecifiedConfigOwner: "L\'utente autorizzato non è stato configurato.",     invalidConfigOwner: "Il proprietario della storia non è autorizzato.",     createMap: "Impossibile creare la mappa",
+success: 6 }
+switch (action.type) {     case 'ADD_LOG_ENTRY': {       const {componentName, instanceId, methodName} = action;       return {
+module.exports = Mpeg1Muxer;
+if (moving_set.length > 0) {             for (var i=0;i<moving_set.length;i++) {                 var node = moving_set[i].n;
+lookupForSingleInstanceVariable: function() {    var MyVariable = Variable.extend()
+function stampit(...args) {   return baseStampit.compose.apply(baseStampit, args); }
+}             scope.setIndex(index);
+this.label.getCanvas().getCommandStack().execute(cmd);         this.html.fadeOut(()=>{             this.html.remove();             this.html = null;
+const bufferGeometry = new THREE.BufferGeometry().fromGeometry( geometry );   console.log( '... and here\'s what it looks like after being converted to a BufferGeometry: ', bufferGeometry );
+if (typeof (chars = charSpec.validChars) !== 'undefined') {         if (chars.indexOf(char) !== -1) { returned.push(child); }
+} else if (opt.transition == 'slide') {           steps.slideUp(opt.duration, function() {             if (--stepsCount > 0) {
+ENV.APP.rootElement = '#ember-testing';   }   if (environment === 'production') {     ENV.baseURL = '/ember-seamless-immutable'   }
+PlaybackRateMenuItem.prototype.onClick = function(){   MenuItem.prototype.onClick.call(this);   this.player().playbackRate(this.rate);
+}     let keyPromiss = application.generateKeys(
+Object.defineProperty(this.data, property, {               get: function() {                 return this.$computed[property]();               }
+const el = document.getElementById(id);     if (el) {      this.updateSnippet(el, snippets[id]);
+this.manifest.find('.inner').prepend(           $(window.document.createElement('div')).addClass('icon').html(             $(window.document.createElement('img')).attr('src', this.icon)           )
+define([], function() {
+jetpack.existsAsync('text.txt')          .then(function (existsAsync) {              expect(existsAsync).toBe('file');              done();
+this._bufferAriaEndMarker = _Global.document.createElement("div");                         this._bufferAriaEndMarker.id = uniqueID(this._bufferAriaEndMarker);
+for(var i = 0; i < authStore.length; i++) {     this.auth(server, connections, authStore[i].db, authStore[i].username, authStore[i].password, function(err) {       count = count - 1;
+const fs = require('fs'); const utils = require('../../utils')
+for(var i = 0; i < states.length; i++) {       name = states[i].name;       childState = states[i].state;       if(!(childState instanceof Ember.State)) continue;
+this._tileExtensions = {};     this.flyoutManager = null;     this._templates = {
+handleKeyPress: function(event) {         var input = this.refs.input.getDOMNode();         var text = input.value;
+_compressedData.copy(_data, 0, _dataHeader.fileHeaderSize);                      if (Utils.crc32(_data) != _dataHeader.crc) {                          throw Utils.Errors.BAD_CRC                      }
+addSources: function(sources) {     this.$el.html('');     sources.forEach(function(source) {
+for (key in options) {           if (options.hasOwnProperty(key)) {             clonedOptions[key] = options[key];           }
+db.nodes.addContentTypes(id, types)                     .then(function(){                         deferred.resolve('Success');
+if (!sprite) {         sprite = Sprite.sizedEndingAt(this._ownElement());         this.sprite = sprite;
+return function() {     return that.apply(bind, args);    }
+function pubmed(uri, opts, callback){   if(arguments.length === 2){
+const { options = {} } = nProps;             const { frozenColumnIndex = 0 } = options;              const storeState = Object.assign({}, nState);
+Localization: Localization,     ItineraryBuilder: ItineraryBuilder,
+runQuerySelector: "#search-criteria-search",  };
+document.write('<script type="text/javascript" src="scripts/mousetrap.min.js"></script>');
+var lid = short_id.generate();     lobbies[lid] = lobby(client_id, player_state);     res.json(lobbies[lid]);     console.log(lobbies);
+getUpdateInterval() {         return helpers.getFromStorage('updateInterval') || globals.UPDATE_INTERVALS[0];     }
+it('testSwitchWindow', function() {     return Globals.protocolTest({       assertion: function(opts) {
+if (' resize layout'.indexOf(name) > -1) return;         uki.view.Observable._bindToDom.call(this, name);     }
+} from 'indigo-react'; import { useExploreTxUrls } from 'lib/explorer'; import { hexify } from 'lib/txn';
+function SVGSpriteStack(spriter, config, data, key) {  SVGSpriteStandalone.apply(this, [spriter, config, data, key]); }
+round: function(e, options) {       e = OpenLayers.Util.getElement(e);       this._setOptions(options);
+for(var intOption in intOptions){   if(intOptions.hasOwnProperty(intOption)){    intOption = intOptions[intOption];    if(typeof options[intOption] === "string"){
+console.log('Content is cached for offline use.')
+.filter((col) => this.CompatProperty.isInstance(col));           return this.EQ(this.ARRAY_COUNT(this.SEQ(...cols),               this.TRUTHY()),
+}, options);          params.data = model.toJSON() || {};
+};     const token = jwtSimple.encode(payload, nconf.get('webtoken'));     authString = `Bearer ${token}`;     done();
+} else {                 throw new Error('Expected id or forUsername');             }
+}         return Url.normalizeURL(url);     }
+{    this.func();   }
+require('svelte/ssr/register.js')
+catch_inputs_access = function(raw_event) {     var event  = $(raw_event),
+$(this).ajaxSubmitInput({             url: $form.data('post-url'),             beforeSubmit: function($input) {
+'use strict'; var assert = require('yeoman-generator').assert   , helpers = require('yeoman-generator').test   , path = require('path'); describe('module generator', function () {
+atom = require('./atom'),   uuid = require('./atom/uuid'),   mapping = require('./mapping').get();
+if (typeof this.onwriteend == "function") {         evt = File._createEvent("writeend", this);         this.onwriteend(evt);
+} else {             if ( mid == headerLen - 1) {                 sptr = headerPtr[mid - 1];
+var output = Terraformer.ArcGIS.convert(input);     expect(output).toEqual({
+var cfg = this._cfg, cssPrefix = this._cssPrefix, tr, td, getDomElementChild = ariaUtilsDom.getDomElementChild;             this._computeSize();
+return utils.htmlEncode(utils.formatDateString(tiddler.fields[field],template));   }
+var changed = false;   for(var z = 0; z < regNames.length; z++) {    var register = regNames[z];    for(var value in a[register]) {
+t.plan(1);                  var model = new Backbone.Model({firstName : "Taylor", lastName: "Swift"});
+Gameloop.prototype.update = function() {  for (var i = 0; i < this.object.length; i++) {      if (typeof this.object[i] === "function") {
+logger.info('Latest Titanium SDK (' + sdkVersion + ') is already installed.');        cmdCallback();        return;       }
+(function(window, $){
+this.status = constants.scanStatusCodes.STARTED;       this.api.scan.launch(this, params);     }
+.catch(() => {                         router.push('/login');
+return () => {         scrollableEl.removeEventListener('scroll', handleScrollOrResize);         window.removeEventListener('resize', handleScrollOrResize);       };
+self.runner = new ProcessRunner({         launcher: self       })
+import { Link } from 'react-router-dom';
+, variables  = require('rework-vars')
+var issuesByID = {};         entitiesToCheck.forEach(function(entity) {             var entityIssues = validateEntity(entity);
+this.mHeartbeat.clear();     this.mPort.close(function(err) {                  if (err) {
+var split = droppy.split = function (dest) {             var first, button;             button = $("#split-button");
+expect(this.searchResults.hits[1].id).toEqual('3');       expect(this.searchResults.hits[2].id).toEqual('4');       expect(this.searchResults.hits[3].id).toEqual('1');     });
+}); testPE("pico-engine - Wrangler", async function(t, pe, root_eci){     var yQuery = cocb.wrap(function(eci, rid, name, args, callback){
+if (!account) {             throw new KError('Bank account not found', 404);         }
+if ( mains[ i ].isExpanded() && mains[ i ].getChildren().length > 0 ) {      minder.expandNode( mains[ i ] );
+for (i = self.minWildcardWordLen; i < word.original.length && i < self.maxWildcardWordLen; i++) {   for (j = 0; j < (word.original.length - i) + 1; j++) {
+return array[key];         } else {             return null;         }
+for(let i = this.feed.length - 1; i >= 0; i--)      if(this._compare(this.feed[i]) <= 0)
+PreviewCollection = connect(mapStateToProps, {})(PreviewCollection); export default PreviewCollection;
+var pinoHttp = require('pino-http') module.exports = logger
+get: function () {         return this.data.damping;
+return entry.delete(this.id);       default:
+this.stopMovement();
+Miner.prototype._onStop = function _onStop() {   var self = this;
+module.exports.inlineCommentRe =   /<!--\s*markdownlint-(dis|en)able((?:\s+[a-z0-9_-]+)*)\s*-->/ig;
+});     } else {
+process.exit(1);        }
+'800': '#6c6c6c',                   '900': '#3f3f3f',               }
+tmp = template({           csrfToken: res.locals.csrfToken,
+fn = function () {       return task.apply(this, arguments);     };
+$.ajax({                             url: apiUrl('connections/' + view.model.id),                             type: 'DELETE',
+spyOn(this.dashboard, 'getState').and.returnValue({1: {pinned: true}});     spyOn(URLHelper, 'getLocalURL').and.returnValue('https:     expect(this.dashboard.getDashboardURL().indexOf('https:
+}                 view[methodName](...viewArguments);             }).bind(this));
+var subscribedHubs = [];                 $.each(that.proxies, function (key, proxy) {                     if (this.hasSubscriptions()) {
+sortByExpectedValue: 'sortByExpectedValue',     sortBySetItem: 'sortBySetItem'
+var rad = Math.PI / 180;   this.calcs = [];
+plugins: ["bold","italic","|","cut","copy","paste","|","insertUnorderedList"]        })).placeAt(this.domNode);       }));
+} else {                         that.setValid( $input, 'required' );                         if ( typeof validCons !== 'undefined' && validCons === false ) {
+});     this.layerSelected_();   }.bind(this));   this.scope_.$watch('layer', this.layerSelected_.bind(this));
+(node.text = node.textContent)         .match (/[^{]+(?=})/g)         .map   (insert (node))
+t.pass('Ok');         };
+if (!webpackJsonp([],[],[mIter])) {         throw Error("Unknown Webpack structure");       }
+this.instance = instance;     this.sb = Oskari.getSandbox();     this.removeMarkersReq = Oskari.requestBuilder('MapModulePlugin.RemoveMarkersRequest');
+var vBox = (vChild._computedHeightTypePercent ? null : vChild.getHeightValue()) || vChild.getPreferredBoxHeight() || 0;   }
+$scope.saveConfig = function(){     for (var i = 0; i < $scope.configuration.ivr.options.length; i++) {       var tmpId = $scope.configuration.ivr.options[i].friendlyName.toLowerCase();
+renderCallback: function() {        }
+},     save: function( event ) {
+super(Message.Type.ACCOUNTS_TREE_CHUNK);         if (!(blockHash instanceof Hash)) throw new Error('Malformed blockHash');         if (accountsTreeChunk && !(accountsTreeChunk instanceof AccountsTreeChunk)) throw new Error('Malformed chunk');
+_handleClose() {      this.emit("close", String(this._data))    }
+import { expect } from "chai"; import { createVueField } from "../util";
+}         cands = [];         for (i = 0; i < seqs.length; ++i) {             seq = seqs[i];
+)       if (needUpdate) {         if (switcher.sync) {
+expect(this._fetched[person.id].weight).to.be.closeTo(weights[person.id], .01);       })
+if (!this.options.pmIgnore) {                                  this.pm = new L.PM.Edit.Line(this);
+this.goTo(1);         case 35:           this.goTo(this.sections.length);
+this.iframeProxy = new app.IframeProxy(this, el); };
+var run = function (id) {
+if (typeof id != 'string') {     throw new Error('typeof id must be string');   }   if (!parent) {
+import BackgroundImage from '../../../components/common/BackgroundImage'; import AssetsImage from '../../../global/AssetsImages';
+if (!(nInf < deltaX && deltaX < pInf) || !(nInf < deltaY && deltaY < pInf))     throw new regionError("Invalid translation delta");   ratioX = Number(ratioX);
+} else {         registerPin(false);       }
+render() {     console.error('runner');
+if ( !internals.diff.fullindizies )             internals.diff.fullindizies = [];         internals.diff.fullindizies = db;
+notify.call(stateStore, eventName, lastState.name, nextState.name);                         }
+const {vm, fake} = buildVm();             const name = 'Custom' + new String(Math.random()).substr(-8);
+case 'random':             return new ArrivalBase(airport, options);         case 'cyclic':
+import OverflowIcon from "../Icons/Overflow"; import { mediumAndUp, largeAndUp, smallAndUp } from "../../theme/mediaQueries";
+case 'mozbrowsershowmodalprompt':         if (evt.target.dataset.frameType != 'window')
+errorAndExit('--action=ACTION must be specified')     break   default:     errorAndExit(`Unsupported action ${config.action}`)
+Object.keys(data.handles).forEach(function(handle) {                 handle.x += eventData.deltaPoints.image.x;
+return plugins;
+multiselect.input.click();         ok(select[0].children[0].selected);
+return 0;     };     var file=document.getElementById("addmetalink").files[0];     reader.readAsDataURL(file);
+Washers.Instagram.Timeline.className = Helpers.buildClassName(__filename); Washers.Instagram.Timeline.prototype.doInput = function(callback) {     var that = this;     var following = [];
+var theme = this.getTheme(node);         return KityMinder._themes[this.getTheme(node)];     },
+var typedArrayTagger = require('../util/cborTypedArrayTags'); var BSON = null;
+adjusted_scale : this.adjusted_scale,  asset_swf_v : "\/c2.glitch.bz\/items\/2012-06\/paradise_ticket_sky_plunge-1341012020.swf",  admin_props : false,
+adeModule.directive('adeUrl', ['ADE','$compile','$rootScope', '$filter', function(ADE, $compile,$rootScope,$filter) {
+var ShadowBlendingCube = function() {   this.vertexMatrix = new f4d_vertexMatrix();   this.tTrianglesMatrix = new f4d_tTrianglesMatrix();
+displayCheckbox('red');         await error.log(err, auth);         process.exit(1);     }
+self._executeViaHTTP(queryStringWithArguments, arguments, callback, options.resultsFormat, options.maxRows, options.logLevel);         }         else if (self.virtuosoConnector === "jdbc")         {             self._executeViaJDBC(queryStringWithArguments, arguments, callback, options.resultsFormat, options.maxRows, options.logLevel, options.runAsUpdate, options.notSPARQL);         }         else
+var saveLocation = function(location) {   Meteor.users.update(hackerId(), {$set: {'profile.location': _.pick(location, 'lat', 'lng')}}); }
+}     return this.get('scrollTo').perform(start, end, options);   },
+var n = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0
+return { config, proceed: true };     } else {
+onDragOver: React.PropTypes.func,     onDragEnd: React.PropTypes.func
+}       resolve(...args);     }
+return;     case WEBOS:
+catch (err) {     if (err.toString().indexOf('no such file or directory') !== -1 || err.toString().indexOf('not a directory') !== -1) {       err = 'not a library';     }
+this._bufferedZIndex = null;     this._bufferedBackground = null;   },
+pageItems.push('1');       for (i=2; i<=MAX_MENU_ITEMS-4; i++) {         pageItems.push(i.toString());
+import TouchSwipeMixin from './TouchSwipeMixin.js'; const Base =
+const workspaceToSave = { panes, projectPaths };     let savedWorkspaces = atom.config.get('save-workspace-Workspaces') || {};
+Snakeskin.addDirective(   'if',
+import parse from '../lib/css/parse'; import interpolateWithMixins from '../lib/mixins/interpolateWithMixins';
+return oDomRef.scrollWidth - oDomRef.scrollLeft - oDomRef.clientWidth;    } else if (Device.browser.firefox) {     return (-oDomRef.scrollLeft);
+var output = "\"{";     for (var p = 0; p < props.length; p++) {         output += "\\\"" + props[p].name + "\\\": ";
+update : function(paramsToUpdate) {     Object.keys(paramsToUpdate).forEach(key => this.set(key, paramsToUpdate[key]));
+}   return esPhase;
+{             this.props.apps.map((app, i) => {               return <App key={i} {...app} />;             })
+}           });           $container.mousedown(function () {             _this2.skipFocusout = true;
+var startTime = (new Date()).getTime();             for (i = 0, len = this._drawChunkListLen; i < len; i++) {                 this._drawChunkList[i].draw(frameCtx);
+scope.device.promise.then(function (device) {         var canvas = element.find('canvas')[0]           , imageRender = new FastImageRender(canvas, {render: 'canvas'})
+if ($th.height() > $td.height()) {                 $this.find('td').height($th.height());             }
+return "array";             case "[object Boolean]":
+if (shadowCanvas)    shadowCanvas.width = elem.width;
+var Static = exports.Static = function(app, options) {     var options = options || {};
+listenForPacket(1000, commandpacket.parser, function(err, result) {           if (err) {             callback(err, null);           } else {
+} catch(e) {             errors = [e];
+if(err) throw err       console.log(JSON.stringify(data, null, 2))       process.exit()     })
+if (obj) {                                      for (var attr in obj) {                                          if (obj.hasOwnProperty(attr)) {                                              vObj[attr] = obj[attr];                                          }
+};     (new self.Request(payload, onResponse)).send();
+update(id, data) {     avali(['num, str'], id);     return this.callApi('PUT', { id, data, type: 'update' });
+nodes[i] = result.snapshotItem(i);       }
+import Link from 'next/link'; import formatDate from 'date-fns/format';
+if ( this.tight || this.v <= 5 )         this.error();       break;     case 'delete':     case 'typeof':
+return values.map(function(val) {    return (typeof val === 'string') ? val = _.findWhere(options, { value: val }) || { value: val, label: val } : val;   });  },
+sourceNodeText = sourceNodeText.trim();         if (!/\s|[([{]/.test(prev)) {           sourceNodeText = ' ' + sourceNodeText;
+const errStr = "Error fetching persisted wallet ids: " + err.toString()      const err = new Error(errStr)      self._setup_didFailToBootWithError(err)      return     }
+stylePara(rng, styleInfo) {     $.each(rng.nodes(dom.isPara, {
+}     case types.REMOVE_ENEMY: {       const newState = { ...state }       newState.numOfEnemies--
+var ctx = this.ctx;     inst = createDefaultInstrument(ctx, name);     var promise = Soundfont.loadBuffers(ctx, name).then(function (buffers) {       var realInst = createInstrument(ctx, name, buffers);
+function classNames() {
+error = new exceptions.InvaliClientError(self._client_id);                 call_callback(error);
+if (this.getPlaybackType() == "live") {           this.updateDVRStatus(true)         }
+req.on('error', function(err) {     console.log("LOGIN: " + err.message);
+myCompletedIssues: function(projectKey, callback) {     spinner.start();
+} else {       for (const script of scripts)         delete script[Sources.SourceFormatData._formatDataSymbol];
+return res;     } }
+return Canvas; })();
+$(this).detach().appendTo('.tiles');         sort_tiles(that.find('.tiles'));     });
+var fileStat = yield stat(pkg)   if (!fileStat.isFile()) {     throw new Error('Can not find package.json file')   }
+var MoveBehaviours = {
+this.component.emptyBuffer(inputBuffer, function () {     console.log('emptyBuffer', self.name);     if (self.name === 'video_render')       console.log('emptyBuffer', true);
+retryCount += reconnectInterval;             }
+displayPoi: function(layer, poi) {             layer.addMarker(poi.x, poi.y);
+loadWAStats(stats);   });
+if (!result || result < 5) {         throw new Error('Default admin permissions count error! Should run sequelize seeder first!');       }
+'use strict'; var nprogress = require('nprogress'); var io = require('socket.io-client'); var services = require('./_services');
+var lenient = !!env.opts.lenient;
+var graphArray = [];    for(var i = 0; i < nodes.length; i++){      var n = nodes[i];
+if (x$(this).hasClass("mw_zoom_container")) {         self.add_element(name,"zoom_container",this);
+set(objectServer.special, 'class', new MyClass());
+if (parseInt(showNum.value, 10) <= 1) {                     toast.call(that.element, '所选商品数量不能为0');                     return;
+if (typeof callback !== 'function') {     throw new Error('Callback is expected in deleteBlobFromIaasClient(). Found: ' + util.inspect(callback));   }
+get : function (params, callback) {             var found, storedData, property, requestConfig, storage;
+function update(TableName, { key, expressions }) {   return Promise.resolve().then(() => {     let params = Object.assign({ TableName, Key: key }, compileIfSet(expressions));
+'use strict';
+TelemetryAPI.prototype.subscribe = function (domainObject, callback) {         var provider = this.findSubscriptionProvider(domainObject);
+log((needsPatch ? "" : "not ") + "patching html5 drag drop");     if(!needsPatch) return     doc.addEventListener("touchstart", touchstart);
+function displayBots(botArray) {  for(var b=0; b<botArray.length;b++) {   drawBot(botArray[b]);
+$(this).parents('tr').html('<td class="key_td"><i class="fa fa-spinner fa-spin"></i></td><td class="value_td"></td>');         return false;
+}   move({sourceData, targetData}) {     const lanes = this.lanes;
+EntityScreenContext = connect(mapStateToProps, {})(EntityScreenContext); export default (EntityScreenContext);
+import ReactDOM from "react-dom"; import Highcharts from "highcharts";
+var thisDefault = {};                 for (var k in anim) {                     if (animationReserved.indexOf(k) === -1) thisDefault[k] = _.cloneDeep(anim[k]);                 }
+function browserAction(all) {     for (var i of all) {         if (i.name == "_execute_browser_action") {             return i.shortcut;
+class Mysql extends Datasource {   constructor(options) {     super(options);     this.options = options;
+if (loggedInStorageItem && !credentialsStored) {       debug('user is expecting to be logged in, but no credentials exist');     }
+}).caught(noop);         return onUnhandledFail(testFunction);     });
+$.when.apply(window, xhrs).always(function () {                 nfUsersTable.loadUsersTable();             }).fail(errorHandler.handleAjaxError);
+};     var initView = function() {       var token = AccessToken.get();       if (!token)             { return loggedOut() }
+}   associationOptions = null   if (associationOptions) {
+Notify.prototype.change = function change(FSWatcher, event, filename) {   if (!filename) return this.manually(FSWatcher).reset(FSWatcher.path);   this.emit('change', filename);
+groundskeeper = require('groundskeeper'),             cleaner, dest;         this.filesSrc.forEach(function (file) {
+assertionCount: 2,         op: function() {
+});         $scope.$watchGroup(watchArray, function (newValues) { return processMonitorChanges(newValues, propKeys, onChangeDetected); });
+content.addClass('prime-tab-content');     this.tabContents[dataSet.tabId] = content;   }.bind(this));   this.tabsContainer.addClass('prime-initialized');
+var Iterator = function (binding, options) {       this.binding = binding.iterator(options)
+, RegExpEscapeHTML   = /[&<>"'/]/g     , RegExpUnescapeHTML = RegExp('(' + keys(dictionaryUnescapeHTML).join('|') + ')', 'g');   $define(PROTO, STRING, {
+xray.captureHTTPsGlobal(require('http'));   const AWS = xray.captureAWS(awsSdk);   xray.capturePromise();
+var cE = this.convertor(T, cD);         var result = new Z.Coordinate(cE.x.toFixed(2), cE.y.toFixed(2));         return result;     },
+if(this.isDown){                          if(event.timeStamp > this.lastDown + this.delay){
+that._select(current);             if (!that._options.html) {                 that.el.value = (current !== -1) ? that._suggestions[current] : that._currentQuery;
+Maybe.of(createdFieldState)   .map(historyStateWithNewField(state))
+var obj = JSON.parse(data.Body.toString('ascii'));                     debug("SESSION(" + session_id + "):  Notify Starting " + obj.length);                     for (var index=0; index < obj.length; index++) {
+return value;        case 'boolean':
+} catch(e) {       log.warn('Failed to decode token: ', e);     }
+getFromSgf: function(sgfString, initPosition, parseType) {     initPosition = initPosition || [];
+constructor () {         super(Object.assign(initMapState, initMapDispatch))         Object.keys(initMapDispatch).forEach(key => {
+import React from 'react'; import VM from 'scratch-vm';
+$scope.updateModel = function(model){                 var ind = $scope.models.indexOf(model);
+const PARAMS_START_PATTERN = '(^|/|[_-])';
+var line = nums_list[i].line;         var shiftL = nums_list[i].shiftL;
+import LayerSpecProvider from 'providers/layerspec-provider'; import GeostoreProvider from 'providers/geostore-provider';
+} else {                  for (let k = 0; k < s_gs; k++) {                      let vInd_a = (i_a * s_gs + k) * 3,                          vInd_b = (i_b * s_gs + k) * 3;
+#!/usr/bin/env node require('proof')(1, function (step, assert) {     var path = require('path')
+if(params != null) {    request = {method: method, params: params};
+adjusted_scale : this.adjusted_scale,  asset_swf_v : "\/c2.glitch.bz\/items\/2012-04\/door_key_1-1334257767.swf",  admin_props : false,
+.then(([registryAddress, account]) => {       const registry = new web3.eth.Contract(toJS(registryAbi), registryAddress)
+if (util.keys(cs.signals).length > 0) {     throw Error(       "New signal values are not reflected in the visualization." +       " Please call view.update() before updating data values."
+return <div>       <button onClick={((event)=>{console.log(this, event)})}>Save</button>       <button onClick={this.handleSave.bind(this)}>Save</button>
+let renderedItems = React.Children.map(items, (item) => {       return (
+.addFilter('$dot_prop', function (name) {             var re = /(.*)([.#~]\w+)/g,                 match = re.exec(name);
+callback()   }) }
+return store.update(model, options);             case "delete":
+ifNotFound: function(){     throw Error("unit not found?");    },
+if(typeof value === 'object' && !(value instanceof Array)) {
+}); } exports.show = show;
+const normalized = serializer.normalize(modelClass, properties);         return onlineStore.push(normalized).save();
+var UserColumn = require('../../user/userColumn')   , DataTypes = require('../../db/dataTypes'); var util = require('util');
+return [Date];     }
+this.leveldown.batch(subops, opts, cb) }
+create() {         var newCellObject = function (scene, cell) {
+} else {             files = grunt.file.expand(source);         }
+var casters, lid, light;         if (this._dirtyLights) {             result |= pc.COMPUPDATED_LIGHTS;
+} else {      this.internalImage = null;     }
+viewModelUpdater.addPipelineDefinition = function (pipelineDefinition) {             viewModel.allPipelineGroups.forEach(function (currentPipelineGroupDTO, index, array) {
+const instance = Template.instance();          instance.schema = new SimpleSchema({
+return {       $shares: obj.$shares[this.id]     };
+isAdmin(req, res, next) {     Tests.findOne({ where:
+History.onHashChange = function(event){
+}   return Date.now() - options.lastSleptUpdateNotifier > units.daysToMilliseconds(exports.UPDATE_NOTIFIER_SLEEP_DAYS) }
