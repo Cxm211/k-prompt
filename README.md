@@ -24,7 +24,7 @@ Ensure that all required libraries are installed. You can install them using the
    ```bash
     pip install -r requirements.txt
 ```
-Then install our customized OpenPrompt tool:
+Then install the OpenPrompt tool:
    ```bash
     cd OpenPrompt
     pip install .
