@@ -1,0 +1,190 @@
+Namespace(log_name='./xcodeeval/1/soft4_codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='c', output_dir='xcodeeval/1/soft4_codet5p_770m', data_dir='./data/xcodeeval/1', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=6, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': '#include <stdio.h> #include <stdlib.h> void insertSort(int* a, int size) {     int i, j, tmp;     for (i = 1; i < size; ++i)     {         tmp = a[i];         for (j = i - 1; j >= 0 && a[j] < tmp; --j)             a[j + 1] = a[j];         a[j + 1] = tmp;     } } int check(int* a,int* b,int size) {     int i;     for(i=0;i<size;i++)     if (a[i]!=b[i]) return (a[i]);     return a[i]; } int main() {     int i,n,o1,o2;     scanf("%d",&n);     int a[n],b[n-1];     for (i=0;i<n;i++)         scanf("%d",&a[i]);     insertSort(a,n);     puts("First");     for (i=0;i<n-1;i++)         scanf("%d",&b[i]);     insertSort(b,n-1);     puts("Sec1");     o1=check(a,b,n);     puts("Sec2");     for (i=0;i<n-2;i++)         scanf("%d",&a[i]);     insertSort(a,n-2);     puts("Thir1");     o2=check(b,a,n-2);     puts("Thir2");     printf("%d\\n%d",o1,o2);     return 0; }', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is the fixed version', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '#include <stdio.h> #include <stdlib.h>  int main() {     int i,n,x;     __int64 a=0,b=0,c=0;     scanf("%d",&n);     for (i=0; i<n; i++)     {         scanf("%d",&x);         a+=x;     }     for (i=0; i<n-1; i++)     {         scanf("%d",&x);         b+=x;     }     for (i=0; i<n-2; i++)     {         scanf("%d",&x);         c+=x;      }     printf("%I64d\\n%I64d",a-b,b-c);     return 0; }'}]
+***** Running training *****
+  Num examples = 1082
+  Batch size = 6
+  Num epoch = 10
+Namespace(log_name='./xcodeeval/1/soft4_codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='javascript', output_dir='xcodeeval/1/soft4_codet5p_770m', data_dir='./data/xcodeeval/1', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=6, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Fix', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' #include <stdio.h> #include <stdlib.h> void insertSort(int* a, int size) {     int i, j, tmp;     for (i = 1; i < size; ++i)     {         tmp = a[i];         for (j = i - 1; j >= 0 && a[j] < tmp; --j)             a[j + 1] = a[j];         a[j + 1] = tmp;     } } int check(int* a,int* b,int size) {     int i;     for(i=0;i<size;i++)     if (a[i]!=b[i]) return (a[i]);     return a[i]; } int main() {     int i,n,o1,o2;     scanf("%d",&n);     int a[n],b[n-1];     for (i=0;i<n;i++)         scanf("%d",&a[i]);     insertSort(a,n);     puts("First");     for (i=0;i<n-1;i++)         scanf("%d",&b[i]);     insertSort(b,n-1);     puts("Sec1");     o1=check(a,b,n);     puts("Sec2");     for (i=0;i<n-2;i++)         scanf("%d",&a[i]);     insertSort(a,n-2);     puts("Thir1");     o2=check(b,a,n-2);     puts("Thir2");     printf("%d\\n%d",o1,o2);     return 0; }', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is fixed program', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '#include <stdio.h> #include <stdlib.h>  int main() {     int i,n,x;     __int64 a=0,b=0,c=0;     scanf("%d",&n);     for (i=0; i<n; i++)     {         scanf("%d",&x);         a+=x;     }     for (i=0; i<n-1; i++)     {         scanf("%d",&x);         b+=x;     }     for (i=0; i<n-2; i++)     {         scanf("%d",&x);         c+=x;      }     printf("%I64d\\n%I64d",a-b,b-c);     return 0; }'}]
+***** Running training *****
+  Num examples = 1082
+  Batch size = 6
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 0
+  eval_ppl = inf
+  global_step = 182
+  train_loss = 63.9483
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:inf
+  ********************
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 75.34 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:75.34
+  ********************
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 1
+  eval_ppl = inf
+  global_step = 363
+  train_loss = 51.6608
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:inf
+  ********************
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+Namespace(log_name='./xcodeeval/1/soft4_codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='java', output_dir='xcodeeval/1/soft4_codet5p_770m', data_dir='./data/xcodeeval/1', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Fix', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' #include <stdio.h> #include <stdlib.h> void insertSort(int* a, int size) {     int i, j, tmp;     for (i = 1; i < size; ++i)     {         tmp = a[i];         for (j = i - 1; j >= 0 && a[j] < tmp; --j)             a[j + 1] = a[j];         a[j + 1] = tmp;     } } int check(int* a,int* b,int size) {     int i;     for(i=0;i<size;i++)     if (a[i]!=b[i]) return (a[i]);     return a[i]; } int main() {     int i,n,o1,o2;     scanf("%d",&n);     int a[n],b[n-1];     for (i=0;i<n;i++)         scanf("%d",&a[i]);     insertSort(a,n);     puts("First");     for (i=0;i<n-1;i++)         scanf("%d",&b[i]);     insertSort(b,n-1);     puts("Sec1");     o1=check(a,b,n);     puts("Sec2");     for (i=0;i<n-2;i++)         scanf("%d",&a[i]);     insertSort(a,n-2);     puts("Thir1");     o2=check(b,a,n-2);     puts("Thir2");     printf("%d\\n%d",o1,o2);     return 0; }', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is fixed program', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '#include <stdio.h> #include <stdlib.h>  int main() {     int i,n,x;     __int64 a=0,b=0,c=0;     scanf("%d",&n);     for (i=0; i<n; i++)     {         scanf("%d",&x);         a+=x;     }     for (i=0; i<n-1; i++)     {         scanf("%d",&x);         b+=x;     }     for (i=0; i<n-2; i++)     {         scanf("%d",&x);         c+=x;      }     printf("%I64d\\n%I64d",a-b,b-c);     return 0; }'}]
+***** Running training *****
+  Num examples = 1082
+  Batch size = 4
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 0
+  eval_ppl = inf
+  global_step = 272
+  train_loss = 65.2533
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:inf
+  ********************
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 74.59 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:74.59
+  ********************
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 1
+  eval_ppl = inf
+  global_step = 543
+  train_loss = 53.3856
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 75.22 	 Previous best codebleu 74.59
+  ********************
+ Achieve Best bleu:75.22
+  ********************
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 2
+  eval_ppl = inf
+  global_step = 814
+  train_loss = 39.2195
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:inf
+  ********************
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 74.93 	 Previous best codebleu 75.22
+  ********************
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 3
+  eval_ppl = inf
+  global_step = 1085
+  train_loss = 30.1345
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 75.18 	 Previous best codebleu 75.22
+  ********************
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 4
+  eval_ppl = inf
+  global_step = 1356
+  train_loss = 20.4439
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 75.3 	 Previous best codebleu 75.22
+  ********************
+ Achieve Best bleu:75.3
+  ********************
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 5
+  eval_ppl = inf
+  global_step = 1627
+  train_loss = 13.7919
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 75.18 	 Previous best codebleu 75.3
+  ********************
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 6
+  eval_ppl = inf
+  global_step = 1898
+  train_loss = 9.4157
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 74.83 	 Previous best codebleu 75.3
+  ********************
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 7
+  eval_ppl = inf
+  global_step = 2169
+  train_loss = 6.2667
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 75.08 	 Previous best codebleu 75.3
+  ********************
+early stopping!!!
+reload model from xcodeeval/1/soft4_codet5p_770m/checkpoint-best-bleu
+BLEU file: ./data/xcodeeval/1/test.jsonl
+  codebleu = 76.2 
+  Total = 135 
+  Exact Fixed = 2 
+[62, 132]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 2 
+[77, 123]
+  ********************
+  Total = 135 
+  Exact Fixed = 2 
+[62, 132]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 2 
+[77, 123]
+  codebleu = 76.2 
+[0.7489238226560847, 0.9752926493864778, 0.8602750628943225, 0.7793918298209239, 0.5573752390934184, 0.9045128480966513, 0.6712357484960259, 0.816734683793124, 0.48124999999999996, 0.9293294877292491, 0.6523787733039668, 0.8958500287685482, 0.7763350587837501, 0.8924798288102276, 0.9250674011252755, 0.8147970584349533, 0.6147742548524042, 0.8360809054826586, 0.9174971441935897, 0.9686270631579303, 0.9498733743967636, 0.5991231391411521, 0.9054668285688956, 0.9402938562783407, 0.8176538148479855, 0.8986391637385749, 0.5163090621683543, 0.8489103699270415, 0.9485872567952247, 0.9573269599562826, 0.9857368328793006, 0.7935905689672041, 0.476196939646776, 0.9424672128929397, 0.8556567181273729, 0.973858151522893, 0.5608505234605898, 0.7375883948689104, 0.47075493012507347, 0.9471982954514573, 0.6164515586232341, 0.6746874792584412, 0.400359256416163, 0.5248269663982585, 0.7386783808287571, 0.8692758436104289, 0.948840857335473, 0.8350880308347872, 0.657614384186775, 0.7678240245732217, 0.9601466755014141, 0.2878519067135126, 0.8899875561301618, 0.8008441875205452, 0.23268175239201142, 0.9364663854054965, 0.8910707868723129, 0.7044636183125371, 0.9860950428335316, 0.5326804087503864, 0.7967985438505953, 1.0, 0.3949503942077065, 0.9717031869124628, 0.9946742554802974, 0.36237005798495653, 0.9384016096758339, 0.7251123049192625, 0.7598076383450478, 0.6749664600008424, 0.22821052933926522, 0.9616363044684666, 0.4443255876334239, 0.9301873339855136, 0.8832939085291556, 0.884148176976552, 0.8894074387010603, 0.8367490220452467, 0.8678988755435461, 0.8019552509130878, 0.43121714482759566, 0.7268553130289038, 0.841856367992647, 0.9178071327141932, 0.9858567543387331, 0.9006834843557219, 0.9005720071640332, 0.8460561470738572, 0.9434866215321012, 0.7862458438686939, 0.9617625014218179, 0.9093786916842668, 0.6062097541945055, 0.7707703165329088, 0.5591036327162107, 0.9498733743967636, 0.7155824670200155, 0.8591160691152417, 0.5317427631195217, 0.900423058378295, 0.9433331374971614, 0.5358582551794681, 0.6869503860388172, 0.2830957695243268, 0.7822422523293477, 0.938605671540292, 0.6544650753016634, 0.9152919418611825, 0.2962003638092841, 0.8769250379411355, 0.4493529930233149, 0.9768318050985338, 0.7482046021816059, 0.565221394071985, 0.5614392728435287, 0.9442248897793943, 0.9234049587242594, 0.8225586994623314, 0.7519554662063138, 0.5012963048179105, 0.796069568149505, 0.4907810682024958, 0.934906814743997, 0.3801756408295779, 0.8261741853993663, 0.8464275010946882, 0.7479797564473748, 0.8300425769809905, 0.4538714182422754, 0.7776382447359875, 0.6335140913385428, 1.0, 0.9175709098529026, 0.5471636203303005, 0.7353550025574069]
+Finish training and take 1h19m

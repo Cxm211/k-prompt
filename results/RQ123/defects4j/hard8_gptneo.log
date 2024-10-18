@@ -1,0 +1,169 @@
+Namespace(log_name='./result/defects4j/hard9_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='result/defects4j/hard9_gptneo', data_dir='./data/defects4j', no_cuda=False, visible_gpu='0', choice=9, num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=2048, max_target_length=2048, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Please fix an buggy program', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' static TernaryValue getImpureBooleanValue(Node n) {          return TernaryValue.TRUE;        default:          return getPureBooleanValue(n);', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': ' by following repair patterns', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' Conditional block addition with return statement,Wraps-with if statement,', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' the fixed version is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'static TernaryValue getImpureBooleanValue(Node n) {          return TernaryValue.TRUE;       case Token.VOID:         return TernaryValue.FALSE;        default:          return getPureBooleanValue(n);'}]
+***** Running training *****
+  Num examples = 502
+  Batch size = 4
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.0654379581620343e+18
+  global_step = 127
+  train_loss = 75.3089
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.0654379581620343e+18
+  ********************
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 73.77 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:73.77
+  ********************
+Namespace(log_name='./result/defects4j/hard9_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='result/defects4j/hard9_gptneo', data_dir='./data/defects4j', no_cuda=False, visible_gpu='0', choice=9, num_train_epochs=10, num_test_epochs=1, train_batch_size=2, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=2048, max_target_length=2048, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Please fix an buggy program', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' static TernaryValue getImpureBooleanValue(Node n) {          return TernaryValue.TRUE;        default:          return getPureBooleanValue(n);', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': ' by following repair patterns', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' Conditional block addition with return statement,Wraps-with if statement,', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' the fixed version is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'static TernaryValue getImpureBooleanValue(Node n) {          return TernaryValue.TRUE;       case Token.VOID:         return TernaryValue.FALSE;        default:          return getPureBooleanValue(n);'}]
+***** Running training *****
+  Num examples = 502
+  Batch size = 2
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 6.862801274887239e+21
+  global_step = 252
+  train_loss = 65.4732
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:6.862801274887239e+21
+  ********************
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 74.89 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:74.89
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 264923162.70828
+  global_step = 503
+  train_loss = 27.3796
+  ********************
+Previous best ppl:6.862801274887239e+21
+Achieve Best ppl:264923162.70828
+  ********************
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 74.34 	 Previous best codebleu 74.89
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 3.5615545087600424e+21
+  global_step = 754
+  train_loss = 16.5485
+  ********************
+Previous best ppl:264923162.70828
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 75.03 	 Previous best codebleu 74.89
+  ********************
+ Achieve Best bleu:75.03
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 15087492727.049
+  global_step = 1005
+  train_loss = 11.1375
+  ********************
+Previous best ppl:264923162.70828
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 72.27 	 Previous best codebleu 75.03
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 2.203360734925814e+24
+  global_step = 1256
+  train_loss = 7.1291
+  ********************
+Previous best ppl:264923162.70828
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 75.05 	 Previous best codebleu 75.03
+  ********************
+ Achieve Best bleu:75.05
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 3.601031056950231e+19
+  global_step = 1507
+  train_loss = 4.2225
+  ********************
+Previous best ppl:264923162.70828
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 72.3 	 Previous best codebleu 75.05
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 6
+  eval_ppl = 4.19770714676347e+16
+  global_step = 1758
+  train_loss = 2.9624
+  ********************
+Previous best ppl:264923162.70828
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 73.34 	 Previous best codebleu 75.05
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 7
+  eval_ppl = 6504723953486175.0
+  global_step = 2009
+  train_loss = 2.0646
+  ********************
+Previous best ppl:264923162.70828
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 72.46 	 Previous best codebleu 75.05
+  ********************
+early stopping!!!
+reload model from result/defects4j/hard9_gptneo/checkpoint-best-bleu
+BLEU file: ./data/defects4j/test.jsonl
+  codebleu = 74.32 
+  Total = 64 
+  Exact Fixed = 7 
+[17, 30, 31, 39, 43, 52, 55]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 64 
+  Exact Fixed = 7 
+[17, 30, 31, 39, 43, 52, 55]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 74.32 
+[0.7977509497997374, 0.8318588019770055, 0.5402701350939683, 0.8870317711504849, 0.8743533307465343, 0.6007163503048495, 0.6627743419484837, 0.7349160589538031, 0.7051146102158162, 0.8224642580186448, 0.7143513682140774, 0.6451687939127737, 0.8721125152975062, 0.877572165029932, 0.7819170925377384, 0.7295663592610011, 1.0, 0.8961434726030306, 0.9617720754477719, 0.8459463132957461, 0.7398507191925657, 0.4990213334154692, 0.7642008756542817, 0.8693059718827794, 0.6855500651268766, 0.863021098885395, 0.2862125618794039, 0.7197666527435577, 0.6327389381149714, 1.0, 0.9224526824055446, 0.5547313445818625, 0.7747820008708426, 0.3121976356389213, 0.8727340070600411, 0.8575737152700653, 0.8158461676559928, 0.7801254798255169, 0.9569487648577442, 0.6308301299550215, 0.7434331721608174, 0.5306204908823648, 1.0, 0.3205070115741946, 0.6316733772548883, 0.5930889990404284, 0.8295509438760991, 0.939815478934878, 0.8028172817807042, 0.8924644874204966, 0.8365049773284279, 1.0, 0.8096645620006775, 0.6930827608711253, 0.9569487648577442, 0.5448048686005305, 0.4621589065114636, 0.7883984369266105, 0.7523401763607825, 0.8438720692633894, 0.595153561733246, 0.7329903885524013, 0.46307558290788287, 0.48189924468684703]
+Finish training and take 1h26m

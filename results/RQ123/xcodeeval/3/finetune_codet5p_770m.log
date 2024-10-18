@@ -1,0 +1,119 @@
+Namespace(log_name='./xcodeeval/3/finetune_codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='c', output_dir='xcodeeval/3/finetune_codet5p_770m', data_dir='./data/xcodeeval/3', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=128, max_target_length=128, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: Salesforce/codet5p-770m
+model created!
+Total 1082 training instances 
+***** Running training *****
+  Num examples = 1082
+  Batch size = 8
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.00057
+  global_step = 136
+  train_loss = 0.3629
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.00057
+  ********************
+BLEU file: ./data/xcodeeval/3/validation.jsonl
+  codebleu-4 = 73.84 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:73.84
+  ********************
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 1.00057
+  global_step = 271
+  train_loss = 0.2449
+  ********************
+Previous best ppl:1.00057
+Achieve Best ppl:1.00057
+  ********************
+BLEU file: ./data/xcodeeval/3/validation.jsonl
+  codebleu-4 = 74.08 	 Previous best codebleu 73.84
+  ********************
+ Achieve Best bleu:74.08
+  ********************
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 1.00056
+  global_step = 406
+  train_loss = 0.1817
+  ********************
+Previous best ppl:1.00057
+Achieve Best ppl:1.00056
+  ********************
+BLEU file: ./data/xcodeeval/3/validation.jsonl
+  codebleu-4 = 74.32 	 Previous best codebleu 74.08
+  ********************
+ Achieve Best bleu:74.32
+  ********************
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 1.00061
+  global_step = 541
+  train_loss = 0.1256
+  ********************
+Previous best ppl:1.00056
+BLEU file: ./data/xcodeeval/3/validation.jsonl
+  codebleu-4 = 74.21 	 Previous best codebleu 74.32
+  ********************
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 1.00066
+  global_step = 676
+  train_loss = 0.0884
+  ********************
+Previous best ppl:1.00056
+BLEU file: ./data/xcodeeval/3/validation.jsonl
+  codebleu-4 = 74.07 	 Previous best codebleu 74.32
+  ********************
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 1.00069
+  global_step = 811
+  train_loss = 0.0619
+  ********************
+Previous best ppl:1.00056
+BLEU file: ./data/xcodeeval/3/validation.jsonl
+  codebleu-4 = 74.24 	 Previous best codebleu 74.32
+  ********************
+reload model from xcodeeval/3/finetune_codet5p_770m/checkpoint-best-bleu
+BLEU file: ./data/xcodeeval/3/test.jsonl
+  codebleu = 71.36 
+  Total = 135 
+  Exact Fixed = 1 
+[27]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 135 
+  Exact Fixed = 1 
+[27]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 71.36 
+[0.7929417979064819, 0.7663371990492582, 0.6976910864186706, 0.8512897119997327, 0.8536358763066614, 0.08432938445148015, 0.34898094225543036, 0.7669842146074164, 0.6756324089520065, 0.6054199120209949, 0.5601962677755853, 0.8164468849403668, 0.9175351478585267, 0.8726774356123554, 0.8059634988113191, 0.872147466111713, 0.28456980887865324, 0.7534037242254013, 0.5611075353445172, 0.7830064735910691, 0.9185412013134608, 0.8245561139312393, 0.8138327672660688, 0.5524112337326081, 0.7907867143503229, 0.8134383812838551, 1.0, 0.8448616344160145, 0.6982021521970254, 0.7978317575635472, 0.8824402399754723, 0.4739726324720028, 0.5944332173391844, 0.9040862722278158, 0.6345448464057466, 0.7259849312989834, 0.7540469087814428, 0.8313915586456186, 0.5517272573501402, 0.8569685752263538, 0.7932902743460295, 0.630150618578014, 0.6759728227587174, 0.7470425578948228, 0.9118904361242524, 0.8470562047308248, 0.672785744652446, 0.7867507949022507, 0.8536334434067134, 0.5685250847298065, 0.8219514476194971, 0.8419978367899081, 0.9092430471124722, 0.9104392373575145, 0.7182482958421927, 0.941768888951575, 0.6455873914646095, 0.7791901399892995, 0.8654937656858617, 0.4142301377471687, 0.5112111419002278, 0.8297929734818674, 0.9217008915274616, 0.8226849457990322, 0.6827218942680189, 0.7944974662629933, 0.8546770093840449, 0.23178378342054765, 0.7563107817326995, 0.8339849455214231, 0.8155779083654062, 0.901355655227414, 0.754778959829329, 0.7773823007220496, 0.802980404547649, 0.5923377715628043, 0.8125459461294413, 0.720188397702945, 0.6987172522283688, 0.7925405308747024, 0.9011540531929747, 0.837457300065938, 0.7087785501314359, 0.7958146687812508, 0.5677893088427866, 0.7763879223350485, 0.3417564054664891, 0.7704569402736815, 0.7509157324200985, 0.7827835412006432, 0.5672747648078345, 0.647487961996232, 0.8667405752508375, 0.7322128056542299, 0.4154808998544015, 0.811364833324377, 0.5211121075488702, 0.6202723760558566, 0.823799855709568, 0.5271882025547743, 0.8077815485625466, 0.8628818944953964, 0.515209831912117, 0.7848352750832455, 0.8445923838454312, 0.8897945586059963, 0.33520188382167504, 0.4168626518355933, 0.8112549768726531, 0.3975734208323345, 0.8811002176557108, 0.5534803180860053, 0.5285433525156937, 0.8395646321617463, 0.7142029351288322, 0.42918313960976945, 0.8759700055210595, 0.7192634200448921, 0.9150668370807107, 0.7135938825045871, 0.6257365724699333, 0.8545307032267597, 0.7904010053030581, 0.8806594193232651, 0.5248428625544761, 0.6853859283557308, 0.8877072716538504, 0.24170769468996064, 0.2142677455447746, 0.5976804074013286, 0.9003747650468552, 0.8806974736497433, 0.6294449559412665, 0.5963350635154259, 0.24173832962493158]
+Finish training and take 19m

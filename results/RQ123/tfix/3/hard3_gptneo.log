@@ -1,0 +1,129 @@
+Namespace(log_name='./tfix/3/hard3_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='javascript', output_dir='tfix/3/hard3_gptneo', data_dir='./data/tfix/3', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=6, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1024, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Fix', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' function executeDown(internals, config, callback) {   var callback = callback || internals.onComplete;   if (!internals.argv.count) {', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': ' fixed program is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'function executeDown(internals, config, callback) {   if (!internals.argv.count) {'}]
+***** Running training *****
+  Num examples = 816
+  Batch size = 6
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 5.4422685563136024e+97
+  global_step = 137
+  train_loss = 23.2752
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:5.4422685563136024e+97
+  ********************
+BLEU file: ./data/tfix/3/validation.jsonl
+  codebleu-4 = 62.1 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:62.1
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 3.140543006927632e+86
+  global_step = 273
+  train_loss = 7.7975
+  ********************
+Previous best ppl:5.4422685563136024e+97
+Achieve Best ppl:3.140543006927632e+86
+  ********************
+BLEU file: ./data/tfix/3/validation.jsonl
+  codebleu-4 = 60.57 	 Previous best codebleu 62.1
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 2.4813670711211823e+89
+  global_step = 409
+  train_loss = 3.9278
+  ********************
+Previous best ppl:3.140543006927632e+86
+BLEU file: ./data/tfix/3/validation.jsonl
+  codebleu-4 = 60.71 	 Previous best codebleu 62.1
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 2.5857314245758958e+135
+  global_step = 545
+  train_loss = 2.5049
+  ********************
+Previous best ppl:3.140543006927632e+86
+BLEU file: ./data/tfix/3/validation.jsonl
+  codebleu-4 = 63.65 	 Previous best codebleu 62.1
+  ********************
+ Achieve Best bleu:63.65
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 7.566188855851878e+141
+  global_step = 681
+  train_loss = 1.4027
+  ********************
+Previous best ppl:3.140543006927632e+86
+BLEU file: ./data/tfix/3/validation.jsonl
+  codebleu-4 = 63.61 	 Previous best codebleu 63.65
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 1.4771603386783268e+167
+  global_step = 817
+  train_loss = 1.0409
+  ********************
+Previous best ppl:3.140543006927632e+86
+BLEU file: ./data/tfix/3/validation.jsonl
+  codebleu-4 = 62.64 	 Previous best codebleu 63.65
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 6
+  eval_ppl = 1.0962594734121776e+156
+  global_step = 953
+  train_loss = 0.7113
+  ********************
+Previous best ppl:3.140543006927632e+86
+BLEU file: ./data/tfix/3/validation.jsonl
+  codebleu-4 = 60.83 	 Previous best codebleu 63.65
+  ********************
+early stopping!!!
+reload model from tfix/3/hard3_gptneo/checkpoint-best-bleu
+BLEU file: ./data/tfix/3/test.jsonl
+  codebleu = 61.46 
+  Total = 102 
+  Exact Fixed = 20 
+[1, 3, 5, 6, 10, 14, 15, 17, 25, 29, 31, 40, 42, 52, 53, 69, 71, 80, 98, 100]
+  Syntax Fixed = 1 
+[44]
+  Cleaned Fixed = 2 
+[57, 58]
+  ********************
+  Total = 102 
+  Exact Fixed = 20 
+[1, 3, 5, 6, 10, 14, 15, 17, 25, 29, 31, 40, 42, 52, 53, 69, 71, 80, 98, 100]
+  Syntax Fixed = 1 
+[44]
+  Cleaned Fixed = 2 
+[57, 58]
+  codebleu = 61.46 
+[1.0, 0.61322123249758, 0.947587286567819, 0.6928185251457493, 1.0, 0.849665244706028, 0.5220649796935238, 0.35550116410096294, 0.8674961219905688, 1.0, 0.5786565320612336, 0.6691076240118989, 0.8306583090096291, 1.0, 1.0, 0.2882957997452367, 0.9891483218006352, 0.16005579379668, 0.4016265496309229, 0.19407521287632623, 0.6335343953003008, 0.8968939355581875, 0.6471434792714542, 0.5395616509650316, 0.9891483218006352, 0.503306877763564, 0.4980397387368015, 0.36033041826021395, 0.7135428903906851, 0.6872646994947968, 1.0, 0.6502973371873174, 0.5057622511461156, 0.31594770703647285, 0.42167844414361744, 0.6927974272392146, 0.5123425659061872, 0.6067661591114144, 0.6699752229822191, 1.0, 0.6748885220437988, 1.0, 0.7096115872083772, 0.9591129363138862, 0.37317161913164243, 0.8624231729981537, 0.0076380386437842765, 0.16999277306539728, 0.573720780784847, 0.5737963120906613, 0.8076733233026572, 0.7264911064067352, 1.0, 0.5675641376147265, 0.10178106081337598, 0.6823637724501181, 0.8895082176095654, 0.7632387151836264, 0.7251487502001472, 0.5103797721363785, 0.8796531437200525, 0.6943569758770369, 0.2805123536307766, 0.5267461460334337, 0.6390982360654051, 0.545545649326698, 0.23985271067894742, 0.32876058317458745, 1.0, 0.09999999999999999, 1.0, 0.8420812716756092, 0.623947934534287, 0.5019439926594608, 0.5492169126633578, 0.8648103351245982, 0.2342419015813611, 0.42018074165768404, 0.09241884757886842, 0.8249365300761395, 0.7434311193874743, 0.0, 0.2229676619447272, 0.6082742323311118, 0.7058411649189116, 0.6428751846128224, 0.4646329022300242, 0.4993949501703278, 0.5332899899497036, 0.762178754714643, 0.0, 0.8339326133501213, 0.7279979526305214, 0.4849237989456603, 0.4402131912598308, 0.5596414762602546, 0.4833903788055556, 0.8249365300761395, 0.32778187550634336, 0.9164626894135284, 0.44240821387903484, 0.7941441569283882]
+Finish training and take 52m

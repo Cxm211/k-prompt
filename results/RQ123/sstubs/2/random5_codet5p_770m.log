@@ -1,0 +1,173 @@
+Namespace(log_name='./result/sstubs/2/random5_codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='java', output_dir='result/sstubs/2/random5_codet5p_770m', data_dir='./data/sstubs/2', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': '@SuppressWarnings("unchecked")    @Override   public V value(Object node) {      Object value = adjacentNodeValues.get(node);      if (value == PRED) {        return null;', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': 'is buggy program', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is fixed program', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '@SuppressWarnings("unchecked")    @Override   public V value(N node) {      Object value = adjacentNodeValues.get(node);      if (value == PRED) {        return null;'}]
+***** Running training *****
+  Num examples = 260
+  Batch size = 4
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 4.600195394766704e+106
+  global_step = 66
+  train_loss = 16.7045
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:4.600195394766704e+106
+  ********************
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 94.25 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:94.25
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 1.4280433289900991e+107
+  global_step = 131
+  train_loss = 3.0184
+  ********************
+Previous best ppl:4.600195394766704e+106
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 95.49 	 Previous best codebleu 94.25
+  ********************
+ Achieve Best bleu:95.49
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 4.2598145954255494e+111
+  global_step = 196
+  train_loss = 1.6142
+  ********************
+Previous best ppl:4.600195394766704e+106
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 95.55 	 Previous best codebleu 95.49
+  ********************
+ Achieve Best bleu:95.55
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 7.29676223250635e+109
+  global_step = 261
+  train_loss = 1.1307
+  ********************
+Previous best ppl:4.600195394766704e+106
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 96.03 	 Previous best codebleu 95.55
+  ********************
+ Achieve Best bleu:96.03
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 1.3217542118052688e+106
+  global_step = 326
+  train_loss = 0.5669
+  ********************
+Previous best ppl:4.600195394766704e+106
+Achieve Best ppl:1.3217542118052688e+106
+  ********************
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 94.45 	 Previous best codebleu 96.03
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 2.2865946170566364e+107
+  global_step = 391
+  train_loss = 0.5723
+  ********************
+Previous best ppl:1.3217542118052688e+106
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 95.9 	 Previous best codebleu 96.03
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 6
+  eval_ppl = 1.8183093664758612e+107
+  global_step = 456
+  train_loss = 0.3483
+  ********************
+Previous best ppl:1.3217542118052688e+106
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 95.95 	 Previous best codebleu 96.03
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 7
+  eval_ppl = 8.220553917556903e+108
+  global_step = 521
+  train_loss = 0.1924
+  ********************
+Previous best ppl:1.3217542118052688e+106
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 96.06 	 Previous best codebleu 96.03
+  ********************
+ Achieve Best bleu:96.06
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 8
+  eval_ppl = 4.548377860746747e+109
+  global_step = 586
+  train_loss = 0.1685
+  ********************
+Previous best ppl:1.3217542118052688e+106
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 95.95 	 Previous best codebleu 96.06
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 9
+  eval_ppl = 8.930312289573713e+109
+  global_step = 651
+  train_loss = 0.0897
+  ********************
+Previous best ppl:1.3217542118052688e+106
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 95.95 	 Previous best codebleu 96.06
+  ********************
+reload model from result/sstubs/2/random5_codet5p_770m/checkpoint-best-bleu
+BLEU file: ./data/sstubs/2/test.jsonl
+  codebleu = 93.43 
+  Total = 32 
+  Exact Fixed = 20 
+[1, 2, 3, 5, 6, 9, 10, 11, 12, 14, 17, 18, 19, 21, 23, 26, 27, 28, 29, 30]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 32 
+  Exact Fixed = 20 
+[1, 2, 3, 5, 6, 9, 10, 11, 12, 14, 17, 18, 19, 21, 23, 26, 27, 28, 29, 30]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 93.43 
+[1.0, 1.0, 1.0, 0.8809865946035704, 1.0, 1.0, 0.6325769337104594, 0.6889840736522397, 1.0, 1.0, 1.0, 1.0, 0.645426537036109, 1.0, 0.6887796716807858, 0.9097382001430849, 1.0, 1.0, 1.0, 0.8367953537684858, 1.0, 0.8937646940710373, 1.0, 0.9327938350960072, 0.8927685762874167, 1.0, 1.0, 1.0, 1.0, 1.0, 0.9334681110717995, 0.9620033353993269]
+Finish training and take 17m

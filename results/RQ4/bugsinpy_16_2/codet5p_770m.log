@@ -1,0 +1,173 @@
+Namespace(log_name='./RQ5/bugsinpy_16_2/codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='python', output_dir='RQ5/bugsinpy_16_2/codet5p_770m', data_dir='./data/RQ5/bugsinpy_16_2', choice=0, no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'def _get_renderer(figure, print_method=None, *, draw_disabled=False):          except Done as exc:              renderer, = figure._cachedRenderer, = exc.args     if draw_disabled:         for meth_name in dir(RendererBase):             if (meth_name.startswith("draw_")                     or meth_name in ["open_group", "close_group"]):                 setattr(renderer, meth_name, lambda *args, **kwargs: None)      return renderer', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is the fixed version', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'def _get_renderer(figure, print_method=None, *, draw_disabled=False):          except Done as exc:              renderer, = figure._cachedRenderer, = exc.args      return renderer'}]
+***** Running training *****
+  Num examples = 16
+  Batch size = 4
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 100
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 4.859448245850903e+221
+  global_step = 5
+  train_loss = 91.2154
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:4.859448245850903e+221
+  ********************
+BLEU file: ./data/RQ5/bugsinpy_16_2/validation.jsonl
+  codebleu-4 = 42.75 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:42.75
+  ********************
+
+***** Running evaluation *****
+  Num examples = 100
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 9.709922173920043e+260
+  global_step = 9
+  train_loss = 50.4847
+  ********************
+Previous best ppl:4.859448245850903e+221
+BLEU file: ./data/RQ5/bugsinpy_16_2/validation.jsonl
+  codebleu-4 = 70.18 	 Previous best codebleu 42.75
+  ********************
+ Achieve Best bleu:70.18
+  ********************
+
+***** Running evaluation *****
+  Num examples = 100
+  Batch size = 4
+  epoch = 2
+  eval_ppl = inf
+  global_step = 13
+  train_loss = 31.6522
+  ********************
+Previous best ppl:4.859448245850903e+221
+BLEU file: ./data/RQ5/bugsinpy_16_2/validation.jsonl
+  codebleu-4 = 70.77 	 Previous best codebleu 70.18
+  ********************
+ Achieve Best bleu:70.77
+  ********************
+
+***** Running evaluation *****
+  Num examples = 100
+  Batch size = 4
+  epoch = 3
+  eval_ppl = inf
+  global_step = 17
+  train_loss = 18.5272
+  ********************
+Previous best ppl:4.859448245850903e+221
+BLEU file: ./data/RQ5/bugsinpy_16_2/validation.jsonl
+  codebleu-4 = 69.09 	 Previous best codebleu 70.77
+  ********************
+
+***** Running evaluation *****
+  Num examples = 100
+  Batch size = 4
+  epoch = 4
+  eval_ppl = inf
+  global_step = 21
+  train_loss = 13.1853
+  ********************
+Previous best ppl:4.859448245850903e+221
+BLEU file: ./data/RQ5/bugsinpy_16_2/validation.jsonl
+  codebleu-4 = 70.72 	 Previous best codebleu 70.77
+  ********************
+
+***** Running evaluation *****
+  Num examples = 100
+  Batch size = 4
+  epoch = 5
+  eval_ppl = inf
+  global_step = 25
+  train_loss = 8.0916
+  ********************
+Previous best ppl:4.859448245850903e+221
+BLEU file: ./data/RQ5/bugsinpy_16_2/validation.jsonl
+  codebleu-4 = 73.41 	 Previous best codebleu 70.77
+  ********************
+ Achieve Best bleu:73.41
+  ********************
+
+***** Running evaluation *****
+  Num examples = 100
+  Batch size = 4
+  epoch = 6
+  eval_ppl = inf
+  global_step = 29
+  train_loss = 3.8052
+  ********************
+Previous best ppl:4.859448245850903e+221
+BLEU file: ./data/RQ5/bugsinpy_16_2/validation.jsonl
+  codebleu-4 = 73.8 	 Previous best codebleu 73.41
+  ********************
+ Achieve Best bleu:73.8
+  ********************
+
+***** Running evaluation *****
+  Num examples = 100
+  Batch size = 4
+  epoch = 7
+  eval_ppl = inf
+  global_step = 33
+  train_loss = 2.953
+  ********************
+Previous best ppl:4.859448245850903e+221
+BLEU file: ./data/RQ5/bugsinpy_16_2/validation.jsonl
+  codebleu-4 = 74.06 	 Previous best codebleu 73.8
+  ********************
+ Achieve Best bleu:74.06
+  ********************
+
+***** Running evaluation *****
+  Num examples = 100
+  Batch size = 4
+  epoch = 8
+  eval_ppl = inf
+  global_step = 37
+  train_loss = 2.2987
+  ********************
+Previous best ppl:4.859448245850903e+221
+BLEU file: ./data/RQ5/bugsinpy_16_2/validation.jsonl
+  codebleu-4 = 74.06 	 Previous best codebleu 74.06
+  ********************
+
+***** Running evaluation *****
+  Num examples = 100
+  Batch size = 4
+  epoch = 9
+  eval_ppl = inf
+  global_step = 41
+  train_loss = 2.4599
+  ********************
+Previous best ppl:4.859448245850903e+221
+BLEU file: ./data/RQ5/bugsinpy_16_2/validation.jsonl
+  codebleu-4 = 74.06 	 Previous best codebleu 74.06
+  ********************
+reload model from RQ5/bugsinpy_16_2/codet5p_770m/checkpoint-best-bleu
+BLEU file: ./data/RQ5/bugsinpy_16_2/test.jsonl
+  codebleu = 75.52 
+  Total = 117 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 117 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 75.52 
+[0.6841374317909407, 0.676525822803221, 0.8096114788906146, 0.8962096929024133, 0.8782734899756608, 0.7420541780659815, 0.8611544762176193, 0.777182734204791, 0.728880010951902, 0.8736270526063763, 0.8773104352365284, 0.8470129833224621, 0.725598015348109, 0.4740532618616287, 0.8923125000332248, 0.8631855387221548, 0.4902704874187754, 0.9474759345795825, 0.782053171927164, 0.5936056097912514, 0.8385834949297515, 0.8884573785188872, 0.6883720951974961, 0.884250182279102, 0.7884485258508804, 0.7715012035371895, 0.6493367645086796, 0.7318286091585733, 0.8107806147142924, 0.717731435633271, 0.8231560738418289, 0.8195330229945343, 0.878865255109752, 0.8300638244826566, 0.8086254987195756, 0.7738279988463377, 0.610067068626702, 0.848034624064077, 0.8147968759653995, 0.8434652034268404, 0.8358395384567638, 0.8834630241782442, 0.7896354401872717, 0.8789801838086921, 0.8619327819513372, 0.6441425627537012, 0.6728230800934798, 0.8871978499693505, 0.6936199831009335, 0.6374410208386678, 0.8352894783834772, 0.7042953619649426, 0.7953587603777192, 0.5750974938187585, 0.6508693332230462, 0.5037077119806818, 0.8475332565755729, 0.7579539969913704, 0.486881345487581, 0.7507982187182929, 0.8077895563342797, 0.6530224530296921, 0.7639654153934541, 0.9411542454583528, 0.6853803599169206, 0.9666856331752072, 0.6601281703247908, 0.9056583090096291, 0.7787604626493623, 0.8834124216164225, 0.8808919461147899, 0.6356257812621184, 0.8853004704636518, 0.8814955038434287, 0.2909718763883706, 0.7585846389475988, 0.8737198896020864, 0.6439391185600173, 0.49150427670545643, 0.8856389378075658, 0.5603346241114819, 0.7711221670600811, 0.7714650156104186, 0.5911195501972704, 0.7332519354895861, 0.8052050509144788, 0.583933634540305, 0.7449734989717058, 0.8441782169344423, 0.860117164263619, 0.7531797171538064, 0.7587444512276733, 0.39686614731832626, 0.7205089220380079, 0.8234479137638847, 0.9472873156881443, 0.8548397899287874, 0.6413921957402942, 0.8068413656728535, 0.7722515742658139, 0.8362747318435784, 0.4516167878212213, 0.8594942629236695, 0.9204219587780458, 0.8399114554115357, 0.5571314709024371, 0.8300101016746005, 0.7225931341121177, 0.5117566728908322, 0.568803606953774, 0.621240758456996, 0.7443181170763433, 0.9142445273649933, 0.7768711691119308, 0.8475864225311183, 0.7093853536262804, 0.6976443337629226]
+Finish training and take 36m

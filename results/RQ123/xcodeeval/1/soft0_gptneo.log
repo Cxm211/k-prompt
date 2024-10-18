@@ -1,0 +1,103 @@
+Namespace(log_name='./xcodeeval/1/soft0_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='c', output_dir='xcodeeval/1/soft0_gptneo', data_dir='./data/xcodeeval/1', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=6, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1024, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=2)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': '#include <stdio.h> #include <stdlib.h> void insertSort(int* a, int size) {     int i, j, tmp;     for (i = 1; i < size; ++i)     {         tmp = a[i];         for (j = i - 1; j >= 0 && a[j] < tmp; --j)             a[j + 1] = a[j];         a[j + 1] = tmp;     } } int check(int* a,int* b,int size) {     int i;     for(i=0;i<size;i++)     if (a[i]!=b[i]) return (a[i]);     return a[i]; } int main() {     int i,n,o1,o2;     scanf("%d",&n);     int a[n],b[n-1];     for (i=0;i<n;i++)         scanf("%d",&a[i]);     insertSort(a,n);     puts("First");     for (i=0;i<n-1;i++)         scanf("%d",&b[i]);     insertSort(b,n-1);     puts("Sec1");     o1=check(a,b,n);     puts("Sec2");     for (i=0;i<n-2;i++)         scanf("%d",&a[i]);     insertSort(a,n-2);     puts("Thir1");     o2=check(b,a,n-2);     puts("Thir2");     printf("%d\\n%d",o1,o2);     return 0; }', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is the fixed version', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '#include <stdio.h> #include <stdlib.h>  int main() {     int i,n,x;     __int64 a=0,b=0,c=0;     scanf("%d",&n);     for (i=0; i<n; i++)     {         scanf("%d",&x);         a+=x;     }     for (i=0; i<n-1; i++)     {         scanf("%d",&x);         b+=x;     }     for (i=0; i<n-2; i++)     {         scanf("%d",&x);         c+=x;      }     printf("%I64d\\n%I64d",a-b,b-c);     return 0; }'}]
+***** Running training *****
+  Num examples = 1082
+  Batch size = 6
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 8.489220795763617e+21
+  global_step = 182
+  train_loss = 148.9707
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:8.489220795763617e+21
+  ********************
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 72.86 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:72.86
+  ********************
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 3.623837675098641e+34
+  global_step = 363
+  train_loss = 58.4642
+  ********************
+Previous best ppl:8.489220795763617e+21
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 72.9 	 Previous best codebleu 72.86
+  ********************
+ Achieve Best bleu:72.9
+  ********************
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 5.493562638381403e+39
+  global_step = 544
+  train_loss = 41.9571
+  ********************
+Previous best ppl:8.489220795763617e+21
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 73.52 	 Previous best codebleu 72.9
+  ********************
+ Achieve Best bleu:73.52
+  ********************
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 1.4898042272326773e+57
+  global_step = 725
+  train_loss = 28.0145
+  ********************
+Previous best ppl:8.489220795763617e+21
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 57.14 	 Previous best codebleu 73.52
+  ********************
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 1.084169579004459e+81
+  global_step = 906
+  train_loss = 18.2674
+  ********************
+Previous best ppl:8.489220795763617e+21
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 70.76 	 Previous best codebleu 73.52
+  ********************
+early stopping!!!
+reload model from xcodeeval/1/soft0_gptneo/checkpoint-best-bleu
+BLEU file: ./data/xcodeeval/1/test.jsonl
+  codebleu = 75.45 
+  Total = 135 
+  Exact Fixed = 1 
+[62]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 1 
+[77]
+  ********************
+  Total = 135 
+  Exact Fixed = 1 
+[62]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 1 
+[77]
+  codebleu = 75.45 
+[0.6924093394635022, 0.9395629533934053, 0.8004209878929425, 0.8399493211101225, 0.5506113673736786, 0.8995033054005415, 0.655233513178001, 0.8131660563421435, 0.23058470764617692, 0.8042335013239028, 0.6700100781693141, 0.8881108167610436, 0.8920012172763082, 0.8780920363637847, 0.9250674011252755, 0.9495957560159063, 0.5941120947459732, 0.8422400736677312, 0.9126650482788027, 0.9832612094993938, 0.8886176374108348, 0.762080557522302, 0.880606694526235, 0.9304372254539681, 0.7407697010109993, 0.7639695566095526, 0.49718744252947933, 0.8119955332989264, 0.9358018387596505, 0.916839399349475, 0.959026481993599, 0.8013339115222353, 0.5003910292067191, 0.8811698023642798, 0.8416184535678177, 0.973858151522893, 0.6298491547945411, 0.9365819013624168, 0.5667763933511136, 0.9087266328102179, 0.6432679507343982, 0.6754292375001995, 0.45040389279198945, 0.49489252880910334, 0.7149195155805301, 0.8113426217022974, 0.9465012851429597, 0.973858151522893, 0.5687436339880678, 0.7665245270067119, 0.9082025886090443, 0.33580645216805804, 0.9089687826192157, 0.7927906556865255, 0.46344533813736777, 0.9333310235672049, 0.8633660722321144, 0.4887573369368907, 0.9195934258734164, 0.5335581349704818, 0.9492384172683168, 1.0, 0.5077214223305908, 0.9702812943440167, 0.9728603183261928, 0.5937115645526909, 0.9334580759528754, 0.2857544178174171, 0.7598076383450478, 0.8753772142950917, 0.39101342264848765, 0.9399012248163252, 0.39878567129464576, 0.9721996000391095, 0.8760369670517594, 0.9194422946236107, 0.8791990328029993, 0.8151473460741598, 0.8644554554879766, 0.8454546086981599, 0.7491852152490326, 0.7153375795187605, 0.8527875420817158, 0.9128071327141931, 0.9137686005783368, 0.8917793747666807, 0.89451908845154, 0.8452531495069808, 0.8656439562588794, 0.5478449423959979, 0.9617625014218179, 0.8963430088316504, 0.4934678370724654, 0.9109545424921657, 0.5328220148157754, 0.9498733743967636, 0.7253025503608977, 0.8832489978611615, 0.5076943976918459, 0.906923058378295, 0.8952653125269923, 0.5998071806896054, 0.7116045157605104, 0.2572497507889638, 0.7556814728598797, 0.9582778026878329, 0.6362439585829495, 0.9365739931432338, 0.29943997880421824, 0.8769250379411355, 0.38466031842423953, 0.8185357161678264, 0.7261077919697895, 0.35618029318139577, 0.488766818040381, 0.9151909971820782, 0.9692439075113215, 0.7929436912800465, 0.7543893402832056, 0.47854531008265005, 0.9001064713727265, 0.37828106820249585, 0.9110073987910705, 0.3565874055354602, 0.8119506730626463, 0.743903320738334, 0.7286144481170467, 0.8241554247996095, 0.45601045567543047, 0.7761988507965935, 0.608533189887053, 0.8923212830848748, 0.8776707179367877, 0.46985530336379205, 0.7279692304347927]
+Finish training and take 2h4m

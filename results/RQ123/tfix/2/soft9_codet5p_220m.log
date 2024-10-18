@@ -1,0 +1,116 @@
+Namespace(log_name='./tfix/2/soft9_codet5p_220m.log', model_name='Salesforce/codet5p-220m', lang='javascript', output_dir='tfix/2/soft9_codet5p_220m', data_dir='./data/tfix/2', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=6, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Please fix a buggy program', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' var rows = [   {', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': 'the bug type is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' no-redeclare', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '.', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': 'by taking repair actions', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' Redeclaring variable.', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is the fixed version', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'const rows2 = [   {'}]
+***** Running training *****
+  Num examples = 816
+  Batch size = 6
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 0
+  eval_ppl = inf
+  global_step = 137
+  train_loss = 18.0901
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:inf
+  ********************
+BLEU file: ./data/tfix/2/validation.jsonl
+  codebleu-4 = 57.27 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:57.27
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 1
+  eval_ppl = inf
+  global_step = 273
+  train_loss = 10.2757
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/tfix/2/validation.jsonl
+  codebleu-4 = 60.27 	 Previous best codebleu 57.27
+  ********************
+ Achieve Best bleu:60.27
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 2
+  eval_ppl = inf
+  global_step = 409
+  train_loss = 6.2647
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/tfix/2/validation.jsonl
+  codebleu-4 = 62.41 	 Previous best codebleu 60.27
+  ********************
+ Achieve Best bleu:62.41
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 3
+  eval_ppl = inf
+  global_step = 545
+  train_loss = 3.7786
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/tfix/2/validation.jsonl
+  codebleu-4 = 58.85 	 Previous best codebleu 62.41
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 4
+  eval_ppl = inf
+  global_step = 681
+  train_loss = 2.3122
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/tfix/2/validation.jsonl
+  codebleu-4 = 62.01 	 Previous best codebleu 62.41
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 5
+  eval_ppl = inf
+  global_step = 817
+  train_loss = 1.3649
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/tfix/2/validation.jsonl
+  codebleu-4 = 60.53 	 Previous best codebleu 62.41
+  ********************
+early stopping!!!
+reload model from tfix/2/soft9_codet5p_220m/checkpoint-best-bleu
+BLEU file: ./data/tfix/2/test.jsonl
+  codebleu = 63.48 
+  Total = 102 
+  Exact Fixed = 17 
+[13, 14, 17, 19, 25, 31, 38, 49, 53, 63, 72, 74, 78, 89, 91, 92, 100]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 102 
+  Exact Fixed = 17 
+[13, 14, 17, 19, 25, 31, 38, 49, 53, 63, 72, 74, 78, 89, 91, 92, 100]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 63.48 
+[0.22619887519287302, 0.8420613586766155, 0.38626197666562845, 0.8076623491927839, 0.22556796225712933, 0.7596762077491805, 0.8758736159771414, 0.15, 0.6685284869568747, 0.6899766481408451, 0.6565149759825857, 0.3051384298635612, 1.0, 1.0, 0.7203659405242031, 0.5718428761160813, 1.0, 0.204436274930823, 1.0, 0.30959656731223933, 0.7667857383161394, 0.5927200451626766, 0.802713932743754, 0.8568274699818503, 0.919548114457609, 0.6618503204869636, 0.6887796716807859, 0.28269688894370654, 0.7724384145327522, 0.8267470965743207, 0.8114529051148651, 0.7855975357012536, 0.566221018567181, 0.709946360343789, 0.8399114554115357, 0.8353746106262074, 0.09473684210526315, 1.0, 0.8676314291716003, 0.8048103351245981, 0.6173479243452424, 0.3629160719563411, 0.46471561401402645, 0.05540387552681966, 0.8019924721490199, 0.934336399011221, 0.4735874823650029, 0.40924290540244646, 1.0, 0.44713630035176843, 0.2573081641827963, 0.2966597993138361, 0.8249365300761395, 0.8342413207153518, 0.3599867812326072, 0.6747088903862744, 0.5827685982686784, 0.5129834344293507, 0.467913762972279, 0.6416532852733938, 0.7729808431453671, 0.2436387373546412, 1.0, 0.5850991740430667, 0.7102241494026018, 0.7682378900570572, 0.4750396208139368, 0.47761992320925506, 0.3289541846861671, 0.6198083678127411, 0.568158309009629, 1.0, 0.7049295406070389, 1.0, 0.4288378866864627, 0.47996086480687705, 0.32184467070784006, 0.8516551101233703, 0.41413939082855794, 0.6706847188488577, 0.46847240140405244, 0.3069542996000356, 0.31326481273285584, 0.174436274930823, 0.6983180008059862, 0.8145980101874506, 0.7209635394255931, 0.5147391347384329, 1.0, 0.7952738864082955, 1.0, 1.0, 0.6532260383851596, 0.6777780764825427, 0.7065543572766618, 0.4580097675218012, 0.3163704680905167, 0.7279095254199106, 0.7376376136976128, 1.0, 0.45906361599859924, 0.8783259097532135]
+Finish training and take 11m

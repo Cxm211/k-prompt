@@ -1,0 +1,163 @@
+Namespace(log_name='./result/sstubs/3/hard8_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='result/sstubs/3/hard8_gptneo', data_dir='./data/sstubs/3', no_cuda=False, visible_gpu='0', choice=8, num_train_epochs=10, num_test_epochs=1, train_batch_size=2, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=2048, max_target_length=2048, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Please fix an buggy program', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' grammarBuilder.append("}\\n");    grammarBuilder.append("  : r=a ;\\n");    grammarBuilder.append("a : \'x\' { \\n");   grammarBuilder.append("fmt.Println(p.GetRuleInvocationStack(nil))\\n");    grammarBuilder.append("} ;");    String grammar = grammarBuilder.toString();    String input ="x";', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': ' the abstract syntax tree of bug line before fixing is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' new StringBuilder(167)', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' the fixed version is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'grammarBuilder.append("}\\n");    grammarBuilder.append("  : r=a ;\\n");    grammarBuilder.append("a : \'x\' { \\n");   grammarBuilder.append("fmt.Println(antlr.PrintArrayJavaStyle(p.GetRuleInvocationStack(nil)))\\n");    grammarBuilder.append("} ;");    String grammar = grammarBuilder.toString();    String input ="x";'}]
+***** Running training *****
+  Num examples = 223
+  Batch size = 2
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 4.2083139360402754e+24
+  global_step = 113
+  train_loss = 35.6635
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:4.2083139360402754e+24
+  ********************
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 91.51 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:91.51
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 3.0949151543261315e+22
+  global_step = 225
+  train_loss = 6.7549
+  ********************
+Previous best ppl:4.2083139360402754e+24
+Achieve Best ppl:3.0949151543261315e+22
+  ********************
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 75.5 	 Previous best codebleu 91.51
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 1.8732497228145715e+20
+  global_step = 337
+  train_loss = 4.9708
+  ********************
+Previous best ppl:3.0949151543261315e+22
+Achieve Best ppl:1.8732497228145715e+20
+  ********************
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 86.82 	 Previous best codebleu 91.51
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 248818456373838.4
+  global_step = 449
+  train_loss = 3.8831
+  ********************
+Previous best ppl:1.8732497228145715e+20
+Achieve Best ppl:248818456373838.4
+  ********************
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 91.91 	 Previous best codebleu 91.51
+  ********************
+ Achieve Best bleu:91.91
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 6.683885216719816e+22
+  global_step = 561
+  train_loss = 3.2666
+  ********************
+Previous best ppl:248818456373838.4
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 93.4 	 Previous best codebleu 91.91
+  ********************
+ Achieve Best bleu:93.4
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 7.384648529948038e+25
+  global_step = 673
+  train_loss = 2.3079
+  ********************
+Previous best ppl:248818456373838.4
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 94.27 	 Previous best codebleu 93.4
+  ********************
+ Achieve Best bleu:94.27
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 6
+  eval_ppl = 5.036334946597463e+27
+  global_step = 785
+  train_loss = 1.2779
+  ********************
+Previous best ppl:248818456373838.4
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 94.27 	 Previous best codebleu 94.27
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 7
+  eval_ppl = 3.098283911758323e+29
+  global_step = 897
+  train_loss = 0.4387
+  ********************
+Previous best ppl:248818456373838.4
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 92.44 	 Previous best codebleu 94.27
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 8
+  eval_ppl = 4.781373368239068e+31
+  global_step = 1009
+  train_loss = 0.443
+  ********************
+Previous best ppl:248818456373838.4
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 94.27 	 Previous best codebleu 94.27
+  ********************
+early stopping!!!
+reload model from result/sstubs/3/hard8_gptneo/checkpoint-best-bleu
+BLEU file: ./data/sstubs/3/test.jsonl
+  codebleu = 95.1 
+  Total = 27 
+  Exact Fixed = 16 
+[1, 4, 5, 6, 7, 8, 10, 11, 12, 16, 20, 22, 23, 25, 26, 27]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 27 
+  Exact Fixed = 16 
+[1, 4, 5, 6, 7, 8, 10, 11, 12, 16, 20, 22, 23, 25, 26, 27]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 95.1 
+[1.0, 0.881869732718652, 0.9548431641738979, 1.0, 1.0, 1.0, 1.0, 1.0, 0.936752055107628, 1.0, 1.0, 1.0, 0.8977573831682686, 0.963531800540206, 0.820986009418908, 1.0, 0.8648103351245982, 0.6830884274173907, 0.9490051755223876, 1.0, 0.8459152611805056, 1.0, 1.0, 0.8772724139191397, 1.0, 1.0, 1.0]
+Finish training and take 30m

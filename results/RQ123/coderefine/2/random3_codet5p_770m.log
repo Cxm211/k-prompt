@@ -1,0 +1,104 @@
+Namespace(log_name='./result/coderefine/2/random3_codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='java', output_dir='result/coderefine/2/random3_codet5p_770m', data_dir='./data/coderefine/2', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1024, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+Namespace(log_name='./result/coderefine/2/random3_codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='java', output_dir='result/coderefine/2/random3_codet5p_770m', data_dir='./data/coderefine/2', choice=3, no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Fix', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' public void METHOD_1 ( final TYPE_1 VAR_1 ) { this . VAR_1 = VAR_1 ; if ( ( ! ( VAR_2 . isEmpty ( ) ) ) && ( ( VAR_1 . METHOD_2 ( ) ) != null ) ) { for ( final TYPE_2 VAR_3 : VAR_1 . METHOD_2 ( ) ) { if ( ! ( this . VAR_1 . METHOD_2 ( ) . contains ( VAR_3 ) ) ) { VAR_2 . remove ( VAR_3 ) ; } } } }', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': 'fixed program is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'public void METHOD_1 ( final TYPE_1 VAR_1 ) { if ( ( ! ( VAR_2 . isEmpty ( ) ) ) && ( ( VAR_1 . METHOD_2 ( ) ) != null ) ) { for ( final TYPE_2 VAR_3 : VAR_1 . METHOD_2 ( ) ) { if ( ! ( this . VAR_1 . METHOD_2 ( ) . contains ( VAR_3 ) ) ) { VAR_2 . remove ( VAR_3 ) ; } } } this . VAR_1 = VAR_1 ; }'}]
+***** Running training *****
+  Num examples = 523
+  Batch size = 4
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 68
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 2.694048053277768e+236
+  global_step = 132
+  train_loss = 17.7675
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:2.694048053277768e+236
+  ********************
+BLEU file: ./data/coderefine/2/validation.jsonl
+  codebleu-4 = 83.0 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:83.0
+  ********************
+
+***** Running evaluation *****
+  Num examples = 68
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 5.5193923407157175e+271
+  global_step = 263
+  train_loss = 11.3873
+  ********************
+Previous best ppl:2.694048053277768e+236
+BLEU file: ./data/coderefine/2/validation.jsonl
+  codebleu-4 = 84.13 	 Previous best codebleu 83.0
+  ********************
+ Achieve Best bleu:84.13
+  ********************
+
+***** Running evaluation *****
+  Num examples = 68
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 6.266599504610146e+259
+  global_step = 394
+  train_loss = 7.1675
+  ********************
+Previous best ppl:2.694048053277768e+236
+BLEU file: ./data/coderefine/2/validation.jsonl
+  codebleu-4 = 81.82 	 Previous best codebleu 84.13
+  ********************
+
+***** Running evaluation *****
+  Num examples = 68
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 1.0785502451731928e+253
+  global_step = 525
+  train_loss = 5.1822
+  ********************
+Previous best ppl:2.694048053277768e+236
+BLEU file: ./data/coderefine/2/validation.jsonl
+  codebleu-4 = 83.37 	 Previous best codebleu 84.13
+  ********************
+
+***** Running evaluation *****
+  Num examples = 68
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 3.2417743071036884e+255
+  global_step = 656
+  train_loss = 3.3557
+  ********************
+Previous best ppl:2.694048053277768e+236
+BLEU file: ./data/coderefine/2/validation.jsonl
+  codebleu-4 = 83.54 	 Previous best codebleu 84.13
+  ********************
+early stopping!!!
+reload model from result/coderefine/2/random3_codet5p_770m/checkpoint-best-bleu
+BLEU file: ./data/coderefine/2/test.jsonl
+  codebleu = 87.27 
+  Total = 65 
+  Exact Fixed = 1 
+[32]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 1 
+[45]
+  ********************
+  Total = 65 
+  Exact Fixed = 1 
+[32]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 1 
+[45]
+  codebleu = 87.27 
+[0.974561592577996, 0.7800504804611205, 0.989310412154881, 0.9158219110632493, 0.7919892383848955, 0.7614320201110889, 0.961313257959808, 0.9288050435889952, 0.8440896537679332, 0.9008514418542656, 0.8802691274728712, 0.7008082096493281, 0.8437419652182712, 0.7214442588961294, 0.6813852958361807, 0.8814119980991142, 0.8882110232136834, 0.837110375724428, 0.9304890334445721, 0.7110903199480014, 0.934542853545171, 1.0, 0.8929063264948414, 0.9819400729018484, 0.8366391585396613, 0.9552973981415056, 0.6729569730451757, 0.9397671148398172, 0.9864954811310649, 0.78411268747938, 0.9061826429612323, 1.0, 0.9030406908423083, 0.8504728992767202, 0.7746170962173502, 0.9931999228851198, 0.8374682191758565, 0.93144801584388, 0.9175688234132582, 0.8597687694634735, 0.934378575588243, 0.8778780869299587, 0.915369742715914, 0.9809905131005436, 0.9221557993275098, 0.8918501343788632, 0.7583556269641405, 0.906935406465484, 0.9256457314590425, 0.9482093418654862, 0.8044795411118251, 0.6199000097150247, 0.9829277991416243, 0.8364841891217798, 0.7299220384551639, 0.945929061225333, 0.9106502668410179, 0.7582232630043555, 0.6801540738059678, 0.8664336345018628, 0.8879531526601372, 0.9166487297487674, 0.9773276007446154, 0.9805596968667925, 0.8815931491828888]
+Finish training and take 16m

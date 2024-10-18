@@ -1,0 +1,289 @@
+Namespace(log_name='./result/sstubs/3/random3_codet5p_220m.log', model_name='Salesforce/codet5p-220m', lang='java', output_dir='result/sstubs/3/random3_codet5p_220m', data_dir='./data/sstubs/3', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1024, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+Namespace(log_name='./result/sstubs/3/random3_codet5p_220m.log', model_name='Salesforce/codet5p-220m', lang='java', output_dir='result/sstubs/3/random3_codet5p_220m', data_dir='./data/sstubs/3', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Fix the bug in', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' @ConditionalOnMissingBean    RSocketServerBootstrap rSocketServerBootstrap(RSocketServerFactory rSocketServerFactory,      RSocketMessageHandler rSocketMessageHandler) {    return new RSocketServerBootstrap(rSocketServerFactory, rSocketMessageHandler.serverAcceptor());    }   }', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '@ConditionalOnMissingBean    RSocketServerBootstrap rSocketServerBootstrap(RSocketServerFactory rSocketServerFactory,      RSocketMessageHandler rSocketMessageHandler) {    return new RSocketServerBootstrap(rSocketServerFactory, rSocketMessageHandler.serverResponder());    }   }'}]
+***** Running training *****
+  Num examples = 260
+  Batch size = 4
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.059398058400417e+112
+  global_step = 66
+  train_loss = 17.4541
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.059398058400417e+112
+  ********************
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 94.17 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:94.17
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 1.5402963211957074e+117
+  global_step = 131
+  train_loss = 4.8048
+  ********************
+Previous best ppl:1.059398058400417e+112
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 93.88 	 Previous best codebleu 94.17
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 3.343343167824142e+122
+  global_step = 196
+  train_loss = 2.0949
+  ********************
+Previous best ppl:1.059398058400417e+112
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 95.18 	 Previous best codebleu 94.17
+  ********************
+ Achieve Best bleu:95.18
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 4.3286997305923025e+120
+  global_step = 261
+  train_loss = 1.4461
+  ********************
+Previous best ppl:1.059398058400417e+112
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 92.95 	 Previous best codebleu 95.18
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 5.40206387606679e+124
+  global_step = 326
+  train_loss = 0.8815
+  ********************
+Previous best ppl:1.059398058400417e+112
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 95.79 	 Previous best codebleu 95.18
+  ********************
+ Achieve Best bleu:95.79
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 1.0258905227654951e+125
+  global_step = 391
+  train_loss = 0.6023
+  ********************
+Previous best ppl:1.059398058400417e+112
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 95.79 	 Previous best codebleu 95.79
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 6
+  eval_ppl = 9.940253086356147e+127
+  global_step = 456
+  train_loss = 0.3108
+  ********************
+Previous best ppl:1.059398058400417e+112
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 95.38 	 Previous best codebleu 95.79
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 7
+  eval_ppl = 1.0281296373839572e+129
+  global_step = 521
+  train_loss = 0.2683
+  ********************
+Previous best ppl:1.059398058400417e+112
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 95.79 	 Previous best codebleu 95.79
+  ********************
+early stopping!!!
+reload model from result/sstubs/3/random3_codet5p_220m/checkpoint-best-bleu
+BLEU file: ./data/sstubs/3/test.jsonl
+  codebleu = 94.16 
+  Total = 32 
+  Exact Fixed = 16 
+[2, 3, 4, 5, 7, 9, 10, 12, 20, 21, 22, 23, 24, 26, 29, 31]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 32 
+  Exact Fixed = 16 
+[2, 3, 4, 5, 7, 9, 10, 12, 20, 21, 22, 23, 24, 26, 29, 31]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 94.16 
+[0.9096354401872717, 1.0, 1.0, 1.0, 1.0, 0.681072945544059, 1.0, 0.6571227299905348, 1.0, 1.0, 0.9583676774082095, 1.0, 0.8580551848499416, 0.9675420713984233, 0.8642531454411047, 0.9211131842675646, 0.9087584599564476, 0.920101844638672, 0.9520099029923956, 1.0, 1.0, 1.0, 1.0, 1.0, 0.8954157051952711, 1.0, 0.9362201886171708, 0.9052050509144789, 1.0, 0.8293897313556879, 1.0, 0.9658213973211704]
+Finish training and take 3m
+Namespace(log_name='./result/sstubs/3/random3_codet5p_220m.log', model_name='Salesforce/codet5p-220m', lang='java', output_dir='result/sstubs/3/random3_codet5p_220m', data_dir='./data/sstubs/3', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Fix', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' @ConditionalOnMissingBean    RSocketServerBootstrap rSocketServerBootstrap(RSocketServerFactory rSocketServerFactory,      RSocketMessageHandler rSocketMessageHandler) {    return new RSocketServerBootstrap(rSocketServerFactory, rSocketMessageHandler.serverAcceptor());    }   }', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': 'fixed program is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '@ConditionalOnMissingBean    RSocketServerBootstrap rSocketServerBootstrap(RSocketServerFactory rSocketServerFactory,      RSocketMessageHandler rSocketMessageHandler) {    return new RSocketServerBootstrap(rSocketServerFactory, rSocketMessageHandler.serverResponder());    }   }'}]
+***** Running training *****
+  Num examples = 260
+  Batch size = 4
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.2121572852525467e+112
+  global_step = 66
+  train_loss = 16.5484
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.2121572852525467e+112
+  ********************
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 94.37 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:94.37
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 4.529849899117962e+120
+  global_step = 131
+  train_loss = 4.1337
+  ********************
+Previous best ppl:1.2121572852525467e+112
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 92.65 	 Previous best codebleu 94.37
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 7.605714828449097e+127
+  global_step = 196
+  train_loss = 2.2114
+  ********************
+Previous best ppl:1.2121572852525467e+112
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 95.09 	 Previous best codebleu 94.37
+  ********************
+ Achieve Best bleu:95.09
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 1.9854719666465822e+129
+  global_step = 261
+  train_loss = 1.2986
+  ********************
+Previous best ppl:1.2121572852525467e+112
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 95.69 	 Previous best codebleu 95.09
+  ********************
+ Achieve Best bleu:95.69
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 6.249031409305352e+132
+  global_step = 326
+  train_loss = 0.9289
+  ********************
+Previous best ppl:1.2121572852525467e+112
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 95.79 	 Previous best codebleu 95.69
+  ********************
+ Achieve Best bleu:95.79
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 9.094740715595714e+130
+  global_step = 391
+  train_loss = 0.6261
+  ********************
+Previous best ppl:1.2121572852525467e+112
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 95.38 	 Previous best codebleu 95.79
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 6
+  eval_ppl = 3.613035261899574e+132
+  global_step = 456
+  train_loss = 0.4828
+  ********************
+Previous best ppl:1.2121572852525467e+112
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 94.89 	 Previous best codebleu 95.79
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 7
+  eval_ppl = 2.0798177039446557e+134
+  global_step = 521
+  train_loss = 0.4555
+  ********************
+Previous best ppl:1.2121572852525467e+112
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 95.74 	 Previous best codebleu 95.79
+  ********************
+early stopping!!!
+reload model from result/sstubs/3/random3_codet5p_220m/checkpoint-best-bleu
+BLEU file: ./data/sstubs/3/test.jsonl
+  codebleu = 92.88 
+  Total = 32 
+  Exact Fixed = 12 
+[2, 3, 4, 5, 9, 10, 21, 22, 23, 26, 29, 31]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 32 
+  Exact Fixed = 12 
+[2, 3, 4, 5, 9, 10, 21, 22, 23, 26, 29, 31]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 92.88 
+[0.9096354401872717, 1.0, 1.0, 1.0, 1.0, 0.681072945544059, 0.8707835960391124, 0.6571227299905348, 1.0, 1.0, 0.9583676774082095, 0.9383022364276514, 0.8580551848499416, 0.9675420713984233, 0.8642531454411047, 0.9211131842675646, 0.9087584599564476, 0.920101844638672, 0.9520099029923956, 0.8707835960391124, 1.0, 1.0, 1.0, 0.9269395879040604, 0.8954157051952711, 1.0, 0.9362201886171708, 0.8885383842478122, 1.0, 0.8293897313556879, 1.0, 0.9658213973211704]
+Finish training and take 3m

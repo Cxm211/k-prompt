@@ -1,0 +1,131 @@
+Namespace(log_name='./defects4j/hard8_codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='java', output_dir='defects4j/hard8_codet5p_770m', data_dir='./data/defects4j', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Please fix a buggy program', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' static TernaryValue getImpureBooleanValue(Node n) {          return TernaryValue.TRUE;        default:          return getPureBooleanValue(n);', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': ' by taking repair actions', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' Conditional (case in switch) branch addition, Conditional (if) branch addition, Method call addition, Return statement addition, ', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': ' is the fixed version', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'static TernaryValue getImpureBooleanValue(Node n) {          return TernaryValue.TRUE;       case Token.VOID:         return TernaryValue.FALSE;        default:          return getPureBooleanValue(n);'}]
+***** Running training *****
+  Num examples = 502
+  Batch size = 4
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.1950415949885017e+233
+  global_step = 127
+  train_loss = 42.6702
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.1950415949885017e+233
+  ********************
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 76.27 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:76.27
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 9.22724371297024e+225
+  global_step = 253
+  train_loss = 23.8147
+  ********************
+Previous best ppl:1.1950415949885017e+233
+Achieve Best ppl:9.22724371297024e+225
+  ********************
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 77.98 	 Previous best codebleu 76.27
+  ********************
+ Achieve Best bleu:77.98
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 3.037697787564391e+230
+  global_step = 379
+  train_loss = 12.6015
+  ********************
+Previous best ppl:9.22724371297024e+225
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 75.8 	 Previous best codebleu 77.98
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 3.117955333958531e+223
+  global_step = 505
+  train_loss = 7.3141
+  ********************
+Previous best ppl:9.22724371297024e+225
+Achieve Best ppl:3.117955333958531e+223
+  ********************
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 76.34 	 Previous best codebleu 77.98
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 1.0236328752663992e+226
+  global_step = 631
+  train_loss = 3.9149
+  ********************
+Previous best ppl:3.117955333958531e+223
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 76.96 	 Previous best codebleu 77.98
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 1.1134022229111428e+237
+  global_step = 757
+  train_loss = 2.0936
+  ********************
+Previous best ppl:3.117955333958531e+223
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 74.56 	 Previous best codebleu 77.98
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 6
+  eval_ppl = 6.231240259098946e+234
+  global_step = 883
+  train_loss = 1.0957
+  ********************
+Previous best ppl:3.117955333958531e+223
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 76.28 	 Previous best codebleu 77.98
+  ********************
+early stopping!!!
+reload model from defects4j/hard8_codet5p_770m/checkpoint-best-bleu
+BLEU file: ./data/defects4j/test.jsonl
+  codebleu = 74.68 
+  Total = 64 
+  Exact Fixed = 6 
+[17, 30, 31, 39, 43, 55]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 64 
+  Exact Fixed = 6 
+[17, 30, 31, 39, 43, 55]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 74.68 
+[0.7977509497997374, 0.8318588019770055, 0.541279037950266, 0.8478608228368236, 0.889761361495617, 0.5578592074477068, 0.6576252123917807, 0.8681777725936917, 0.7051146102158162, 0.7747304650920901, 0.7460644293721668, 0.6451687939127737, 0.8550033194679169, 0.877572165029932, 0.8624157582008549, 0.48110602778662004, 1.0, 0.8961434726030306, 0.943022075447772, 0.8459463132957461, 0.6670817368971316, 0.41800186485783863, 0.7906925479531332, 0.8693059718827794, 0.8734502199950254, 0.863021098885395, 0.29721898761236515, 0.7694729472672909, 0.6410378892354339, 1.0, 0.9224526824055446, 0.5470596690445572, 0.7176189204658862, 0.8232523732318835, 0.8727340070600411, 0.8575737152700653, 0.8158461676559928, 0.7904665899488785, 0.9569487648577442, 0.6341247058119213, 0.7958826511929267, 0.4115822192841974, 1.0, 0.3205070115741946, 0.6316733772548883, 0.6620374200206556, 0.8295509438760991, 0.8254084390841356, 0.8028172817807042, 0.8924644874204966, 0.8365049773284279, 0.8725801205050254, 0.8096645620006775, 0.5618962732010918, 0.9569487648577442, 0.5448048686005305, 0.5948576083758933, 0.7117545850778236, 0.8683105217761831, 0.8438720692633894, 0.595153561733246, 0.7329903885524013, 0.46390994156004267, 0.47590130936887176]
+Finish training and take 27m

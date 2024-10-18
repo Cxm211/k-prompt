@@ -1,0 +1,86 @@
+Namespace(log_name='./sstubs/2/hard6_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='sstubs/2/hard6_gptneo', data_dir='./data/sstubs/2', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=6, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1024, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Fix', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' @SuppressWarnings("unchecked")    @Override   public V value(Object node) {      Object value = adjacentNodeValues.get(node);      if (value == PRED) {        return null;', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': ' is buggy program', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': ' is fixed program', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '@SuppressWarnings("unchecked")    @Override   public V value(N node) {      Object value = adjacentNodeValues.get(node);      if (value == PRED) {        return null;'}]
+***** Running training *****
+  Num examples = 260
+  Batch size = 6
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 8.539346503107359e+50
+  global_step = 45
+  train_loss = 47.3933
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:8.539346503107359e+50
+  ********************
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 75.09 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:75.09
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 1.7880924217710616e+53
+  global_step = 89
+  train_loss = 5.8439
+  ********************
+Previous best ppl:8.539346503107359e+50
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 52.03 	 Previous best codebleu 75.09
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 2.655906394417897e+55
+  global_step = 133
+  train_loss = 2.6194
+  ********************
+Previous best ppl:8.539346503107359e+50
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 50.01 	 Previous best codebleu 75.09
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 8.917395040980109e+55
+  global_step = 177
+  train_loss = 1.6788
+  ********************
+Previous best ppl:8.539346503107359e+50
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 50.7 	 Previous best codebleu 75.09
+  ********************
+early stopping!!!
+reload model from sstubs/2/hard6_gptneo/checkpoint-best-bleu
+BLEU file: ./data/sstubs/2/test.jsonl
+  codebleu = 70.22 
+  Total = 32 
+  Exact Fixed = 11 
+[3, 5, 9, 10, 11, 12, 17, 19, 21, 23, 28]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 32 
+  Exact Fixed = 11 
+[3, 5, 9, 10, 11, 12, 17, 19, 21, 23, 28]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 70.22 
+[0.3271126762125719, 0.2996830276827213, 1.0, 0.5807638289524967, 1.0, 0.5517099909462736, 0.7555732843655234, 0.6889840736522397, 1.0, 1.0, 1.0, 1.0, 0.5936992533585446, 0.1941881475281461, 0.8387796716807858, 0.7642293251557682, 1.0, 0.2626439454421036, 1.0, 0.8816015466501335, 1.0, 0.8937646940710373, 1.0, 0.33923672957242645, 0.3498644728122365, 0.9270405384522935, 0.2562885393283483, 1.0, 0.2134802476244793, 0.20551357854585015, 0.9334681110717995, 0.6122897146199495]
+Finish training and take 30m

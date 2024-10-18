@@ -1,0 +1,1 @@
+{"id": "/data/all/data/obogo/angular-focusmanager", "bugType": "no-extend-native", "problem": "String.prototype.supplant = function (o) {\n    'use strict';", "fixed": "function supplant (str, o) {\n    'use strict';", "message": "String prototype is read only, properties should not be added."}

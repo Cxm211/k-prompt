@@ -1,0 +1,100 @@
+Ti.API.info("BouncyLogo animating on re-orientation " + Ti.Gesture.orientation + " (" + w + "x" + h + ")");     animation.chainAnimate($.imageview, chain); } exports.relayout = BouncyLogoRelayout;
+async function main() {   Object.keys(projects).forEach((projectName) => {     const project = projects[projectName];
+fetchSchedulesAndInitializeCart,     updateScheduleOnBackend
+return {         x: bezier(...x),         y: bezier(...y)     };
+CLICK_FIELDS_FOOTER: 'Klicken Sie auf Felder, um sie hier hinzuzufügen',   IF_THIS_FIELD: 'Wenn dieses Feld',
+value: function doKeyCompression() {             return !this.jsonID.disableKeyCompression;         }
+adjusted_scale : this.adjusted_scale,  asset_swf_v : "\/c2.glitch.bz\/items\/2012-04\/girder-1334351931.swf",  admin_props : false,
+that._select(current);             if (!that._options.html) {                 that.el.value = (current !== -1) ? that._suggestions[current] : that._currentQuery;
+proto.throw = function (status, msg, opts) {   throw this.createError(status, msg, opts) }
+}     return moduleIdsWithLocales;
+var util = require( 'util' )     , glob = require( 'glob' )
+static innerAngle(n) {         return MathHelper.toRad((n - 2) * 180 / n);     }
+if (callbackName && angular.isFunction(originalCallback)) {         originalCallback(...arguments);       }
+sheets.Sheet1 = opts;  }
+import './_documents_index_item.html'; Template.documentsIndexItem.onCreated(function() {   this.getDocumentId = () => Template.instance().data.document._id; });
+} var LazyKeyedSequence = function LazyKeyedSequence(value) {   return arguments.length === 0 ? emptySequence().toKeyedSeq() : KeyedIterable(value).toSeq(); };
+const outerMiddleware = props.middleware || (dispatch => dispatch);   let subscriptions = undefined;
+return args;             });           }
+];   return Mink.metaStep(Driver, stepsArray, callback); }
+outModule = new global.Module({ 'default': g.module.exports });                 for (var i = 0; i < nodeGlobals.length; i++)                   delete g[nodeGlobals[i]];                 return outModule;
+var ctor = function () {
+this.$get = function($log, $injector) {     var loadedPlugins = [];
+throw 'Seeding only available in development environment'; }
+if ($(this).text() === valueToEdit) {           return input.find('option[value=' + valueToEdit + ']').prop('selected', true);         }
+yAxes: [{                                          gridLines: {                         zeroLineColor: "transparent",
+adjusted_scale : this.adjusted_scale,  asset_swf_v : "\/c2.glitch.bz\/items\/2011-02\/1296877952-8312.swf",  admin_props : false,
+, lib      = require('../lib/lib.js') describe('lib.js', function () {
+this.listenersNeedCloning = false;      }
+throw new Error('options.host and options.port or options.target are required.');   }
+ex = _error;         this.handleError(ex);         return "";
+lpCache.cache(parentKey).then(function(parents) {       $scope.parentList = childSelect.parentFilter(parents);       if ($scope.parentList.length) {
+ms.push(f(inst));   }   return ms;
+return tQuery(mesh); });
+this.setTime(this.el.value);  }
+balances.totalBalanceSatoshis.should.greaterThan(50 * 1e8)       })     })
+import {     pagination as PaginationActions } from "../../actions";
+chrome.runtime.sendMessage({
+import React from 'react'; import { Row } from 'react-materialize'; import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+} else {                         that.setValid( $input, 'required' );                         if ( typeof validCons !== 'undefined' && validCons === false ) {
+}    event.stopPropagation();   }
+return [state];       }       case 'Parallel': {         const parallelStates = _.flatMap(state.Branches, branch => _.values(branch.States));         return getTaskStates(parallelStates);
+init: function( elems ) {         this.length = 0;
+const c = h.beginMutation();         for (let i = 0, len = order.length; i < len; ++i)             hamt_plus.remove(keys[order[i]], c);
+s.supportBigNumbers = (s.supportBigNumbers || false);     s.timezone = (s.timezone || 'local');     if(!isNaN(s.connectionLimit)) {         s.connectionLimit = 10;
+if(n === 0 && !UNIT_TEST_REGEX.test(result[1])) {         throw new QtyError("Unit not recognized");       }
+}   return esPhase;
+adjusted_scale : this.adjusted_scale,  asset_swf_v : "\/c2.glitch.bz\/items\/2012-08\/toy_star_2-1343854076.swf",  admin_props : false,
+if ( count == 0 ) {      return;
+it('should merge properties', function(done){     app1.use(function(ctx, next){       assert.equal(ctx.msg, 'hello');
+sakai_global.contentauthoring.isDragging = false;                     $("div.ui-resizable-iframeFix").remove();                  }
+} else {     log.error(usage)     return process.exit(1)   }
+toggleVis.call(this, $(children[i].li), show && !closed);         }     }
+}; const addUser = async data => {  const debug = Debug('addUser');
+import Link from 'next/link'; import formatDate from 'date-fns/format';
+stage.all()  if (app.build) build()
+return screen; } export var run = function run() {
+var references = [       Dash.makeReference('s1.mp4', 1, 50, 60),       Dash.makeReference('s2.mp4', 2, 60, 65)     ];
+result = http.responseText;                result = result.replace(/[\n\r]/g,"");
+var ctx = Display.context.backgroundCam;    ctx.drawImage(camCache,0,0);
+'use strict';
+this.getstate = function(select) {   var sel = this.files(select),    cnt = sel.length;
+opera: setVersion('opera', elementData),         safari: setVersion('safari', elementData),         ie: setVersion('ie', elementData),     }; };
+constructor(defaults) {         super(defaults);
+portarray.push(port.port);             }         });
+matches.param('match_id', function(req, res, next, id) {     redis.get("match:" + id, function(err, reply) {         if (!err && reply) {             console.log("Cache hit for match " + id);
+redrawDataPoints: function (duration) {       var _this = this;       if (duration == null) duration = _this.duration;
+function log () {     }
+}));       app.use(function () {         throw new Error('uh oh');
+};    gamejs.time.interval(tick); }
+Mk.each(this, d.events, function (t, v) {             Dom.off(n, t);         });
+case 'service':           template = this.templates.service.trim();         case 'mp':
+, TOKEN_SENTINEL = "T1=="   , API_HOST = "api.opentok.com"   , SESSION_API_ENDPOINT = "/hl/session/create"
+Joose.O.each(this.properties, function (property, name) {             if (property != null) func.call(scope, property, name)         })
+Template.qqslider.onRendered(function() {          let updateValue = function(elem, value) {
+render() {     const { priority } = this.props;
+var failedCount = 0; for (var i = 1; i < testFiles.length; i++) {     testCount++;
+init(services, args);  }
+beer.is_weekend = function() {         var now = new Date;
+this[PromiseValue] = error;     delayToNextTick(this); }
+}); } function validateSuccess() {   return INSTANCE.getInitialState();
+useEffect(() => {         const missingData = _.difference(value, Object.keys(identifierMap));
+that.saveKeyFromCore("pre_" + filename);             },
+{  this.body.is_static = value; }
+log.error(LOGGING_CATEGORY, err.stack);                         callback(err);                     }
+{ change: (m, p) => m[p] = 0,         result: () => '0' },       { change: (m, p) => m[p] = false,     result: () => 'false' },       { change: (m, p) => m[p] = true,      result: () => 'true' },
+function(comment){     return comment.replace(/<(\/?)script\b/ig,"&lt;$1Script");    }
+it("should be compression filter info ", function(done) {             const group   = file.openGroup('pmc/refinement');
+if (values['Timeless'])             {
+events.forEach(function(ev) {         audio.addEventListener(ev, function pusher() {           audio.removeEventListener(ev, pusher, false);           present.push(ev);
+regex_strip = regex("[^a-z0-9 ]"),                   regex_space = regex("[-/]"),                   regex_vowel = regex("[aeiouy]");
+logger.info('foo');       }, is.throwing('UUID is missing.'));     });
+const mbtiles = new MBTiles(filepath)
+_self.debug("debug: system reset");    systemReset();
+process.env = process.env || {};
+"px 0 0 " + ((rect.width - 16 * GU) / 2) + "px";   };   window.addEventListener('resize', demo.resize);
+p1y = positions[i1 * 3 + 1],                     p2y = positions[i2 * 3 + 1],                     p3y = positions[i3 * 3 + 1],                     p1z = positions[i1 * 3 + 2],
+const normalize = (str) => str.replace(/[\/]+/g, '/').replace(/\/\?/g, '?').replace(/\/\#/g, '#').replace(/\:\ const urljoin = function(...args) {     let joined = [].slice.call(args, 0).join('/');     return normalize(joined);
+var NeDB = require('nedb');   db = new NeDB({filename: this.getDBFile(dbname), autoload: true});   db.ensureIndex({fieldName: 'id', unique: true}, function(e) {
+configServer.on("rule_changed",function() {                                      })
+}; }); gantt.directive('ganttScrollSender', ['$timeout', function($timeout) {

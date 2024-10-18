@@ -1,0 +1,101 @@
+Namespace(log_name='./sstubs/2/soft4_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='sstubs/2/soft4_gptneo', data_dir='./data/sstubs/2', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=6, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1024, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Fix', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' @SuppressWarnings("unchecked")    @Override   public V value(Object node) {      Object value = adjacentNodeValues.get(node);      if (value == PRED) {        return null;', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is fixed program', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '@SuppressWarnings("unchecked")    @Override   public V value(N node) {      Object value = adjacentNodeValues.get(node);      if (value == PRED) {        return null;'}]
+***** Running training *****
+  Num examples = 260
+  Batch size = 6
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1976678777.0893
+  global_step = 45
+  train_loss = 52.0588
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1976678777.0893
+  ********************
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 35.81 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:35.81
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 17392072945.81678
+  global_step = 89
+  train_loss = 7.5366
+  ********************
+Previous best ppl:1976678777.0893
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 43.41 	 Previous best codebleu 35.81
+  ********************
+ Achieve Best bleu:43.41
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 2500011835.3764
+  global_step = 133
+  train_loss = 4.0683
+  ********************
+Previous best ppl:1976678777.0893
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 32.43 	 Previous best codebleu 43.41
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 1829842710741.6924
+  global_step = 177
+  train_loss = 2.8045
+  ********************
+Previous best ppl:1976678777.0893
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 33.83 	 Previous best codebleu 43.41
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 2291629865302.86
+  global_step = 221
+  train_loss = 1.458
+  ********************
+Previous best ppl:1976678777.0893
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 37.89 	 Previous best codebleu 43.41
+  ********************
+early stopping!!!
+reload model from sstubs/2/soft4_gptneo/checkpoint-best-bleu
+BLEU file: ./data/sstubs/2/test.jsonl
+  codebleu = 46.38 
+  Total = 32 
+  Exact Fixed = 2 
+[5, 16]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 32 
+  Exact Fixed = 2 
+[5, 16]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 46.38 
+[0.327884125455811, 0.24129337510579074, 0.21024210516175193, 0.622360521081802, 1.0, 0.5512637650358183, 0.22040421638361066, 0.6889840736522397, 0.19574860313241918, 0.3339303577517553, 0.5845950463538996, 0.3244646774404938, 0.29165763707288517, 0.1934716109842245, 0.8387796716807858, 0.9525370159990827, 0.19555551679620214, 0.2647871310385328, 0.3099319970729904, 0.49428450846347377, 0.6041606783828053, 0.8789678192161234, 0.3335715884492732, 0.34005327302653887, 0.3779312458353831, 0.3204624298263737, 0.6038314734695704, 0.194668907347093, 0.21335303516129817, 0.23782118184369996, 0.9334681110717995, 0.9620033353993269]
+Finish training and take 37m

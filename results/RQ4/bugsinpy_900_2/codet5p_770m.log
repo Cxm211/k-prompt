@@ -1,0 +1,146 @@
+Namespace(log_name='./RQ5/bugsinpy_900_2/codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='python', output_dir='RQ5/bugsinpy_900_2/codet5p_770m', data_dir='./data/RQ5/bugsinpy_900_2', choice=0, no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=2)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'def _can_use_numexpr(op, op_str, a, b, dtype_check):          if np.prod(a.shape) > _MIN_ELEMENTS:              dtypes = set()              for o in [a, b]:                 if hasattr(o, "dtypes"):                      s = o.dtypes.value_counts()                      if len(s) > 1:                          return False                      dtypes |= set(s.index.astype(str))                 elif isinstance(o, np.ndarray):                      dtypes |= {o.dtype.name}', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is the fixed version', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'def _can_use_numexpr(op, op_str, a, b, dtype_check):          if np.prod(a.shape) > _MIN_ELEMENTS:              dtypes = set()              for o in [a, b]:                 if hasattr(o, "dtypes") and o.ndim > 1:                      s = o.dtypes.value_counts()                      if len(s) > 1:                          return False                      dtypes |= set(s.index.astype(str))                 elif hasattr(o, "dtype"):                      dtypes |= {o.dtype.name}'}]
+***** Running training *****
+  Num examples = 900
+  Batch size = 4
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 100
+  Batch size = 4
+  epoch = 0
+  eval_ppl = inf
+  global_step = 226
+  train_loss = 48.5245
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:inf
+  ********************
+BLEU file: ./data/RQ5/bugsinpy_900_2/validation.jsonl
+  codebleu-4 = 75.27 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:75.27
+  ********************
+
+***** Running evaluation *****
+  Num examples = 100
+  Batch size = 4
+  epoch = 1
+  eval_ppl = inf
+  global_step = 451
+  train_loss = 29.1797
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/RQ5/bugsinpy_900_2/validation.jsonl
+  codebleu-4 = 77.42 	 Previous best codebleu 75.27
+  ********************
+ Achieve Best bleu:77.42
+  ********************
+
+***** Running evaluation *****
+  Num examples = 100
+  Batch size = 4
+  epoch = 2
+  eval_ppl = inf
+  global_step = 676
+  train_loss = 15.1904
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/RQ5/bugsinpy_900_2/validation.jsonl
+  codebleu-4 = 78.54 	 Previous best codebleu 77.42
+  ********************
+ Achieve Best bleu:78.54
+  ********************
+
+***** Running evaluation *****
+  Num examples = 100
+  Batch size = 4
+  epoch = 3
+  eval_ppl = inf
+  global_step = 901
+  train_loss = 8.6497
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/RQ5/bugsinpy_900_2/validation.jsonl
+  codebleu-4 = 78.69 	 Previous best codebleu 78.54
+  ********************
+ Achieve Best bleu:78.69
+  ********************
+
+***** Running evaluation *****
+  Num examples = 100
+  Batch size = 4
+  epoch = 4
+  eval_ppl = inf
+  global_step = 1126
+  train_loss = 4.7255
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/RQ5/bugsinpy_900_2/validation.jsonl
+  codebleu-4 = 77.24 	 Previous best codebleu 78.69
+  ********************
+
+***** Running evaluation *****
+  Num examples = 100
+  Batch size = 4
+  epoch = 5
+  eval_ppl = inf
+  global_step = 1351
+  train_loss = 2.5414
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/RQ5/bugsinpy_900_2/validation.jsonl
+  codebleu-4 = 78.91 	 Previous best codebleu 78.69
+  ********************
+ Achieve Best bleu:78.91
+  ********************
+
+***** Running evaluation *****
+  Num examples = 100
+  Batch size = 4
+  epoch = 6
+  eval_ppl = inf
+  global_step = 1576
+  train_loss = 1.4954
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/RQ5/bugsinpy_900_2/validation.jsonl
+  codebleu-4 = 76.93 	 Previous best codebleu 78.91
+  ********************
+
+***** Running evaluation *****
+  Num examples = 100
+  Batch size = 4
+  epoch = 7
+  eval_ppl = inf
+  global_step = 1801
+  train_loss = 0.9735
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/RQ5/bugsinpy_900_2/validation.jsonl
+  codebleu-4 = 78.3 	 Previous best codebleu 78.91
+  ********************
+early stopping!!!
+reload model from RQ5/bugsinpy_900_2/codet5p_770m/checkpoint-best-bleu
+BLEU file: ./data/RQ5/bugsinpy_900_2/test.jsonl
+  codebleu = 78.25 
+  Total = 117 
+  Exact Fixed = 19 
+[7, 9, 12, 13, 15, 20, 25, 33, 35, 38, 42, 54, 58, 76, 82, 89, 96, 110, 111]
+  Syntax Fixed = 1 
+[90]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 117 
+  Exact Fixed = 19 
+[7, 9, 12, 13, 15, 20, 25, 33, 35, 38, 42, 54, 58, 76, 82, 89, 96, 110, 111]
+  Syntax Fixed = 1 
+[90]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 78.25 
+[0.5767084530894689, 0.676525822803221, 0.8096114788906146, 0.8962096929024133, 0.9007008595464912, 0.6000088003828044, 1.0, 0.8754861943073293, 1.0, 0.8736270526063763, 0.8773104352365284, 1.0, 1.0, 0.47275409118143114, 0.9847962409659572, 0.6549742726230693, 0.8573638305228279, 0.9474759345795825, 0.782053171927164, 1.0, 0.8038883770438103, 0.7132642165763982, 0.6883720951974961, 0.884250182279102, 0.9355467351067721, 0.7715012035371895, 0.7283421666422167, 0.7318286091585733, 0.7598461887588684, 0.9063467386633746, 0.8036453284640133, 0.8527547497767987, 1.0, 0.8300638244826566, 0.949504537888815, 0.767723111687518, 0.5325119887277022, 1.0, 0.8703246706459902, 0.8213022904461214, 0.7482355723320561, 1.0, 0.7896354401872717, 0.8768686925984219, 0.9178662308912058, 0.622317660823212, 0.6060538776724701, 0.8871978499693505, 0.6936199831009335, 0.5218510181581382, 0.6035812966006173, 0.48798154870146043, 0.68965030200429, 1.0, 0.6508693332230462, 0.5037077119806818, 0.7095762239356153, 1.0, 0.5809937032161885, 0.7507982187182929, 0.8077895563342797, 0.6530224530296921, 0.7639654153934541, 0.9411542454583528, 0.8307441560816011, 0.9666856331752072, 0.6601281703247908, 0.9056583090096291, 0.8971695160234401, 0.8834124216164225, 0.8808919461147899, 0.7652740132249347, 0.8853004704636518, 0.8814955038434287, 0.3031200238102166, 1.0, 0.8807926879441415, 0.6439391185600173, 0.5141352659865805, 0.8856389378075658, 0.723580123693274, 1.0, 0.7714650156104186, 0.4935991892242142, 0.7332519354895861, 0.6710385019089349, 0.583933634540305, 0.7449734989717058, 0.9399649879642329, 0.9054803697064888, 0.7531797171538064, 0.7313821813372119, 0.6242275051672941, 0.5048204896005732, 0.8234479137638847, 1.0, 0.8548397899287874, 0.8642706682188466, 0.7398658182365634, 0.841971012221727, 0.7674844162676759, 0.4545507520171642, 0.7388721037764168, 0.9204219587780458, 0.7164493834577911, 0.5571314709024371, 0.8300101016746005, 0.7225931341121177, 0.5117566728908322, 1.0, 1.0, 0.7443181170763433, 0.9142445273649933, 0.7890003035062592, 0.6364393292738373, 0.569984179462049, 0.6472939963727664]
+Finish training and take 54m

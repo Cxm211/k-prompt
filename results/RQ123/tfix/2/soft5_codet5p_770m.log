@@ -1,0 +1,127 @@
+Namespace(log_name='./tfix/2/soft5_codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='javascript', output_dir='tfix/2/soft5_codet5p_770m', data_dir='./data/tfix/2', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=6, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'var rows = [   {', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': 'is buggy program', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is fixed program', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'const rows2 = [   {'}]
+***** Running training *****
+  Num examples = 816
+  Batch size = 6
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.9290033268994512e+300
+  global_step = 137
+  train_loss = 17.2309
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.9290033268994512e+300
+  ********************
+BLEU file: ./data/tfix/2/validation.jsonl
+  codebleu-4 = 59.13 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:59.13
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 1
+  eval_ppl = inf
+  global_step = 273
+  train_loss = 8.6015
+  ********************
+Previous best ppl:1.9290033268994512e+300
+BLEU file: ./data/tfix/2/validation.jsonl
+  codebleu-4 = 58.28 	 Previous best codebleu 59.13
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 2
+  eval_ppl = inf
+  global_step = 409
+  train_loss = 4.2192
+  ********************
+Previous best ppl:1.9290033268994512e+300
+BLEU file: ./data/tfix/2/validation.jsonl
+  codebleu-4 = 58.8 	 Previous best codebleu 59.13
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 3
+  eval_ppl = inf
+  global_step = 545
+  train_loss = 2.2333
+  ********************
+Previous best ppl:1.9290033268994512e+300
+BLEU file: ./data/tfix/2/validation.jsonl
+  codebleu-4 = 62.73 	 Previous best codebleu 59.13
+  ********************
+ Achieve Best bleu:62.73
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 4
+  eval_ppl = inf
+  global_step = 681
+  train_loss = 1.1916
+  ********************
+Previous best ppl:1.9290033268994512e+300
+BLEU file: ./data/tfix/2/validation.jsonl
+  codebleu-4 = 61.93 	 Previous best codebleu 62.73
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 5
+  eval_ppl = inf
+  global_step = 817
+  train_loss = 0.6634
+  ********************
+Previous best ppl:1.9290033268994512e+300
+BLEU file: ./data/tfix/2/validation.jsonl
+  codebleu-4 = 61.57 	 Previous best codebleu 62.73
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 6
+  eval_ppl = inf
+  global_step = 953
+  train_loss = 0.4124
+  ********************
+Previous best ppl:1.9290033268994512e+300
+BLEU file: ./data/tfix/2/validation.jsonl
+  codebleu-4 = 61.6 	 Previous best codebleu 62.73
+  ********************
+early stopping!!!
+reload model from tfix/2/soft5_codet5p_770m/checkpoint-best-bleu
+BLEU file: ./data/tfix/2/test.jsonl
+  codebleu = 64.27 
+  Total = 102 
+  Exact Fixed = 19 
+[13, 14, 17, 20, 22, 25, 27, 31, 48, 49, 53, 62, 63, 70, 74, 78, 89, 92, 100]
+  Syntax Fixed = 2 
+[2, 23]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 102 
+  Exact Fixed = 19 
+[13, 14, 17, 20, 22, 25, 27, 31, 48, 49, 53, 62, 63, 70, 74, 78, 89, 92, 100]
+  Syntax Fixed = 2 
+[2, 23]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 64.27 
+[0.22619887519287302, 0.9059642451028274, 0.38626197666562845, 0.8076623491927839, 0.22556796225712933, 0.7596762077491805, 0.8896656211648155, 0.15, 0.6567905530093812, 0.6899766481408451, 0.6281305065795061, 0.8051384298635613, 1.0, 1.0, 0.7203659405242031, 0.4837491043818279, 1.0, 0.204436274930823, 0.9056583090096291, 0.8114529051148651, 0.8356658099532572, 0.9891483218006352, 0.914914334656427, 0.8568274699818503, 0.919548114457609, 0.6618503204869636, 1.0, 0.28269688894370654, 0.7724384145327522, 0.8642470965743208, 0.8114529051148651, 0.5559525490792834, 0.566221018567181, 0.709946360343789, 0.5017406828338618, 0.8353746106262074, 0.09473684210526315, 0.6265958401383632, 0.8676314291716003, 0.6597565950385964, 0.6176733077091023, 0.3629160719563411, 0.42900132829974075, 0.04535576197454044, 0.8019924721490199, 0.934336399011221, 0.4735874823650029, 1.0, 1.0, 0.44713630035176843, 0.10859587955759917, 0.3353314785118311, 0.8249365300761395, 0.8342413207153518, 0.3599867812326072, 0.6747088903862744, 0.48066476735450636, 0.44778290345194927, 0.467913762972279, 0.6416532852733938, 0.4080877117267552, 0.8114529051148651, 1.0, 0.5850991740430667, 0.7102241494026018, 0.7682378900570572, 0.5027616393658039, 0.43154836170544847, 0.46738580972137844, 1.0, 0.568158309009629, 0.7989906519370444, 0.7049295406070389, 1.0, 0.4288378866864627, 0.6265958401383632, 0.32184467070784006, 0.8516551101233703, 0.41413939082855794, 0.39211329027742914, 0.46847240140405244, 0.3889423446181684, 0.22371280017048556, 0.174436274930823, 0.8596354401872717, 0.9145980101874507, 0.7209635394255931, 0.5147391347384329, 1.0, 0.7952738864082955, 0.3998629023055338, 1.0, 0.6532260383851596, 0.6777780764825427, 0.7065543572766618, 0.4580097675218012, 0.2920847538048024, 0.570217217727603, 0.7376376136976128, 1.0, 0.45906361599859924, 0.8783259097532135]
+Finish training and take 32m

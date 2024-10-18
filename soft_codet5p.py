@@ -14,6 +14,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+"""
+Fine-tuning the library models for language modeling on a text file (GPT, GPT-2, BERT, RoBERTa).
+GPT and GPT-2 are fine-tuned using a causal language modeling (CLM) loss while BERT and RoBERTa are fine-tuned
+using a masked language modeling (MLM) loss.
+"""
 
 from __future__ import absolute_import
 import os
@@ -25,7 +30,7 @@ import logging
 import argparse
 import numpy as np
 from io import open
-
+import shutil
 from openprompt import PromptDataLoader, PromptForGeneration
 from openprompt.plms import T5TokenizerWrapper
 from openprompt.prompts import SoftTemplate
@@ -33,8 +38,8 @@ from tqdm import tqdm
 from transformers import (AdamW, get_linear_schedule_with_warmup,
 						  RobertaTokenizer, T5Config, T5ForConditionalGeneration)
 from code_bleu import _code_bleu, compare
-
-from my_lib_coderefine import read_prompt_examples, get_elapse_time, read_examples
+from bleu2 import _bleu
+from my_lib_bugsinpy import read_prompt_examples, get_elapse_time, read_examples
 
 
 
@@ -78,12 +83,13 @@ def read_arguments():
 	parser.add_argument("--output_dir", default="./pr_model", type=str, required=False,
 						help="The output directory where the model predictions and checkpoints will be written.")
 
-	parser.add_argument("--data_dir", default="./data/coderefine", type=str,
+	parser.add_argument("--data_dir", default="./data/bugsinpy", type=str,
 						help="Path to the dir which contains processed data for some languages")
 
 	# parser.add_argument("--lang", default=None, type=str, required=False,
 	# 					help="language to summarize")
-
+	parser.add_argument("--choice", type=int, required=True, 
+						help="Choice of template.")
 	parser.add_argument("--no_cuda", default=False, action='store_true',
 					help="Avoid using CUDA when available")
 	parser.add_argument('--visible_gpu', type=str, default="",
@@ -166,7 +172,7 @@ def main(args):
 	# data path
 	train_filename = args.data_dir + "/" + "train.jsonl"	# train
 	dev_filename = args.data_dir + "/" +  "validation.jsonl"	# valid
-	test_filename = args.data_dir + "/" + "test.jsonl"	# test
+	test_filename = args.data_dir + "/" +  "test.jsonl"	# test
 	# Setup CUDA, GPU & distributed training
 	os.environ["CUDA_VISIBLE_DEVICES"] = args.visible_gpu
 	if args.local_rank == -1 or args.no_cuda:
@@ -204,7 +210,7 @@ def main(args):
 	# promptTemplate = SoftTemplate(model=plm, tokenizer=tokenizer,
 	# 									  text='{"placeholder":"text_a"} {"mask"} ', 
 	# 									   num_tokens=50)
-	promptTemplate = SoftTemplate(model=plm, tokenizer=tokenizer, initialize_from_vocab=True).from_file(f"./scripts/soft_template_coderefine.txt", choice=5)
+	promptTemplate = SoftTemplate(model=plm, tokenizer=tokenizer, initialize_from_vocab=True).from_file(f"./scripts/codet5p/soft_template_bugsinpy.txt", choice=args.choice)
 
 	# get model
 	model = PromptForGeneration(plm=plm, template=promptTemplate, freeze_plm=args.freeze, tokenizer=tokenizer,
@@ -445,14 +451,16 @@ def main(args):
 		logger.info(cleaned_matched)	
 		logger.info("  %s = %s " % ("codebleu", str(this_bleu)))
 		logger.info(scores)
-	return
+		output_dir = os.path.join(args.output_dir, 'checkpoint-best-bleu')
+		# shutil.rmtree(output_dir)
+
 
 
 def calculate_bleu(file_name, args, tokenizer, device, model, promptTemplate, WrapperClass, output_file_name=None, is_test=False, dev_dataloader=None,
 				   best_bleu=None, eval_examples=None):
 	logger.info("BLEU file: {}".format(file_name))
 
-	# whether append poscoderefine to result file
+	# whether append posbugsinpy to result file
 	if output_file_name is not None:
 		output_file_name = "_" + output_file_name
 	else:
@@ -514,7 +522,7 @@ def calculate_bleu(file_name, args, tokenizer, device, model, promptTemplate, Wr
 		for ref, gold, source in zip(generated_texts, groundtruth_sentence, ev_ex):
 			# ref = ref.replace('\t', ' ')
 
-			f.write(ref.replace('\n',' ') + '\n')
+			f.write(ref.replace('\n',' ').replace('\r', ' ') + '\n')
 			
 			f1.write(gold.replace('\n',' ') + '\n')
 

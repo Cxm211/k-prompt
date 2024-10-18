@@ -1,0 +1,141 @@
+Namespace(log_name='./result/sstubs/1/random0_codet5p_220m.log', model_name='Salesforce/codet5p-220m', lang='java', output_dir='result/sstubs/1/random0_codet5p_220m', data_dir='./data/sstubs/1', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'CLIENT.user_unpinFile(id);    }   public void worker_addCheckpoint(long workerId, int fileId, long fileSizeBytes,         String checkpointPath)             throws FileDoesNotExistException, SuspectedFileSizeException, TException {      CLIENT.worker_addCheckpoint(workerId, fileId, fileSizeBytes, checkpointPath);    }   public void worker_cachedFile(long workerId, long workerUsedBytes, int fileId,         long fileSizeBytes) throws FileDoesNotExistException, SuspectedFileSizeException, TException {      CLIENT.worker_cacheFile(workerId, workerUsedBytes, fileId, fileSizeBytes);    }', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': None, 'loss_ids': 0, 'shortenable_ids': 0}, {'text': None, 'loss_ids': 0, 'shortenable_ids': 0}, {'text': None, 'loss_ids': 0, 'shortenable_ids': 0}, {'text': None, 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'CLIENT.user_unpinFile(id);    }   public synchronized void worker_addCheckpoint(long workerId, int fileId, long fileSizeBytes,         String checkpointPath)             throws FileDoesNotExistException, SuspectedFileSizeException, TException {      CLIENT.worker_addCheckpoint(workerId, fileId, fileSizeBytes, checkpointPath);    }   public synchronized void worker_cachedFile(long workerId, long workerUsedBytes, int fileId,         long fileSizeBytes) throws FileDoesNotExistException, SuspectedFileSizeException, TException {      CLIENT.worker_cacheFile(workerId, workerUsedBytes, fileId, fileSizeBytes);    }'}]
+Namespace(log_name='./result/sstubs/1/random0_codet5p_220m.log', model_name='Salesforce/codet5p-220m', lang='java', output_dir='result/sstubs/1/random0_codet5p_220m', data_dir='./data/sstubs/1', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Namespace(log_name='./result/sstubs/1/random0_codet5p_220m.log', model_name='Salesforce/codet5p-220m', lang='java', output_dir='result/sstubs/1/random0_codet5p_220m', data_dir='./data/sstubs/1', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'CLIENT.user_unpinFile(id);    }   public void worker_addCheckpoint(long workerId, int fileId, long fileSizeBytes,         String checkpointPath)             throws FileDoesNotExistException, SuspectedFileSizeException, TException {      CLIENT.worker_addCheckpoint(workerId, fileId, fileSizeBytes, checkpointPath);    }   public void worker_cachedFile(long workerId, long workerUsedBytes, int fileId,         long fileSizeBytes) throws FileDoesNotExistException, SuspectedFileSizeException, TException {      CLIENT.worker_cacheFile(workerId, workerUsedBytes, fileId, fileSizeBytes);    }', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': None, 'loss_ids': 0, 'shortenable_ids': 0}, {'text': None, 'loss_ids': 0, 'shortenable_ids': 0}, {'text': None, 'loss_ids': 0, 'shortenable_ids': 0}, {'text': None, 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'CLIENT.user_unpinFile(id);    }   public synchronized void worker_addCheckpoint(long workerId, int fileId, long fileSizeBytes,         String checkpointPath)             throws FileDoesNotExistException, SuspectedFileSizeException, TException {      CLIENT.worker_addCheckpoint(workerId, fileId, fileSizeBytes, checkpointPath);    }   public synchronized void worker_cachedFile(long workerId, long workerUsedBytes, int fileId,         long fileSizeBytes) throws FileDoesNotExistException, SuspectedFileSizeException, TException {      CLIENT.worker_cacheFile(workerId, workerUsedBytes, fileId, fileSizeBytes);    }'}]
+Namespace(log_name='./result/sstubs/1/random0_codet5p_220m.log', model_name='Salesforce/codet5p-220m', lang='java', output_dir='result/sstubs/1/random0_codet5p_220m', data_dir='./data/sstubs/1', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'CLIENT.user_unpinFile(id);    }   public void worker_addCheckpoint(long workerId, int fileId, long fileSizeBytes,         String checkpointPath)             throws FileDoesNotExistException, SuspectedFileSizeException, TException {      CLIENT.worker_addCheckpoint(workerId, fileId, fileSizeBytes, checkpointPath);    }   public void worker_cachedFile(long workerId, long workerUsedBytes, int fileId,         long fileSizeBytes) throws FileDoesNotExistException, SuspectedFileSizeException, TException {      CLIENT.worker_cacheFile(workerId, workerUsedBytes, fileId, fileSizeBytes);    }', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is the fixed version', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'CLIENT.user_unpinFile(id);    }   public synchronized void worker_addCheckpoint(long workerId, int fileId, long fileSizeBytes,         String checkpointPath)             throws FileDoesNotExistException, SuspectedFileSizeException, TException {      CLIENT.worker_addCheckpoint(workerId, fileId, fileSizeBytes, checkpointPath);    }   public synchronized void worker_cachedFile(long workerId, long workerUsedBytes, int fileId,         long fileSizeBytes) throws FileDoesNotExistException, SuspectedFileSizeException, TException {      CLIENT.worker_cacheFile(workerId, workerUsedBytes, fileId, fileSizeBytes);    }'}]
+***** Running training *****
+  Num examples = 260
+  Batch size = 4
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 2.5686383324842025e+115
+  global_step = 66
+  train_loss = 20.6138
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:2.5686383324842025e+115
+  ********************
+BLEU file: ./data/sstubs/1/validation.jsonl
+  codebleu-4 = 92.74 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:92.74
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 3.306169859170913e+122
+  global_step = 131
+  train_loss = 5.4755
+  ********************
+Previous best ppl:2.5686383324842025e+115
+BLEU file: ./data/sstubs/1/validation.jsonl
+  codebleu-4 = 93.76 	 Previous best codebleu 92.74
+  ********************
+ Achieve Best bleu:93.76
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 7.622886957312661e+121
+  global_step = 196
+  train_loss = 3.0527
+  ********************
+Previous best ppl:2.5686383324842025e+115
+BLEU file: ./data/sstubs/1/validation.jsonl
+  codebleu-4 = 94.01 	 Previous best codebleu 93.76
+  ********************
+ Achieve Best bleu:94.01
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 3.8838129716919195e+124
+  global_step = 261
+  train_loss = 1.7868
+  ********************
+Previous best ppl:2.5686383324842025e+115
+BLEU file: ./data/sstubs/1/validation.jsonl
+  codebleu-4 = 94.97 	 Previous best codebleu 94.01
+  ********************
+ Achieve Best bleu:94.97
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 2.8889394379593926e+126
+  global_step = 326
+  train_loss = 0.9291
+  ********************
+Previous best ppl:2.5686383324842025e+115
+BLEU file: ./data/sstubs/1/validation.jsonl
+  codebleu-4 = 94.89 	 Previous best codebleu 94.97
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 4.974804945701596e+129
+  global_step = 391
+  train_loss = 1.0683
+  ********************
+Previous best ppl:2.5686383324842025e+115
+BLEU file: ./data/sstubs/1/validation.jsonl
+  codebleu-4 = 94.15 	 Previous best codebleu 94.97
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 6
+  eval_ppl = 3.9694126537854776e+131
+  global_step = 456
+  train_loss = 0.6727
+  ********************
+Previous best ppl:2.5686383324842025e+115
+BLEU file: ./data/sstubs/1/validation.jsonl
+  codebleu-4 = 94.86 	 Previous best codebleu 94.97
+  ********************
+early stopping!!!
+reload model from result/sstubs/1/random0_codet5p_220m/checkpoint-best-bleu
+BLEU file: ./data/sstubs/1/test.jsonl
+  codebleu = 93.52 
+  Total = 32 
+  Exact Fixed = 19 
+[5, 6, 8, 10, 12, 14, 15, 16, 19, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 32 
+  Exact Fixed = 19 
+[5, 6, 8, 10, 12, 14, 15, 16, 19, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 93.52 
+[0.8561340786437819, 0.9370576952964131, 0.8230182155863233, 0.837899604900433, 1.0, 1.0, 0.7308217159428345, 1.0, 0.9546221339246326, 1.0, 0.9383022364276514, 1.0, 0.6772264301009557, 1.0, 1.0, 1.0, 0.9372561368734473, 0.8761815104017958, 1.0, 0.7016265496309229, 0.9493239030379825, 1.0, 1.0, 0.8782616077763247, 1.0, 1.0, 1.0, 0.9514967635709539, 0.8782616077763247, 1.0, 1.0, 1.0]
+Finish training and take 3m

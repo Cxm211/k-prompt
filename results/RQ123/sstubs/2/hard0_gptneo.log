@@ -1,0 +1,272 @@
+Namespace(log_name='./sstubs/2/hard0_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='sstubs/2/hard0_gptneo', data_dir='./data/sstubs/2', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=6, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1024, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': '@SuppressWarnings("unchecked")    @Override   public V value(Object node) {      Object value = adjacentNodeValues.get(node);      if (value == PRED) {        return null;', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': ' is the fixed version', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '@SuppressWarnings("unchecked")    @Override   public V value(N node) {      Object value = adjacentNodeValues.get(node);      if (value == PRED) {        return null;'}]
+***** Running training *****
+  Num examples = 260
+  Batch size = 6
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 11270298.01919
+  global_step = 45
+  train_loss = 52.4331
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:11270298.01919
+  ********************
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 34.2 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:34.2
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 3205662.16942
+  global_step = 89
+  train_loss = 8.8303
+  ********************
+Previous best ppl:11270298.01919
+Achieve Best ppl:3205662.16942
+  ********************
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 36.97 	 Previous best codebleu 34.2
+  ********************
+ Achieve Best bleu:36.97
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 2236103.02656
+  global_step = 133
+  train_loss = 4.1622
+  ********************
+Previous best ppl:3205662.16942
+Achieve Best ppl:2236103.02656
+  ********************
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 30.9 	 Previous best codebleu 36.97
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 37101423.77325
+  global_step = 177
+  train_loss = 1.7475
+  ********************
+Previous best ppl:2236103.02656
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 39.13 	 Previous best codebleu 36.97
+  ********************
+ Achieve Best bleu:39.13
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 21003963.76693
+  global_step = 221
+  train_loss = 1.9294
+  ********************
+Previous best ppl:2236103.02656
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 40.1 	 Previous best codebleu 39.13
+  ********************
+ Achieve Best bleu:40.1
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 263117266.09184
+  global_step = 265
+  train_loss = 0.9915
+  ********************
+Previous best ppl:2236103.02656
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 37.98 	 Previous best codebleu 40.1
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 6
+  eval_ppl = 401244602.24007
+  global_step = 309
+  train_loss = 0.4797
+  ********************
+Previous best ppl:2236103.02656
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 36.62 	 Previous best codebleu 40.1
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 7
+  eval_ppl = 1049804500.24169
+  global_step = 353
+  train_loss = 0.1435
+  ********************
+Previous best ppl:2236103.02656
+BLEU file: ./data/sstubs/2/validation.jsonl
+Namespace(log_name='./sstubs/2/hard0_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='sstubs/2/hard0_gptneo', data_dir='./data/sstubs/2', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=6, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1024, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': '@SuppressWarnings("unchecked")    @Override   public V value(Object node) {      Object value = adjacentNodeValues.get(node);      if (value == PRED) {        return null;', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': ' is the fixed version', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '@SuppressWarnings("unchecked")    @Override   public V value(N node) {      Object value = adjacentNodeValues.get(node);      if (value == PRED) {        return null;'}]
+***** Running training *****
+  Num examples = 260
+  Batch size = 6
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 11270298.01919
+  global_step = 45
+  train_loss = 52.4331
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:11270298.01919
+  ********************
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 34.2 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:34.2
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 3205662.16942
+  global_step = 89
+  train_loss = 8.8303
+  ********************
+Previous best ppl:11270298.01919
+Achieve Best ppl:3205662.16942
+  ********************
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 36.97 	 Previous best codebleu 34.2
+  ********************
+ Achieve Best bleu:36.97
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 2236103.02656
+  global_step = 133
+  train_loss = 4.1622
+  ********************
+Previous best ppl:3205662.16942
+Achieve Best ppl:2236103.02656
+  ********************
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 30.9 	 Previous best codebleu 36.97
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 37101423.77325
+  global_step = 177
+  train_loss = 1.7475
+  ********************
+Previous best ppl:2236103.02656
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 39.13 	 Previous best codebleu 36.97
+  ********************
+ Achieve Best bleu:39.13
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 21003963.76693
+  global_step = 221
+  train_loss = 1.9294
+  ********************
+Previous best ppl:2236103.02656
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 40.1 	 Previous best codebleu 39.13
+  ********************
+ Achieve Best bleu:40.1
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 263117266.09184
+  global_step = 265
+  train_loss = 0.9915
+  ********************
+Previous best ppl:2236103.02656
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 37.98 	 Previous best codebleu 40.1
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 6
+  eval_ppl = 401244602.24007
+  global_step = 309
+  train_loss = 0.4797
+  ********************
+Previous best ppl:2236103.02656
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 36.62 	 Previous best codebleu 40.1
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 7
+  eval_ppl = 1049804500.24169
+  global_step = 353
+  train_loss = 0.1435
+  ********************
+Previous best ppl:2236103.02656
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 36.05 	 Previous best codebleu 40.1
+  ********************
+early stopping!!!
+reload model from sstubs/2/hard0_gptneo/checkpoint-best-bleu
+BLEU file: ./data/sstubs/2/test.jsonl
+  codebleu = 37.76 
+  Total = 32 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 32 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 37.76 
+[0.327884125455811, 0.28852825008907856, 0.21020137648042486, 0.6296380340321871, 0.16381978297492808, 0.6518065515462943, 0.1782968719660689, 0.0, 0.1962297436135597, 0.23374355835216706, 0.6046818417905573, 0.19713803520261536, 0.5314049169944375, 0.19432357334000364, 0.8387796716807858, 0.5607555984417121, 0.19555551679620214, 0.263832401311939, 0.27602241887183415, 0.5361972934974469, 0.26039088462841725, 0.8937646940710373, 0.2528514377493921, 0.33837921609406635, 0.378283565271672, 0.3204049766927407, 0.6038314734695704, 0.194668907347093, 0.21335303516129817, 0.2045455786189604, 0.9334681110717995, 0.4093775132016438]
+Finish training and take 1h7m

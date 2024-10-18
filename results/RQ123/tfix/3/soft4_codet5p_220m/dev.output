@@ -1,0 +1,102 @@
+function noteOn( noteNum ) {     var audioContext = audioContextPool.get();     if( voice ) { return; }
+'console' in this && 'cd' in this.console
+if (['','static'].indexOf(document.body.style.position) === -1 ||         ['','static'].indexOf(document.body.parentElement.style.position) === -1) {
+global: false,             oncreate: null         }, options);
+var host_selector; var selected_software_profile_name; $(function() {
+require("dronestream").listen(3001, {tcpVideoStream: deps.client.getVideoStream()}); } module.exports = video;
+describe('95.binding_functionBindInout.js', function() {   var connection = null;
+let client; let user; let client2; let user2; let conversation;
+onChange ({target: {value}}) {         const change = value.replace(/[^\d\.,-]/g, '');         this.setState({value: change});
+return out.set(this.right, this.bottom);         }
+, options  , req  , keyPass  = keyPassphrases[this.keyPassId]   if (! (this.apiKey && this.host)) {
+return _.reject(this.toArray(), function (asset) {     return this.__processedAsset__ === asset;   }.bind(this)); });
+var query = batch.query();     return;     assert.deepEqual(       query.compile().split('\n'),       [
+this.removeModule = function (key) {     var module = this.modules[key];
+ct.shoe.checkAuth('admin');  var matches = ct.args.match(/@(\w[\w_\-\d]{2,})/g);  if (!matches) throw new Error('Bad syntax. Use `!!summon @some_other_user`');  if (!room.private) return;
+, tail = '\r\n--'+boundary+'--\r\n'    , buffer = new Buffer(size);
+var Scope = require('./scope');
+function e() {             return null!== t && t.apply(this, arguments) || this         }
+} export function *load__data__csv(ctx) {   log(`${logPrefix}|load__data__csv`)
+onDisconnect() {     this.peer.on('disconnected', function() {       this.controller.lostConnection();     });
+}       return(record);       writeResults = writeResults.concat([nlapiSubmitRecord(record, doSourcing, ignoreMandatory)]);      }
+return new StopWatch();      }        VisSenseUtils.newStopWatch = newStopWatch;
+metavar: '<FILE>',       help: 'A file containing JSON like  {\"rules\": {\"default\": 88}}',       callback: function(file) {
+renderElement = function(model,controller) {   !this.connectedCallback || (this.connected && this.connected()) || this.connectedCallback();    let local, foreach;
+MOTION.Interoplation.Hermite = function(t, y0, y1, y2, y3, tension, bias) {         if (tension == undefined) tension = 0;
+for ( i = 0, l = keys.length; i < l; i++ ) {         if ( possible[ keys[i] ] ) {
+import { FormattedMessage, defineMessages } from'react-intl'; import { Text, View } from'react-native';
+.call(Drawing.font, trace.delta.font)            .each(function() { Color.fill(d3.select(this), deltaFill(cd[0]));})            .attr('x', deltaX)
+return;     }     callback();
+var failing = function() {         wolfpack(new Array());       };
+var e = $("<div></div>");         return e.html(html.replace(/<img class="emojione" alt="([^">]+)"[^>]+>/ig, '$1'))[0].innerText;         return html            .replace(/<img class="emojione" alt="([^">]+)"[^>]+>/ig, '$1')
+var that = this;
+called = true     return loader.call(this, filePath, parent, preload)   })
+});   } else {
+const CreateMyStuffOnClickComponent = withRouter(({ history, children, collection, className, style }) => {   const api = useAPI();
+if(save &&!fs.exists(parsed.cwd, 'package.json')){                 process.stdout.write('package.json not found, could not save dependencies');                 process.exit(1);             }
+msg = '0' + msg;       for (i = 0; i < msg.length; i += 2)         res.push(parseInt(msg[i] + msg[i + 1], 16));
+this.height = [];  for ( i = 0; i < 8; ++i ) {   this.overlayX.push( u8() );
+var onApplyPromoCode = function (response) {             if (response.result === true) {                 document.location = document.location;             } else {                 Shopsys.window({
+return false;         _.each(all_connections, (conn) => { if(conn.gater === null) candidates.push(conn) })         return candidates.length? candidates : false       case mutation.SUB_GATE: return (this.gates.length > 0)? [] : false
+for (var i = 0; i < this.d.length; i++)                 this.d[i] *= v.d[i];
+var _runner = function () {         if (_names.shift()) {           console.log('Running'+ _name);
+bottom = "\\Downarrow";     } else if (delim === "|" || delim === "\\vert") {         bottom = "\\Downarrow";     } else if (delim === "[" || delim === "\\lbrack") {
+window.mozRequestAnimationFrame;   window.cancelAnimationFrame = window.cancelAnimationFrame ||                                 window.mozCancelAnimationFrame;
+instance: '<data></data>'                 } ).then( function() {                     done();
+for(var i = 0; i < state.servers.length; i++) {    var key = state.servers[i];    if(state.servers.hasOwnProperty(key)) {
+md.string._transformWord = function(str) {    var words = [str];
+this.callback;  this.errorState;
+mod.sleep_ms = new Sk.builtin.func(function(delay) {         sm.updateTime(delay.v);
+Renderer.prototype.getPartials = function () {   var self = this;
+define(['./chartBinding'], function(chartBinding) {  return function(moduleContext) {   this.plot = null;
+var DogeRelay = artifacts.require("./DogeRelay.sol"); var DogeToken = artifacts.require("./token/DogeToken.sol");
+if (!option.hasOwnProperty('label'))       throw new String('A normal MenuItem must have a label');     else
+throw "Couldn't find enough alignment patterns";    }
+'\\s*\\(\\s*(?P<args>.*)\)'         );
+for(var i = 0; i < args.length; i++) {       scope = args[i];
+, changedAssociations = []          , defaultAttributes = additionalAttributes || {}          , promises = []
+this.addRenderData = function (stopInfo) {     if (stopInfo.rEdge.getType() === 'TRANSIT') {
+api.metatests.test('with empty array', (test) => {   api.metasync.find([], (el, callback) => (     process.nextTick(() => callback(null, true))
+res.end()             return           case 500:
+}        editor.value = text;
+hex = THREE.ColorKeywords[ style ];    if ( hex!== undefined ) {
+content: {   'type': Scheam.Text  },  date: {
+this._vid = vid;     },     createSession(sessionType) {       return new MockMediaKeySession(this._vid, this.ks_);
+if (enable === true || enable === path) {       console.log(' '+ chalk.yellow(chalk.underline(path)));     }
+function teleport( entity, destination){   if (typeof entity === 'String' || entity instanceof java.lang.String){     entity = utils.player(entity);
+return;   }   const toUnban = await User.findById(req.params.id);
+} else if (isEnd(line) && stack.length > 0) {       end(stack.pop(), i)
+var modifiers = []   var instance
+document.removeEventListener("keydown", this._events.keyboardNav);     }
+this.setState({ ids: ['test', 'test2', 'test3'] });         rerender();
+rule: function () {                 var name, value, c = input.charAt(i), important, name;                 save();
+});     this.states[sIndex].options.splice(oIndex, 1);
+return this.getSessionObject(name);     }
+if (val == 'Y') {       doInstall();      } else {
+return this.options['filter-builder'].filterView;                 case 'filter-builder':
+for(i = 0; i < 6; i++) {           headers.push('Week'+ i);
+ProgressActions.updateProgress(progress.id, progress.current);     });
+return 'none';         } else if (color.typename === 'SpotColor') {                      color = color.color;         } else {
+}, function (err) {         return err;       });
+simbolo = "-";     } else {console.log(e);};     $('html,body').animate({
+if (message) {     function sendMain () {       if (message.embedMsg) {         (function sendCombinedMsg() {           channel.sendMessage(message.textMsg,message.embedMsg)
+'use strict'; var Cmd = require('../src/commands'), Room = require('../src/rooms');
+this._classTitle = (typeof classTitle)? classTitle + '.' : '';
+} else {                 APP.articlesController.synchronizeWithServer(function failureCallback() {                     alert("This feature is not available offline");                 });             }
+this.props = props;     }.bind(this));   };
+it('not set a default value if one is already set by the user', function() {    this.schema.create({     pk: '1234',     fieldWithDefault: 'do not override me'
+log(`${logPrefix}|$route`, path)   return riot$route(path, co.wrap(route__fn))   function *route__fn() {     log(`${logPrefix}|$route|route__fn`, path)
+}                         default:                             options = this._createErrorResponse(http_status_codes_1.STATUS.INTERNAL_SERVER_ERROR, "Unknown command \"" + command + "\"");
+return dispatchIncomingMsg('dataConfirm', msg); }
+} else {           if (inserts[start]) {             inserts[start] +='(';
+} else {   var restPath = `http: }
+const domain = scale.uniqueValues();     const steps = scale.config().stops || 1;
+this.classList.remove.apply(this.classList, ALL_VARIANT_CLASSES);        if (this._variant!== variant.DEFAULT) {
+playersInGame[i].see.spies = [];        }    else if(playersInGame[i].role === "Percival"){         }    else if(playersInGame[i].role === "Morgana"){
+cmd = [arguments[0],arguments[1]];     cb = arguments[2];     stdout = arguments[3];     stderr = arguments[4];   }
+case types.POP_ROUTE:       routes = state.routes.filter((_, i) => i!== state.routes.length - 1)       return {
+, Painting = require('../painting')  , CHUNK_SIZE = new Vec3(16, 16, 16)  , BLOCKS_PER_CHUNK = CHUNK_SIZE.volume() module.exports = inject;
+onLoad: function (options) {     mta.Page.init()
+var React = require('react/addons'); var Styled = require('./mixins/Styled');
+this.stopObservingRepoStatus();     return this._super(...arguments);   },
+.then( results => {         for ( let AST of results ) {         }

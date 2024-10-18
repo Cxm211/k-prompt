@@ -1,0 +1,102 @@
+, sourceExtract = require ('./sourceExtract')  , util = require ('./util');
+evt.preventDefault();                             self._trigger('selected', null, $(this).data('file'));                             modal.close();
+apos.log(field);           if (field.required === true) {
+setTimeout(function() {     Completers.filter(...args);   }, 210);
+this.anim(                 elem,
+seriesGroups[i].attr({        'series-name': this.data.series[i].name       }, Chartist.xmlNs.uri);
+} else {       xhr = io.util.request()        , self = this;
+var message = message  .replace(/&/g, "&amp;")  .replace(/"/g, "&quot;")  .replace(/'/g, "&apos;")
+{   return bigBox( (exonStarts - (Math.min.apply(Math, _.pluck(data, 'txStart')))), (exonEnds - exonStarts), multiplyingFactor, strand);  }
+onVMouseMove: function(event) {         if (this.props.floating) {             event.preventDefault();
+return   const     target = document.querySelector
+var options = this.options? this.options(defaults) : _.extend(defaults, this.data.options);
+$('#TransactionTable').empty();   for(i = 0; i < ledger.transactions.length; i++) {     var tx = ledger.transactions[i],
+if (solved) {     console.log(suspect + " did it in the " + room + " with the " + weapon + "!");
+keyup: function (e) {             switch(e.keyCode) {
+Array.prototype.humanSort = function( ) {    return this.sort( function( a, b ) {       var x, cmp1, cmp2;       var aa = a.split(/(\d+)/);
+if (result[i].error) {         console.error('TimeSeries', result[i].error);        } else {
+import { NavigationHandler } from 'navigation-react'; import getStateNavigator from './getStateNavigator';
+if (err) return submit.show()       window.location.href = "/world.html#" + hoodie.account.username + '/' + worldName
+}   return function(a, b) {     return g.call(null, f.apply(null, argsArray(a)))   }
+Evme.$('.rightbutton', el)[0].addEventListener('click',       function onClick(e) {         this.removeEventListener('click', onClick);         e.stopPropagation();
+_environment = _config.environment; _secret_key = _config[_environment].app.secret_key;
+bw.displayIngameMessage('it\'s much more sophisticated!', 60000)   var chatStream = bw.chatHandler.grabExclusiveStream()    , remote = repl.start({ input: chatStream, output: chatStream, terminal: false })   chatStream.setMessageTimeout(60000)
+this.session_keys = clone(obj.session_keys) || [];    for (var idx = 0; idx < this.session_keys.length; idx++)     this.session_keys[idx] = new AttrList(this.session_keys[idx]);
+adjusted_scale : this.adjusted_scale,  asset_swf_v : "http:\/\/c2.glitch.bz\/items\/2012-04\/flaming_humbaba-1334193679.swf",  admin_props : false,
+, Db      = require('../../')  , BooleanType = Db.Boolean, StringType = Db.String
+if (require.main === module) {     main().catch(console.error).finally(process.exit); }
+this.options = options; }, {
+ratesval = 2;   }   else if(document.getElementById("star3").checked)   {
+} else {             return yield* UserBase.prototype.save.apply(this, arguments);         }
+$.getJSON('/js/publicsettings.json', '', function(data) {         log.push('Data successfully retrieved from publicsettings.json');
+var _ = require('lodash') , program = require('commander');
+async function testRun() {              Object.keys(runs).forEach(key => {         runAction(key, runs[key], counter1++, counter2++, result => {
+console.log("CRITICAL ERROR: FAILED TO START");             exit(2);         } else {
+reader.onload = function __onload_handler__(event){       debugger;
+if (rid = RID.parse(ref))       return rid;
+} else {                     regex = "\<.*(?!<\/option>)\>";                 }
+}             return false;
+}             throw str + ", line " + line + " (tokens: '" + tok + "')\n" + JSON.stringify(tokens.slice(0, 5), null, 4);         };
+return true;       if(isAdmin(userId) || (docs[0]._id && docs[0]._id==userId) || fields=='notifications'){           return true;
+$.ElementList = function () {  function $ElementList() {   this.src = [];  }
+module.exports = {   putCloudWatchEvents: persistentRequest.bind(this, putCloudWatchEvents), };
+getReposRelease: (reposOwner, reposName) => {         return `${host}repos/${reposOwner}/${reposName}/tags`
+CC.inputUp= data.distance / 50; }); joystick.on('end', function (evt, data) {  CC.inputLeft=0;
+}   console.log('SIGNATURE>', util.inspect(this.signature(), false, null));   this.stats.sources++;
+var _temp, _this, _ret;         _classCallCheck(this, _class2);         for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+constructor(token, options = {}) {
+if (data) {           var username = data.layers[1].options.user_name;
+if (_isFrozen) {         freeze.call(this);       }     }
+point,         normal,         basis,
+var searchAndHighlight = function(token){             if(token.type === 'identifier'){
+console.log(this.rev);           db.get(docId, {rev: rev}, function(err, doc){
+-ol.Projection.EPSG_3857_HALF_SIZE, ol.Projection.EPSG_3857_HALF_SIZE);   var tileSize = new ol.Size(256, 256);   goog.base(this, resolutions, extent, origin, tileSize);
+case 'LT':     return function(key) { return key < arguments[1][0] }   case 'GE':
+return function(cmd) {    POST('/api/cmd/' + cmd);   };
+}, "~N");  $_V(c$, "renderMesh",   function (mesh) {
+var combinedTableAttributes = {}        , sourceKeyType = this.source.rawAttributes[this.source.primaryKeyAttribute].type
+var byteLengthForComponentType = require('./byteLengthForComponentType'); var getAccessorByteStride = require('./getAccessorByteStride'); var numberOfComponentsForType = require('./numberOfComponentsForType');
+} else {                         return "'" + value.replace(/'/g, "''") + "'";                     }                     break;                 case 'number':
+console.error('Configuration parameter `%s` is required.', param);       exit(1);     }
+else if (this.enum && this.editable.value) {       if (!this.dom.select) {
+case PARTICIPANT_JOINED:         let participant = action.participant;         let id = participant.id             || (participant.local && LOCAL_PARTICIPANT_DEFAULT_ID);
+var args = [].slice.call(arguments);   if (this.emit('start', args)) {     return true;
+, stackFrame = this._frames[info.id]      , j      this._addSample(info, ts);
+var path = require('path'); var express = require('express'); var morgan = require('morgan');
+return __awaiter(this, void 0, void 0, function () {         return __generator(this, function (_a) {
+var Collection = require('../src/collection').Collection        , changes = require('../src/pouch/changes');     beforeEach(function () {
+model: 'Touch Pro2'     }, {       regEx: /HTC[_|\ ]Touch[_|\ ]Pro/i,       model: 'Touch Pro'
+while (1) {             len = seqs.length;
+stopPlayer(player, session, callback);                 break;             case "AMAZON.CancelIntent":                 break;             case "AMAZON.LoopOffIntent":
+var node = window.contextVars.node;             var pageMeta = _get(window, 'contextVars.analyticsMeta.pageMeta', {});              return {
+}         return new this.constructor(...hexes)     }
+}   insertWithRelated(...args) {     return this.insertGraph.apply(this, args);   }
+self[name + 'MarkReady'] = function(data) {                     if (!data) throw new ReferenceError("No object passed to " + name + "MarkReady");                     if (deferreds[name]) {
+"use strict"; self.EventEmitter = require("lib/events");
+, XMLDom = require("xmldom")  , helpers = require('../../helpers.js')  , warnDeprecated = helpers.logDeprecationWarning;
+for (var i=0, len=handlers.length; i<len; i++) {           handlerObj = handlers[i];
+String.prototype.date = Number.prototype.date = function(format) {   var m
+var matchIndex = 0;       while (match = regex.exec(text)) {         matches.push(this.prepareMatch(match, matchIndex));
+setTimeout(function() {               chimera.render(filename);               callback(null, document.cookie);
+router[method].should.be.type('function');         router[method]('/', function *() {});       });
+db.rpush("log-" + this.room, this.cmdstr, __bind(function() {               return io.sockets.emit('broadcast', this);             }, this));
+}         return (             <div>Enjoy this HTML placeholder.</div>         );     }
+console.logRed('Error: '+ e);  exit(1); }
+catch (e) {                 var err = new Error(e);                 err.status = 400;                 next(err);             }
+if (hasHalo && false) {              gl.uniform1f(program.u_is_halo, 1);
+var odd = (this.width & 1);   var shapes = [];   var stroke = {color: this.color, width: 1};
+<AppIcon />;   const codeIcon =
+})                                               .catch(softThrow);                                       break;
+if (go2 && window.location.hash.indexOf('access_token')!== -1) {     go2._handleMessage(
+it('returns icon list', function(done) {             initNodes({
+{    throw new Error("insufficient read permissions on path");   }
+while (parent = parent.parent) {           nestedIncludes = [_.extend({}, child, { include: nestedIncludes })];
+} = node;          if (isTryTo(id))
+[{              'mapId': self.__pgmId,              'mapId': self.__pgmId + '-tileoverlay',               'cmd': 'onGetTileUrlFromJS',               'args': [
+return movieApi.discoverMovie(genre.value)      .then(carouselle => message.reply([carouselle])
+var self = this;             self.getName = function() {
+table.push(header)   table.push(...rows)   return table.toString()
+$scope.userWalls[isEditing].showLoading = true;                 for (k in $scope.newWallOptions) {                     if ($scope.newWallOptions.hasOwnProperty(k)) {                         $scope.userWalls[isEditing][k] = $scope.newWallOptions[k];
+var React = require('react') , Activities = require('./activities'); var Hub = React.createClass({
+]   for (var i = 0; i < singular_indicators.length; i++) {     if (str.match(singular_indicators[i])) {
+geometryWireframeButton.addEventListener('click',     () => {       const selectedGeometryIndex = store.geometriesUI.selectedGeometryIndex;

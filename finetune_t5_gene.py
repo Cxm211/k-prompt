@@ -18,7 +18,7 @@ from __future__ import absolute_import
 import os
 from re import I
 import time
-
+import shutil
 import torch
 import random
 import logging
@@ -31,14 +31,14 @@ from torch.utils.data.distributed import DistributedSampler
 from transformers import (AdamW, get_linear_schedule_with_warmup,
 						  RobertaConfig, RobertaModel, RobertaTokenizer, T5Config, T5ForConditionalGeneration)
 
-
+from bleu2 import _bleu
 from code_bleu import _code_bleu
 from my_lib import read_examples, convert_examples_to_features, get_elapse_time, compare
 
 MODEL_CLASSES = {'roberta': (RobertaConfig, RobertaModel, RobertaTokenizer)}
 
 generation_arguments = {
-    "max_length": 512,
+    "max_length": 1024,
     "max_new_tokens": None,
     "min_length": 5,
     "temperature": 1.0,
@@ -111,10 +111,10 @@ def read_arguments():
 						help="Pretrained config name or path if not the same as model_name")
 	parser.add_argument("--tokenizer_name", default="", type=str,
 						help="Pretrained tokenizer name or path if not the same as model_name")
-	parser.add_argument("--max_source_length", default=128, type=int,
+	parser.add_argument("--max_source_length", default=1024, type=int,
 						help="The maximum total source sequence length after tokenization. Sequences longer "
 							 "than this will be truncated, sequences shorter will be padded.")
-	parser.add_argument("--max_target_length", default=128, type=int,
+	parser.add_argument("--max_target_length", default=1024, type=int,
 						help="The maximum total target sequence length after tokenization. Sequences longer "
 							 "than this will be truncated, sequences shorter will be padded.")
 	parser.add_argument("--warm_up_ratio", default=0.1, type=float)
@@ -155,6 +155,7 @@ def read_arguments():
 	args = parser.parse_args()
 
 	return args
+
 
 
 def main(args):
@@ -445,6 +446,8 @@ def main(args):
 		logger.info(cleaned_matched)
 		logger.info("  %s = %s " % ("codebleu", str(this_bleu)))
 		logger.info(scores)
+		output_dir = os.path.join(args.output_dir, 'checkpoint-best-bleu')
+		shutil.rmtree(output_dir)
 		return 
 
 def calculate_bleu(file_name, args, tokenizer, device, model, file_postfix=None, is_test=False, dev_dataset=None,

@@ -1,0 +1,102 @@
+function noteOn( noteNum ) {     var voice = onStateNoteVoices[ noteNum ];     if( voice ) { return; }
+'cd' in this.console
+if (['', 'static'].indexOf(doc.body.style.position) === -1 ||         ['', 'static'].indexOf(doc.body.parentElement.style.position) === -1) {
+global: false,             oncreate: null         }, options);
+var host_selector; $(function() {
+require("dronestream").listen(3001, {tcpVideoStream: deps.client.getVideoStream()}); } module.exports = video;
+describe('95.binding_functionBindInout.js', function() {   var connection = null;
+let client; let conversation;
+onChange ({target: {value}}) {         const change = value.replace(/[^\d.,-]/g, '');         this.setState({value: change});
+return out.set(this.right, this.bottom);         }
+, req   , keyPass  = keyPassphrases[this.keyPassId];   tryCount = !tryCount ? 0 : tryCount;   if (! (this.apiKey && this.host)) {
+return _.reject(this.toArray(), function (asset) {     return this.__processedAsset__ === asset;   }.bind(this)); });
+var query = batch.query();     assert.deepEqual(       query.statements(),       [
+removeModule(key) {     var module = this.modules[key];
+ct.shoe.checkAuth('admin');  let matches = ct.args.match(/@(\w[\w_\-\d]{2,})/g);  if (!matches) throw new Error('Bad syntax. Use `!!summon @some_other_user`');  if (!room.private) return;
+, tail = '\r\n--'+boundary+'--\r\n'
+var Scope = require('./scope');
+function e() {             return t.call(this) || this         }
+} export function load__data__csv(ctx) {   log(`${logPrefix}|load__data__csv`)
+onDisconnect() {     this.peer.on('disconnected', () => {       this.controller.lostConnection();     });
+}       writeResults = writeResults.concat([nlapiSubmitRecord(record, doSourcing, ignoreMandatory)]);      }
+return new StopWatch();      };
+metavar: '<FILE>',       help: 'A file containing the web perf budget rules. See http:       callback: function(file) {
+renderElement = function(model,controller) {        fetish(this);    let local, foreach;
+MOTION.Interoplation.Hermite = function(t, y0, y1, y2, y3, tension, bias) {         if (tension == undefined) tension = 0;
+for ( i = 0, l = keys.length; i < l; i++ ) {         if ( possible[ keys[i] ] ) {
+import { FormattedMessage, defineMessages } from 'react-intl';
+.call(Drawing.font, trace.delta.font)             .call(Color.fill, deltaFill(cd[0]))             .attr('x', deltaX)
+return;     }     callback();
+var failing = function() {         wolfpack([]);       };
+EmojioneArea.prototype.getText = function() {         return this.editor.html()             .replace(/<img class="emojione" alt="([^">]+)"[^>]+>/ig, '$1')
+var that = this;       if (that.collection !== undefined) {
+called = true     return loader(entry, parent, preload)   })
+});   } else {     var misspelled = message.entities["any"];
+const CreateMyStuffOnClickComponent = withRouter(({ history, children, className, style }) => {   const api = useAPI();
+if(save && !fs.exists(parsed.cwd, 'package.json')){                 return tools.error('package.json not found, could not save dependencies');             }
+msg = '0' + msg;       for (i = 0; i < msg.length; i += 2)         res.push(parseInt(msg[i] + msg[i + 1], 16));
+this.height = [];  for ( var i = 0; i < 8; ++i ) {   this.overlayX.push( u8() );
+var onApplyPromoCode = function (response) {             if (response.result !== true) {                 Shopsys.window({
+candidates.push(conn);           }         });         return candidates.length ? candidates : false       case mutation.SUB_GATE: return (this.gates.length > 0) ? [] : false
+for (var i = 0; i < this.d.length; ++i)                 this.d[i] *= v.d[i];
+var _runner = function () {         if ((_name = _names.shift())) {           console.log('Running ' + _name);
+bottom = "\\Downarrow";     } else if (delim === "[" || delim === "\\lbrack") {
+window.mozRequestAnimationFrame;
+instance: '<data></data>'                 } ).then( function() {                     done();
+for(let key in state.servers) {    if(state.servers.hasOwnProperty(key)) {
+md.string.transformWord = function(str) {    var words = [str];
+this.callback;
+mod.sleep_ms = new Sk.builtin.func(function(delay) {         sm.updateTime(delay.v);
+Renderer.prototype.getPartials = async function() {   var self = this;
+define(['./chartBinding'], function(chartBinding) {  var ViewModel = function(moduleContext) {   var self = this;   this.plot = null;
+var DogeRelay = artifacts.require("./DogeRelay.sol");
+if (!option.hasOwnProperty('label'))       throw new TypeError('A normal MenuItem must have a label');     else
+throw new Error("QR Error: Couldn't find enough alignment patterns");    }
+'\\s*\\(\\s*(?P<args>.*)\\)'         );
+for(var index = 0; index < args.length; index++) {       scope = args[index];
+, changedAssociations = []           , defaultAttributes = additionalAttributes           , promises = []
+addRenderData (stopInfo) {     if (stopInfo.rEdge.getType() === 'TRANSIT') {
+metatests.test('with empty array', (test) => {   metasync.find([], (el, callback) => (     process.nextTick(() => callback(null, true))
+res.end()             break           case 500:
+}        editor.value = text;
+var hex = ColorKeywords[ style ];    if ( hex !== undefined ) {
+content: {   'type': Schema.Text  },  date: {
+this._vid = vid;     },     createSession() {       return new MockMediaKeySession(this._vid, this.ks_);
+if (enable === true || enable === path) {            }
+function teleport( entity, destination){   if (typeof entity === 'string' || entity instanceof java.lang.String){     entity = utils.player(entity);
+return;   }   const toUnban = await User.findById(req.params.id);
+} else if (isEnd(line) && stack.length > 0) {       end(stack.pop(), i)
+var modifiers = []
+document.removeEventListener("keydown", this._events.keyboardNav);     }
+this.setState({ ids: ['test', 'test2', 'test3'] });         rerender();
+rule: function () {                 var name, value, c = input.charAt(i), important;                 save();
+});     this.states[sIndex].options.splice(oIndex, 1);
+return this.getSessionObject(name);     }
+if (val == 'Y') {       doRemove();      } else {
+return this.options['filter-builder'].filterView;                 case 'filter-builder':
+for(let i = 0; i < 6; i++) {           headers.push('Week ' + i);
+ProgressActions.updateProgress(progress.id, progress.current);       $(self.refs.tipCurrent.getDOMNode()).hide();     });
+return 'none';         } else {
+}, function (err) {         throw new Error(err);       });
+simbolo = "-";     } else {console.log(e);}     $('html,body').animate({
+function sendMain () {     if (message.embedMsg) {       (function sendCombinedMsg() {         channel.sendMessage(message.textMsg,message.embedMsg)
+'use strict'; var World = require('../src/world');
+var DEBUG = true;
+} else {                 APP.articlesController.synchronizeWithServer(offlineWarning);             }
+this.props = props;     });   }
+it('not set a default value if one is already set by the user', function(done) {    this.schema.create({     fieldWithDefault: 'do not override me'
+log(`${logPrefix}|$route`, path)   return riot$route(path, route__fn)   function route__fn() {     log(`${logPrefix}|$route|route__fn`, path)
+}                             break;                         default:                             options = this._createErrorResponse(http_status_codes_1.STATUS.INTERNAL_SERVER_ERROR, "Unknown command \"" + command + "\"");
+return dispatchIncomingMsg('dataConfirm', msg); }
+} else {           if (inserts[start]) {             inserts[start] += ' (';
+} else {   basePath = `http: }
+const domain = scale.uniqueValues();     const steps = scale.config().stops || 1;
+this.classList.remove(...ALL_VARIANT_CLASSES);        if (this._variant !== variant.DEFAULT) {
+if(playersInGame[i].role === "Merlin"){     playersInGame[i].see.spies = this.getSpies();    }    else if(playersInGame[i].role === "Percival"){     playersInGame[i].see.merlins = this.getMerlins();    }    else if(playersInGame[i].role === "Morgana"){
+cmd = [arguments[0],arguments[1]];     cb = arguments[2];   }
+case types.POP_ROUTE:     case types.RESET_ROUTES:       return {
+, Painting = require('../painting')   , Location = require('../location') module.exports = inject;
+onLoad: function (options) {     app.mta.Page.init()
+var React = require('react'); var Styled = require('./mixins/Styled');
+this.stopObservingRepoStatus();     return this._super(...arguments);   },
+.then( results => {         for ( let AST of results ) {           console.log( `Parsing AST with ${AST.length} nodes` );         }

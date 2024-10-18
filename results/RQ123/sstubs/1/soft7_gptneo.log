@@ -1,0 +1,199 @@
+Namespace(log_name='./result/sstubs/1/soft7_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='result/sstubs/1/soft7_gptneo', data_dir='./data/sstubs/1', no_cuda=False, visible_gpu='0', choice=7, num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=2000, max_target_length=2000, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Please fix an buggy program', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' appendToBody.ret();      }     private void generateHashPositionMethod(ClassDefinition classDefinition, CallSiteBinder callSiteBinder, List<Type> joinChannelTypes, List<FieldDefinition> joinChannelFields, FieldDefinition hashChannelField)      {          Parameter blockIndex = arg("blockIndex", int.class);          Parameter blockPosition = arg("blockPosition", int.class);', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': 'the bug type is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' Change Modifier', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '.', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': 'the fixed version is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'appendToBody.ret();      }     private static void generateHashPositionMethod(ClassDefinition classDefinition, CallSiteBinder callSiteBinder, List<Type> joinChannelTypes, List<FieldDefinition> joinChannelFields, FieldDefinition hashChannelField)      {          Parameter blockIndex = arg("blockIndex", int.class);          Parameter blockPosition = arg("blockPosition", int.class);'}]
+***** Running training *****
+  Num examples = 223
+  Batch size = 4
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.0241162726462005e+19
+  global_step = 57
+  train_loss = 45.4432
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.0241162726462005e+19
+  ********************
+BLEU file: ./data/sstubs/1/validation.jsonl
+  codebleu-4 = 84.27 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:84.27
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 5.224295719995884e+20
+  global_step = 113
+  train_loss = 5.8886
+  ********************
+Previous best ppl:1.0241162726462005e+19
+BLEU file: ./data/sstubs/1/validation.jsonl
+  codebleu-4 = 87.58 	 Previous best codebleu 84.27
+  ********************
+ Achieve Best bleu:87.58
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 1.2235672066885983e+22
+  global_step = 169
+  train_loss = 2.6646
+  ********************
+Previous best ppl:1.0241162726462005e+19
+BLEU file: ./data/sstubs/1/validation.jsonl
+  codebleu-4 = 92.42 	 Previous best codebleu 87.58
+  ********************
+ Achieve Best bleu:92.42
+  ********************
+Namespace(log_name='./result/sstubs/1/soft7_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='result/sstubs/1/soft7_gptneo', data_dir='./data/sstubs/1', no_cuda=False, visible_gpu='0', choice=7, num_train_epochs=10, num_test_epochs=1, train_batch_size=2, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=2000, max_target_length=2000, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Please fix an buggy program', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' appendToBody.ret();      }     private void generateHashPositionMethod(ClassDefinition classDefinition, CallSiteBinder callSiteBinder, List<Type> joinChannelTypes, List<FieldDefinition> joinChannelFields, FieldDefinition hashChannelField)      {          Parameter blockIndex = arg("blockIndex", int.class);          Parameter blockPosition = arg("blockPosition", int.class);', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': 'the bug type is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' Change Modifier', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '.', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': 'the fixed version is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'appendToBody.ret();      }     private static void generateHashPositionMethod(ClassDefinition classDefinition, CallSiteBinder callSiteBinder, List<Type> joinChannelTypes, List<FieldDefinition> joinChannelFields, FieldDefinition hashChannelField)      {          Parameter blockIndex = arg("blockIndex", int.class);          Parameter blockPosition = arg("blockPosition", int.class);'}]
+***** Running training *****
+  Num examples = 223
+  Batch size = 2
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 5.8896790197260664e+16
+  global_step = 113
+  train_loss = 33.7435
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:5.8896790197260664e+16
+  ********************
+BLEU file: ./data/sstubs/1/validation.jsonl
+  codebleu-4 = 87.05 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:87.05
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 291758317868.0724
+  global_step = 225
+  train_loss = 5.0183
+  ********************
+Previous best ppl:5.8896790197260664e+16
+Achieve Best ppl:291758317868.0724
+  ********************
+BLEU file: ./data/sstubs/1/validation.jsonl
+  codebleu-4 = 89.53 	 Previous best codebleu 87.05
+  ********************
+ Achieve Best bleu:89.53
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 3312982044896.6475
+  global_step = 337
+  train_loss = 3.5965
+  ********************
+Previous best ppl:291758317868.0724
+BLEU file: ./data/sstubs/1/validation.jsonl
+  codebleu-4 = 88.99 	 Previous best codebleu 89.53
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 3.8573408104833766e+17
+  global_step = 449
+  train_loss = 2.6909
+  ********************
+Previous best ppl:291758317868.0724
+BLEU file: ./data/sstubs/1/validation.jsonl
+  codebleu-4 = 89.36 	 Previous best codebleu 89.53
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 1057449324844.7245
+  global_step = 561
+  train_loss = 1.9741
+  ********************
+Previous best ppl:291758317868.0724
+BLEU file: ./data/sstubs/1/validation.jsonl
+  codebleu-4 = 94.56 	 Previous best codebleu 89.53
+  ********************
+ Achieve Best bleu:94.56
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 144264353945656.7
+  global_step = 673
+  train_loss = 1.553
+  ********************
+Previous best ppl:291758317868.0724
+BLEU file: ./data/sstubs/1/validation.jsonl
+  codebleu-4 = 94.16 	 Previous best codebleu 94.56
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 6
+  eval_ppl = 2.428841731913832e+16
+  global_step = 785
+  train_loss = 1.0853
+  ********************
+Previous best ppl:291758317868.0724
+BLEU file: ./data/sstubs/1/validation.jsonl
+  codebleu-4 = 94.56 	 Previous best codebleu 94.56
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 7
+  eval_ppl = 9.528155021183523e+18
+  global_step = 897
+  train_loss = 0.6922
+  ********************
+Previous best ppl:291758317868.0724
+BLEU file: ./data/sstubs/1/validation.jsonl
+  codebleu-4 = 94.56 	 Previous best codebleu 94.56
+  ********************
+early stopping!!!
+reload model from result/sstubs/1/soft7_gptneo/checkpoint-best-bleu
+BLEU file: ./data/sstubs/1/test.jsonl
+  codebleu = 96.31 
+  Total = 27 
+  Exact Fixed = 16 
+[1, 4, 5, 6, 7, 9, 10, 12, 13, 16, 17, 20, 21, 24, 26, 27]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 27 
+  Exact Fixed = 16 
+[1, 4, 5, 6, 7, 9, 10, 12, 13, 16, 17, 20, 21, 24, 26, 27]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 96.31 
+[1.0, 0.9245037448286011, 0.9056583090096291, 1.0, 1.0, 1.0, 1.0, 0.9315722311515438, 1.0, 1.0, 0.8910871854638854, 1.0, 1.0, 0.8158463815378669, 0.9136815104017959, 1.0, 1.0, 0.9521775318277603, 0.8955980328281301, 1.0, 1.0, 0.9273308669742027, 0.9120033353993269, 1.0, 0.9339261075829457, 1.0, 1.0]
+Finish training and take 27m

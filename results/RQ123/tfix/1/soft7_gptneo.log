@@ -1,0 +1,204 @@
+Namespace(log_name='./result/tfix/1/soft7_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='javascript', output_dir='result/tfix/1/soft7_gptneo', data_dir='./data/tfix/1', no_cuda=False, visible_gpu='0', choice=7, num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1800, max_target_length=1800, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Please fix an buggy program', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': " }             console.log('retry');             return setTimeout(function() {               return exports.stopReplication(newdoc, callback, options);", 'loss_ids': 0, 'shortenable_ids': 1}, {'text': 'the bug type is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' no-console', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '.', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': 'the fixed version is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '}             setTimeout(function() {               return exports.stopReplication(newdoc, callback, options);'}]
+***** Running training *****
+  Num examples = 816
+  Batch size = 4
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 3.293086077008457e+37
+  global_step = 205
+  train_loss = 22.9651
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:3.293086077008457e+37
+  ********************
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 58.19 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:58.19
+  ********************
+Namespace(log_name='./result/tfix/1/soft7_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='javascript', output_dir='result/tfix/1/soft7_gptneo', data_dir='./data/tfix/1', no_cuda=False, visible_gpu='0', choice=7, num_train_epochs=10, num_test_epochs=1, train_batch_size=2, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1800, max_target_length=1800, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Please fix an buggy program', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': " }             console.log('retry');             return setTimeout(function() {               return exports.stopReplication(newdoc, callback, options);", 'loss_ids': 0, 'shortenable_ids': 1}, {'text': 'the bug type is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' no-console', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '.', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': 'the fixed version is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '}             setTimeout(function() {               return exports.stopReplication(newdoc, callback, options);'}]
+***** Running training *****
+  Num examples = 816
+  Batch size = 2
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 4.944509572143708e+44
+  global_step = 409
+  train_loss = 20.7779
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:4.944509572143708e+44
+  ********************
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 57.51 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:57.51
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 4.8656864535151066e+17
+  global_step = 817
+  train_loss = 10.8452
+  ********************
+Previous best ppl:4.944509572143708e+44
+Achieve Best ppl:4.8656864535151066e+17
+  ********************
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 53.27 	 Previous best codebleu 57.51
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 3.0408334322073653e+31
+  global_step = 1225
+  train_loss = 6.5196
+  ********************
+Previous best ppl:4.8656864535151066e+17
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 60.14 	 Previous best codebleu 57.51
+  ********************
+ Achieve Best bleu:60.14
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 4468843477122.669
+  global_step = 1633
+  train_loss = 3.8731
+  ********************
+Previous best ppl:4.8656864535151066e+17
+Achieve Best ppl:4468843477122.669
+  ********************
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 55.17 	 Previous best codebleu 60.14
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 1.1645342557183866e+17
+  global_step = 2041
+  train_loss = 2.4149
+  ********************
+Previous best ppl:4468843477122.669
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 61.75 	 Previous best codebleu 60.14
+  ********************
+ Achieve Best bleu:61.75
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 1.0540848426901891e+23
+  global_step = 2449
+  train_loss = 1.4268
+  ********************
+Previous best ppl:4468843477122.669
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 62.55 	 Previous best codebleu 61.75
+  ********************
+ Achieve Best bleu:62.55
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 6
+  eval_ppl = 1.0928033233015602e+28
+  global_step = 2857
+  train_loss = 0.9217
+  ********************
+Previous best ppl:4468843477122.669
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 63.47 	 Previous best codebleu 62.55
+  ********************
+ Achieve Best bleu:63.47
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 7
+  eval_ppl = 1.3851961696346672e+20
+  global_step = 3265
+  train_loss = 0.7167
+  ********************
+Previous best ppl:4468843477122.669
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 62.94 	 Previous best codebleu 63.47
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 8
+  eval_ppl = 6.372820350518646e+22
+  global_step = 3673
+  train_loss = 0.477
+  ********************
+Previous best ppl:4468843477122.669
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 64.2 	 Previous best codebleu 63.47
+  ********************
+ Achieve Best bleu:64.2
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 9
+  eval_ppl = 1.2854941363723732e+27
+  global_step = 4081
+  train_loss = 0.2079
+  ********************
+Previous best ppl:4468843477122.669
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 64.33 	 Previous best codebleu 64.2
+  ********************
+ Achieve Best bleu:64.33
+  ********************
+reload model from result/tfix/1/soft7_gptneo/checkpoint-best-bleu
+BLEU file: ./data/tfix/1/test.jsonl
+  codebleu = 58.3 
+  Total = 102 
+  Exact Fixed = 14 
+[13, 31, 44, 48, 51, 61, 71, 74, 87, 91, 94, 96, 98, 101]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 102 
+  Exact Fixed = 14 
+[13, 31, 44, 48, 51, 61, 71, 74, 87, 91, 94, 96, 98, 101]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 58.3 
+[0.6629789808279482, 0.5190854538169563, 0.7004836662820749, 0.15189466770624754, 0.20080814539619513, 0.2642742735155721, 0.6576085993136389, 0.10100550846996653, 0.20750015087340595, 0.8292906179772745, 0.31941115411790316, 0.2420128528564776, 1.0, 0.7939024427877673, 0.8135156937118506, 0.7484889150381644, 0.39675296426202156, 0.7591116846422887, 0.44188182488281347, 0.08869475457310907, 0.44892910504357597, 0.28178507258525926, 0.8600057888291379, 0.8576705057568643, 0.6887796716807859, 0.6760988306532816, 0.6475259120949215, 0.45797584845834727, 0.6123040416598087, 0.41967738030894663, 1.0, 0.8191441569283882, 0.7945104051684668, 0.6579452435980097, 0.06803568473333486, 0.5634793392274073, 0.6353031368082721, 0.18304611372110685, 0.19604350080247962, 0.3733879838772607, 0.31424829693482426, 0.2067757358197851, 0.9260406910477721, 1.0, 0.5879941066816083, 0.9495565333799167, 0.8519671371303186, 1.0, 0.30261367609768847, 0.04535576197454044, 1.0, 0.511130200332312, 0.5114610048673992, 0.48492549020055464, 0.3205831851375558, 0.6957460976726255, 0.6283880928902259, 0.6863884298635612, 0.1815247883950324, 0.7568129932166521, 1.0, 0.4211930601393985, 0.70282341775094, 0.6438231263082419, 0.6530550965302279, 0.9106211210835442, 0.5459568337549684, 0.8536186510818744, 0.5418035126585234, 0.6394217885492623, 1.0, 0.20376503858638684, 0.6172706589844645, 1.0, 0.23683637774429345, 0.5479955727207041, 0.5624691290169025, 0.44432121517125955, 0.7753505981191169, 0.42956336497580716, 0.6236663076766358, 0.4961054545521633, 0.1726076513306138, 0.5516738654524967, 0.7302007404183433, 0.4356258328835842, 1.0, 0.46655222663292156, 0.0, 0.3726201535422986, 1.0, 0.32429671174355323, 0.8339326133501213, 1.0, 0.5696461788443421, 1.0, 0.10585013278367827, 1.0, 0.7871191311950005, 0.5647785789898024, 1.0, 0.6013906561105834]
+Finish training and take 2h0m

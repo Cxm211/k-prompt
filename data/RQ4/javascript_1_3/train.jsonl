@@ -1,1 +1,0 @@
-{"id": "/data/all/data/SAP/openui5", "bugType": "no-extra-boolean-cast", "problem": "\t\t\t\t\n\t\t\t\tif (!!mResult) {\n\t\t\t\t\t", "fixed": "\t\t\t\t\n\t\t\t\tif (mResult) {\n\t\t\t\t\t", "message": "Redundant double negation."}

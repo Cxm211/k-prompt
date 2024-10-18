@@ -1,0 +1,175 @@
+Namespace(log_name='./result/sstubs/2/soft0_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='result/sstubs/2/soft0_gptneo', data_dir='./data/sstubs/2', no_cuda=False, visible_gpu='0', choice=0, num_train_epochs=15, num_test_epochs=1, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=2000, max_target_length=2000, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': '};       private final HotSwapPassFactory checkAccessControls =        new HotSwapPassFactory("checkAccessControls", true) {      @Override      protected HotSwapCompilerPass createInternal(AbstractCompiler compiler) {', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is the fixed version', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '};       final HotSwapPassFactory checkAccessControls =        new HotSwapPassFactory("checkAccessControls", true) {      @Override      protected HotSwapCompilerPass createInternal(AbstractCompiler compiler) {'}]
+***** Running training *****
+  Num examples = 223
+  Batch size = 8
+  Num epoch = 15
+Namespace(log_name='./result/sstubs/2/soft0_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='result/sstubs/2/soft0_gptneo', data_dir='./data/sstubs/2', no_cuda=False, visible_gpu='0', choice=0, num_train_epochs=15, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=2000, max_target_length=2000, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': '};       private final HotSwapPassFactory checkAccessControls =        new HotSwapPassFactory("checkAccessControls", true) {      @Override      protected HotSwapCompilerPass createInternal(AbstractCompiler compiler) {', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is the fixed version', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '};       final HotSwapPassFactory checkAccessControls =        new HotSwapPassFactory("checkAccessControls", true) {      @Override      protected HotSwapCompilerPass createInternal(AbstractCompiler compiler) {'}]
+***** Running training *****
+  Num examples = 223
+  Batch size = 4
+  Num epoch = 15
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 673003.27639
+  global_step = 57
+  train_loss = 59.6701
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:673003.27639
+  ********************
+BLEU file: ./data/sstubs/2/validation.jsonl
+Namespace(log_name='./result/sstubs/2/soft0_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='result/sstubs/2/soft0_gptneo', data_dir='./data/sstubs/2', no_cuda=False, visible_gpu='0', choice=0, num_train_epochs=15, num_test_epochs=1, train_batch_size=2, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=2000, max_target_length=2000, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': '};       private final HotSwapPassFactory checkAccessControls =        new HotSwapPassFactory("checkAccessControls", true) {      @Override      protected HotSwapCompilerPass createInternal(AbstractCompiler compiler) {', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is the fixed version', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '};       final HotSwapPassFactory checkAccessControls =        new HotSwapPassFactory("checkAccessControls", true) {      @Override      protected HotSwapCompilerPass createInternal(AbstractCompiler compiler) {'}]
+***** Running training *****
+  Num examples = 223
+  Batch size = 2
+  Num epoch = 15
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 711319.51772
+  global_step = 113
+  train_loss = 46.1471
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:711319.51772
+  ********************
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 33.44 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:33.44
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 12524590.35598
+  global_step = 225
+  train_loss = 7.5868
+  ********************
+Previous best ppl:711319.51772
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 36.25 	 Previous best codebleu 33.44
+  ********************
+ Achieve Best bleu:36.25
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 75529903.26588
+  global_step = 337
+  train_loss = 5.2173
+  ********************
+Previous best ppl:711319.51772
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 42.2 	 Previous best codebleu 36.25
+  ********************
+ Achieve Best bleu:42.2
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 601020.46554
+  global_step = 449
+  train_loss = 3.3735
+  ********************
+Previous best ppl:711319.51772
+Achieve Best ppl:601020.46554
+  ********************
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 34.66 	 Previous best codebleu 42.2
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 277531.98474
+  global_step = 561
+  train_loss = 2.9716
+  ********************
+Previous best ppl:601020.46554
+Achieve Best ppl:277531.98474
+  ********************
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 39.38 	 Previous best codebleu 42.2
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 283418.09109
+  global_step = 673
+  train_loss = 2.3177
+  ********************
+Previous best ppl:277531.98474
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 35.51 	 Previous best codebleu 42.2
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 6
+  eval_ppl = 20326612577.55492
+  global_step = 785
+  train_loss = 1.5558
+  ********************
+Previous best ppl:277531.98474
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 38.5 	 Previous best codebleu 42.2
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 7
+  eval_ppl = 2400925965.59596
+  global_step = 897
+  train_loss = 1.1333
+  ********************
+Previous best ppl:277531.98474
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 37.15 	 Previous best codebleu 42.2
+  ********************
+early stopping!!!
+reload model from result/sstubs/2/soft0_gptneo/checkpoint-best-bleu
+BLEU file: ./data/sstubs/2/test.jsonl
+  codebleu = 33.34 
+  Total = 27 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 27 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 33.34 
+[0.1848688588833122, 0.3212311785691523, 0.1994097549099873, 0.18202416555030854, 0.34460272331937813, 0.1990638332299642, 0.24933223039517907, 0.31225220477535093, 0.18234622842031606, 0.24393366511177275, 0.32177967050447526, 0.44971349905106095, 0.2798530876684546, 0.2474685505914147, 0.6006243052768852, 0.31376154090975605, 0.33109255589350545, 0.59578866205818, 0.24791110277244546, 0.8755319098520675, 0.46227651893545985, 0.4635249479657181, 0.23958936859096225, 0.2474685505914147, 0.2884983956930163, 0.3143809659247624, 0.30463800120409185]
+Finish training and take 1h50m

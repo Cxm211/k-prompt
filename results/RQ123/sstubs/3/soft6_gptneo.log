@@ -1,0 +1,137 @@
+Namespace(log_name='./sstubs/3/soft6_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='sstubs/3/soft6_gptneo', data_dir='./data/sstubs/3', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=6, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1024, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Fix', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' @ConditionalOnMissingBean    RSocketServerBootstrap rSocketServerBootstrap(RSocketServerFactory rSocketServerFactory,      RSocketMessageHandler rSocketMessageHandler) {    return new RSocketServerBootstrap(rSocketServerFactory, rSocketMessageHandler.serverAcceptor());    }   }', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': 'is buggy program', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is fixed program', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '@ConditionalOnMissingBean    RSocketServerBootstrap rSocketServerBootstrap(RSocketServerFactory rSocketServerFactory,      RSocketMessageHandler rSocketMessageHandler) {    return new RSocketServerBootstrap(rSocketServerFactory, rSocketMessageHandler.serverResponder());    }   }'}]
+***** Running training *****
+  Num examples = 260
+  Batch size = 6
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.1261553870323886e+54
+  global_step = 45
+  train_loss = 53.2136
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.1261553870323886e+54
+  ********************
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 64.65 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:64.65
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 2.8966012116796756e+59
+  global_step = 89
+  train_loss = 4.7396
+  ********************
+Previous best ppl:1.1261553870323886e+54
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 57.09 	 Previous best codebleu 64.65
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 6.89780919586075e+60
+  global_step = 133
+  train_loss = 2.6919
+  ********************
+Previous best ppl:1.1261553870323886e+54
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 54.01 	 Previous best codebleu 64.65
+  ********************
+Namespace(log_name='./sstubs/3/soft6_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='sstubs/3/soft6_gptneo', data_dir='./data/sstubs/3', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=6, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1024, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Fix', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' @ConditionalOnMissingBean    RSocketServerBootstrap rSocketServerBootstrap(RSocketServerFactory rSocketServerFactory,      RSocketMessageHandler rSocketMessageHandler) {    return new RSocketServerBootstrap(rSocketServerFactory, rSocketMessageHandler.serverAcceptor());    }   }', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': 'is buggy program', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is fixed program', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '@ConditionalOnMissingBean    RSocketServerBootstrap rSocketServerBootstrap(RSocketServerFactory rSocketServerFactory,      RSocketMessageHandler rSocketMessageHandler) {    return new RSocketServerBootstrap(rSocketServerFactory, rSocketMessageHandler.serverResponder());    }   }'}]
+***** Running training *****
+  Num examples = 260
+  Batch size = 6
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.1261553870323886e+54
+  global_step = 45
+  train_loss = 53.2136
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.1261553870323886e+54
+  ********************
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 64.65 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:64.65
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 2.8966012116796756e+59
+  global_step = 89
+  train_loss = 4.7396
+  ********************
+Previous best ppl:1.1261553870323886e+54
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 57.09 	 Previous best codebleu 64.65
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 6.89780919586075e+60
+  global_step = 133
+  train_loss = 2.6919
+  ********************
+Previous best ppl:1.1261553870323886e+54
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 54.01 	 Previous best codebleu 64.65
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 2.441132433465565e+68
+  global_step = 177
+  train_loss = 1.4633
+  ********************
+Previous best ppl:1.1261553870323886e+54
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 52.63 	 Previous best codebleu 64.65
+  ********************
+early stopping!!!
+reload model from sstubs/3/soft6_gptneo/checkpoint-best-bleu
+BLEU file: ./data/sstubs/3/test.jsonl
+  codebleu = 52.1 
+  Total = 32 
+  Exact Fixed = 3 
+[3, 4, 22]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 32 
+  Exact Fixed = 3 
+[3, 4, 22]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 52.1 
+[0.9096354401872717, 0.46179559614698995, 1.0, 1.0, 0.4759176672870318, 0.6027655492055624, 0.3462725099549159, 0.24465611502124654, 0.3273444428197738, 0.32457891442509745, 0.3716431689587883, 0.6743597422927684, 0.3331525449732568, 0.26886890231076827, 0.30820853593363795, 0.9211131842675646, 0.6027256100932603, 0.6105193570013916, 0.4708301299550215, 0.3462725099549159, 0.5874940613578974, 1.0, 0.3243171130831268, 0.2523386540154097, 0.25298713295483494, 0.3382077744218448, 0.3214021513866275, 0.9052050509144789, 0.330835124827383, 0.548672862427787, 0.2585249420252466, 0.9515356830354562]
+Finish training and take 29m

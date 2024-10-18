@@ -1,0 +1,86 @@
+Namespace(log_name='./sstubs/1/soft5_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='sstubs/1/soft5_gptneo', data_dir='./data/sstubs/1', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=6, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1024, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'CLIENT.user_unpinFile(id);    }   public void worker_addCheckpoint(long workerId, int fileId, long fileSizeBytes,         String checkpointPath)             throws FileDoesNotExistException, SuspectedFileSizeException, TException {      CLIENT.worker_addCheckpoint(workerId, fileId, fileSizeBytes, checkpointPath);    }   public void worker_cachedFile(long workerId, long workerUsedBytes, int fileId,         long fileSizeBytes) throws FileDoesNotExistException, SuspectedFileSizeException, TException {      CLIENT.worker_cacheFile(workerId, workerUsedBytes, fileId, fileSizeBytes);    }', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': 'is buggy program', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is fixed program', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'CLIENT.user_unpinFile(id);    }   public synchronized void worker_addCheckpoint(long workerId, int fileId, long fileSizeBytes,         String checkpointPath)             throws FileDoesNotExistException, SuspectedFileSizeException, TException {      CLIENT.worker_addCheckpoint(workerId, fileId, fileSizeBytes, checkpointPath);    }   public synchronized void worker_cachedFile(long workerId, long workerUsedBytes, int fileId,         long fileSizeBytes) throws FileDoesNotExistException, SuspectedFileSizeException, TException {      CLIENT.worker_cacheFile(workerId, workerUsedBytes, fileId, fileSizeBytes);    }'}]
+***** Running training *****
+  Num examples = 260
+  Batch size = 6
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 9.540570818347042e+47
+  global_step = 45
+  train_loss = 57.3833
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:9.540570818347042e+47
+  ********************
+BLEU file: ./data/sstubs/1/validation.jsonl
+  codebleu-4 = 51.34 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:51.34
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 3.592122244559412e+57
+  global_step = 89
+  train_loss = 6.1825
+  ********************
+Previous best ppl:9.540570818347042e+47
+BLEU file: ./data/sstubs/1/validation.jsonl
+  codebleu-4 = 33.44 	 Previous best codebleu 51.34
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 3.6147883317913256e+62
+  global_step = 133
+  train_loss = 2.724
+  ********************
+Previous best ppl:9.540570818347042e+47
+BLEU file: ./data/sstubs/1/validation.jsonl
+  codebleu-4 = 51.07 	 Previous best codebleu 51.34
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 6.14745324705173e+67
+  global_step = 177
+  train_loss = 1.6748
+  ********************
+Previous best ppl:9.540570818347042e+47
+BLEU file: ./data/sstubs/1/validation.jsonl
+  codebleu-4 = 42.47 	 Previous best codebleu 51.34
+  ********************
+early stopping!!!
+reload model from sstubs/1/soft5_gptneo/checkpoint-best-bleu
+BLEU file: ./data/sstubs/1/test.jsonl
+  codebleu = 45.6 
+  Total = 32 
+  Exact Fixed = 1 
+[27]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 2 
+[24, 29]
+  ********************
+  Total = 32 
+  Exact Fixed = 1 
+[27]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 2 
+[24, 29]
+  codebleu = 45.6 
+[0.7058076737309978, 0.0, 0.8230182155863233, 0.32552163745659773, 0.41397169208510953, 0.6174886440528073, 0.8245023653313182, 0.3227789622272703, 0.9546221339246326, 0.21356994165550358, 0.6035987823919524, 0.504014892557122, 0.38818422975960565, 0.3386911622583303, 0.32761015956582457, 0.26039088462841725, 0.30056123606800217, 0.300353015527466, 0.2725610343528025, 0.6637704852474277, 0.8930786091585732, 0.2562225441920629, 0.32301038264306725, 0.6370357857284695, 0.2134802476244793, 0.32761015956582457, 1.0, 0.46918483806227257, 0.6370357857284695, 0.2867141874616602, 0.1928389214949712, 0.19349999996023218]
+Finish training and take 30m

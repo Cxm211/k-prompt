@@ -1,0 +1,102 @@
+modDeleted = /^!!deleted/.test(message.content);   status.answerable =!deleted && message.author!==me.id;   status.old =  Date.now()/1000 - created > chat.config.maxAgeForMessageEdition;
+return changeVisibility(drawLayer,action,factory);             case DrawLayerCntlr.CHANGE_DRAWING_DEF:
+return 'video/mp4';   default: return null;  }
+deleteRecord: function () {         var response = this._super(...arguments);
+var clear = ve.bind( function () {   this.docToSave = null;   this.clearPreparedCacheKey();
+}     }     fullType = parts[0].replace(/^\s+/, '').replace(/\s+$/, '');
+assertFunction(this);     var list     = Array.isArray(args)? args : from(args)      , instance = create(this[PROTOTYPE])      , result   = this.apply(instance, list);     return isObject(result)? result : instance;
+} else {       let x = (this.get('windoc.scrollHeight') - this.get('_initialOffsetTop'));       let y = (this.get('windoc.scrollBottom') + this.get('bottom'));       return y > this.get('bottom');
+if (!lang) {     return origCodeRender.apply(this, arguments);   }
+BS = 0x8,     ZPAD = '*'.charCodeAt(0),     OVER_AND_OUT = [ 79, 79 ],
+self.executeAction(function () {                 this.restore(state);                 this.dispatch('UPDATE_TITLE');
+app.use(koaBunyanLogger.requestLogger());       app.use(function (err, xml) {         throw new Error('oh no');
+let program = VideoCompositor.createShaderProgram(gl, vertexShaderSource, fragmentShaderSource);         return program;         gl.useProgram(program);     }
+"pod": function() {                      throw new Error("internal error, pod pod");                  },
+for (i=0, il=initEvents.length; i<il; i++) {        event = mejs.Utils.createEvent(initEvents[i], youtube);
+return { error: { message: 'Requested page does not exist on the Fritz!Box.' } }       break     case 500:
+}   }, this);   $(document).keyup(function(e) {
+sortByExpectedValue:'sortByExpectedValue',     sortBySubSetSize:'sortBySubSetSize',     sortBySetItem:'sortBySetItem'
+if(code < 0x00 || code > 0xFF)   throw new Error("Invalid FS20 code"); }
+function adjustPopupWidth(e) {              var anchor = this.options.anchor,
+const obj_node_props = value_node.properties;             const record_cells = [];                          for (let offset_r = 0; offset_r < record_count; offset_r++) {
+}             p.addCallBacks = function (onConnect, onClose, onSocketData, onError, thisObject) {                 this.onConnect = onConnect;
+}     event.returnValue = [null, guest[method].apply(guest, args)]   } catch (error) {
+this.cancel();         window.clearTimeout(this.safetyTimer);     }
+var agentparsers = regexps.browser  , agentparserslength = agentparsers.length;
+, "module/:module": "showModule" , 'actions/:action': 'doAction' , "index": "showIndex"
+onPlaybackFinished: function onPlaybackFinished(playBackRequest, response) {},
+this.on("input", msg => {             var id;
+Vex.Flow.Dot.prototype.getCategory = function() { return "dots"; } Vex.Flow.Dot.prototype.getNote = function() { return this.note; } Vex.Flow.Dot.prototype.setNote = function(note)
+$.validator.prototype.resetForm = _.wrap($.validator.prototype.resetForm, function(resetForm) {         resetForm.apply(this, _.rest(arguments));         this.collectPristineValues();
+if (this.isUpstreamOf(targetSource, currentLocation)) {
+console.log(document.cookie);         if (store.getters['security/isAuthenticated']) {
+}     return cb(null, file);
+request = new Request(tmpUrl);                                 url = request.url;
+}; }).call(void 0);
+this.set('debouncingState', true);     Ember.run.debounce(this, this.handleSearchText, wait);   }),
+var institutionsViewModel = function() {     var self = this;     self.primaryInstitution = ko.observable('None');
+height: iDocumentHeight,                         top: $(this).scrollTop() * -1                     }
+result += ':' + this.id;       default: break;     }
+} } exports.run = run;
+},  gen1uu: {   mod: 'gen1',   effectType: 'Format',
+await app.listen(3000);     return Promise.all([app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000), app.listen(3000
+this,     r.call(this, this.props, this.state, this.context)   )
+for (index = 0xF0; index <= 0xF7; index++) {   count++;
+}.bind(this);
+function clearPerformance(type){         if(!window.performance &&!window.performance.clearResourceTimings) return;         if(conf.haveAjax&&conf.haveFetch&&conf.ajaxLength==0&&conf.fetLength==0){             clear()
+}, this);             return $.when.apply($, _.compact(promises)).then(function() {                 return _.compact(arguments);             });
+insertParamTemplateInDOM(varName, paramValue, paramForShow);     }
+if (!structType) {     throw new Error("No type for " + structName);    }
+return qx.dom.DomDimension.getBoxHeight(el) - qx.dom.DomDimension.getInsetTop(el) - qx.dom.DomDimension.getInsetBottom(el);     }   } }
+case 'follow' : this.follow(target);    break;    case'stayHold' : this.stayHold(target);    break;    case 'tankFollow' : this.tankFollow(target);
+self.cnum=m.parent().index();                 }
+import { Provider } from'react-redux'; import HashHistory from'react-router/lib/HashHistory';
+return JSON.stringify(value);   }   finally {     return;   } }
+console.log("wrtc", wrtc);         throw new Error("wrtc needs to be set in headless mode");       }
+return true;         var keys = this.player.keys;         if (keys.length < 1) return false;         return true;
+"File": "File",   "Project": "Project",   "Edit": "Edit",
+let nativeFunc = new NativeFunc(type.origin, "operator cast", TypeRef.wrap(type), [], true);         nativeFunc.implementation = ([], node) => {             let result = new EPtr(new EBuffer(type.size), 0);
+import React from'react' import PropTypes from 'prop-types' import Helmet from'react-helmet' import styled, { ThemeProvider } from'styled-components'
+});     chrome.runtime.sendMessage(msg, checkRuntimeError("notifySnippetDataChanges")); }
+getDMChannel() {         return this._client.getDMChannel(...arguments);     }
+var blinnRow = new UI.Row();  var blinn = new UI.Checkbox( parameters.blinn ).onChange( update );  blinnRow.add( new UI.Text( 'Blinn-scaled' ).setWidth( '90px' ) );  blinnRow.add( blinn );
+, cache = require('./connectionCache') , ZipRequestStream = require('../phonegap/ZipRequestStream')
+if (!initData) {             throw new Error('Fatal collection connection error');         }
+);     return 0;   }
+﻿(function() {     angular        .module('shopAdmin.product')
+this[get] = function(set) {     return LinkedPoint.create(this, set,       this[getX](), this[getY](), arguments[0]);    };
+sortfn: function(a, b) { return 0; },
+var ObservationLevelModel = mongoose.model('ObservationLevel', ObservationLevel);   return {
+chart.render(seriesModel, ecModel, api);                 this._zr.add(chart.group);             }, this);
+var battr = this.sattr(this.style.border);   var width = coords.xl - coords.xi - this.iright    , height = coords.yl - coords.yi - this.ibottom;   if (!this.border || this.options.noCellBorders) return coords;
+coUtils.Debug.reportWarning(       _("%s sequence [%s] was ignored."),       "BPH", Array.slice(arguments));   },
+className: 'number',     begin: this.NUMBER_RE, end: this.IMMEDIATE_RE,     relevance: 0
+var key = String($(this).attr('id'));          set(key,$(this).val(),callback);        }
+}     properties[""] = { value: strings.join("+"), target: id };     return properties;
+.catch(function(e) {    return swal("An error ocurred", 'There was an error with the request, please check the console for more information.', "error");   })
+self.fileIndicator.textContent = 'decoding audio data...';            self.context.decodeAudioData(req.response, function(buf) {
+'use strict'; var global = require('../globals'); var groupdef = require('./group').def;
+toggleInformation: function() {             $('body').toggleClass('photo-info-visible');             settings.display_height = getDisplayHeight();
+if (hint === '_init') return false;         }
+if (newTransforms.length > 0) {    flattenedChild = JSON.parse(JSON.stringify(childInstance));    flattenedChild.transforms = newTransforms;
+};                 this.trigger('click:node', clickEvent);             });
+var request = require('../index') var http = require('http') var s = http.createServer(function (req, resp) {
+{    var a = 0;   var r;   var d = 2*this.pointRadius;
+}  const parts = pth.split(/[/\\]/);  return parts.map((el, i) => parts.slice(0, parts.length - i).join('/').replace(/^$/, '/'));
+this.health = () => coFetchJSON(basePath);   this.version = () => coFetchJSON(`${basePath}/version`);
+function accept() {         var chaninfo = {
+, util: {       iterate: util.iterate    , prettyName: util.prettyName     }
+console.dir(meta);     throw MESSAGE.META_INVALID + p;   }
+throw new Error('Unsupported complex function case');         }
+$http.get( "/i18n/" + this.userLanguage + "/" + name ).success( function( translated ) {           $rootScope.i18n[ name ] = translated;
+}).call(void 0);
+runner.test('custom plugin: invalid plugin, not a function', function () {   const renamer = new Renamer()   const options = {
+}   function includeSystemLib(name,content,options) {     switch(name) {
+break;         }       }
+g,'')      ;
+var http = require('http') , socketio = require('socket.io');
+this._sortNodeMinY = this._createSort('.bbox[1]');     this._sortNodeMaxX = this._createSort('.bbox[2]');     this._sortNodeMaxY = this._createSort('.bbox[3]');     this._toBBox = new Function('a','return [a' + format.join(', a') + '];');
+} else{       reply(message);
+}       writeResults = writeResults.concat([nlapiSubmitRecord(record, doSourcing, ignoreMandatory)]);      }
+if ( meshes.length > 0 ) {    var meshNames = [];    for ( var i = 0; i < meshes.length; i ++ ) {     mesh = meshes[ i ];
+Editable.prototype.change = function(handler) {   return this.on('change', handler); };

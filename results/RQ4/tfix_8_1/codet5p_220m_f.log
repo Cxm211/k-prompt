@@ -1,0 +1,72 @@
+Namespace(log_name='./RQ5/tfix_8_1/codet5p_220m_f.log', model_name='Salesforce/codet5p-220m', lang='javascript', output_dir='RQ5/tfix_8_1/codet5p_220m_f', data_dir='./data/RQ5/tfix_8_1', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: Salesforce/codet5p-220m
+model created!
+Total 8 training instances 
+***** Running training *****
+  Num examples = 8
+  Batch size = 8
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 100
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.01652
+  global_step = 2
+  train_loss = 2.1776
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.01652
+  ********************
+BLEU file: ./data/RQ5/tfix_8_1/validation.jsonl
+  codebleu-4 = 8.01 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:8.01
+  ********************
+
+***** Running evaluation *****
+  Num examples = 100
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 1.01149
+  global_step = 3
+  train_loss = 1.8658
+  ********************
+Previous best ppl:1.01652
+Achieve Best ppl:1.01149
+  ********************
+BLEU file: ./data/RQ5/tfix_8_1/validation.jsonl
+  codebleu-4 = 13.08 	 Previous best codebleu 8.01
+  ********************
+ Achieve Best bleu:13.08
+  ********************
+
+***** Running evaluation *****
+  Num examples = 100
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 1.00935
+  global_step = 4
+  train_loss = 1.1034
+  ********************
+Previous best ppl:1.01149
+Achieve Best ppl:1.00935
+  ********************
+BLEU file: ./data/RQ5/tfix_8_1/validation.jsonl
+  codebleu-4 = 23.78 	 Previous best codebleu 13.08
+  ********************
+ Achieve Best bleu:23.78
+  ********************
+
+***** Running evaluation *****
+  Num examples = 100
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 1.00851
+  global_step = 5
+  train_loss = 0.7663
+  ********************
+Previous best ppl:1.00935
+Achieve Best ppl:1.00851
+  ********************
+BLEU file: ./data/RQ5/tfix_8_1/validation.jsonl

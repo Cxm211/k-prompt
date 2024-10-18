@@ -1,0 +1,116 @@
+Namespace(log_name='./bugsinpy/hard6_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='python', output_dir='bugsinpy/hard6_gptneo', data_dir='./data/bugsinpy', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=2, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=2048, max_target_length=2048, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Fix', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' class Register(abc.ABCMeta):          reg = OrderedDict()          for cls in cls._reg:             if cls.run == NotImplemented:                 continue              name = cls.task_family              if name in reg and reg[name] != cls and \\', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': ' is buggy program', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': ' is fixed program', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'class Register(abc.ABCMeta):          reg = OrderedDict()          for cls in cls._reg:              name = cls.task_family              if name in reg and reg[name] != cls and \\'}]
+***** Running training *****
+  Num examples = 932
+  Batch size = 2
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 116
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 2.493652206350619e+138
+  global_step = 467
+  train_loss = 73.5838
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:2.493652206350619e+138
+  ********************
+BLEU file: ./data/bugsinpy/validation.jsonl
+  codebleu-4 = 33.47 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:33.47
+  ********************
+
+***** Running evaluation *****
+  Num examples = 116
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 6.438751140975232e+160
+  global_step = 933
+  train_loss = 36.7432
+  ********************
+Previous best ppl:2.493652206350619e+138
+BLEU file: ./data/bugsinpy/validation.jsonl
+  codebleu-4 = 38.22 	 Previous best codebleu 33.47
+  ********************
+ Achieve Best bleu:38.22
+  ********************
+
+***** Running evaluation *****
+  Num examples = 116
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 5.797031979427973e+176
+  global_step = 1399
+  train_loss = 20.9178
+  ********************
+Previous best ppl:2.493652206350619e+138
+BLEU file: ./data/bugsinpy/validation.jsonl
+  codebleu-4 = 56.19 	 Previous best codebleu 38.22
+  ********************
+ Achieve Best bleu:56.19
+  ********************
+
+***** Running evaluation *****
+  Num examples = 116
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 4.56183619232319e+186
+  global_step = 1865
+  train_loss = 13.3167
+  ********************
+Previous best ppl:2.493652206350619e+138
+BLEU file: ./data/bugsinpy/validation.jsonl
+  codebleu-4 = 42.12 	 Previous best codebleu 56.19
+  ********************
+
+***** Running evaluation *****
+  Num examples = 116
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 1.6586004912277744e+190
+  global_step = 2331
+  train_loss = 8.5739
+  ********************
+Previous best ppl:2.493652206350619e+138
+BLEU file: ./data/bugsinpy/validation.jsonl
+  codebleu-4 = 39.27 	 Previous best codebleu 56.19
+  ********************
+
+***** Running evaluation *****
+  Num examples = 116
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 7.151147681800231e+197
+  global_step = 2797
+  train_loss = 5.4102
+  ********************
+Previous best ppl:2.493652206350619e+138
+BLEU file: ./data/bugsinpy/validation.jsonl
+  codebleu-4 = 44.43 	 Previous best codebleu 56.19
+  ********************
+early stopping!!!
+reload model from bugsinpy/hard6_gptneo/checkpoint-best-bleu
+BLEU file: ./data/bugsinpy/test.jsonl
+  codebleu = 57.85 
+  Total = 122 
+  Exact Fixed = 6 
+[24, 27, 34, 73, 114, 116]
+  Syntax Fixed = 1 
+[62]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 122 
+  Exact Fixed = 6 
+[24, 27, 34, 73, 114, 116]
+  Syntax Fixed = 1 
+[62]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 57.85 
+[0.6728230800934798, 0.7258752269270723, 0.3039277323421046, 0.48063267329238324, 0.8525999864071496, 0.6975822390656741, 0.30442200493143956, 0.34770480246085267, 0.8300638244826566, 0.5594607470375661, 0.29327639469377137, 0.8696559733332228, 0.3322727369860096, 0.2992721520448997, 0.21535497176435928, 0.29898105424540294, 0.6883720951974961, 0.1606046123320944, 0.8971695160234401, 0.7163917333052661, 0.6413921957402942, 0.7443181170763433, 0.15298516021758465, 1.0, 0.4415752814554111, 0.794717001187734, 1.0, 0.3841022958839907, 0.5935806966409888, 0.20145253436752053, 0.8350211214931978, 0.9474759345795825, 0.6463314435601131, 1.0, 0.5260690126182694, 0.31879609018194305, 0.5169615234265608, 0.56458288890778, 0.13079384693432175, 0.3688360643960851, 0.8013018583119556, 0.8703246706459902, 0.3240773461488941, 0.9142445273649933, 0.7093853536262804, 0.675740026717099, 0.5617395882790057, 0.2850088642841101, 0.47832984637995934, 0.6242275051672941, 0.09538349641830376, 0.2908656117708026, 0.5606775028434833, 0.5242755074509621, 0.2316611366646971, 0.3760862837986525, 0.6649069123495633, 0.3242406586526494, 0.2189534974682885, 0.27150450594922587, 0.5277896005782767, 0.9583492948000167, 0.23865695013302923, 0.23103174412663643, 0.28434952437335814, 0.6838158897013491, 0.19128115020325254, 0.6026966865919932, 0.5037077119806818, 0.784673724233233, 0.7191182531592668, 0.7531797171538064, 1.0, 0.2538789271845024, 0.6530224530296921, 0.6756542761877862, 0.8434652034268404, 0.5297128891077689, 0.3031200238102166, 0.6252457102302604, 0.6347015609554569, 0.6426255463421033, 0.49150427670545643, 0.8096114788906146, 0.774408309009629, 0.2238050628189675, 0.739210189689413, 0.6111812549498449, 0.46152111609445806, 0.19574373123285624, 0.8070651701346618, 0.8853004704636518, 0.884250182279102, 0.7164493834577911, 0.4855984031112538, 0.8807926879441415, 0.5645294574169368, 0.31347446903856596, 0.9178662308912058, 0.8348357729374873, 0.8021170040829606, 0.19045698102380523, 0.8527547497767987, 0.8219215004998028, 0.30251142195409353, 0.8898352374565617, 0.8754861943073293, 0.7295586116525126, 0.2755350785645831, 0.7884485258508804, 0.2872544319043352, 0.7304967345008905, 0.7639654153934541, 1.0, 0.8107806147142924, 0.9399649879642329, 0.15422700292840696, 0.2112006349568351, 0.8631855387221548, 0.4736753779802476, 0.6784549229254451, 0.7371412629595069]
+Finish training and take 6h3m

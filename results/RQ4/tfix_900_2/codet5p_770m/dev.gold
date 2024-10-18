@@ -1,0 +1,100 @@
+var failedCount = 0; for (var i = 1; i < testFiles.length; i++) {     testCount++;
+redrawDataPoints: function (duration) {       var _this = this;       if (duration == null) duration = _this.duration;
+adjusted_scale : this.adjusted_scale,  asset_swf_v : "\/c2.glitch.bz\/items\/2011-02\/1296877952-8312.swf",  admin_props : false,
+portarray.push(port.port);             }         });
+Ti.API.info("BouncyLogo animating on re-orientation " + Ti.Gesture.orientation + " (" + w + "x" + h + ")");     animation.chainAnimate($.imageview, chain); } exports.relayout = BouncyLogoRelayout;
+}    event.stopPropagation();   }
+log.error(LOGGING_CATEGORY, err.stack);                         callback(err);                     }
+result = http.responseText;                result = result.replace(/[\n\r]/g,"");
+ms.push(f(inst));   }   return ms;
+balances.totalBalanceSatoshis.should.greaterThan(50 * 1e8)       })     })
+_self.debug("debug: system reset");    systemReset();
+it("should be compression filter info ", function(done) {             const group   = file.openGroup('pmc/refinement');
+return screen; } export var run = function run() {
+var ctx = Display.context.backgroundCam;    ctx.drawImage(camCache,0,0);
+toggleVis.call(this, $(children[i].li), show && !closed);         }     }
+value: function doKeyCompression() {             return !this.jsonID.disableKeyCompression;         }
+init: function( elems ) {         this.length = 0;
+const outerMiddleware = props.middleware || (dispatch => dispatch);   let subscriptions = undefined;
+this.getstate = function(select) {   var sel = this.files(select),    cnt = sel.length;
+if (callbackName && angular.isFunction(originalCallback)) {         originalCallback(...arguments);       }
+case 'service':           template = this.templates.service.trim();         case 'mp':
+import React from 'react'; import { Row } from 'react-materialize'; import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+, TOKEN_SENTINEL = "T1=="   , API_HOST = "api.opentok.com"   , SESSION_API_ENDPOINT = "/hl/session/create"
+static innerAngle(n) {         return MathHelper.toRad((n - 2) * 180 / n);     }
+var NeDB = require('nedb');   db = new NeDB({filename: this.getDBFile(dbname), autoload: true});   db.ensureIndex({fieldName: 'id', unique: true}, function(e) {
+this.$get = function($log, $injector) {     var loadedPlugins = [];
+const mbtiles = new MBTiles(filepath)
+var references = [       Dash.makeReference('s1.mp4', 1, 50, 60),       Dash.makeReference('s2.mp4', 2, 60, 65)     ];
+beer.is_weekend = function() {         var now = new Date;
+if ($(this).text() === valueToEdit) {           return input.find('option[value=' + valueToEdit + ']').prop('selected', true);         }
+}));       app.use(function () {         throw new Error('uh oh');
+fetchSchedulesAndInitializeCart,     updateScheduleOnBackend
+ex = _error;         this.handleError(ex);         return "";
+events.forEach(function(ev) {         audio.addEventListener(ev, function pusher() {           audio.removeEventListener(ev, pusher, false);           present.push(ev);
+}     return moduleIdsWithLocales;
+return args;             });           }
+} else {     log.error(usage)     return process.exit(1)   }
+'use strict';
+this.listenersNeedCloning = false;      }
+sheets.Sheet1 = opts;  }
+} else {                         that.setValid( $input, 'required' );                         if ( typeof validCons !== 'undefined' && validCons === false ) {
+import Link from 'next/link'; import formatDate from 'date-fns/format';
+var ctor = function () {
+stage.all()  if (app.build) build()
+async function main() {   Object.keys(projects).forEach((projectName) => {     const project = projects[projectName];
+throw 'Seeding only available in development environment'; }
+}; const addUser = async data => {  const debug = Debug('addUser');
+const normalize = (str) => str.replace(/[\/]+/g, '/').replace(/\/\?/g, '?').replace(/\/\#/g, '#').replace(/\:\ const urljoin = function(...args) {     let joined = [].slice.call(args, 0).join('/');     return normalize(joined);
+process.env = process.env || {};
+{ change: (m, p) => m[p] = 0,         result: () => '0' },       { change: (m, p) => m[p] = false,     result: () => 'false' },       { change: (m, p) => m[p] = true,      result: () => 'true' },
+Joose.O.each(this.properties, function (property, name) {             if (property != null) func.call(scope, property, name)         })
+outModule = new global.Module({ 'default': g.module.exports });                 for (var i = 0; i < nodeGlobals.length; i++)                   delete g[nodeGlobals[i]];                 return outModule;
+return [state];       }       case 'Parallel': {         const parallelStates = _.flatMap(state.Branches, branch => _.values(branch.States));         return getTaskStates(parallelStates);
+import './_documents_index_item.html'; Template.documentsIndexItem.onCreated(function() {   this.getDocumentId = () => Template.instance().data.document._id; });
+return {         x: bezier(...x),         y: bezier(...y)     };
+that.saveKeyFromCore("pre_" + filename);             },
+adjusted_scale : this.adjusted_scale,  asset_swf_v : "\/c2.glitch.bz\/items\/2012-04\/girder-1334351931.swf",  admin_props : false,
+logger.info('foo');       }, is.throwing('UUID is missing.'));     });
+import {     pagination as PaginationActions } from "../../actions";
+useEffect(() => {         const missingData = _.difference(value, Object.keys(identifierMap));
+Mk.each(this, d.events, function (t, v) {             Dom.off(n, t);         });
+s.supportBigNumbers = (s.supportBigNumbers || false);     s.timezone = (s.timezone || 'local');     if(!isNaN(s.connectionLimit)) {         s.connectionLimit = 10;
+];   return Mink.metaStep(Driver, stepsArray, callback); }
+if (values['Timeless'])             {
+configServer.on("rule_changed",function() {                                      })
+, lib      = require('../lib/lib.js') describe('lib.js', function () {
+matches.param('match_id', function(req, res, next, id) {     redis.get("match:" + id, function(err, reply) {         if (!err && reply) {             console.log("Cache hit for match " + id);
+p1y = positions[i1 * 3 + 1],                     p2y = positions[i2 * 3 + 1],                     p3y = positions[i3 * 3 + 1],                     p1z = positions[i1 * 3 + 2],
+return tQuery(mesh); });
+init(services, args);  }
+function log () {     }
+{  this.body.is_static = value; }
+const c = h.beginMutation();         for (let i = 0, len = order.length; i < len; ++i)             hamt_plus.remove(keys[order[i]], c);
+render() {     const { priority } = this.props;
+}); } function validateSuccess() {   return INSTANCE.getInitialState();
+constructor(defaults) {         super(defaults);
+if ( count == 0 ) {      return;
+yAxes: [{                                          gridLines: {                         zeroLineColor: "transparent",
+that._select(current);             if (!that._options.html) {                 that.el.value = (current !== -1) ? that._suggestions[current] : that._currentQuery;
+CLICK_FIELDS_FOOTER: 'Klicken Sie auf Felder, um sie hier hinzuzufügen',   IF_THIS_FIELD: 'Wenn dieses Feld',
+this.setTime(this.el.value);  }
+var util = require( 'util' )     , glob = require( 'glob' )
+}   return esPhase;
+}; }); gantt.directive('ganttScrollSender', ['$timeout', function($timeout) {
+chrome.runtime.sendMessage({
+if(n === 0 && !UNIT_TEST_REGEX.test(result[1])) {         throw new QtyError("Unit not recognized");       }
+regex_strip = regex("[^a-z0-9 ]"),                   regex_space = regex("[-/]"),                   regex_vowel = regex("[aeiouy]");
+Template.qqslider.onRendered(function() {          let updateValue = function(elem, value) {
+it('should merge properties', function(done){     app1.use(function(ctx, next){       assert.equal(ctx.msg, 'hello');
+"px 0 0 " + ((rect.width - 16 * GU) / 2) + "px";   };   window.addEventListener('resize', demo.resize);
+this[PromiseValue] = error;     delayToNextTick(this); }
+opera: setVersion('opera', elementData),         safari: setVersion('safari', elementData),         ie: setVersion('ie', elementData),     }; };
+adjusted_scale : this.adjusted_scale,  asset_swf_v : "\/c2.glitch.bz\/items\/2012-08\/toy_star_2-1343854076.swf",  admin_props : false,
+function(comment){     return comment.replace(/<(\/?)script\b/ig,"&lt;$1Script");    }
+sakai_global.contentauthoring.isDragging = false;                     $("div.ui-resizable-iframeFix").remove();                  }
+};    gamejs.time.interval(tick); }
+} var LazyKeyedSequence = function LazyKeyedSequence(value) {   return arguments.length === 0 ? emptySequence().toKeyedSeq() : KeyedIterable(value).toSeq(); };
+lpCache.cache(parentKey).then(function(parents) {       $scope.parentList = childSelect.parentFilter(parents);       if ($scope.parentList.length) {
+proto.throw = function (status, msg, opts) {   throw this.createError(status, msg, opts) }
+throw new Error('options.host and options.port or options.target are required.');   }

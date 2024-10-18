@@ -1,0 +1,157 @@
+Namespace(log_name='./result/sstubs/2/soft9_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='result/sstubs/2/soft9_gptneo', data_dir='./data/sstubs/2', no_cuda=False, visible_gpu='0', choice=9, num_train_epochs=10, num_test_epochs=1, train_batch_size=2, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=2000, max_target_length=2000, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Please fix an buggy program', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' };       private final HotSwapPassFactory checkAccessControls =        new HotSwapPassFactory("checkAccessControls", true) {      @Override      protected HotSwapCompilerPass createInternal(AbstractCompiler compiler) {', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': 'the bug type is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' Change Modifier', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '.', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': 'the abstract syntax tree of bug line before fixing is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' 18', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': 'the fixed version is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '};       final HotSwapPassFactory checkAccessControls =        new HotSwapPassFactory("checkAccessControls", true) {      @Override      protected HotSwapCompilerPass createInternal(AbstractCompiler compiler) {'}]
+***** Running training *****
+  Num examples = 223
+  Batch size = 2
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 2887264207835770.5
+  global_step = 113
+  train_loss = 35.5457
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:2887264207835770.5
+  ********************
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 86.48 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:86.48
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 1.5386024591704195e+20
+  global_step = 225
+  train_loss = 5.6875
+  ********************
+Previous best ppl:2887264207835770.5
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 95.5 	 Previous best codebleu 86.48
+  ********************
+ Achieve Best bleu:95.5
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 8.694178300796575e+21
+  global_step = 337
+  train_loss = 3.2308
+  ********************
+Previous best ppl:2887264207835770.5
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 92.94 	 Previous best codebleu 95.5
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 4.518217336601007e+25
+  global_step = 449
+  train_loss = 2.2401
+  ********************
+Previous best ppl:2887264207835770.5
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 93.01 	 Previous best codebleu 95.5
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 2.8701003086415616e+28
+  global_step = 561
+  train_loss = 2.1154
+  ********************
+Previous best ppl:2887264207835770.5
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 95.84 	 Previous best codebleu 95.5
+  ********************
+ Achieve Best bleu:95.84
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 1.0667481131617425e+33
+  global_step = 673
+  train_loss = 0.8473
+  ********************
+Previous best ppl:2887264207835770.5
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 96.04 	 Previous best codebleu 95.84
+  ********************
+ Achieve Best bleu:96.04
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 6
+  eval_ppl = 1.1060898088982616e+32
+  global_step = 785
+  train_loss = 0.7132
+  ********************
+Previous best ppl:2887264207835770.5
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 96.04 	 Previous best codebleu 96.04
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 7
+  eval_ppl = 5.4105272765213285e+35
+  global_step = 897
+  train_loss = 0.3926
+  ********************
+Previous best ppl:2887264207835770.5
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 96.04 	 Previous best codebleu 96.04
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 8
+  eval_ppl = 2.9968266917777903e+37
+  global_step = 1009
+  train_loss = 0.1506
+  ********************
+Previous best ppl:2887264207835770.5
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 96.04 	 Previous best codebleu 96.04
+  ********************
+early stopping!!!
+reload model from result/sstubs/2/soft9_gptneo/checkpoint-best-bleu
+BLEU file: ./data/sstubs/2/test.jsonl
+  codebleu = 94.75 
+  Total = 27 
+  Exact Fixed = 17 
+[1, 3, 4, 5, 6, 7, 9, 10, 11, 13, 14, 15, 19, 21, 22, 24, 26]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 27 
+  Exact Fixed = 17 
+[1, 3, 4, 5, 6, 7, 9, 10, 11, 13, 14, 15, 19, 21, 22, 24, 26]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 94.75 
+[1.0, 0.9261420415269246, 1.0, 1.0, 1.0, 1.0, 1.0, 0.8476460351025821, 1.0, 1.0, 1.0, 0.7032463562196102, 1.0, 1.0, 1.0, 0.8947836446510709, 0.9601466755014141, 0.9325400085710811, 1.0, 0.8755319098520675, 1.0, 1.0, 0.6577095841418729, 1.0, 0.8658230311280162, 1.0, 0.9179855428506689]
+Finish training and take 26m

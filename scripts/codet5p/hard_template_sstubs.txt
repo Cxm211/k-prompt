@@ -1,0 +1,10 @@
+{"placeholder":"text_a"} {"mask"} is the fixed version
+{"placeholder":"text_a"} the fixed version is {"mask"}
+Fix the bug in {"placeholder":"text_a"} {"mask"}
+Fix {"placeholder":"text_a"} fixed program is {"mask"}
+Fix {"placeholder":"text_a"} {"mask"} is fixed program
+{"placeholder":"text_a"} is buggy program {"mask"} is fixed program
+Fix {"placeholder":"text_a"} is buggy program {"mask"} is fixed program
+Please fix a buggy program {"placeholder":"text_a"} the bug type is {"meta":"bugType", "shortenable":False} {"mask"} is the fixed version
+Please fix a buggy program {"placeholder":"text_a"} the abstract syntax tree of bug line before fixing is {"meta":"sourceBeforeFix", "shortenable":True} {"mask"} is the fixed version
+Please fix a buggy program {"placeholder":"text_a"} the bug type is {"meta":"bugType", "shortenable":False} the abstract syntax tree of bug line before fixing is {"meta":"sourceBeforeFix", "shortenable":True}  {"mask"} is the fixed version

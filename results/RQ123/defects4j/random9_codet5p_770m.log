@@ -1,0 +1,173 @@
+Namespace(log_name='./result/defects4j/random11_codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='java', output_dir='result/defects4j/random11_codet5p_770m', data_dir='./data/defects4j', no_cuda=False, visible_gpu='0', choice=11, num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Please fix a buggy program', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' static TernaryValue getImpureBooleanValue(Node n) {          return TernaryValue.TRUE;        default:          return getPureBooleanValue(n);', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': 'taking repair actions', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' Conditional (case in switch) branch addition, Conditional (if) branch addition, Method call addition, Return statement addition, ', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': 'following repair patterns', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' Conditional block addition with return statement,Wraps-with if statement,', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is the fixed version', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'static TernaryValue getImpureBooleanValue(Node n) {          return TernaryValue.TRUE;       case Token.VOID:         return TernaryValue.FALSE;        default:          return getPureBooleanValue(n);'}]
+***** Running training *****
+  Num examples = 502
+  Batch size = 4
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 8.939760715540079e+238
+  global_step = 127
+  train_loss = 42.2847
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:8.939760715540079e+238
+  ********************
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 78.15 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:78.15
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 1.6664403825423525e+242
+  global_step = 253
+  train_loss = 22.8013
+  ********************
+Previous best ppl:8.939760715540079e+238
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 76.85 	 Previous best codebleu 78.15
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 1.9759084808571748e+236
+  global_step = 379
+  train_loss = 12.4719
+  ********************
+Previous best ppl:8.939760715540079e+238
+Achieve Best ppl:1.9759084808571748e+236
+  ********************
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 77.87 	 Previous best codebleu 78.15
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 5.740232046650125e+229
+  global_step = 505
+  train_loss = 7.2715
+  ********************
+Previous best ppl:1.9759084808571748e+236
+Achieve Best ppl:5.740232046650125e+229
+  ********************
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 77.95 	 Previous best codebleu 78.15
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 7.681187452060839e+228
+  global_step = 631
+  train_loss = 3.8358
+  ********************
+Previous best ppl:5.740232046650125e+229
+Achieve Best ppl:7.681187452060839e+228
+  ********************
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 77.22 	 Previous best codebleu 78.15
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 5.706363882563438e+227
+  global_step = 757
+  train_loss = 2.0514
+  ********************
+Previous best ppl:7.681187452060839e+228
+Achieve Best ppl:5.706363882563438e+227
+  ********************
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 75.82 	 Previous best codebleu 78.15
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 6
+  eval_ppl = 3.462976716908533e+229
+  global_step = 883
+  train_loss = 1.1903
+  ********************
+Previous best ppl:5.706363882563438e+227
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 74.15 	 Previous best codebleu 78.15
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 7
+  eval_ppl = 7.0558734874791356e+227
+  global_step = 1009
+  train_loss = 0.7364
+  ********************
+Previous best ppl:5.706363882563438e+227
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 75.74 	 Previous best codebleu 78.15
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 8
+  eval_ppl = 1.4758775595831883e+227
+  global_step = 1135
+  train_loss = 0.5288
+  ********************
+Previous best ppl:5.706363882563438e+227
+Achieve Best ppl:1.4758775595831883e+227
+  ********************
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 74.26 	 Previous best codebleu 78.15
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 9
+  eval_ppl = 2.999875925170102e+227
+  global_step = 1261
+  train_loss = 0.368
+  ********************
+Previous best ppl:1.4758775595831883e+227
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 72.84 	 Previous best codebleu 78.15
+  ********************
+reload model from result/defects4j/random11_codet5p_770m/checkpoint-best-bleu
+BLEU file: ./data/defects4j/test.jsonl
+  codebleu = 73.89 
+  Total = 64 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 64 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 73.89 
+[0.7977509497997374, 0.8318588019770055, 0.6873740073884191, 0.8870317711504849, 0.889761361495617, 0.6007163503048495, 0.6576252123917807, 0.8681777725936917, 0.7384479435491496, 0.8224642580186448, 0.7460644293721668, 0.6451687939127737, 0.8721125152975062, 0.877572165029932, 0.8866626937665041, 0.7272724940853781, 0.8942881497815913, 0.8961434726030306, 0.943022075447772, 0.8459463132957461, 0.7398507191925657, 0.694567588964678, 0.7128662108317476, 0.8693059718827794, 0.8734502199950254, 0.863021098885395, 0.29382668054195576, 0.7694729472672909, 0.6410378892354339, 0.8899407308130634, 0.7011143192662692, 0.5470596690445572, 0.7176189204658862, 0.8232523732318835, 0.8727340070600411, 0.2278073711933374, 0.8158461676559928, 0.7904665899488785, 0.9199440403895656, 0.5867361587787473, 0.7958826511929267, 0.3788321486588963, 0.8899407308130634, 0.3205070115741946, 0.6316733772548883, 0.608152569118488, 0.8295509438760991, 0.8254084390841356, 0.8028172817807042, 0.8924644874204966, 0.8365049773284279, 0.8772101276126214, 0.8096645620006775, 0.6930827608711253, 0.9199440403895656, 0.5448048686005305, 0.5216692025787918, 0.6912604340084573, 0.8683105217761831, 0.8438720692633894, 0.595153561733246, 0.7329903885524013, 0.46390994156004267, 0.4505805633681657]
+Finish training and take 27m

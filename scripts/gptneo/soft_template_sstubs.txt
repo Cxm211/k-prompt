@@ -1,0 +1,10 @@
+{"placeholder":"text_a", "shortenable":True} {"mask"} {"soft": "is the fixed version"}
+{"placeholder":"text_a", "shortenable":True} {"soft": "the fixed version is"} {"mask"}
+{"soft": "Fix the bug in"} {"placeholder":"text_a", "shortenable":True} {"mask"}
+{"soft": "Fix"} {"placeholder":"text_a", "shortenable":True} {"soft": "fixed program is"} {"mask"}
+{"soft": "Fix"} {"placeholder":"text_a", "shortenable":True} {"mask"} {"soft": "is fixed program"}
+{"placeholder":"text_a", "shortenable":True} {"soft": "is buggy program"} {"mask"} {"soft": "is fixed program"}
+{"soft": "Fix"} {"placeholder":"text_a", "shortenable":True} {"soft": "is buggy program"} {"mask"} {"soft": "is fixed program"}
+{"soft": "Please fix an buggy program"} {"placeholder":"text_a", "shortenable":True} {"soft": "the bug type is"} {"meta":"bugType", "shortenable":True}. {"soft": "the fixed version is"} {"mask"}
+{"soft": "Please fix an buggy program"} {"placeholder":"text_a", "shortenable":True} {"soft": "the abstract syntax tree of bug line before fixing is"} {"meta":"sourceBeforeFix"} {"soft": "the fixed version is"} {"mask"}
+{"soft": "Please fix an buggy program"} {"placeholder":"text_a", "shortenable":True} {"soft": "the bug type is"} {"meta":"bugType", "shortenable":True}. {"soft": "the abstract syntax tree of bug line before fixing is"} {"meta":"sourceBeforeFix"} {"soft": "the fixed version is"} {"mask"}

@@ -1,0 +1,102 @@
+if (!block) throw new Error('Block not found')     if (!!req.query.transactions) {       const transactions = await app.sdb.findAll('Transaction', {
+if (currentBranch.votePeriod === (currentPeriod - 1)) {         var percentComplete = ((currentBranch.currentPeriod - currentPeriod) * 100).toFixed(3);       } else {
+if( !isNamespace(namespace) ) {     throw 'Invalid namespace provided for broadcastAs() observable.';   }
+_.each(state, function(value, key) {                 this.key_value_lock = [key, value];                 try {
+} else {         throw("unexpected context: name='" + context.name + "' type=" + context.type);     }
+document.body.appendChild(dummy);    if (true || dummy.getBoundingClientRect().width !== window.innerWidth - 100) {     (function(calcs) {
+{ "namespaceqpp_1_1internal.html":[2,0,0,1], "namespaceqpp_1_1internal.html":[1,0,0,2], "namespaceqpp_1_1literals.html":[1,0,0,3],
+itemClick() {         console.log("this.props click", this.props)         FSBL.Clients.SearchClient.invokeItemAction(this.props.app, this.props.app.actions[0]);
+newProps[e.target.name] = e.target.checked;         this.props.onChange(newProps);     }),
+var expect = require('chai').expect   , husk = require('../..')   , assert = require('husk-assert'); describe('husk:', function() {
+data.eachItemGraphicEl(function (el, idx) {                 el.z = this.z;                 var itemModel = data.getItemModel(idx);
+} export async function getByOrganization(parentValue, {}, { auth }) {   if(auth.user && auth.user.id) {
+crypto.randomBytes(8, function(err, bytes_slow_buf) {       if (err) { return cb(err); }       unsigned_int = Buffer(bytes_slow_buf).readUInt32LE(0);
+if ((state.activity === 'playing') && (state.history.lastVisited[kind] === index)) {         debugger;         return false;
+armBuild();                             return Q();                             break;                         case 'x86':
+;(async () => {  browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'] })
+this.on('afterrender', function() {     debugger;     this._onSet();
+}; function printError() {   console.error('INVALID COMMIT MSG: ' + util.format.apply(null, arguments)); }
+constructor(model) {   super(...arguments);   this.model = model;   this.shortcutOff = null;
+_uploadTask: task(function * (blob, url, resolve, reject) {     try {
+const controller = function (Base, $element, utils, user, $attrs) {         class DexBlock extends Base {
+SignatureEngine.prototype.unbox = function(msg, cb, opts) {       var eng, esc, literals, msg, payload, ___iced_passed_deferral, __iced_deferrals, __iced_k;       __iced_k = __iced_k_noop;
+if (result.implicitResults && !executeOpts.resultSet) {         function processImplicitResult(ix) {           const resultSet = result.implicitResults[ix];
+jQuery.sap.clearDelayedCall(this.oLoadEvent);   }   if(!!this.oFailedEvent){    jQuery.sap.clearDelayedCall(this.oFailedEvent);
+that.emit('frame_navigation_state', my.frames[from], state);         console.log(JSON.stringify(state));       });
+} else {      var func = arguments.callee.bind(this);      return fileClient.fetchChildren(launchConfDir.ChildrenLocation).then(function(children) {
+__dirname = '.'; }; describe('Test 261 SqlLogic Parser Test #4', function() {
+}             return arguments[index].apply(this, args);         };
+parsers.push(wv.data.parse);         };
+export class AnyExcept extends Quantifier {     constructor(tokenTypes) {         this.tokenTypes = tokenTypes;
+return _ENCODE_HTML_RULES[c] || c; };
+name:'ngAnimate',                       files:['/apollo/ui/bower_components/angular-animate/angular-animate.js']                     })                     $ocLazyLoad.load(                     {
+return L.CRS.EPSG4326;       break;       default:
+if (this.mainHandle) middleware.push(toThunkableFn(this.mainHandle))   middleware.push(function (done) { this.seq(this.onPreEnd)(done) })
+if( isArray ) {     options.subType = !!type.length ? type : null     type = 'Array'
+$('#lighthouseKeepLogin').on('click', function() {   console.log("Lighthouse: Storing KeepAlive Setting:"+this.checked);   chrome.storage.sync.set({
+(function( scope ) {     M.DialogView = M.View.extend({
+, clone: function() {       return new SVG.Matrix(this)
+describe('repeatEvery', function() {     var job = new Job();;     it('sets the repeat interval', function() {
+function initiateTableFilter(data, filterDiv, tableDiv) {   $('.clear').on("click", function() {      console.log(this)     $(this.id + ".noMatches").css("visibility", "hidden")
+function _computeUvs() {         var tiles = this._tiles;
+if(!jsClient) { var jsClient = new Object(); }
+]).then(function(data){       result = data[0].rows       pkeys = data[1].rows.map(function(r){         return r.attname
+HTMLMediaElement.prototype.play = function() {       let p = originalPlay.apply(this, arguments);       if (p) {
+callback(null, json.objectIds)   }.bind(this)) }
+'use strict'; var Joi = require('joi') , _ = require('lodash'); module.exports = function (schema) {
+var desired_format     , method_name     , length = arguments.length     , callback =  createCallback.apply(null, Array.prototype.slice.call(arguments) )     ,err
+g, '').replace('#', ''));             }
+output = command.split('=>')[1];    var ouptupCache = this.getBlockOutput(String(this.name));    params = ouptupCache[name];
+class Sock extends EventEmitter {   constructor(ws) {     this.ws = ws
+}       case 'balance':         return this.formatCurrency(this.data.totalReceived[this.currency] - this.data.totalSpent[this.currency], this.data.keyspace)
+return false;                 break;
+tagInsertMap.sort(function(a, b) {     if (a[0] > b[0]) { return 1; };     if (a[0] < b[0]) { return -1; };     return 0;
+.replace('$date', date);             console.log('key ' + key);             client.hgetall(key, function(err, hash) {
+$("#wait1").css("display", "none");      showStatsData(response);    },    dataType : "json"   });
+'weekday' : $(this).index() + self.options.startIn,         'weekdayname' : self.options.weeks[($(this).index() == 6 ? 0 : $(this).index() + self.options.startIn)],         'data' : data
+this.status = 400; };
+return value;   };
+this.AlertService = $injector.get('AlertService');     this.HostHistoryService = $injector.get('HostHistoryService');     this.ClusterService = $injector.get('ClusterService');
+if (settings.slides.length) {      $(this).rsfSlideshow('addSlides', settings.slides);      settings.slides = Array();
+else {                 throw 'i18next is not loaded';             }         };
+var p = ary[i];             p.X = p.X;             p.Y = p.Y - diffT;             newAry.push(p);
+var consoleNode, msie,     VALUE             = 'value',     NOOP              = 'noop',
+click: Y.bind(function() {                             var libraries = this.scripts ? this.scripts.get('val') : {};                             this.currentScriptName = prompt('Enter a name:');
+var util = require('util')   , concat = require('concat-stream')   , ImageUtils = require('../imageUtils');
+return;             }             if (!goog.object.containsKey(pred, w)) {               forward_fringe.push(w);
+}     OH(KxA(solve[o](i0v,questionA())));
+, powerwalk = require('powerwalk')     , content = path.resolve(haiku.options.src, haiku.options['content-dir'])
+}   };   return { time : time, price : zigzag };
+, crypto = require('crypto')   , net = require('net')   , sasl = require('./sasl')   , fs = require('fs')
+var pollers = require('./pollers'); var settings = require('../settings'); var hooks = require('./hooks');
+var escapeRegExp = function (str) {     return str.replace(/[\[\]\{\}\(\)\*\+\?\^\$\|]/g, "\\$&"); };
+var v = req.param('v');   if(!v || !v.match(/201[0-9]\-[0-9]{2}\-[0-9]{2}\-[0-9]{2}\-[0-9]{2}\-[0-9]{2}/))     return res.send(400,"Invalid video id");      var thumbnail = '/'+THUMBNAILS_DIR + v + '.jpg';
+var orig = qx.bom.element.Style.getComputed(element, "overflow");
+if (that.pullUpToRefresh) {    var loading = that.pullUpEl.className.match('loading');    if (loading && !that.contentReady) {
+test('user bind Int', function (test_done) {     var params = {
+this.testInt = function () {     var byTor;
+widgetOk = widget.querySelector('.pf-widget-ok'),       widgetReco = widget.querySelector('.pf-content-unit'),       core = this;
+callback.apply(null, arguments);     }
+/>);                 break;             case 'user':
+var flows = this.get('elements.Flow').content;    var toSend = toReceive = flows.length;    if (!toSend) {
+debug('reading response\'s body')   var buffers = []     , bufferLength = 0     , strings = []
+{                 $(this).parent().parent().find('label').removeClass('active');             }
+store = vmDetail.getStore(),              tokens, binding, highlight, store, root, targets, highlighted;
+has_notebook_info: function(gistname) {             return this.model_.has_notebook_info(gistname); o        },
+var expression = self.interpolateExpressionVariables(expression, options.scopedVars);                 query.expression = query.expression.concat(expression);
+beforeEach(function () {     this.events.select = function(evt) { evt.preventDefault() };     $.on(this.subject.input, "awesomplete-select", this.events.select);    });
+mc = PrimeFaces.util.MessageContext,             locale = PrimeFaces.locales[PrimeFaces.settings.locale];
+logger.debug('claimModuleAccess', moduleName, mode);       if(! moduleName in modules) {         throw "Module not defined: " + moduleName;
+var space2View = space2.write(document);
+var URL;
+while (parent = parent.parent) {           nestedIncludes = [_.extend({}, child, { include: nestedIncludes })];
+} else if (trigger.attr('href')) {                     this.route = trigger.attr('href');                 }
+module.exports = class SchwiftyModel extends Objection.Model {     static get joiSchema() {}
+actual(function () {           assert.that(result, is.equalTo(65));           done();
+".html":[6,0,1,0], ".html":[6,0,1,1], "BadStateHandlers_8h_source.html":[7,0,1,0,0,3,1,0,0],
+module.exports.process = function(context) {  if(this.debugger) debugger;  var err, actual, expected;
+debugger;     if (view.isView) {
+$rootScope.$on("importComplete", function(event, args) {          alertify.success("Import has completed");
+if (model.constructor === Balanced.Reversal) {    var title = (parentModel.constructor === Balanced.Reversal) ? 'Other reversal' : 'Reversal';    return {
+expect(spied).to.have.been.called();       expect(this.slider._transitioning).to.be.false;       await wcutils.delay(100);
+Mongo.Instance = {}; var orig = Mongo.Collection;

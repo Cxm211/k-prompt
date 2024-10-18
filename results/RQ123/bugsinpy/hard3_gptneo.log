@@ -1,0 +1,189 @@
+Namespace(log_name='./bugsinpy/hard3_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='python', output_dir='bugsinpy/hard3_gptneo', data_dir='./data/bugsinpy', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1024, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Fix', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' class Register(abc.ABCMeta):          reg = OrderedDict()          for cls in cls._reg:             if cls.run == NotImplemented:                 continue              name = cls.task_family              if name in reg and reg[name] != cls and \\', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': ' fixed program is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'class Register(abc.ABCMeta):          reg = OrderedDict()          for cls in cls._reg:              name = cls.task_family              if name in reg and reg[name] != cls and \\'}]
+Namespace(log_name='./bugsinpy/hard3_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='python', output_dir='bugsinpy/hard3_gptneo', data_dir='./data/bugsinpy', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1024, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Fix', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' class Register(abc.ABCMeta):          reg = OrderedDict()          for cls in cls._reg:             if cls.run == NotImplemented:                 continue              name = cls.task_family              if name in reg and reg[name] != cls and \\', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': ' fixed program is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'class Register(abc.ABCMeta):          reg = OrderedDict()          for cls in cls._reg:              name = cls.task_family              if name in reg and reg[name] != cls and \\'}]
+Namespace(log_name='./bugsinpy/hard3_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='python', output_dir='bugsinpy/hard3_gptneo', data_dir='./data/bugsinpy', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1024, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Fix', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' class Register(abc.ABCMeta):          reg = OrderedDict()          for cls in cls._reg:             if cls.run == NotImplemented:                 continue              name = cls.task_family              if name in reg and reg[name] != cls and \\', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': ' fixed program is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'class Register(abc.ABCMeta):          reg = OrderedDict()          for cls in cls._reg:              name = cls.task_family              if name in reg and reg[name] != cls and \\'}]
+Namespace(log_name='./bugsinpy/hard3_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='python', output_dir='bugsinpy/hard3_gptneo', data_dir='./data/bugsinpy', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1024, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Fix', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' class Register(abc.ABCMeta):          reg = OrderedDict()          for cls in cls._reg:             if cls.run == NotImplemented:                 continue              name = cls.task_family              if name in reg and reg[name] != cls and \\', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': ' fixed program is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'class Register(abc.ABCMeta):          reg = OrderedDict()          for cls in cls._reg:              name = cls.task_family              if name in reg and reg[name] != cls and \\'}]
+Namespace(log_name='./bugsinpy/hard3_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='python', output_dir='bugsinpy/hard3_gptneo', data_dir='./data/bugsinpy', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=2, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=2048, max_target_length=2048, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Fix', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' class Register(abc.ABCMeta):          reg = OrderedDict()          for cls in cls._reg:             if cls.run == NotImplemented:                 continue              name = cls.task_family              if name in reg and reg[name] != cls and \\', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': ' fixed program is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'class Register(abc.ABCMeta):          reg = OrderedDict()          for cls in cls._reg:              name = cls.task_family              if name in reg and reg[name] != cls and \\'}]
+***** Running training *****
+  Num examples = 932
+  Batch size = 2
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 116
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 9.68117617243104e+144
+  global_step = 467
+  train_loss = 73.1279
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:9.68117617243104e+144
+  ********************
+BLEU file: ./data/bugsinpy/validation.jsonl
+  codebleu-4 = 65.9 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:65.9
+  ********************
+
+***** Running evaluation *****
+  Num examples = 116
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 2.2261441866230716e+119
+  global_step = 933
+  train_loss = 36.6109
+  ********************
+Previous best ppl:9.68117617243104e+144
+Achieve Best ppl:2.2261441866230716e+119
+  ********************
+BLEU file: ./data/bugsinpy/validation.jsonl
+  codebleu-4 = 69.83 	 Previous best codebleu 65.9
+  ********************
+ Achieve Best bleu:69.83
+  ********************
+
+***** Running evaluation *****
+  Num examples = 116
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 8.897175704963144e+167
+  global_step = 1399
+  train_loss = 21.153
+  ********************
+Previous best ppl:2.2261441866230716e+119
+BLEU file: ./data/bugsinpy/validation.jsonl
+  codebleu-4 = 68.97 	 Previous best codebleu 69.83
+  ********************
+
+***** Running evaluation *****
+  Num examples = 116
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 6.79708020255519e+215
+  global_step = 1865
+  train_loss = 13.5417
+  ********************
+Previous best ppl:2.2261441866230716e+119
+BLEU file: ./data/bugsinpy/validation.jsonl
+  codebleu-4 = 68.75 	 Previous best codebleu 69.83
+  ********************
+
+***** Running evaluation *****
+  Num examples = 116
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 1.8448618989101994e+241
+  global_step = 2331
+  train_loss = 8.4227
+  ********************
+Previous best ppl:2.2261441866230716e+119
+BLEU file: ./data/bugsinpy/validation.jsonl
+  codebleu-4 = 74.07 	 Previous best codebleu 69.83
+  ********************
+ Achieve Best bleu:74.07
+  ********************
+
+***** Running evaluation *****
+  Num examples = 116
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 2.484644322424215e+193
+  global_step = 2797
+  train_loss = 5.4056
+  ********************
+Previous best ppl:2.2261441866230716e+119
+BLEU file: ./data/bugsinpy/validation.jsonl
+  codebleu-4 = 75.27 	 Previous best codebleu 74.07
+  ********************
+ Achieve Best bleu:75.27
+  ********************
+
+***** Running evaluation *****
+  Num examples = 116
+  Batch size = 4
+  epoch = 6
+  eval_ppl = 1.5290694168166712e+226
+  global_step = 3263
+  train_loss = 3.2803
+  ********************
+Previous best ppl:2.2261441866230716e+119
+BLEU file: ./data/bugsinpy/validation.jsonl
+  codebleu-4 = 73.69 	 Previous best codebleu 75.27
+  ********************
+
+***** Running evaluation *****
+  Num examples = 116
+  Batch size = 4
+  epoch = 7
+  eval_ppl = 3.2787327750369106e+221
+  global_step = 3729
+  train_loss = 1.8778
+  ********************
+Previous best ppl:2.2261441866230716e+119
+BLEU file: ./data/bugsinpy/validation.jsonl
+  codebleu-4 = 76.76 	 Previous best codebleu 75.27
+  ********************
+ Achieve Best bleu:76.76
+  ********************
+
+***** Running evaluation *****
+  Num examples = 116
+  Batch size = 4
+  epoch = 8
+  eval_ppl = 4.448262513033553e+236
+  global_step = 4195
+  train_loss = 0.9581
+  ********************
+Previous best ppl:2.2261441866230716e+119
+BLEU file: ./data/bugsinpy/validation.jsonl
+  codebleu-4 = 76.35 	 Previous best codebleu 76.76
+  ********************
+
+***** Running evaluation *****
+  Num examples = 116
+  Batch size = 4
+  epoch = 9
+  eval_ppl = 6.200482398409955e+244
+  global_step = 4661
+  train_loss = 0.3862
+  ********************
+Previous best ppl:2.2261441866230716e+119
+BLEU file: ./data/bugsinpy/validation.jsonl
+  codebleu-4 = 75.8 	 Previous best codebleu 76.76
+  ********************
+reload model from bugsinpy/hard3_gptneo/checkpoint-best-bleu
+BLEU file: ./data/bugsinpy/test.jsonl
+  codebleu = 74.46 
+  Total = 122 
+  Exact Fixed = 17 
+[24, 27, 31, 34, 58, 62, 65, 73, 76, 80, 98, 109, 110, 114, 116, 120, 121]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 122 
+  Exact Fixed = 17 
+[24, 27, 31, 34, 58, 62, 65, 73, 76, 80, 98, 109, 110, 114, 116, 120, 121]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 74.46 
+[0.6728230800934798, 0.8834124216164225, 0.6601281703247908, 0.47166395418323315, 0.9063467386633746, 0.8052050509144788, 0.9411542454583528, 0.7802053506341153, 0.8300638244826566, 0.6455419079523765, 0.7953587603777192, 0.8696559733332228, 0.7714650156104186, 0.8068413656728535, 0.7064303295184147, 0.7768711691119308, 0.6883720951974961, 0.6936199831009335, 0.8680533428624471, 0.8856389378075658, 0.5399724547053025, 0.7221924802007853, 0.8884573785188872, 1.0, 0.541461235980431, 0.9204219587780458, 1.0, 0.8234479137638847, 0.45472562564808194, 0.4545507520171642, 1.0, 0.9474759345795825, 0.7217017872886777, 1.0, 0.7896354401872717, 0.8808919461147899, 0.7283421666422167, 0.7625295371742908, 0.8231560738418289, 0.8962096929024133, 0.8773104352365284, 0.8703246706459902, 0.1615021399193917, 0.8751140925823846, 0.7093853536262804, 0.788050295413492, 0.2431817959145428, 0.8548397899287874, 0.41690080419712927, 0.5248835287729089, 0.7715012035371895, 0.8077895563342797, 0.8788501405761104, 0.549916846856608, 0.7205089220380079, 0.9309470682699423, 0.1625265315241848, 1.0, 0.5911195501972704, 0.8362747318435784, 0.5117566728908322, 0.9847962409659572, 0.7222019801848487, 0.7042953619649426, 1.0, 0.6502002482190439, 0.20867343826082332, 0.13558314760826617, 0.32851203099101517, 0.667268531627923, 0.7500252262327005, 0.7531797171538064, 1.0, 0.6441425627537012, 0.6530224530296921, 1.0, 0.0561166426677791, 0.6025441338858055, 0.3031200238102166, 1.0, 0.6030962957640399, 0.06527331856433559, 0.49150427670545643, 0.8096114788906146, 0.9056583090096291, 0.7449734989717058, 0.687227846222079, 0.6863785944036273, 0.43777794193468955, 0.767723111687518, 0.7482355723320561, 0.8853004704636518, 0.884250182279102, 0.7164493834577911, 0.8573638305228279, 0.8368942004451072, 0.7332519354895861, 0.949504537888815, 0.9178662308912058, 0.8814955038434287, 0.8346354401872718, 0.8594942629236695, 0.8255369674887578, 0.8219215004998028, 0.782053171927164, 0.8636637198512624, 0.8754861943073293, 0.8789801838086921, 1.0, 0.9355467351067721, 0.8385834949297515, 0.7304967345008905, 0.7639654153934541, 1.0, 0.8107806147142924, 0.9399649879642329, 0.610067068626702, 0.8300101016746005, 0.70324903644069, 1.0, 1.0, 0.7243849758480987]
+Finish training and take 3h23m

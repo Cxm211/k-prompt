@@ -1,0 +1,1 @@
+{"id": "/data/all/data/bitpay/bitcore", "bugType": "no-redeclare", "problem": "          var fSuccess = true;\n          while (fSuccess && nSigsCount > 0) {", "fixed": "          fSuccess = true;\n          while (fSuccess && nSigsCount > 0) {", "message": "Redeclaring variable."}

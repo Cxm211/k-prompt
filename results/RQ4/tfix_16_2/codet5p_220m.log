@@ -1,0 +1,21 @@
+Namespace(log_name='./RQ5/tfix_16_2/codet5p_220m.log', model_name='Salesforce/codet5p-220m', lang='javascript', output_dir='RQ5/tfix_16_2/codet5p_220m', data_dir='./data/RQ5/tfix_16_2', choice=0, no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'if(markers){   args.markers = Array();   for(i=0; i < markers.length; i++) {', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is the fixed version', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'if(markers){   args.markers = [];   for(i=0; i < markers.length; i++) {'}]
+***** Running training *****
+  Num examples = 16
+  Batch size = 8
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 100
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.1708577964049383e+279
+  global_step = 3
+  train_loss = 44.9039
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.1708577964049383e+279
+  ********************
+BLEU file: ./data/RQ5/tfix_16_2/validation.jsonl

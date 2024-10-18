@@ -1,0 +1,101 @@
+Namespace(log_name='./sstubs/1/hard0_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='sstubs/1/hard0_gptneo', data_dir='./data/sstubs/1', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=6, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1024, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'CLIENT.user_unpinFile(id);    }   public void worker_addCheckpoint(long workerId, int fileId, long fileSizeBytes,         String checkpointPath)             throws FileDoesNotExistException, SuspectedFileSizeException, TException {      CLIENT.worker_addCheckpoint(workerId, fileId, fileSizeBytes, checkpointPath);    }   public void worker_cachedFile(long workerId, long workerUsedBytes, int fileId,         long fileSizeBytes) throws FileDoesNotExistException, SuspectedFileSizeException, TException {      CLIENT.worker_cacheFile(workerId, workerUsedBytes, fileId, fileSizeBytes);    }', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': ' is the fixed version', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'CLIENT.user_unpinFile(id);    }   public synchronized void worker_addCheckpoint(long workerId, int fileId, long fileSizeBytes,         String checkpointPath)             throws FileDoesNotExistException, SuspectedFileSizeException, TException {      CLIENT.worker_addCheckpoint(workerId, fileId, fileSizeBytes, checkpointPath);    }   public synchronized void worker_cachedFile(long workerId, long workerUsedBytes, int fileId,         long fileSizeBytes) throws FileDoesNotExistException, SuspectedFileSizeException, TException {      CLIENT.worker_cacheFile(workerId, workerUsedBytes, fileId, fileSizeBytes);    }'}]
+***** Running training *****
+  Num examples = 260
+  Batch size = 6
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 939260.67344
+  global_step = 45
+  train_loss = 56.5006
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:939260.67344
+  ********************
+BLEU file: ./data/sstubs/1/validation.jsonl
+  codebleu-4 = 28.69 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:28.69
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 142211077.92225
+  global_step = 89
+  train_loss = 8.6151
+  ********************
+Previous best ppl:939260.67344
+BLEU file: ./data/sstubs/1/validation.jsonl
+  codebleu-4 = 50.6 	 Previous best codebleu 28.69
+  ********************
+ Achieve Best bleu:50.6
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 53918124483.44536
+  global_step = 133
+  train_loss = 3.3871
+  ********************
+Previous best ppl:939260.67344
+BLEU file: ./data/sstubs/1/validation.jsonl
+  codebleu-4 = 46.42 	 Previous best codebleu 50.6
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 65246136012.87662
+  global_step = 177
+  train_loss = 2.1154
+  ********************
+Previous best ppl:939260.67344
+BLEU file: ./data/sstubs/1/validation.jsonl
+  codebleu-4 = 40.45 	 Previous best codebleu 50.6
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 27560447892.16176
+  global_step = 221
+  train_loss = 1.5431
+  ********************
+Previous best ppl:939260.67344
+BLEU file: ./data/sstubs/1/validation.jsonl
+  codebleu-4 = 35.33 	 Previous best codebleu 50.6
+  ********************
+early stopping!!!
+reload model from sstubs/1/hard0_gptneo/checkpoint-best-bleu
+BLEU file: ./data/sstubs/1/test.jsonl
+  codebleu = 47.49 
+  Total = 32 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 32 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 47.49 
+[0.8824709043482357, 0.8833494706558269, 0.5347225482441899, 0.32552163745659773, 0.8145099892262267, 0.3180594104599742, 0.6834238685055161, 0.19555551679620214, 0.5998357794125907, 0.2112037502170544, 0.5979885697044045, 0.7179032591351815, 0.6772264301009557, 0.3501333750154406, 0.32761015956582457, 0.6043885522582713, 0.28083590950737153, 0.9136815104017959, 0.33844123626601214, 0.30879374014610184, 0.9493239030379825, 0.6041505226310673, 0.3265554078828943, 0.10575216297900292, 0.20652655243082754, 0.32761015956582457, 0.6048375055523134, 0.4707796942761011, 0.10575216297900292, 0.2867141874616602, 0.3198056740650354, 0.32242928719357855]
+Finish training and take 44m

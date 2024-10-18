@@ -1,0 +1,159 @@
+Namespace(log_name='./bugsinpy/soft1_codet5p_220m.log', model_name='Salesforce/codet5p-220m', lang='python', output_dir='bugsinpy/soft1_codet5p_220m', data_dir='./data/bugsinpy', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'class Register(abc.ABCMeta):          reg = OrderedDict()          for cls in cls._reg:             if cls.run == NotImplemented:                 continue              name = cls.task_family              if name in reg and reg[name] != cls and \\', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': 'the fixed version is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'class Register(abc.ABCMeta):          reg = OrderedDict()          for cls in cls._reg:              name = cls.task_family              if name in reg and reg[name] != cls and \\'}]
+***** Running training *****
+  Num examples = 937
+  Batch size = 4
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 116
+  Batch size = 4
+  epoch = 0
+  eval_ppl = inf
+  global_step = 236
+  train_loss = 67.7395
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:inf
+  ********************
+BLEU file: ./data/bugsinpy/validation.jsonl
+  codebleu-4 = 73.98 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:73.98
+  ********************
+
+***** Running evaluation *****
+  Num examples = 116
+  Batch size = 4
+  epoch = 1
+  eval_ppl = inf
+  global_step = 471
+  train_loss = 44.9228
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/bugsinpy/validation.jsonl
+  codebleu-4 = 75.7 	 Previous best codebleu 73.98
+  ********************
+ Achieve Best bleu:75.7
+  ********************
+
+***** Running evaluation *****
+  Num examples = 116
+  Batch size = 4
+  epoch = 2
+  eval_ppl = inf
+  global_step = 706
+  train_loss = 30.3562
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/bugsinpy/validation.jsonl
+  codebleu-4 = 77.61 	 Previous best codebleu 75.7
+  ********************
+ Achieve Best bleu:77.61
+  ********************
+
+***** Running evaluation *****
+  Num examples = 116
+  Batch size = 4
+  epoch = 3
+  eval_ppl = inf
+  global_step = 941
+  train_loss = 20.608
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/bugsinpy/validation.jsonl
+  codebleu-4 = 75.74 	 Previous best codebleu 77.61
+  ********************
+
+***** Running evaluation *****
+  Num examples = 116
+  Batch size = 4
+  epoch = 4
+  eval_ppl = inf
+  global_step = 1176
+  train_loss = 14.5091
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/bugsinpy/validation.jsonl
+  codebleu-4 = 77.76 	 Previous best codebleu 77.61
+  ********************
+ Achieve Best bleu:77.76
+  ********************
+
+***** Running evaluation *****
+  Num examples = 116
+  Batch size = 4
+  epoch = 5
+  eval_ppl = inf
+  global_step = 1411
+  train_loss = 10.1059
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/bugsinpy/validation.jsonl
+  codebleu-4 = 78.39 	 Previous best codebleu 77.76
+  ********************
+ Achieve Best bleu:78.39
+  ********************
+
+***** Running evaluation *****
+  Num examples = 116
+  Batch size = 4
+  epoch = 6
+  eval_ppl = inf
+  global_step = 1646
+  train_loss = 7.1912
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/bugsinpy/validation.jsonl
+  codebleu-4 = 77.2 	 Previous best codebleu 78.39
+  ********************
+
+***** Running evaluation *****
+  Num examples = 116
+  Batch size = 4
+  epoch = 7
+  eval_ppl = inf
+  global_step = 1881
+  train_loss = 5.4194
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/bugsinpy/validation.jsonl
+  codebleu-4 = 77.75 	 Previous best codebleu 78.39
+  ********************
+
+***** Running evaluation *****
+  Num examples = 116
+  Batch size = 4
+  epoch = 8
+  eval_ppl = inf
+  global_step = 2116
+  train_loss = 4.0604
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/bugsinpy/validation.jsonl
+  codebleu-4 = 77.91 	 Previous best codebleu 78.39
+  ********************
+early stopping!!!
+reload model from bugsinpy/soft1_codet5p_220m/checkpoint-best-bleu
+BLEU file: ./data/bugsinpy/test.jsonl
+  codebleu = 76.86 
+  Total = 122 
+  Exact Fixed = 16 
+[8, 27, 31, 34, 58, 62, 65, 73, 76, 101, 109, 110, 114, 116, 120, 121]
+  Syntax Fixed = 1 
+[115]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 122 
+  Exact Fixed = 16 
+[8, 27, 31, 34, 58, 62, 65, 73, 76, 101, 109, 110, 114, 116, 120, 121]
+  Syntax Fixed = 1 
+[115]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 76.86 
+[0.8011789328434318, 0.8505702153233261, 0.6601281703247908, 0.3145632519275745, 0.9063467386633746, 0.6913513004703498, 0.8387331647808673, 1.0, 0.8078073654022788, 0.6455419079523765, 0.68965030200429, 0.9666856331752072, 0.6567429270683093, 0.7419115261499618, 0.6572726626071705, 0.7768711691119308, 0.6883720951974961, 0.6974243309270205, 0.8971695160234401, 0.8856389378075658, 0.7002260446833343, 0.7443181170763433, 0.8884573785188872, 0.7811422794173712, 0.5537274291090875, 0.9204219587780458, 1.0, 0.8118533044411296, 0.6508693332230462, 0.4545507520171642, 1.0, 0.9474759345795825, 0.6853803599169206, 1.0, 0.8947836446510709, 0.8808919461147899, 0.7283421666422167, 0.7420541780659815, 0.8231560738418289, 0.8962096929024133, 0.8773104352365284, 0.8703246706459902, 0.46125978072022955, 0.9142445273649933, 0.7093853536262804, 0.7313821813372119, 0.5092129592647185, 0.6890802892773646, 0.5053419935809996, 0.6242275051672941, 0.7715012035371895, 0.8077895563342797, 0.8782734899756608, 0.549916846856608, 0.7205089220380079, 0.9309470682699423, 0.7547459862101098, 1.0, 0.5911195501972704, 0.8022604263379136, 0.5117566728908322, 0.9847962409659572, 0.6939112308588368, 0.7042953619649426, 1.0, 0.8352894783834772, 0.20867343826082332, 0.6026966865919932, 0.5037077119806818, 0.6679133700433427, 0.7672847600751869, 0.7531797171538064, 1.0, 0.6161280835925648, 0.6530224530296921, 1.0, 0.8046356237794545, 0.5074125048097184, 0.3031200238102166, 0.9472873156881443, 0.676525822803221, 0.6487795790095106, 0.5002377244306854, 0.6941121750071311, 0.5902510564591508, 0.7449734989717058, 0.8871978499693505, 0.5218510181581382, 0.7318286091585733, 0.5926207048996628, 0.8358395384567638, 0.8853004704636518, 0.884250182279102, 0.7164493834577911, 0.8573638305228279, 0.8807926879441415, 0.532847325628889, 0.8336108571661149, 0.9178662308912058, 0.8814955038434287, 1.0, 0.7594942629236694, 0.8255369674887578, 0.8233676046914074, 0.782053171927164, 0.8934863054803268, 0.8754861943073293, 0.8768686925984219, 1.0, 0.9355467351067721, 0.8385834949297515, 0.7225931341121177, 0.7521070400262398, 1.0, 0.9114766235414771, 0.9399649879642329, 0.610067068626702, 0.7793778739518044, 0.8631855387221548, 1.0, 1.0, 0.720862031432685]
+Finish training and take 21m

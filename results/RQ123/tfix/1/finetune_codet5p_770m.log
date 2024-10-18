@@ -1,0 +1,546 @@
+Namespace(log_name='./tfix/1/finetune_codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='javascript', output_dir='tfix/1/finetune_codet5p_770m', data_dir='./data/tfix/1', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: Salesforce/codet5p-770m
+model created!
+Total 816 training instances 
+***** Running training *****
+  Num examples = 816
+  Batch size = 8
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.00379
+  global_step = 103
+  train_loss = 0.7557
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.00379
+  ********************
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 61.3 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:61.3
+  ********************
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 1.00371
+  global_step = 205
+  train_loss = 0.3099
+  ********************
+Previous best ppl:1.00379
+Achieve Best ppl:1.00371
+  ********************
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 63.61 	 Previous best codebleu 61.3
+  ********************
+ Achieve Best bleu:63.61
+  ********************
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 1.00408
+  global_step = 307
+  train_loss = 0.1537
+  ********************
+Previous best ppl:1.00371
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 63.33 	 Previous best codebleu 63.61
+  ********************
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 1.00442
+  global_step = 409
+  train_loss = 0.0837
+  ********************
+Previous best ppl:1.00371
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 62.81 	 Previous best codebleu 63.61
+  ********************
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 1.00451
+  global_step = 511
+  train_loss = 0.0469
+  ********************
+Previous best ppl:1.00371
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 64.84 	 Previous best codebleu 63.61
+  ********************
+ Achieve Best bleu:64.84
+  ********************
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 1.00451
+  global_step = 613
+  train_loss = 0.0614
+  ********************
+Previous best ppl:1.00371
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 64.39 	 Previous best codebleu 64.84
+  ********************
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 6
+  eval_ppl = 1.00484
+  global_step = 715
+  train_loss = 0.0297
+  ********************
+Previous best ppl:1.00371
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 66.03 	 Previous best codebleu 64.84
+  ********************
+ Achieve Best bleu:66.03
+  ********************
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 7
+  eval_ppl = 1.00511
+  global_step = 817
+  train_loss = 0.0115
+  ********************
+Previous best ppl:1.00371
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 65.13 	 Previous best codebleu 66.03
+  ********************
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 8
+  eval_ppl = 1.00518
+  global_step = 919
+  train_loss = 0.0098
+  ********************
+Previous best ppl:1.00371
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 65.18 	 Previous best codebleu 66.03
+  ********************
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 9
+  eval_ppl = 1.00526
+  global_step = 1021
+  train_loss = 0.0073
+  ********************
+Previous best ppl:1.00371
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 65.98 	 Previous best codebleu 66.03
+  ********************
+reload model from tfix/1/finetune_codet5p_770m/checkpoint-best-bleu
+BLEU file: ./data/tfix/1/test.jsonl
+  codebleu = 60.12 
+  Total = 102 
+  Exact Fixed = 17 
+[10, 13, 18, 31, 48, 49, 51, 61, 71, 74, 87, 88, 91, 94, 96, 98, 101]
+  Syntax Fixed = 2 
+[1, 53]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 102 
+  Exact Fixed = 17 
+[10, 13, 18, 31, 48, 49, 51, 61, 71, 74, 87, 88, 91, 94, 96, 98, 101]
+  Syntax Fixed = 2 
+[1, 53]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 60.12 
+[0.8325722947872878, 0.5190854538169563, 0.7004836662820749, 0.15189466770624754, 0.29080814539619515, 0.2642742735155721, 0.32748262303688536, 0.10100550846996653, 0.21100892280323053, 1.0, 0.17788806273410057, 0.2315964926673459, 1.0, 0.7939024427877673, 0.8135156937118506, 0.6606980660827921, 0.39675296426202156, 1.0, 0.5865265109839976, 0.05223472510160536, 0.44892910504357597, 0.28178507258525926, 0.7134594492120386, 0.6340338824725971, 0.6887796716807859, 0.6760988306532816, 0.6475259120949215, 0.45797584845834727, 0.570765580121347, 0.8206847188488577, 1.0, 0.6337131054697118, 0.7945104051684668, 0.6399605760434812, 0.4590907364295069, 0.5634793392274073, 0.17985270659092473, 0.18304611372110685, 0.19604350080247962, 0.8503737191458391, 0.46021721772760293, 0.2067757358197851, 0.9260406910477721, 0.6632483116950204, 0.7619728098941201, 0.7057646821410708, 0.8519671371303186, 1.0, 1.0, 0.04535576197454044, 1.0, 0.6157132877459149, 0.9236426846280885, 0.48492549020055464, 0.25558314725722453, 0.6957460976726255, 0.7486220455892145, 0.6863884298635612, 0.530833869996046, 0.7124468865008063, 1.0, 0.45485925246062353, 0.71532341775094, 0.5942918936401338, 0.6530550965302279, 0.806825243511308, 0.5459568337549684, 0.8536186510818744, 0.5418035126585234, 0.7990624648102627, 1.0, 0.20376503858638684, 0.36230073277918207, 1.0, 0.23683637774429345, 0.5164329076215759, 0.5624691290169025, 0.05073034682439498, 0.729231473086406, 0.42956336497580716, 0.5586918672247443, 0.4961054545521633, 0.1726076513306138, 0.514297617187952, 0.7302007404183433, 0.4356258328835842, 1.0, 1.0, 0.0, 0.6009543022015369, 1.0, 0.32429671174355323, 0.8339326133501213, 1.0, 0.5696461788443421, 1.0, 0.43605468697269356, 1.0, 0.6053937392562816, 0.5647785789898024, 1.0, 0.6013906561105834]
+Finish training and take 48m
+Namespace(log_name='./tfix/1/finetune_codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='javascript', output_dir='tfix/2/finetune_codet5p_770m', data_dir='./data/tfix/2', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: Salesforce/codet5p-770m
+model created!
+Total 816 training instances 
+***** Running training *****
+  Num examples = 816
+  Batch size = 8
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.00443
+  global_step = 103
+  train_loss = 0.7583
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.00443
+  ********************
+BLEU file: ./data/tfix/2/validation.jsonl
+  codebleu-4 = 59.36 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:59.36
+  ********************
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 1.0046
+  global_step = 205
+  train_loss = 0.3701
+  ********************
+Previous best ppl:1.00443
+BLEU file: ./data/tfix/2/validation.jsonl
+  codebleu-4 = 58.49 	 Previous best codebleu 59.36
+  ********************
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 1.00461
+  global_step = 307
+  train_loss = 0.1891
+  ********************
+Previous best ppl:1.00443
+BLEU file: ./data/tfix/2/validation.jsonl
+  codebleu-4 = 59.57 	 Previous best codebleu 59.36
+  ********************
+ Achieve Best bleu:59.57
+  ********************
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 1.00494
+  global_step = 409
+  train_loss = 0.0988
+  ********************
+Previous best ppl:1.00443
+BLEU file: ./data/tfix/2/validation.jsonl
+  codebleu-4 = 59.8 	 Previous best codebleu 59.57
+  ********************
+ Achieve Best bleu:59.8
+  ********************
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 1.00516
+  global_step = 511
+  train_loss = 0.0517
+  ********************
+Previous best ppl:1.00443
+BLEU file: ./data/tfix/2/validation.jsonl
+  codebleu-4 = 61.82 	 Previous best codebleu 59.8
+  ********************
+ Achieve Best bleu:61.82
+  ********************
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 1.00573
+  global_step = 613
+  train_loss = 0.0292
+  ********************
+Previous best ppl:1.00443
+BLEU file: ./data/tfix/2/validation.jsonl
+  codebleu-4 = 61.07 	 Previous best codebleu 61.82
+  ********************
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 6
+  eval_ppl = 1.00606
+  global_step = 715
+  train_loss = 0.0179
+  ********************
+Previous best ppl:1.00443
+BLEU file: ./data/tfix/2/validation.jsonl
+  codebleu-4 = 60.77 	 Previous best codebleu 61.82
+  ********************
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 7
+  eval_ppl = 1.00619
+  global_step = 817
+  train_loss = 0.0111
+  ********************
+Previous best ppl:1.00443
+BLEU file: ./data/tfix/2/validation.jsonl
+  codebleu-4 = 60.61 	 Previous best codebleu 61.82
+  ********************
+reload model from tfix/2/finetune_codet5p_770m/checkpoint-best-bleu
+BLEU file: ./data/tfix/2/test.jsonl
+  codebleu = 64.46 
+  Total = 102 
+  Exact Fixed = 17 
+[13, 14, 17, 20, 25, 27, 31, 49, 53, 63, 70, 72, 74, 78, 85, 89, 92]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 1 
+[32]
+  ********************
+  Total = 102 
+  Exact Fixed = 17 
+[13, 14, 17, 20, 25, 27, 31, 49, 53, 63, 70, 72, 74, 78, 85, 89, 92]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 1 
+[32]
+  codebleu = 64.46 
+[0.22619887519287302, 0.8199535775114237, 0.38626197666562845, 0.8076623491927839, 0.22556796225712933, 0.764277096224449, 0.8896656211648155, 0.15, 0.7393743187563593, 0.6899766481408451, 0.6281305065795061, 0.8051384298635613, 1.0, 1.0, 0.7157256320511014, 0.4837491043818279, 1.0, 0.204436274930823, 0.9056583090096291, 0.8114529051148651, 0.8356658099532572, 0.5927200451626766, 0.802713932743754, 0.8568274699818503, 1.0, 0.7571377151388883, 1.0, 0.28269688894370654, 0.7724384145327522, 0.8267470965743207, 0.8114529051148651, 0.6054680772601293, 0.566221018567181, 0.7985154518667719, 0.8399114554115357, 0.8353746106262074, 0.09473684210526315, 0.6265958401383632, 0.8676314291716003, 0.8048103351245981, 0.6176733077091023, 0.4200278369875702, 0.42900132829974075, 0.05540387552681966, 0.8019924721490199, 0.934336399011221, 0.5677532627711257, 0.39688026803980914, 1.0, 0.4506060706645867, 0.10859587955759917, 0.3766154305248927, 0.8249365300761395, 0.8342413207153518, 0.3599867812326072, 0.6661133003227147, 0.5827685982686784, 0.44778290345194927, 0.467913762972279, 0.6416532852733938, 0.4080877117267552, 0.2597925764777499, 1.0, 0.5850991740430667, 0.7102241494026018, 0.7682378900570572, 0.46992431673324636, 0.47574087246063884, 0.46738580972137844, 1.0, 0.4831516137120926, 1.0, 0.7049295406070389, 1.0, 0.4288378866864627, 0.6105000222446973, 0.4868446707078401, 0.8516551101233703, 0.41413939082855794, 0.39211329027742914, 0.46847240140405244, 0.3889423446181684, 0.301689598214979, 0.174436274930823, 1.0, 0.9145980101874507, 0.8067815565982941, 0.7547391347384329, 1.0, 0.7952738864082955, 0.3998629023055338, 1.0, 0.6532260383851596, 0.6777780764825427, 0.7065543572766618, 0.4580097675218012, 0.2920847538048024, 0.570217217727603, 0.927790343827982, 0.7886150441973765, 0.45906361599859924, 0.8783259097532135]
+Finish training and take 37m
+Namespace(log_name='./tfix/1/finetune_codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='javascript', output_dir='tfix/3/finetune_codet5p_770m', data_dir='./data/tfix/3', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: Salesforce/codet5p-770m
+model created!
+Total 816 training instances 
+***** Running training *****
+  Num examples = 816
+  Batch size = 8
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.004
+  global_step = 103
+  train_loss = 0.7444
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.004
+  ********************
+BLEU file: ./data/tfix/3/validation.jsonl
+  codebleu-4 = 64.55 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:64.55
+  ********************
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 1.00378
+  global_step = 205
+  train_loss = 0.313
+  ********************
+Previous best ppl:1.004
+Achieve Best ppl:1.00378
+  ********************
+BLEU file: ./data/tfix/3/validation.jsonl
+  codebleu-4 = 65.99 	 Previous best codebleu 64.55
+  ********************
+ Achieve Best bleu:65.99
+  ********************
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 1.00416
+  global_step = 307
+  train_loss = 0.151
+  ********************
+Previous best ppl:1.00378
+BLEU file: ./data/tfix/3/validation.jsonl
+  codebleu-4 = 65.78 	 Previous best codebleu 65.99
+  ********************
+Namespace(log_name='./tfix/1/finetune_codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='javascript', output_dir='tfix/1/finetune_codet5p_770m', data_dir='./data/tfix/1', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: Salesforce/codet5p-770m
+model created!
+Total 816 training instances 
+***** Running training *****
+  Num examples = 816
+  Batch size = 8
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.00378
+  global_step = 103
+  train_loss = 0.7523
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.00378
+  ********************
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 60.98 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:60.98
+  ********************
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 1.00359
+  global_step = 205
+  train_loss = 0.3034
+  ********************
+Previous best ppl:1.00378
+Achieve Best ppl:1.00359
+  ********************
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 64.2 	 Previous best codebleu 60.98
+  ********************
+ Achieve Best bleu:64.2
+  ********************
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 1.00386
+  global_step = 307
+  train_loss = 0.1655
+  ********************
+Previous best ppl:1.00359
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 64.74 	 Previous best codebleu 64.2
+  ********************
+ Achieve Best bleu:64.74
+  ********************
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 1.00438
+  global_step = 409
+  train_loss = 0.0928
+  ********************
+Previous best ppl:1.00359
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 64.01 	 Previous best codebleu 64.74
+  ********************
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 1.00445
+  global_step = 511
+  train_loss = 0.0506
+  ********************
+Previous best ppl:1.00359
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 64.94 	 Previous best codebleu 64.74
+  ********************
+ Achieve Best bleu:64.94
+  ********************
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 1.0048
+  global_step = 613
+  train_loss = 0.0285
+  ********************
+Previous best ppl:1.00359
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 63.44 	 Previous best codebleu 64.94
+  ********************
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 6
+  eval_ppl = 1.00511
+  global_step = 715
+  train_loss = 0.0167
+  ********************
+Previous best ppl:1.00359
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 65.75 	 Previous best codebleu 64.94
+  ********************
+ Achieve Best bleu:65.75
+  ********************
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 7
+  eval_ppl = 1.00514
+  global_step = 817
+  train_loss = 0.0123
+  ********************
+Previous best ppl:1.00359
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 64.71 	 Previous best codebleu 65.75
+  ********************
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 8
+  eval_ppl = 1.00531
+  global_step = 919
+  train_loss = 0.0093
+  ********************
+Previous best ppl:1.00359
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 66.14 	 Previous best codebleu 65.75
+  ********************
+ Achieve Best bleu:66.14
+  ********************
+
+***** Running evaluation *****
+  Num examples = 102
+  Batch size = 4
+  epoch = 9
+  eval_ppl = 1.00526
+  global_step = 1021
+  train_loss = 0.0068
+  ********************
+Previous best ppl:1.00359
+BLEU file: ./data/tfix/1/validation.jsonl
+  codebleu-4 = 66.21 	 Previous best codebleu 66.14
+  ********************
+ Achieve Best bleu:66.21
+  ********************
+reload model from tfix/1/finetune_codet5p_770m/checkpoint-best-bleu
+BLEU file: ./data/tfix/1/test.jsonl
+  codebleu = 61.6 
+  Total = 102 
+  Exact Fixed = 19 
+[10, 13, 31, 48, 49, 51, 60, 61, 65, 71, 74, 87, 88, 91, 94, 96, 98, 99, 101]
+  Syntax Fixed = 1 
+[58]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 102 
+  Exact Fixed = 19 
+[10, 13, 31, 48, 49, 51, 60, 61, 65, 71, 74, 87, 88, 91, 94, 96, 98, 99, 101]
+  Syntax Fixed = 1 
+[58]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 61.6 
+[0.6629789808279482, 0.5190854538169563, 0.7004836662820749, 0.15189466770624754, 0.29080814539619515, 0.2642742735155721, 0.32748262303688536, 0.10100550846996653, 0.22456259762219288, 1.0, 0.1671737770198149, 0.2315964926673459, 1.0, 0.7939024427877673, 0.8135156937118506, 0.7484889150381644, 0.39675296426202156, 0.7591116846422887, 0.5865265109839976, 0.08722959928216871, 0.44892910504357597, 0.28178507258525926, 0.8445506565039518, 0.8576705057568643, 0.6887796716807859, 0.6760988306532816, 0.6475259120949215, 0.45797584845834727, 0.570765580121347, 0.3786118820131844, 1.0, 0.6337131054697118, 0.7945104051684668, 0.4950124586800488, 0.2927200451626767, 0.5634793392274073, 0.6353031368082721, 0.18304611372110685, 0.19604350080247962, 0.8503737191458391, 0.4202172177276029, 0.2067757358197851, 0.9260406910477721, 0.6632483116950204, 0.7619728098941201, 0.9495565333799167, 0.8519671371303186, 1.0, 1.0, 0.04535576197454044, 1.0, 0.6157132877459149, 0.3739620910930766, 0.48492549020055464, 0.35079151194213914, 0.6957460976726255, 0.7486220455892145, 0.8399103850027161, 0.6803851539090413, 1.0, 1.0, 0.5160885566836864, 0.7094410648097635, 0.5942918936401338, 1.0, 0.9030431039697613, 0.6666353826339045, 0.8536186510818744, 0.5418035126585234, 0.7990624648102627, 1.0, 0.20376503858638684, 0.6172706589844645, 1.0, 0.23683637774429345, 0.5164329076215759, 0.5624691290169025, 0.44432121517125955, 0.7753505981191169, 0.42956336497580716, 0.6236663076766358, 0.4961054545521633, 0.1726076513306138, 0.514297617187952, 0.7302007404183433, 0.4356258328835842, 1.0, 1.0, 0.0, 0.45095430220153687, 1.0, 0.32429671174355323, 0.8339326133501213, 1.0, 0.3674344272962433, 1.0, 0.43605468697269356, 1.0, 0.8454524645283339, 0.5647785789898024, 1.0, 0.7308647096337427]
+Finish training and take 29m

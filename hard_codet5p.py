@@ -14,6 +14,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+"""
+Fine-tuning the library models for language modeling on a text file (GPT, GPT-2, BERT, RoBERTa).
+GPT and GPT-2 are fine-tuned using a causal language modeling (CLM) loss while BERT and RoBERTa are fine-tuned
+using a masked language modeling (MLM) loss.
+"""
 
 from __future__ import absolute_import
 import os
@@ -33,8 +38,8 @@ from tqdm import tqdm
 from transformers import (AdamW, get_linear_schedule_with_warmup,
 						  RobertaTokenizer, T5Config, T5ForConditionalGeneration)
 from code_bleu import _code_bleu, compare
-
-from my_lib_tfix import read_prompt_examples, get_elapse_time, read_examples
+from bleu2 import _bleu
+from my_lib_sstubs import read_prompt_examples, get_elapse_time, read_examples
 
 generation_arguments = {
     "max_length": 512,
@@ -76,7 +81,7 @@ def read_arguments():
 	parser.add_argument("--output_dir", default="./pr_model", type=str, required=False,
 						help="The output directory where the model predictions and checkpoints will be written.")
 
-	parser.add_argument("--data_dir", default="./data/tfix", type=str,
+	parser.add_argument("--data_dir", default="./data/sstubs", type=str,
 						help="Path to the dir which contains processed data for some languages")
 
 	# parser.add_argument("--lang", default=None, type=str, required=False,
@@ -86,7 +91,8 @@ def read_arguments():
 					help="Avoid using CUDA when available")
 	parser.add_argument('--visible_gpu', type=str, default="",
 						help="use how many gpus")
-
+	parser.add_argument("--choice", type=int, required=True, 
+						help="Choice of template.")
 	# parser.add_argument("--add_task_prefix", default=False, action='store_true',
 	# 					help="Whether to add task prefix for T5 and codeT5")
 	# parser.add_argument("--add_lang_ids", default=False, action='store_true',
@@ -202,7 +208,7 @@ def main(args):
 	# promptTemplate = SoftTemplate(model=plm, tokenizer=tokenizer,
 	# 									  text='{"placeholder":"text_a"} {"mask"} ', 
 	# 									   num_tokens=50)
-	promptTemplate = ManualTemplate(tokenizer=tokenizer).from_file(f"./scripts/hard_template_tfix.txt", choice=7)
+	promptTemplate = ManualTemplate(tokenizer=tokenizer).from_file(f"./scripts/codet5p/hard_template_sstubs.txt", choice=args.choice)
 
 	# get model
 	model = PromptForGeneration(plm=plm, template=promptTemplate, freeze_plm=args.freeze, tokenizer=tokenizer,
@@ -449,7 +455,7 @@ def calculate_bleu(file_name, args, tokenizer, device, model, promptTemplate, Wr
 				   best_bleu=None, eval_examples=None):
 	logger.info("BLEU file: {}".format(file_name))
 
-	# whether append postfix to result file
+	# whether append possstubs to result file
 	if output_file_name is not None:
 		output_file_name = "_" + output_file_name
 	else:

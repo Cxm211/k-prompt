@@ -1,0 +1,558 @@
+Namespace(log_name='./xcodeeval/1/finetune_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='c', output_dir='xcodeeval/1/finetune_gptneo', data_dir='./data/xcodeeval/1', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1024, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=2)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: EleutherAI/gpt-neo-1.3B
+model created!
+Total 1082 training instances 
+***** Running training *****
+  Num examples = 1082
+  Batch size = 8
+  Num epoch = 10
+Namespace(log_name='./xcodeeval/1/finetune_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='c', output_dir='xcodeeval/1/finetune_gptneo', data_dir='./data/xcodeeval/1', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1024, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=2)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: EleutherAI/gpt-neo-1.3B
+model created!
+Total 1082 training instances 
+***** Running training *****
+  Num examples = 1082
+  Batch size = 8
+  Num epoch = 10
+Namespace(log_name='./xcodeeval/1/finetune_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='c', output_dir='xcodeeval/1/finetune_gptneo', data_dir='./data/xcodeeval/1', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1024, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=2)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: EleutherAI/gpt-neo-1.3B
+model created!
+Total 1082 training instances 
+***** Running training *****
+  Num examples = 1082
+  Batch size = 8
+  Num epoch = 10
+Namespace(log_name='./xcodeeval/1/finetune_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='c', output_dir='xcodeeval/1/finetune_gptneo', data_dir='./data/xcodeeval/1', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1024, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=2)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: EleutherAI/gpt-neo-1.3B
+model created!
+Total 1082 training instances 
+***** Running training *****
+  Num examples = 1082
+  Batch size = 8
+  Num epoch = 10
+Namespace(log_name='./xcodeeval/1/finetune_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='c', output_dir='xcodeeval/1/finetune_gptneo', data_dir='./data/xcodeeval/1', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1024, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=2)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: EleutherAI/gpt-neo-1.3B
+model created!
+Total 1082 training instances 
+***** Running training *****
+  Num examples = 1082
+  Batch size = 8
+  Num epoch = 10
+Namespace(log_name='./xcodeeval/1/finetune_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='c', output_dir='xcodeeval/1/finetune_gptneo', data_dir='./data/xcodeeval/1', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=2)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: EleutherAI/gpt-neo-1.3B
+model created!
+Total 1082 training instances 
+***** Running training *****
+  Num examples = 1082
+  Batch size = 8
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.00201
+  global_step = 136
+  train_loss = 3.3515
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.00201
+  ********************
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 75.26 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:75.26
+  ********************
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 1.00193
+  global_step = 271
+  train_loss = 2.435
+  ********************
+Previous best ppl:1.00201
+Achieve Best ppl:1.00193
+  ********************
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 75.8 	 Previous best codebleu 75.26
+  ********************
+ Achieve Best bleu:75.8
+  ********************
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 1.00192
+  global_step = 406
+  train_loss = 2.2714
+  ********************
+Previous best ppl:1.00193
+Achieve Best ppl:1.00192
+  ********************
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 75.78 	 Previous best codebleu 75.8
+  ********************
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 1.00197
+  global_step = 541
+  train_loss = 2.113
+  ********************
+Previous best ppl:1.00192
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 74.53 	 Previous best codebleu 75.8
+  ********************
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 1.00202
+  global_step = 676
+  train_loss = 1.9146
+  ********************
+Previous best ppl:1.00192
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 69.88 	 Previous best codebleu 75.8
+  ********************
+reload model from xcodeeval/1/finetune_gptneo/checkpoint-best-bleu
+BLEU file: ./data/xcodeeval/1/test.jsonl
+  codebleu = 76.46 
+  Total = 135 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 1 
+[123]
+  ********************
+  Total = 135 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 1 
+[123]
+  codebleu = 76.46 
+[0.7034268703511799, 0.9752926493864778, 0.8419188985107608, 0.8399493211101225, 0.5511737119063814, 0.8928996467209719, 0.6811990902414101, 0.8131660563421435, 0.47822580645161283, 0.9295757649014529, 0.6700100781693141, 0.8881108167610436, 0.8920012172763082, 0.8847237140434953, 0.9250674011252755, 0.7938229814514498, 0.6068707460804744, 0.7789126602228544, 0.9090656756929271, 0.9832612094993938, 0.9498733743967636, 0.7584713945723569, 0.914106764646782, 0.9304372254539681, 0.7521689663631371, 0.8986391637385749, 0.48490114764840564, 0.8273720342697226, 0.943601919551823, 0.9303942035837438, 0.9613399936708418, 0.8463810160907537, 0.5003910292067191, 0.9389707093964361, 0.8416184535678177, 0.973858151522893, 0.6031327204302868, 0.9365819013624168, 0.5266722287592185, 0.9471982954514573, 0.6356058148889161, 0.6754292375001995, 0.4139033405309611, 0.48768804749002387, 0.7149195155805301, 0.8396113521805657, 0.9465012851429597, 0.973858151522893, 0.5725880793818358, 0.7569630859948919, 0.9601466755014141, 0.33580645216805804, 0.9232304737710106, 0.786373323150595, 0.46344533813736777, 0.9418237108559537, 0.8633660722321144, 0.6778336766746159, 0.9860950428335316, 0.5335581349704818, 0.9492384172683168, 0.9013369901371313, 0.5077214223305908, 0.9633475538046121, 0.9926977821694327, 0.1446, 0.9334580759528754, 0.24502910019360383, 0.7569939567638737, 0.8876903996160546, 0.39101342264848765, 0.9604294079167424, 0.39536345674651, 0.9341079538337742, 0.8726275171090774, 0.9453698448910237, 0.8628469228028698, 0.8373834761279768, 0.8644554554879766, 0.8454546086981599, 0.7479783369086705, 0.7053456033951473, 0.844001858253585, 0.9397626412560047, 0.9903793674040597, 0.8917793747666807, 0.8868973046039473, 0.8424197834374936, 0.9673766976042135, 0.8093645661462701, 0.982840810414882, 0.8963430088316504, 0.5029329793674228, 0.9109545424921657, 0.5355322041447821, 0.9498733743967636, 0.7253025503608977, 0.9430364495125731, 0.5076943976918459, 0.906923058378295, 0.9381767755969468, 0.6202958011286538, 0.6808833535096964, 0.2572497507889638, 0.7508207946511871, 0.9557543681869334, 0.6362439585829495, 0.9365739931432338, 0.29943997880421824, 0.8769250379411355, 0.3737662111795117, 0.8103534793340235, 0.7639496783614648, 0.5412219101899178, 0.5102601887697077, 0.9442248897793943, 0.9692439075113215, 0.7929436912800465, 0.7741939441431783, 0.473297280093855, 0.9064577988630712, 0.37828106820249585, 0.9455713410474389, 0.35400657355482756, 0.8119506730626463, 0.8358249633996924, 0.7286144481170467, 0.8241554247996095, 0.45601045567543047, 0.7761988507965935, 0.6017150080688712, 0.9142918920357144, 0.910618969189708, 0.46985530336379205, 0.7279692304347927]
+Finish training and take 1h4m
+Namespace(log_name='./xcodeeval/1/finetune_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='c', output_dir='xcodeeval/1/finetune_gptneo', data_dir='./data/xcodeeval/1', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: EleutherAI/gpt-neo-1.3B
+model created!
+Total 1082 training instances 
+***** Running training *****
+  Num examples = 1082
+  Batch size = 8
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.00201
+  global_step = 136
+  train_loss = 3.3515
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.00201
+  ********************
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+Namespace(log_name='./xcodeeval/1/finetune_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='c', output_dir='xcodeeval/1/finetune_gptneo', data_dir='./data/xcodeeval/1', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: EleutherAI/gpt-neo-1.3B
+model created!
+Total 1082 training instances 
+***** Running training *****
+  Num examples = 1082
+  Batch size = 8
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.00201
+  global_step = 136
+  train_loss = 3.3515
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.00201
+  ********************
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 75.29 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:75.29
+  ********************
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 1.00193
+  global_step = 271
+  train_loss = 2.435
+  ********************
+Previous best ppl:1.00201
+Achieve Best ppl:1.00193
+  ********************
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 75.83 	 Previous best codebleu 75.29
+  ********************
+ Achieve Best bleu:75.83
+  ********************
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 1.00192
+  global_step = 406
+  train_loss = 2.2714
+  ********************
+Previous best ppl:1.00193
+Achieve Best ppl:1.00192
+  ********************
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 75.81 	 Previous best codebleu 75.83
+  ********************
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 1.00197
+  global_step = 541
+  train_loss = 2.113
+  ********************
+Previous best ppl:1.00192
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 74.56 	 Previous best codebleu 75.83
+  ********************
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 1.00202
+  global_step = 676
+  train_loss = 1.9146
+  ********************
+Previous best ppl:1.00192
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 69.91 	 Previous best codebleu 75.83
+  ********************
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 1.00215
+  global_step = 811
+  train_loss = 1.695
+  ********************
+Previous best ppl:1.00192
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 69.3 	 Previous best codebleu 75.83
+  ********************
+reload model from xcodeeval/1/finetune_gptneo/checkpoint-best-bleu
+BLEU file: ./data/xcodeeval/1/test.jsonl
+  codebleu = 76.46 
+  Total = 135 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 1 
+[123]
+  ********************
+  Total = 135 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 1 
+[123]
+  codebleu = 76.46 
+[0.7034268703511799, 0.9752926493864778, 0.8419188985107608, 0.8399493211101225, 0.5511737119063814, 0.8928996467209719, 0.6811990902414101, 0.8131660563421435, 0.47822580645161283, 0.9295757649014529, 0.6700100781693141, 0.8881108167610436, 0.8920012172763082, 0.8847237140434953, 0.9250674011252755, 0.7938229814514498, 0.6068707460804744, 0.7789126602228544, 0.9090656756929271, 0.9832612094993938, 0.9498733743967636, 0.7584713945723569, 0.914106764646782, 0.9304372254539681, 0.7521689663631371, 0.8986391637385749, 0.48490114764840564, 0.8273720342697226, 0.943601919551823, 0.9303942035837438, 0.9613399936708418, 0.8463810160907537, 0.5003910292067191, 0.9389707093964361, 0.8416184535678177, 0.973858151522893, 0.6125077204302868, 0.9365819013624168, 0.5266722287592185, 0.9471982954514573, 0.6356058148889161, 0.6754292375001995, 0.4139033405309611, 0.48768804749002387, 0.7149195155805301, 0.8396113521805657, 0.9465012851429597, 0.973858151522893, 0.5725880793818358, 0.7569630859948919, 0.9601466755014141, 0.33580645216805804, 0.9232304737710106, 0.786373323150595, 0.46344533813736777, 0.9418237108559537, 0.8633660722321144, 0.6778336766746159, 0.9860950428335316, 0.5335581349704818, 0.9492384172683168, 0.9013369901371313, 0.5077214223305908, 0.9633475538046121, 0.9926977821694327, 0.1446, 0.9334580759528754, 0.24502910019360383, 0.7569939567638737, 0.8876903996160546, 0.39101342264848765, 0.9604294079167424, 0.39536345674651, 0.9341079538337742, 0.8726275171090774, 0.9453698448910237, 0.8628469228028698, 0.8373834761279768, 0.8644554554879766, 0.8454546086981599, 0.7479783369086705, 0.7053456033951473, 0.844001858253585, 0.9397626412560047, 0.9903793674040597, 0.8917793747666807, 0.8868973046039473, 0.8424197834374936, 0.9673766976042135, 0.8093645661462701, 0.982840810414882, 0.8963430088316504, 0.4982454793674228, 0.9109545424921657, 0.5355322041447821, 0.9498733743967636, 0.7253025503608977, 0.9430364495125731, 0.5076943976918459, 0.906923058378295, 0.9381767755969468, 0.6202958011286538, 0.6808833535096964, 0.2572497507889638, 0.7508207946511871, 0.9557543681869334, 0.6362439585829495, 0.9365739931432338, 0.29943997880421824, 0.8769250379411355, 0.3737662111795117, 0.8103534793340235, 0.7639496783614648, 0.5412219101899178, 0.5102601887697077, 0.9442248897793943, 0.9692439075113215, 0.7929436912800465, 0.7741939441431783, 0.473297280093855, 0.9064577988630712, 0.37828106820249585, 0.9455713410474389, 0.35400657355482756, 0.8119506730626463, 0.8358249633996924, 0.7286144481170467, 0.8241554247996095, 0.45601045567543047, 0.7761988507965935, 0.6017150080688712, 0.9142918920357144, 0.910618969189708, 0.46985530336379205, 0.7279692304347927]
+Finish training and take 1h15m
+Namespace(log_name='./xcodeeval/1/finetune_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='c', output_dir='xcodeeval/1/finetune_gptneo', data_dir='./data/xcodeeval/1', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: EleutherAI/gpt-neo-1.3B
+model created!
+Total 1082 training instances 
+***** Running training *****
+  Num examples = 1082
+  Batch size = 8
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.00201
+  global_step = 136
+  train_loss = 3.3515
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.00201
+  ********************
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+Namespace(log_name='./xcodeeval/1/finetune_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='c', output_dir='xcodeeval/1/finetune_gptneo', data_dir='./data/xcodeeval/1', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: EleutherAI/gpt-neo-1.3B
+model created!
+Total 1082 training instances 
+***** Running training *****
+  Num examples = 1082
+  Batch size = 8
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.00201
+  global_step = 136
+  train_loss = 3.3515
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.00201
+  ********************
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+Namespace(log_name='./xcodeeval/1/finetune_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='c', output_dir='xcodeeval/1/finetune_gptneo', data_dir='./data/xcodeeval/1', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: EleutherAI/gpt-neo-1.3B
+model created!
+Total 1082 training instances 
+***** Running training *****
+  Num examples = 1082
+  Batch size = 8
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.00201
+  global_step = 136
+  train_loss = 3.3515
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.00201
+  ********************
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 75.3 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:75.3
+  ********************
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 1.00193
+  global_step = 271
+  train_loss = 2.435
+  ********************
+Previous best ppl:1.00201
+Achieve Best ppl:1.00193
+  ********************
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 75.85 	 Previous best codebleu 75.3
+  ********************
+ Achieve Best bleu:75.85
+  ********************
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 1.00192
+  global_step = 406
+  train_loss = 2.2714
+  ********************
+Previous best ppl:1.00193
+Achieve Best ppl:1.00192
+  ********************
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 75.84 	 Previous best codebleu 75.85
+  ********************
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 1.00197
+  global_step = 541
+  train_loss = 2.113
+  ********************
+Previous best ppl:1.00192
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 74.58 	 Previous best codebleu 75.85
+  ********************
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 1.00202
+  global_step = 676
+  train_loss = 1.9146
+  ********************
+Previous best ppl:1.00192
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 69.94 	 Previous best codebleu 75.85
+  ********************
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 1.00215
+  global_step = 811
+  train_loss = 1.695
+  ********************
+Previous best ppl:1.00192
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 69.32 	 Previous best codebleu 75.85
+  ********************
+reload model from xcodeeval/1/finetune_gptneo/checkpoint-best-bleu
+BLEU file: ./data/xcodeeval/1/test.jsonl
+  codebleu = 76.47 
+  Total = 135 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 1 
+[123]
+  ********************
+  Total = 135 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 1 
+[123]
+  codebleu = 76.47 
+[0.7034268703511799, 0.9752926493864778, 0.8419188985107608, 0.8399493211101225, 0.5511737119063814, 0.8928996467209719, 0.6811990902414101, 0.8131660563421435, 0.47822580645161283, 0.9295757649014529, 0.6700100781693141, 0.8881108167610436, 0.8920012172763082, 0.8847237140434953, 0.9250674011252755, 0.7938229814514498, 0.6068707460804744, 0.7789126602228544, 0.9090656756929271, 0.9832612094993938, 0.9498733743967636, 0.7584713945723569, 0.914106764646782, 0.9304372254539681, 0.7521689663631371, 0.8986391637385749, 0.48490114764840564, 0.8273720342697226, 0.943601919551823, 0.9303942035837438, 0.9613399936708418, 0.8463810160907537, 0.5003910292067191, 0.9389707093964361, 0.8416184535678177, 0.973858151522893, 0.6031327204302868, 0.9365819013624168, 0.5266722287592185, 0.9471982954514573, 0.6356058148889161, 0.6754292375001995, 0.4139033405309611, 0.48768804749002387, 0.7149195155805301, 0.8396113521805657, 0.9465012851429597, 0.973858151522893, 0.5875880793818358, 0.7569630859948919, 0.9601466755014141, 0.33580645216805804, 0.9232304737710106, 0.786373323150595, 0.46344533813736777, 0.9418237108559537, 0.8633660722321144, 0.6778336766746159, 0.9860950428335316, 0.5335581349704818, 0.9492384172683168, 0.9062012435307965, 0.5077214223305908, 0.9633475538046121, 0.9926977821694327, 0.147081846437205, 0.9334580759528754, 0.24527399815278747, 0.7569939567638737, 0.8876903996160546, 0.39101342264848765, 0.9604294079167424, 0.39536345674651, 0.9341079538337742, 0.8726275171090774, 0.9453698448910237, 0.8660537882048572, 0.8373834761279768, 0.8644554554879766, 0.8454546086981599, 0.7479783369086705, 0.7053456033951473, 0.844001858253585, 0.9397626412560047, 0.9903793674040597, 0.8917793747666807, 0.8868973046039473, 0.8424197834374936, 0.9673766976042135, 0.8093645661462701, 0.982840810414882, 0.8963430088316504, 0.4982454793674228, 0.9109545424921657, 0.5355322041447821, 0.9498733743967636, 0.7253025503608977, 0.9430364495125731, 0.5076943976918459, 0.906923058378295, 0.9381767755969468, 0.6202958011286538, 0.6808833535096964, 0.2572497507889638, 0.7508207946511871, 0.9557543681869334, 0.6362439585829495, 0.9365739931432338, 0.29943997880421824, 0.8769250379411355, 0.3737662111795117, 0.8103534793340235, 0.7639496783614648, 0.5412219101899178, 0.5102601887697077, 0.9442248897793943, 0.9692439075113215, 0.7929436912800465, 0.7741939441431783, 0.473297280093855, 0.9064577988630712, 0.37828106820249585, 0.9455713410474389, 0.35400657355482756, 0.8119506730626463, 0.8358249633996924, 0.7286144481170467, 0.8241554247996095, 0.45601045567543047, 0.7761988507965935, 0.6017150080688712, 0.9142918920357144, 0.910618969189708, 0.46985530336379205, 0.7279692304347927]
+Finish training and take 1h15m
+Namespace(log_name='./xcodeeval/1/finetune_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='c', output_dir='xcodeeval/1/finetune_gptneo', data_dir='./data/xcodeeval/1', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: EleutherAI/gpt-neo-1.3B
+model created!
+Total 1082 training instances 
+***** Running training *****
+  Num examples = 1082
+  Batch size = 8
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.00201
+  global_step = 136
+  train_loss = 3.3515
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.00201
+  ********************
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 75.31 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:75.31
+  ********************
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 1.00193
+  global_step = 271
+  train_loss = 2.435
+  ********************
+Previous best ppl:1.00201
+Achieve Best ppl:1.00193
+  ********************
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 75.86 	 Previous best codebleu 75.31
+  ********************
+ Achieve Best bleu:75.86
+  ********************
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 1.00192
+  global_step = 406
+  train_loss = 2.2714
+  ********************
+Previous best ppl:1.00193
+Achieve Best ppl:1.00192
+  ********************
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 75.85 	 Previous best codebleu 75.86
+  ********************
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 1.00197
+  global_step = 541
+  train_loss = 2.113
+  ********************
+Previous best ppl:1.00192
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 74.59 	 Previous best codebleu 75.86
+  ********************
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 1.00202
+  global_step = 676
+  train_loss = 1.9146
+  ********************
+Previous best ppl:1.00192
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 69.95 	 Previous best codebleu 75.86
+  ********************
+
+***** Running evaluation *****
+  Num examples = 135
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 1.00215
+  global_step = 811
+  train_loss = 1.695
+  ********************
+Previous best ppl:1.00192
+BLEU file: ./data/xcodeeval/1/validation.jsonl
+  codebleu-4 = 69.33 	 Previous best codebleu 75.86
+  ********************
+reload model from xcodeeval/1/finetune_gptneo/checkpoint-best-bleu
+BLEU file: ./data/xcodeeval/1/test.jsonl
+  codebleu = 76.46 
+  Total = 135 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 1 
+[123]
+  ********************
+  Total = 135 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 1 
+[123]
+  codebleu = 76.46 
+[0.7034268703511799, 0.9752926493864778, 0.8419188985107608, 0.8399493211101225, 0.5511737119063814, 0.8928996467209719, 0.6811990902414101, 0.8131660563421435, 0.47822580645161283, 0.9295757649014529, 0.6700100781693141, 0.8881108167610436, 0.8920012172763082, 0.8847237140434953, 0.9250674011252755, 0.7938229814514498, 0.6068707460804744, 0.7789126602228544, 0.9090656756929271, 0.9832612094993938, 0.9498733743967636, 0.7584713945723569, 0.914106764646782, 0.9304372254539681, 0.7521689663631371, 0.8986391637385749, 0.48490114764840564, 0.8273720342697226, 0.943601919551823, 0.9303942035837438, 0.9613399936708418, 0.8463810160907537, 0.5003910292067191, 0.9389707093964361, 0.8416184535678177, 0.973858151522893, 0.6031327204302868, 0.9365819013624168, 0.5266722287592185, 0.9471982954514573, 0.6356058148889161, 0.6754292375001995, 0.4139033405309611, 0.48768804749002387, 0.7149195155805301, 0.8396113521805657, 0.9465012851429597, 0.973858151522893, 0.5725880793818358, 0.7569630859948919, 0.9601466755014141, 0.33580645216805804, 0.9232304737710106, 0.786373323150595, 0.46344533813736777, 0.9418237108559537, 0.8633660722321144, 0.6778336766746159, 0.9860950428335316, 0.5335581349704818, 0.9492384172683168, 0.9062012435307965, 0.5077214223305908, 0.9633475538046121, 0.9926977821694327, 0.147081846437205, 0.9334580759528754, 0.24527399815278747, 0.7569939567638737, 0.8876903996160546, 0.39101342264848765, 0.9604294079167424, 0.39536345674651, 0.9341079538337742, 0.8726275171090774, 0.9453698448910237, 0.8660537882048572, 0.8373834761279768, 0.8644554554879766, 0.8454546086981599, 0.7479783369086705, 0.7053456033951473, 0.844001858253585, 0.9397626412560047, 0.9903793674040597, 0.8917793747666807, 0.8868973046039473, 0.8424197834374936, 0.9673766976042135, 0.8093645661462701, 0.982840810414882, 0.8963430088316504, 0.4982454793674228, 0.9109545424921657, 0.5355322041447821, 0.9498733743967636, 0.7253025503608977, 0.9430364495125731, 0.5076943976918459, 0.906923058378295, 0.9381767755969468, 0.6202958011286538, 0.6808833535096964, 0.2572497507889638, 0.7508207946511871, 0.9557543681869334, 0.6362439585829495, 0.9365739931432338, 0.29943997880421824, 0.8769250379411355, 0.3737662111795117, 0.8103534793340235, 0.7639496783614648, 0.5412219101899178, 0.5102601887697077, 0.9442248897793943, 0.9692439075113215, 0.7929436912800465, 0.7741939441431783, 0.473297280093855, 0.9064577988630712, 0.37828106820249585, 0.9455713410474389, 0.35400657355482756, 0.8119506730626463, 0.8358249633996924, 0.7286144481170467, 0.8241554247996095, 0.45601045567543047, 0.7761988507965935, 0.6017150080688712, 0.9142918920357144, 0.910618969189708, 0.46985530336379205, 0.7279692304347927]
+Finish training and take 1h15m

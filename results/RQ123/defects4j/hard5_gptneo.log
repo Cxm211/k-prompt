@@ -1,0 +1,86 @@
+Namespace(log_name='./defects4j/hard5_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='defects4j/hard5_gptneo', data_dir='./data/defects4j', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1024, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'static TernaryValue getImpureBooleanValue(Node n) {          return TernaryValue.TRUE;        default:          return getPureBooleanValue(n);', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': ' is buggy program', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': ' is fixed program', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'static TernaryValue getImpureBooleanValue(Node n) {          return TernaryValue.TRUE;       case Token.VOID:         return TernaryValue.FALSE;        default:          return getPureBooleanValue(n);'}]
+***** Running training *****
+  Num examples = 502
+  Batch size = 4
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 3.340881485939229e+67
+  global_step = 127
+  train_loss = 77.5537
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:3.340881485939229e+67
+  ********************
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 52.76 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:52.76
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 6.6075918917111176e+72
+  global_step = 253
+  train_loss = 25.4787
+  ********************
+Previous best ppl:3.340881485939229e+67
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 31.71 	 Previous best codebleu 52.76
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 8.332856695673366e+74
+  global_step = 379
+  train_loss = 13.4722
+  ********************
+Previous best ppl:3.340881485939229e+67
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 40.13 	 Previous best codebleu 52.76
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 3.946236646605698e+80
+  global_step = 505
+  train_loss = 8.5285
+  ********************
+Previous best ppl:3.340881485939229e+67
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 41.87 	 Previous best codebleu 52.76
+  ********************
+early stopping!!!
+reload model from defects4j/hard5_gptneo/checkpoint-best-bleu
+BLEU file: ./data/defects4j/test.jsonl
+  codebleu = 51.48 
+  Total = 64 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 64 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 51.48 
+[0.3646995241430856, 0.8030811899224986, 0.6873740073884191, 0.32244772968297647, 0.3773536999771354, 0.5846884145613737, 0.26766334593637847, 0.37314417407485573, 0.7051146102158162, 0.8224642580186448, 0.7143513682140774, 0.5008461138506952, 0.8562223599844032, 0.27712091935688804, 0.1564496941701268, 0.6619141101737263, 0.2173103392962785, 0.2734945952858521, 0.9617720754477719, 0.3560510407075845, 0.7253634867653617, 0.6831751839013868, 0.5304324398194751, 0.8693059718827794, 0.8734502199950254, 0.2985011071511002, 0.20054814135579668, 0.7959352899936643, 0.6410378892354339, 0.5629050648613532, 0.7011143192662692, 0.2675750087294333, 0.3865958923696179, 0.6035348715089914, 0.36550999708594056, 0.8637854267400931, 0.2190284008429711, 0.776608796290673, 0.313979821065283, 0.16294077144517966, 0.3975654201107595, 0.3788321486588963, 0.562787837923513, 0.17667800111574636, 0.6198385430963487, 0.6620374200206556, 0.8295509438760991, 0.18915868113322798, 0.26988432409413865, 0.8924644874204966, 0.5572779254688369, 0.7935528884429095, 0.8096645620006775, 0.7977079320260367, 0.3153370701823741, 0.525599759113577, 0.14649714993732563, 0.2300673036947609, 0.8537549219627125, 0.16477858041078328, 0.4480890260892356, 0.7829903885524012, 0.1286333427208513, 0.29123748594090465]
+Finish training and take 2h10m

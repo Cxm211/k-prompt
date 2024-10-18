@@ -1,0 +1,1 @@
+{"id": "/data/all/data/allenhwkim/ngentest", "bugType": "no-invalid-this", "problem": "  const mocks = {};\n  const providers = this._getProviders(klass);\n  ", "fixed": "  const mocks = {};\n  \n  ", "message": "Unexpected 'this'."}

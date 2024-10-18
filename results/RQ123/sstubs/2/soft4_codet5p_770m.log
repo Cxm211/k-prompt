@@ -1,0 +1,396 @@
+Namespace(log_name='./sstubs/2/soft4_codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='java', output_dir='sstubs/2/soft4_codet5p_770m', data_dir='./data/sstubs/2', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Fix', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' };       private final HotSwapPassFactory checkAccessControls =        new HotSwapPassFactory("checkAccessControls", true) {      @Override      protected HotSwapCompilerPass createInternal(AbstractCompiler compiler) {', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is fixed program', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '};       final HotSwapPassFactory checkAccessControls =        new HotSwapPassFactory("checkAccessControls", true) {      @Override      protected HotSwapCompilerPass createInternal(AbstractCompiler compiler) {'}]
+***** Running training *****
+  Num examples = 223
+  Batch size = 4
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 2.7732853003999203e+97
+  global_step = 57
+  train_loss = 15.5196
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:2.7732853003999203e+97
+  ********************
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 93.57 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:93.57
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 1.1975930655675506e+95
+  global_step = 113
+  train_loss = 3.2555
+  ********************
+Previous best ppl:2.7732853003999203e+97
+Achieve Best ppl:1.1975930655675506e+95
+  ********************
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 95.18 	 Previous best codebleu 93.57
+  ********************
+ Achieve Best bleu:95.18
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 1.357837995622222e+99
+  global_step = 169
+  train_loss = 1.8242
+  ********************
+Previous best ppl:1.1975930655675506e+95
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 93.12 	 Previous best codebleu 95.18
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 3.154871200940313e+103
+  global_step = 225
+  train_loss = 1.0043
+  ********************
+Previous best ppl:1.1975930655675506e+95
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 94.62 	 Previous best codebleu 95.18
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 1.5472416084461838e+101
+  global_step = 281
+  train_loss = 0.6379
+  ********************
+Previous best ppl:1.1975930655675506e+95
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 95.69 	 Previous best codebleu 95.18
+  ********************
+ Achieve Best bleu:95.69
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 2.990962719703392e+103
+  global_step = 337
+  train_loss = 0.4276
+  ********************
+Previous best ppl:1.1975930655675506e+95
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 95.91 	 Previous best codebleu 95.69
+  ********************
+ Achieve Best bleu:95.91
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 6
+  eval_ppl = 4.552347688655269e+103
+  global_step = 393
+  train_loss = 0.628
+  ********************
+Previous best ppl:1.1975930655675506e+95
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 95.71 	 Previous best codebleu 95.91
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 7
+  eval_ppl = 5.488773882454767e+104
+  global_step = 449
+  train_loss = 0.2727
+  ********************
+Previous best ppl:1.1975930655675506e+95
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 95.71 	 Previous best codebleu 95.91
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 8
+  eval_ppl = 8.624786571816848e+105
+  global_step = 505
+  train_loss = 0.2444
+  ********************
+Previous best ppl:1.1975930655675506e+95
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 95.71 	 Previous best codebleu 95.91
+  ********************
+early stopping!!!
+reload model from sstubs/2/soft4_codet5p_770m/checkpoint-best-bleu
+BLEU file: ./data/sstubs/2/test.jsonl
+  codebleu = 92.81 
+  Total = 27 
+  Exact Fixed = 16 
+[1, 3, 4, 5, 6, 7, 9, 10, 11, 13, 14, 19, 21, 22, 24, 26]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 27 
+  Exact Fixed = 16 
+[1, 3, 4, 5, 6, 7, 9, 10, 11, 13, 14, 19, 21, 22, 24, 26]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 92.81 
+[1.0, 0.9261420415269246, 1.0, 1.0, 1.0, 1.0, 1.0, 0.8476460351025821, 1.0, 1.0, 1.0, 0.7032463562196102, 1.0, 1.0, 0.6626722898116006, 0.8947836446510709, 0.9601466755014141, 0.9325400085710811, 1.0, 0.8755319098520675, 1.0, 1.0, 0.6577095841418729, 1.0, 0.8658230311280162, 1.0, 0.7336075951152513]
+Finish training and take 14m
+Namespace(log_name='./result/sstubs/2/soft4_codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='java', output_dir='result/sstubs/2/soft4_codet5p_770m', data_dir='./data/sstubs/2', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Fix', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' @SuppressWarnings("unchecked")    @Override   public V value(Object node) {      Object value = adjacentNodeValues.get(node);      if (value == PRED) {        return null;', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is fixed program', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '@SuppressWarnings("unchecked")    @Override   public V value(N node) {      Object value = adjacentNodeValues.get(node);      if (value == PRED) {        return null;'}]
+***** Running training *****
+  Num examples = 260
+  Batch size = 4
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.1077152026376685e+99
+  global_step = 66
+  train_loss = 14.8151
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.1077152026376685e+99
+  ********************
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 91.25 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:91.25
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 3.3540449949289727e+109
+  global_step = 131
+  train_loss = 3.1042
+  ********************
+Previous best ppl:1.1077152026376685e+99
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 95.91 	 Previous best codebleu 91.25
+  ********************
+ Achieve Best bleu:95.91
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 4.506764647972221e+106
+  global_step = 196
+  train_loss = 1.6271
+  ********************
+Previous best ppl:1.1077152026376685e+99
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 95.97 	 Previous best codebleu 95.91
+  ********************
+ Achieve Best bleu:95.97
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 6.535391504620744e+110
+  global_step = 261
+  train_loss = 2.0439
+  ********************
+Previous best ppl:1.1077152026376685e+99
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 94.58 	 Previous best codebleu 95.97
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 2.078909201926383e+115
+  global_step = 326
+  train_loss = 1.331
+  ********************
+Previous best ppl:1.1077152026376685e+99
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 93.66 	 Previous best codebleu 95.97
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 2.4165081969940696e+115
+  global_step = 391
+  train_loss = 0.4978
+  ********************
+Previous best ppl:1.1077152026376685e+99
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 96.0 	 Previous best codebleu 95.97
+  ********************
+ Achieve Best bleu:96.0
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 6
+  eval_ppl = 2.2168348156279764e+114
+  global_step = 456
+  train_loss = 0.1648
+  ********************
+Previous best ppl:1.1077152026376685e+99
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 95.63 	 Previous best codebleu 96.0
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 7
+  eval_ppl = 3.9547046687846505e+115
+  global_step = 521
+  train_loss = 0.1412
+  ********************
+Previous best ppl:1.1077152026376685e+99
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 95.63 	 Previous best codebleu 96.0
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 8
+  eval_ppl = 1.1056998817466568e+115
+  global_step = 586
+  train_loss = 0.1237
+  ********************
+Previous best ppl:1.1077152026376685e+99
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 96.0 	 Previous best codebleu 96.0
+  ********************
+early stopping!!!
+Namespace(log_name='./result/sstubs/2/soft4_codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='java', output_dir='result/sstubs/2/soft4_codet5p_770m', data_dir='./data/sstubs/2', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Fix', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' @SuppressWarnings("unchecked")    @Override   public V value(Object node) {      Object value = adjacentNodeValues.get(node);      if (value == PRED) {        return null;', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is fixed program', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '@SuppressWarnings("unchecked")    @Override   public V value(N node) {      Object value = adjacentNodeValues.get(node);      if (value == PRED) {        return null;'}]
+***** Running training *****
+  Num examples = 260
+  Batch size = 4
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.1077152026376685e+99
+  global_step = 66
+  train_loss = 14.8151
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.1077152026376685e+99
+  ********************
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 91.17 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:91.17
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 3.3540449949289727e+109
+  global_step = 131
+  train_loss = 3.1042
+  ********************
+Previous best ppl:1.1077152026376685e+99
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 95.91 	 Previous best codebleu 91.17
+  ********************
+ Achieve Best bleu:95.91
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 4.506764647972221e+106
+  global_step = 196
+  train_loss = 1.6271
+  ********************
+Previous best ppl:1.1077152026376685e+99
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 95.89 	 Previous best codebleu 95.91
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 6.535391504620744e+110
+  global_step = 261
+  train_loss = 2.0439
+  ********************
+Previous best ppl:1.1077152026376685e+99
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 94.51 	 Previous best codebleu 95.91
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 2.078909201926383e+115
+  global_step = 326
+  train_loss = 1.331
+  ********************
+Previous best ppl:1.1077152026376685e+99
+BLEU file: ./data/sstubs/2/validation.jsonl
+  codebleu-4 = 93.58 	 Previous best codebleu 95.91
+  ********************
+early stopping!!!
+reload model from result/sstubs/2/soft4_codet5p_770m/checkpoint-best-bleu
+BLEU file: ./data/sstubs/2/test.jsonl
+  codebleu = 93.12 
+  Total = 32 
+  Exact Fixed = 19 
+[1, 2, 3, 5, 6, 9, 10, 11, 12, 14, 17, 18, 19, 21, 23, 27, 28, 29, 30]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 32 
+  Exact Fixed = 19 
+[1, 2, 3, 5, 6, 9, 10, 11, 12, 14, 17, 18, 19, 21, 23, 27, 28, 29, 30]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 93.12 
+[1.0, 1.0, 1.0, 0.7825018389061358, 1.0, 1.0, 0.7555732843655234, 0.6764840736522396, 1.0, 1.0, 1.0, 1.0, 0.645426537036109, 1.0, 0.6887796716807858, 0.9097382001430849, 1.0, 1.0, 1.0, 0.8816015466501335, 1.0, 0.8937646940710373, 1.0, 0.8952938350960071, 0.8927685762874167, 0.9270405384522935, 1.0, 1.0, 1.0, 1.0, 0.8865791661552385, 0.9620033353993269]
+Finish training and take 10m

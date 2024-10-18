@@ -1,0 +1,232 @@
+Namespace(log_name='./sstubs/3/hard9_codet5p_220m.log', model_name='Salesforce/codet5p-220m', lang='java', output_dir='sstubs/3/hard9_codet5p_220m', data_dir='./data/sstubs/3', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Please fix an buggy program', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' grammarBuilder.append("}\\n");    grammarBuilder.append("  : r=a ;\\n");    grammarBuilder.append("a : \'x\' { \\n");   grammarBuilder.append("fmt.Println(p.GetRuleInvocationStack(nil))\\n");    grammarBuilder.append("} ;");    String grammar = grammarBuilder.toString();    String input ="x";', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': ' the bug type is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' Change Numeric Literal', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': ' the abstract syntax tree of bug line before fixing is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' new StringBuilder(167)', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': ' is the fixed version', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'grammarBuilder.append("}\\n");    grammarBuilder.append("  : r=a ;\\n");    grammarBuilder.append("a : \'x\' { \\n");   grammarBuilder.append("fmt.Println(antlr.PrintArrayJavaStyle(p.GetRuleInvocationStack(nil)))\\n");    grammarBuilder.append("} ;");    String grammar = grammarBuilder.toString();    String input ="x";'}]
+***** Running training *****
+  Num examples = 223
+  Batch size = 4
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 4.44561379785506e+100
+  global_step = 57
+  train_loss = 18.2705
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:4.44561379785506e+100
+  ********************
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 91.01 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:91.01
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 4.543331031811287e+105
+  global_step = 113
+  train_loss = 6.9651
+  ********************
+Previous best ppl:4.44561379785506e+100
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 93.42 	 Previous best codebleu 91.01
+  ********************
+ Achieve Best bleu:93.42
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 4.414017301077713e+109
+  global_step = 169
+  train_loss = 3.2201
+  ********************
+Previous best ppl:4.44561379785506e+100
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 94.03 	 Previous best codebleu 93.42
+  ********************
+ Achieve Best bleu:94.03
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 2.1746560064769118e+112
+  global_step = 225
+  train_loss = 1.5038
+  ********************
+Previous best ppl:4.44561379785506e+100
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 94.27 	 Previous best codebleu 94.03
+  ********************
+ Achieve Best bleu:94.27
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 1.0091259861764044e+116
+  global_step = 281
+  train_loss = 0.9195
+  ********************
+Previous best ppl:4.44561379785506e+100
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 94.27 	 Previous best codebleu 94.27
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 2.518948042441178e+116
+  global_step = 337
+  train_loss = 0.6313
+  ********************
+Previous best ppl:4.44561379785506e+100
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 93.61 	 Previous best codebleu 94.27
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 6
+  eval_ppl = 9.592892524146938e+116
+  global_step = 393
+  train_loss = 0.5229
+  ********************
+Previous best ppl:4.44561379785506e+100
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 94.27 	 Previous best codebleu 94.27
+  ********************
+early stopping!!!
+reload model from sstubs/3/hard9_codet5p_220m/checkpoint-best-bleu
+BLEU file: ./data/sstubs/3/test.jsonl
+  codebleu = 95.27 
+  Total = 27 
+  Exact Fixed = 15 
+[1, 4, 5, 6, 7, 8, 10, 11, 12, 16, 22, 23, 25, 26, 27]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 27 
+  Exact Fixed = 15 
+[1, 4, 5, 6, 7, 8, 10, 11, 12, 16, 22, 23, 25, 26, 27]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 95.27 
+[1.0, 0.881869732718652, 0.9548431641738979, 1.0, 1.0, 1.0, 1.0, 1.0, 0.936752055107628, 1.0, 1.0, 1.0, 0.8977573831682686, 0.963531800540206, 0.7888431522760508, 1.0, 0.8648103351245982, 0.8086995567252285, 0.9490051755223876, 0.9543920430664012, 0.8459152611805056, 1.0, 1.0, 0.8772724139191397, 1.0, 1.0, 1.0]
+Finish training and take 4m
+Namespace(log_name='./result/sstubs/3/hard9_codet5p_220m.log', model_name='Salesforce/codet5p-220m', lang='java', output_dir='result/sstubs/3/hard9_codet5p_220m', data_dir='./data/sstubs/3', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Please fix a buggy program', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' @ConditionalOnMissingBean    RSocketServerBootstrap rSocketServerBootstrap(RSocketServerFactory rSocketServerFactory,      RSocketMessageHandler rSocketMessageHandler) {    return new RSocketServerBootstrap(rSocketServerFactory, rSocketMessageHandler.serverAcceptor());    }   }', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': ' the bug type is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' Wrong Function Name', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' the abstract syntax tree of bug line before fixing is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' rSocketMessageHandler.serverAcceptor()', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': ' is the fixed version', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '@ConditionalOnMissingBean    RSocketServerBootstrap rSocketServerBootstrap(RSocketServerFactory rSocketServerFactory,      RSocketMessageHandler rSocketMessageHandler) {    return new RSocketServerBootstrap(rSocketServerFactory, rSocketMessageHandler.serverResponder());    }   }'}]
+***** Running training *****
+  Num examples = 260
+  Batch size = 4
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.2146177486694526e+105
+  global_step = 66
+  train_loss = 16.8711
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.2146177486694526e+105
+  ********************
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 94.85 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:94.85
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 3.5951557718218275e+106
+  global_step = 131
+  train_loss = 3.6928
+  ********************
+Previous best ppl:1.2146177486694526e+105
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 95.24 	 Previous best codebleu 94.85
+  ********************
+ Achieve Best bleu:95.24
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 9.61693556343097e+110
+  global_step = 196
+  train_loss = 1.825
+  ********************
+Previous best ppl:1.2146177486694526e+105
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 95.04 	 Previous best codebleu 95.24
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 6.885838448879987e+110
+  global_step = 261
+  train_loss = 1.0645
+  ********************
+Previous best ppl:1.2146177486694526e+105
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 95.02 	 Previous best codebleu 95.24
+  ********************
+
+***** Running evaluation *****
+  Num examples = 32
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 1.864593052464728e+112
+  global_step = 326
+  train_loss = 0.541
+  ********************
+Previous best ppl:1.2146177486694526e+105
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 94.7 	 Previous best codebleu 95.24
+  ********************
+early stopping!!!
+reload model from result/sstubs/3/hard9_codet5p_220m/checkpoint-best-bleu
+BLEU file: ./data/sstubs/3/test.jsonl
+  codebleu = 88.21 
+  Total = 32 
+  Exact Fixed = 10 
+[2, 3, 4, 5, 9, 10, 22, 23, 25, 31]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 32 
+  Exact Fixed = 10 
+[2, 3, 4, 5, 9, 10, 22, 23, 25, 31]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 88.21 
+[0.9096354401872717, 1.0, 1.0, 1.0, 1.0, 0.681072945544059, 0.35956550617556393, 0.6571227299905348, 1.0, 1.0, 0.9583676774082095, 0.9383022364276514, 0.8380551848499416, 0.6014630501593233, 0.8642531454411047, 0.9211131842675646, 0.9087584599564476, 0.920101844638672, 0.9520099029923956, 0.35956550617556393, 0.9556325881310865, 1.0, 1.0, 0.8619090595729861, 1.0, 0.9498733743967636, 0.9362201886171708, 0.9052050509144789, 0.9521775318277603, 0.8293897313556879, 1.0, 0.9658213973211704]
+Finish training and take 3m

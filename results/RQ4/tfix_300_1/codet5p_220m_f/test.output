@@ -1,0 +1,500 @@
+function entityRemove(args, cb) {     var prior = this.prior.bind(this);     args.command.cmd = 'remove';
+this.name = path.basename(this.name).replace(/^\.+/, '');     while (_existsSync(options.uploadDir + '/' + this.name)) {     }
+import {StyleSheet, ScrollView, View, Text, TouchableOpacity, Alert} from 'react-native'; import {analytics, styles, colors, airloy, api, L, toast, hang} from '../../app';
+System.register(['./generated-chunk.js', './generated-chunk2.js'], function (exports, module) {  'use strict';
+$scope.rotationStyle = $renderKey.getKeyRotationStyles;   function renderKey(key) {
+import { Feature } from '@common-stack/server-core'; export default new Feature(authModule);
+};       this.testProvider.evaluateCodeLens(codeLens, null);     },
+var ss = {}   yield * this.ss.iterate(this, null, null, function * (n) {     var user = n.id[0]
+const _ = require('lodash'); Promise = require('bluebird').Promise; const fs = require('../utils/fs');
+}  deny() {   return this.model.deny(...arguments);  }
+$( "tbody button:contains(18)", element ).simulate( "mousedown" );   TestHelpers.calendar.equalsDate(    element.calendar( "valueAsDate" ),
+ignoreHTTPSErrors: true,       headless: !!!config.debugWindow     },
+opts.data = arguments[2]   opts.method = 'POST'   return exports.request(test, url, opts, callback) }
+res.send(400,err.toString());             }         },
+this.isNull = false;                 for (var key in this.attributes) {                     this.attributes[key].update(plainValue[key], setOldValue, this.bubble);                 }             }
+return font => {         if (!fonts[font.id]) {
+function rebatchCommands(primitive, context) {         return false;          if (!primitive._batchDirty) {             return false;
+}, {     id: null,     id: "_m2",     name: "Deimos"
+while ( m = rEscapes.exec(sLine) ) {
+module.exports = version var exec = require("child_process").execFile   , semver = require("semver")   , path = require("path")
+}     invalid = _.find(obj.geometries, function (geometry) {       return !isGeoJSON(geometry);
+return drone;   }
+this.proxy.listen(this.proxy_port, block); };
+debugger             window.addEventListener('showAdvertising', handler);
+{  var a = typeof(arguments[i+1])=="string" ?  arguments[i+1].charCodeAt(0) : arguments[i+1];  if(a!=header[i]) return false;
+for (var metric in this.metrics) {       if (this.metrics.hasOwnProperty(metric)) {         var name = this.metrics[metric].target + '-' + this.metrics[metric].source;
+throw new Meteor.Error(500, err.message);         }         let fut = new Future();         let proto;
+'Background color'        : 'لون الخلفية',  'Format'                  : 'النتسيق',
+transport.getLatestBlock(processNewBlock);   }
+goog.net.XhrIo.prototype.send;
+const { breadCrumbStyling, breadCrumbsWrapper } = classes;   return (
+if (inst) {         throw new Error('player has already joined ' + inst.gameID);       }
+type = 'select';                 }                 if ( $( this ).prop( 'nodeName' ).toUpperCase() === 'TEXTAREA' ) {                     type = 'textarea';
+var rows2 = [];           for (var j = 0; j < series.length; j++) {             rows2.push([]);
+} else {                     DateEditorView.__super__.onGenericEscapeKeydown.apply(this, arguments);                 }
+debugger;       this.out.unlinkSync(outputRelative);
+handleBulkDelete(event, items) {     return this.props.onDelete(items.map(item => item.id))       .then((resultItems) => {
+case 'read': {                 console.log('read message list');
+function extractWords(text) {       var tokens = text.toLowerCase().split(/[,\.\`\'\"\#\s]+/mg);       tokens.forEach(function(key){
+".html":[6,0,1,0], "BadStateHandlers_8h_source.html":[7,0,1,0,0,3,1,0,0],
+, helpers    = require('./helpers')   , toCode     = helpers.toCode
+this.retCallback(data);       this.retCallback = null;
+const CodeBlockRequired = new RegExp('(<\/code\-block>)', 'g');       if (CodeBlockRequired.test(parseHTML)) {
+var title, _widget, isWidget, _element, isWidget;         for (var widgetName in targets) {
+UserForm.prototype.jumpToStep = (stepNumber, direction) => {     const targetStep = this.steps[stepNumber];     let isValid = false;
+tr.innerHTML = '<td>' + room.roomName + '</td>' +             '<td><button class="join" id="' + room.roomToken + '">Join Room</button></td>';         roomsList.insertBefore(tr, roomsList.firstChild);
+return this.each(function() {
+this.hideResults().search();             window.setTimeout(_.bind(function () {                 this.$('.g-search-mode-choose').popover('hide');             }, this), 250);         },
+$onInit () {         this.urls.docsUrl = this.ovhDocUrl.getDocUrl(this.LogsConstants.LOGS_DOCS_NAME);
+const path   = require('path'); const contentTypes = require('./utils/content-types'); const sysInfo  = require('./utils/sys-info'); const env   = process.env;
+remove: function(token){       var className = this.element.className;       var newClassName = className.replace(tokenRegExp(token), '');
+process.exit(1);   }
+var result = $tw.utils.deepCopy(object),t;  for(var t in extendedProperties) {   if(object.hasOwnProperty(t)) {
+, DB = process.env.db || 'http:   , RTT test('Couch is there', function(t) {
+};  for (var p in thisClass) {   Employee.prototype[p] = thisClass[p];  }
+if (nodejs) {      var AgentSmith = require('../../agent_smith/src/agent_smith');      var Neo = require('../neo');      require('./cluster');
+const llex     = require('./llex.js'); const llimit   = require('./llimit.js'); const lobject  = require('./lobject.js');
+callback(null, msg);   }   this.slave.once('disconnect', onclose);
+}             });             return normalizedHighlights;         },
+else if (ruleType === "COMPOUNDRULE") {     var numEntries = parseInt(definitionParts[1], 10);
+if ($(this).hasClass('dwwb')) {                     if (testTouch(e)) {
+} else {                          _liA.push('<a tabindex="-1" class="opt '+ $(this).attr("class")+'">'+$(this).text()+'</a>');                     }
+if (runtime.conf.hintAlign === "right") {                 left = pos.left - bof.left + $(this).width();             } else if (runtime.conf.hintAlign === "left") {
+this.items = new Array();                 }
+res += '>';                 if (content = json.content) {                     if (Array.isArray(content)) {
+getReposRelease: (reposOwner, reposName) => {         return `${host}repos/${reposOwner}/${reposName}/tags`
+console.log(domain_name)   pubsub_client = new Faye.Client(pubsub_server_url+'/pubsubhub', {
+}, function (reason) {                             throw file + ': Error loading data from .stl file: ' + reason;                         }
+if (this.graph == null) {         this.setupGraph(t);
+result = true;         mathML = mathML;         if (isSuperscriptAtom(stream)) {
+describe('the "___" should be displayed', function() {   this.timeout(6000);
+if (!this._alwaysOnTopWindow || !this._alwaysOnTopWindow.document) {             return;         }
+$(function(){   var width = window.innerWidth;   var height = window.innerHeight;   var doc = $(document);
+goog.require('myphysicslab.sims.common.AbstractApp'); goog.require('myphysicslab.sims.common.CommonControls'); goog.require('myphysicslab.sims.common.TabLayout'); goog.require('myphysicslab.sims.pendulum.PendulumSim');
+const hookPrefix = 'redibox-hook'; const hookRegexMatch = new RegExp(`@?[a-zA-Z-_0-9]*?\/?${hookPrefix}-([A-Za-z0-9-_]*)`); const hookRegexReplace = new RegExp(`@?[a-zA-Z-_0-9.]*?\/?${hookPrefix}-`);
+if (!adapterNpmName) {     throw new Error("The adapter's npm name is required when running init.");   } }
+};  this.exec = this.run = function() {   const command = Object.keys(arguments).map(key => arguments[key]).join(" ");   const filename = controller.getUUID();
+throw Error('Did you pass in an Element?'); };
+console.error(VERSION);                     process.exit(1);                     break;                 case "-o": {
+var g = g_axis.append('g').attr('transform', 'translate(' + (width - margin) + ',0)');       var y_axis = d3.svg.axis()
+this.description = description || "";             this.required = new Array();             this.enum = null;             this.type = type || "";
+var obj = obj || { id: id, cls: "PFVArType2IEEEVArController" };                 super.submit (id, obj);
+import ChartsContainer from '../../../components/charts-container'; import Fills from '../../fills/components/fills';
+: table[field].lt(context.request.urlTokenized[index - 1])             break;           case "explicit":
+var Concur = require('Concur')   , object = require('isomorph/object')   , validators = require('validators')
+const startTime = Date.now();       promiseFunc.apply(this, arguments)       .then(returnValue => {
+, http = require('http')   , mongoose = require('mongoose')   , io = require('socket.io');
+this.checkInternalPointers();   if (this.parent) { throw new Error("The root shouldn't have a parent"); } };
+var mockContext = {   report: function() {    collectedReport.push(arguments);   }
+var data = this.getSection(syntax), matchedItem = null;    _.find(['snippets', 'abbreviations'], function(sectionName) {     var data = this.getSection(syntax, sectionName);     if (data) {
+actions: {     goBack() {debugger;},     completed(hostConfig) {
+throw 'unmatched request action: ' + request.action;   }
+}                     ingoose._db.createObjectStore(name, schemas[name]);
+document.body.appendChild(dummy);    if (true || dummy.getBoundingClientRect().width !== window.innerWidth - 100) {     (function(calcs) {
+if (typeof console === "undefined") { console = { log: print }; } var j,i; outer: for (j = 0; j < 5; j = j + 1) {
+require('./ServiceBase'); SuperMap.REST.ChartFeatureInfoSpecsService = SuperMap.Class(SuperMap.ServiceBase, {
+let right = r * scale * self.opW_;     if (colorSet) {     } else if (scale < 0.2) {         context.strokeStyle = "#888888";
+Minionette.CollectionView = Minionette.View.extend({     constructor: function(options) {         Minionette.View.apply(this, arguments);
+o = new f();      if(!'__proto__' in o){    o.__proto__ = proto;
+await display.append_javascript( execute, context.output_area, context ).then(                             ( r ) => console.debug( "Output appended.", r )                         );
+marginBottom: '4px',               marginBottom: '4px',               fontSize: 16,
+if (this._transform)   modelViewMatrix = sglMulM4(modelViewMatrix, this._transform);  if (!this.dataAdapter)
+var name = element.tagName.toLowerCase();                 if (BuildHelpers.doesStringLookLikeDependency(this, name)) {                     dependenciesList.push(name);
+import React, { Component } from 'react'; import { connect } from 'react-redux'; import { Field, reduxForm } from 'redux-form';
+return error('Error loading exercise text:', err.message || err)       printExercise(type, exerciseText)     }) }
+this.el = el;     this.context = document;          this.commands = {};
+if (true || process.env.RLV_ENV && process.env.RLV_ENV === 'browser') {     ScrollComponent = require("./scrollcomponent/web/ScrollComponent").default;
+var reshape = this._impeach() || this._exile()             if (false && reshape) {                 this.ponged = false
+)         break;       default:
+getID(instance) {     return (!!this._collection.findOne({ _id: instance })) ? instance : this.findIdBySlug(instance);   }
+exports.download = function(req, res) {   headers = {     "Content-Type": "application/force-download",
+for (let name in translate.keys) {       opts.keys[name] = opts.keys[name];     }
+"class": "modal-input-xlarge",                 default: "\{\}",                 awPopOver: "<p>Enter variables using either JSON or YAML syntax. Use the radio button to toggle between the two.</p>" +
+var id;         id = this.client.subscribe(destination, __bind(function(frame) {           var envelope;
+if(eventListeners[eventName]) {    for(var i = 0; i < eventListeners[eventName].length; i++) {     yield eventListeners[eventName][i](params);
+var time_string = Eventbrite.prototype.utils.formatTime( start_date );       var date_string = start_date.toDateString();       var html = '';
+it("move should be 1 ", function() {              const stemGroup=file.createGroup('pmc/Trajectories');
+var findIn = require('../examples/find-in'); describe.only('integration', function() {   this.timeout(20000);    var db, modules;
+qualityChange(event) {     this.trigger(Clappr.Events.PLAYBACK_HIGHDEFINITIONUPDATE)
+import { setChildren } from './setchildren'; import { isString, isFunction, isNode, getParentElRecursive } from './util';
+model.when('size', function (size) {       svg.attr('width', size.width)
+Polymer({   _template: `     <style>
+debug( 'New Value: %d.', this._height );  oldVal = this._height; }
+if (!SET || !SET.length)  throw new Error("Table Update MUST have 'SET'");             if (!WHERE || !WHERE.length) throw new Error("Table Update MUST have 'WHERE'");
+var childPositionsValid = true;   for (var i = 0; i < this.children.length; ++i) {    if (!this.children[i].positionValid(this.children[i].getCurrentSpace())) {
+render(ctx) {     return     const drawFeaturePathToContext = geoPath()       .projection(this._project)
+const createMenu = require('simple-terminal-menu')     , chalk      = require('chalk')
+{                 var document = this.documents[i];
+if (stickyElement.positionType === 'fixed') {         } else {           if (stickyElement.useTransform) {
+propCallback({             wavesurfer: wavesurfer,             originalArgs: [...arguments]           });
+mapAndSave(model, source);   }
+_initializeXAxis(xAxisType = 'linear', config) {     var x = null       , xAxis = null;
+var state = uri.getData(path);     if (window.paused) debugger;     if (!state) {
+for (propertyId in statements) {     angular.forEach(statements.getRelatedProperties(propertyId.substring(1)), function(relPropScore, relPropId) {
+} else {         last_trade = s.my_prev_trades[0]       }
+var values = this.concat(Array.prototype.slice.call(arguments)).flatten(1);
+title: '500 - Erreur',         message:           "Une erreur s\'est produite. Veuillez rafraichir la page.",         solutions: [
+}     $.bindingAdapter["css"] = $.bindingAdapter["css"]     var toggleClass = function (node, className, shouldHaveClass) {
+}     this.loadDefault = function() {         _this.update(defaultImage, true);     };
+let i = isTail ? this.items.length - 1 : 0;   while (item = this.items[i]) {    idx = this._getColIdx(item);
+fObj=fObj+"}";  var regexed = regexImports(fObj);
+util.log('Get Topic List for: '+this.id);     clients[this.id].socket.emit('topic', 'xxx:yyy');     getSomeTopics(clients[this.id].socket); }
+orga() {     const orga = Organizations.findOne({ _id: FlowRouter.getParam('_id') });
+var process = this.process,         window = this.window,         msgChannel = null,
+function writeOutput(result, cb) {       if (!options.output) {
+const idMatch = val.match(/^#([a-z\-]+)/);
+function soundsMiddleware(soundsData) {   if ( typeof soundsData !== 'object' )     throw {       name: 'missingSoundData',
+constructor(project, url) {     this.project_ = project;     this.url_ = url;
+debugger;       originalParamContext = pms.parameterContext;
+if(dojox.gfx.isVml){     sourceDir = bidiEngine.checkContextual(text);
+form.append("design", new Blob([design], {type: 'application/octet-stream'}, "mydesign.glm"));       if (zip != null && false){          form.append("design_imsld",zip);
+case 'http:       Object.assign(vocab, this.DRAFT_04_HYPER);       break;   }
+}); }); describe('atomic using redis (callback)', function () {   var limitToOne;   beforeEach(function (done) {
+'use strict';
+propertyName: propertyName,                                     type: 'css-background-image',                                     baseUrl: this.baseUrlForPointers                                 };
+TrainingCustomSlideNode.save(spec_node, onSaveFinished);                 case "BranchNode":                     spec_node.node = new_trainingtreenode;
+debugger           if(relationship.kind === 'belongsTo') {
+return n;  }, $fz.isPrivate = true, $fz), "java.io.InputStream");  $_M(c$, "readTrailer",   ($fz = function () {  return true;
+wipController.$inject = ['$scope'];         function wipController($scope) {
+console.log('runner run cb', arguments);   process.exit(stats.failCount > 0 ? 1 : 0);
+if (err) return console.log(err);                 console.log("file saved");             });
+) {             console.log('Dropped inside window');             return;
+robot.emit('telegram:invoke', 'sendPhoto', { chat_id: res.message.from.id, photo: fs.createReadStream(outFilepath) }, function (error, response) {           if (err) { console.log(err) };         });
+} else {      alert ('Only "Curve" type plots are implemented.');     };
+...props,             title: this[ast.identifier].title,             alt: ast.alt,
+{   el.on.apply(el, arraySlice.call(arguments, 2));   if(releaser)     releaser.push(([ el, el.off ]).concat(arraySlice.call(arguments, 2)));   return wrpFunc(arguments.callee, null, [ el, releaser ]);
+});                         bind_noify_click_event();                     }                     else {                     }                 },
+global.get_nickname = function(uid){
+for (j=start; j<=end; j++) {      frame++;
+it('stops event propagation', function (done) {   const naja = this.mockNaja();   new this.RedirectHandler(naja);
+userAgent: window.navigator.userAgent,                     language: window.navigator.language,                     plugins: window.navigator.plugins                 }),
+bottomshape: '置后',             upshape: '上移一层',             downshape: '下移一层',             align: '水平方向',
+onCheckUsername: function(event, input, form) {
+setConfigParams(chrome.runtime.getManifest()); } else if (typeof $ !== 'undefined' && $.get) {     $.get(window.location.pathname + 'manifest.json', setConfigParams, 'json'); }
+exports.signup = function(req, res) {  debugger;
+anInstance(that, $ArrayBuffer, ARRAY_BUFFER);   var numberLength = +length     , byteLength = toLength(numberLength);   if (numberLength != byteLength) throw RangeError(WRONG_LENGTH);
+constructor(domain) {     this.nonce = generateNonce()     this.nonceCount = 0
+} else {               scaledX = x / fontSizeScale;               scaledY = 0;             }
+, _operationTypes = {         'and': true
+var util = require('util')   , BufferedSender = require('./buffered-sender')   , Polling = require('./polling')   ;
+for (var i = 0; i < sidebar.length; i++){     list[sidebar[i][j]] = j;     }
+citeHref: {},                     alignment: {},                     visible: {}                 }
+if (templateResult instanceof goog.soy.data.SanitizedContent) {     templateResult =          (templateResult);     var ContentKind = goog.soy.data.SanitizedContentKind;
+var resourceRef = sync.dataRef ? sync.dataRef.child('resource') : null;   if(sync.isMine && !this.refLock && resourceRef)    resourceRef.set(this.data.res);
+Signature.prototype.baseString = function(method, url, params) {  querystring.escape = _encodeURI;
+this.route('list-items');     this.route('empty-list');     this.route('selected-element');
+this.sandbox.emit('husky.select.terms-of-payment.revert');                 });             }
+var proxy = httpProxy.createProxyServer({})     , domainEnv = core.config.get('publicDomain')     ,publicIP = core.config.get('publicIP');   return function(req, res, next) {
+return model.getDocs(currentWord)           case 'definition':
+} else if (this._calculateMoveDirection() === -1 && this._checkRangeBarMoveRange()) {       for (i = 0; i < this.index.length; i++) {        this.index[i] -= this.defaults.step;
+case 'mssql':       return `[${identifier.replace(/[\[\]']+/g, '')}]`;
+for (var i = 0; i < body.length; i++) {                 if (typeof(body[i]) !== 'string') {                     throw new Error("An interface definition must be a string, defining the property type.");                 }
+radius = Base.readNamed(arguments, 'radius');    return createEllipse(new Rectangle(center.subtract(radius),      new Size(radius * 2, radius * 2)), arguments);   },
+if (guestWindow != null) {     event.returnValue = guestWindow[method].apply(guestWindow, args)   } else {
+})(this);
+{                 if (obj.feature == null)                 {
+var col = new Object();     col.title =  'Mode';     col.readOnly = true;
+constructor: function TransitionCollection() {             TransitionCollection.__super__.constructor.apply(this, arguments);         }
+function newFile(req, res, next) {     var that = this, params = req.params, DBActions = that.getDBActionsLib(),         dbAction = DBActions.getInstance(req, THEME_SCHEMA),         themeHome = getViewsHome(req.app), themeId = params.id,
+}   ,"statistics":{    "title":"통계"
+} else {       throw new State.DefinitionError();
+server.decorate('server', 'setupViews', function (path, engines) {     this.views({       path: path,       isCached: config.get('optimize.viewCaching'),       engines: _.assign({ jade: require('jade') }, engines || {})
+run: function (code, env, cb) {       cb = arguments[arguments.length];       if (typeof env !== 'object' || !env) { env = O; }
+placementKeys = ['nw', 'n', 'ne', 'e', 'se', 's', 'sw', 'w'],    placement, rotation, steps, x;
+class Package extends EventChannel {     constructor(args) {         this.setName(_.get(args, 'name', ''));
+if (typeof (err) === 'string') {       formattedMessage = formatter.apply(null, arguments);       err = props = undefined;
+for (var i = 3; i < arguments.length; ++i)          url += "&" + arguments[i];    }
+token = token.toString('hex');   } else if(! token instanceof String) {    return Promise.resolve(new Error('Token must be a hex-string or a Buffer'));
+_.each(allBranches, function(obj, name) { branchNames.push(name); });   console.log(branchNames);
+designedMinValue: 0,             designedMaxValue: 100,             designedMaxValue: 255,             designedMinStep: 1,
+Text = require('./methods/tag')(Text); Text = require('./methods/termFns')(Text); Text.prototype.normalize = require('./methods/normalize');
+var force;  var obstacles;    return function( delta ){
+import { ShaderCache } from './shader_cache.js'; import { jsToGl } from './utils.js'; import { WebGl } from './webgl.js';
+each: function(callback){     for(var i = 0; i < this.length; i++)       callback(i, this[i]);
+sensor.scale([ 0, 100 ]).on("read", function() {     console.log( this.normalized, this.constrained, this.scaled );   });
+import Cursor from './cursor' import TextStyle from './text-style' import Debug from './debug/index' import BottomModal from './util/bottom-modal' import ZxDialog from './dialog/index'
+node.type = 'Literal';     node.value = this.tree.get(url).name;
+'use strict'; var pagelet = require('registry-status-pagelet'); var nodejitsu = require('nodejitsu-app');
+}                 break;             case 13:
+let is_host_selector =           token.selector.startsWith(':host');         let psudo_rules =           token.styles.map(s => compose_rule(s, coords));
+{   return bigBox( (exonStarts - (Math.min.apply(Math, _.pluck(data, 'txStart')))), (exonEnds - exonStarts), multiplyingFactor, strand);  }
+this.testInt = function () {     var byTor;
+for (var i = 0; i < args.length - 1; i++) {         logArgs.push(args[i]);       }       log.apply(null, logArgs);
+update: function(value) {         options = {
+});     target.addEventListener(propertyName.slice(2), function() {       wrapper.dispatchEvent.apply(wrapper, arguments);     });
+'use strict' var detective = require('detective')   , readdirp = require('readdirp')   , maps = require('map-stream')
+viewOpenRoomScreenAnimation() {     return new Promise((resolve, reject) => {       this.communication.chooseClosestServer().then(() => {
+}).call(this);
+}     case 'mouseup':       stage._mouseEvents.push('mouseup');
+}             for(var i = 0; i < edges.length; i++) {                 var p = objs[edges[i][0]];
+topRange(startDate, endDate, timeGranularity, direction, startingAt, limit, callback) {     const args = Array.prototype.slice.call(arguments);
+jQuery.multimediaSupport = {};  var $  = jQuery,    m  = $.multimediaSupport,   vID = new Date().getTime(),
+this.forward(req, res, function(r) {     r.on('error', function() {       self.emit('error', err);       res.end();
+}     var fonts = labelData.fonts;     var labelFiles = new Array(fonts.length);
+export default class ErrorPage extends React.Component {   constructor() {     this.state = ErrorStore.getState()
+if (color.length === 4) {         function r (x) {return x.toUpperCase() + x.toUpperCase()}         return '#' + r(color.charAt(1)) + r(color.charAt(2)) + r(color.charAt(3));
+.on('error', (err) => {       if (typeof seleniumServer !== 'undefined') seleniumServer.kill()       process.exit(1)       throw err
+throw new Error("An url is required for loading media");   }else{
+});                     eventer.trigger(this, e);                     return e.result;
+stop();     z.load({mockresult: "fail"}).using("mock").success(function(result){         ok(false, "Should fail here, success shouldn't be called.");
+if (body.error) {                         botkit.debug('API ERROR', json.error);                         return cb && cb(json.error.message);                     }
+async function notify(aParams = {}) {   var id = await browser.notifications.create({
+import React from 'react' import {graphql, useStaticQuery} from 'gatsby' import styled, {ThemeProvider} from 'styled-components' import {Helmet} from 'react-helmet'
+const defs = document.createElementNS('http:       const marker = svg.makeSvgElement('marker', {         id:'arrowHead',
+catch (e) {                 err = new Error(e);                 err.status = 400;                 next(err);             }
+default:                 throw new Error("Unknown Viz Type" + item.type);         }
+var old = require('querystring')   , qs = require('./')   , times = 100000;
+return new mongo.BSONPure.ObjectID(id)     } catch(err) {     }
+exchange () {     throw new Error('Not Yet Implemented');   }
+var result22 = result23 !== null           ? (function() {  return (arguments[0]).length != 1 ? new PEG.Grammar.Sequence((arguments[0])) : (arguments[0])[0];  }).call(this, result23)           : null;
+return r;     } else if (isarr && ii<o.size) {       var r=ElementImpl$impl(ii);       ii++;       return r;
+}         raptor.forEach(childNodes, function (childNode) {             this.appendChild(childNode);         }, this);
+return false;     }     Binding.create = function (bindingDef, targetScope, attrKey, context) {
+path += ')/'      this.query([path], session, cb, function() {debugger;});     }, this);
+await test.execute(argv);    process.exit();    break;   case "start":
+project: {       this.fs.copy(
+this.bindSourceData(this.boundSource);         this.__reattach();     }
+adaptor.applyStyling = function ($box, $slides, settings) {       var $wrapper = $(document.createElement('div'))         , imgSrc = slideImageURL($slides.eq(settings.bsfaceindex || 0))         , $frag = $()
+this.plugin.sendTransfer = (transfer) => {           this.plugin.emit('outgoing_cancel', transfer, {name: 'Foo'})           return Promise.resolve(null)         }
+if(true || !localStorage['tutorial-shown']) {  GAME.tutorial = new Tutorial(spawnPos)
+var json = self.elementToJSON()     json.data = this.getData()     json.name = this.getName()     return json
+console.warn( 'THREE.ObjectLoader.parseTexture: Constant should be in numeric form.', value );    return THREE[ value ];   }
+do(noOp, noOp, function() {             expect(lhs[__ref_index]).to.equal(0);
+if (message.type == "prepare") {                 this.node.receivePrepare(message.port, message.address, message.proposalId)             } else if (message.type == "accept") {
+var defcols = {};   if(this.from) {    this.from.forEach(function(fr){
+try {                     this.writeToCache(descriptor, config, mark);                 } catch(e2) {
+called = false;         fn.apply(this, args);       }, timeoutDuration);
+var entities = [];   for (var key in this._entities) {    var entity = this._entities[key];    if (entity.transformComponent) {
+Handler.call( this, fileName );  this.groups      = [];  this.xSects      = [];  this.setCRS( null );
+if (clip(d.geometry.coordinates) && dsoDisplay(d.properties, cfg.dsos.limit)) {           var node = d3.select(this),               pt = projection(d.geometry.coordinates),               type = d.properties.type;
+}                 return raw;             break;             case 'Array': {
+if (target[key] && isObject(target[key])) {       this.mergeJSON(target[key], add[key]);   } else {
+constructor () {} }
+if ($.isFunction(this.options.content)) {                     content = this.options.content.apply(this.$element[0], arguments);                 } else {
+let pos = 0;         tup: for (const i of tup) {           if (i.name != null) continue;
+import React, { Component } from 'react' import { TextInput, StyleSheet, View, Platform, Dimensions } from 'react-native' import colors from '../config/colors'
+};     WhileStatement.prototype,getCondition = function(){         return this._condition;     };
+var toData = os.getData(dir, to);     for (var key in fromData) {       data[fromData[key]] = toData[key];     }   }
+AbstractClass.findOne = function findOne(params, cb) {     if (stillConnecting(this.schema, this, arguments)) return;
+trigger() {         var args = utils.copyArray(arguments);         var count = this._liveResources.length;
+}).data("ui-autocomplete")._renderItem = function (ul, item) {     return $("<li></li>")       .data("item.autocomplete", item)       .append(`<a>${item.dom}</a>`)
+if (!ethUtil.isValidAddress(target)) {     throw new Error('Please provide a valid Ethereum address as the target.');   }
+config.compression = pair[1] || 'best';       case '-cl': case '--compress-list':         config.compress = pair[1].split(',');
+var that = this;         this.__proto__.constructor = arguments.callee;         this._properties = attrs || {};
+constructor: function GroupingModel() {             GroupingModel.__super__.constructor.apply(this, arguments);         }
+for (var index in innerPoints) {     points.push(innerPoints[index]);    }
+$('#deletingAlert').addClass('in');                         result = $.ajax({                             type: 'DELETE',
+if (!this.noTrigger) {                 $(document).trigger("longPressStart", this.currentTouch);             }
+default:         throw new Error('invalid matrix mode ' + mode);     }
+}   else if ( match = str.match(/(\d+):([^\/]+)?(\/.*)?$/) )   {
+return str.split(/[-\.\s]+/) }
+it('should have a background gradient', () => {       expect(input.props.style.backgroundImage).toMatch(/^linear\-gradient/)     })
+it('Should set path to http:     expect(url({ jackal: { baseUrl: "http:       .to.be.eql('http:   })
+yy.Search.prototype.toJavaScript = function(context, tableid, defcols) {
+return await Promise.all(promises)       .then(() => {
+var Database = require('better-sqlite3');   filePath = filePath;   try {
+assert.strictEqual('xxx', ' xxx   '.trim());  });  it(`toLow`, function() {   assert.strictEqual('abc1', 'ABC1'.toLow());
+html += "<h3>Functions</h3>";    for (i=0; o=objs[i]; i++) {     if (o.group) {
+, win = window     , ua = navigator.userAgent     , store = 'bkwld-tram-js'
+} } function expandInlineDirectives(directives, lines) {
+}; if (prod) {   delete module.exports.compilers.babel.sourcesMap;
+}).call(this);
+if ((!e || !e.target)         || Array.apply(null, this.activators).some(i => i.contains(e.target))         || closeConditional)
+export async function getByOrganization(parentValue, {}, { auth }) {   if(auth.user && auth.user.id) {
+}     points =  numeric.identity(dim);     points.unshift(points0);
+if (!((this.objectModelDeclaration != null) && this.objectModelDeclaration)) {           throw new Error("Failed to deep copy (clone) source object model declaration.");         }
+if (!this.id || !this.network) {             throw new Error('Can\'t fetchContent() without this.id and this.network');         }
+function isInteger(value) {     return /^\-?\d+$/.test(value); }
+return !((typeof v === 'undefined')    || (typeof v === 'null'))    || (v === null)
+buffer += '(';     for (var ii = 0; ii < args.length; ++ii) {      skipTo(args[ii].range[0]);
+function scrap(from, to, dates, persistData) {         var driver = startBrowser(this.browser);         for (let targetDate of dates) {
+module.exports.generateSql = () => {   return new String("I want to run!!") }
+}             throw new Error('The module has not been loaded yet');         },
+if (testNull === null) {         throw new Error('No match in string')       }
+adjusted_scale : this.adjusted_scale,  asset_swf_v : "http:\/\/c2.glitch.bz\/items\/2012-04\/lemene-1334267482.swf",  admin_props : false,
+describe('84. fetchClobAsString1.js', function() {   this.timeout(100000);   var connection = null;
+precedence : 0,     method : applyBinary.bind(this, Tone.Divide)    },
+_.each(this.getReverseRelations(), function(relation) {    relation.addRelated(this.instance, options);   }, this);
+category: "Fun",   description: "\`( ͡° ͜ʖ ͡°) u-ugh!\`\n*d stands for delete*",   usage: "lennyd",
+_data = [];     _dataString = s.replace(/\~|~/g,"\n");     var sd = _dataString.split("\n");
+let list = [];         Mouse.setFromCamera(new THREE.Vector2((event.clientX / window.innerWidth) * 2 - 1, -(event.clientY / window.innerHeight) * 2 + 1), camera);
+const {resolve, dirname} = require('path') const {read, write, exists, isAbs} = require('flipfile') const JSONChain = require('json-chain')
+emotify: function(text) {    var resourcesDir = Candy.View.getOptions().resources,      i;    for(i = this.emoticons.length-1; i >= 0; i--) {
+options = options || {};   options.create = options.create;
+var IOUtil = require('io/IOUtil');   parsed = IOUtil.parseDelimited(data, opts);   return new LabelMapping({ name: opts.name || filename, mapping: parsed.data, defaultIndex: opts.defaultIndex, maxIndex: opts.maxIndex });
+, runProgram      = require("./run-program")     , setupPrettier   = require("./setup-prettier")     , setupRepository = require("./setup-repository")     , setupNpmLink    = require("./setup-npm-link");
+}       transaction = ReactUpdates.ReactReconcileTransaction.getPooled();       transaction.perform(         this.updateChildren,
+constructor( props ) {         this._boundRender = this.render.bind( this );         this.props = props;         this.store = Flux.getStore('application');
+console.log('IMAP server closed');                     }.bind(this));
+coUtils.Debug.reportWarning(       "%s sequence [%s] was ignored.",       arguments.callee.name, Array.slice(arguments));   },
+_resizeContainers() {    const titleContainerWidth = this.$.titleContainer.getBoundingClientRect().width;
+function setAttr(node, name, val, asProp, initial) {  var el = node.el;
+for ( var x = 0; x < iRowspan - 1; x++) {       if (oLabel) {
+where: {     name: tagName    }
+if ( xhr === self.xhr ) {       response.apply( this, arguments );      }
+while (innerWrap.firstChild) innerWrap = innerWrap.firstChild             innerWrap.appendChild(this)           }
+var args = _normalizeArguments.apply(this, arguments);    args[1].mode = 'toggle';    return this.effect.apply(this, args);   }
+else {         throw new Error("couldn't match NAK");       }     };
+{     throw new Error("Cannot call getHash after setting HMAC key");    }
+return "mat";         }
+}  } catch (err) { }     return queries.join("&");
+debug: () => {                 console.log(...arguments);             }
+if (byteStream === undefined) {     throw new Error('dicomParser.readSequenceItemsImplicit: missing required parameter \'byteStream\'');   }
+}         }).done(_.bind(function (resp) {             this.render();             this.$('#g-google-analytics-tracking-id').val(
+if (btn == 'yes') {          Ext.each(this.getSelectionModel().getSelections(), function(rec){      this.store.remove(rec);
+function addAliasCommon(url) {         input = $('#add-alias-input'), url = $.trim(input.val());         if (url !== '') {
+const HOST_RE = /^(\[[0-9a-f:]+\]|(?:\d{1,3}\.){3}\d{1,3}|[a-z][a-z0-9\-\.]+)(?::([a-z][a-z0-9\-]+))?(?::(\d+))?$/i function parseHostString (hostString) {
+function unique() { var array = Array.prototype.concat.apply(Array.prototype, arguments); var result = []; for (var i = 0; i < array.length; i++) { if (result.indexOf(array[i]) === -1) { result.push(array[i]); } } return result; }
+}   var _ = (deps && deps.underscore) ? deps.underscore : global._       ,Tweenable = (deps && deps.Tweenable) ? deps.Tweenable : global.Tweenable;   var defaultConfig = {
+}       return stationB.biggestChunk - stationA.biggestChunk;     } else {
+const data = jsonfile.readFileSync(this.filepath);   return data;
+for (i = 0; i < data.length; i++) {     if (dojo.isArray(data[i])) {      item[i] = data[i];
+, self = this     , candidates = this.getCandidates(query)     , numRemoved = 0
+console.log("CLICK ADD");     updateFavoriteTeams($(this).attr("data-team"), 'add', false);
+this.loadQueue = [];     this.onloaded($.proxy(function() {       this.callback(this.getData());
+var page = req.params[1];          if (typeHandler.cache[page]) {
+irc: {     raw: function() {      testableNetwork.lastCommand = Array.prototype.join.call(arguments, " ");     },
+if (_gitPath) { return _gitPath; }         _gitPath = Preferences.get("gitIsInSystemPath" ? "git" : Preferences.get("gitPath"));         return _gitPath;
+}   return function() {     return g.call(null, f.apply(null, argsArray(arguments)))   }
+center: proj.startCenter,         rotation: proj.id === 'geographic' || 'webmerc' ? 0.0 : models.map.rotation,         zoom: proj.startZoom,
+stringify:   this.stringify,     label:       this.label,     logstash:    this.logstash   }) + '\n';
+loaders: [             , {test: /\.css$/, loader: "style!css"}             , {test: /\.scss$/, loader: "style!css!sass"}
+}) Transaction.prototype.get = promisify(function (key, cb) {   var self = this   if (key == null) throw new Error('A key must be given as an argument')
+typeof define === 'function' && define.amd ? define(['../foo'], factory) :  (factory(global.foo)); }(this, (function (foo) { 'use strict';  foo = foo && foo.hasOwnProperty('default') ? foo['default'] : foo;
+var express = require('express')   , app = express.createServer()   , i18n = require('../index')   , i18nMongoSync = require('../backends/mongoDb/index');
+var vec3 = this
+this.inChunkSize = rtmpBody.readUInt32BE();         break;
+}     SetEvent = SetEvent;     _This.$EventSrc = function (event) {
+var r = require('rethinkdb') var when = require('when') var mongoose = require('mongoose')
+spyOn(this.addon, 'getDOMImage').and.returnValue(stubbedImage);         this.$el.on('input', function () {             inputTriggerCount++;
+return;   }   this._appearances = null;
+return config_values; } function decodeConfigValue(proto_config_value) {
+parse: true,         parse: function (response) {             return response;
+import StyledScreen from './StyledScreen'; import ModalScreen from './ModalScreen'; import LightBoxScreen from './LightBoxScreen'; import NotificationScreen from './NotificationScreen' import SideMenu from './SideMenu';
+if (wantedStates.length === 0) {             return q(null);         }
+}     eventDataView = Alloy.createController('surveys/surveyRow', {model: model}).getView();
+val = val.replace(/[, ]/ig, '/').replace(/\/\    for (var m in w2utils.settings.fullmonths) {     var t = w2utils.settings.fullmonths[m];
+var sign = isRequire ? 1 : -1;   _.each(_.flatten(arguments), function (f) {     if (f instanceof Logic.NotFormula) {
+if (filter === 'false') {                      isShow = this.$grid.find('.instance-adapter[data-instance-id="' + that.list[i] + '"]').find('instance-led').hasClass('led-green') ? 'hide' : 'show';                  }
+timeout = setTimeout(function(){           return cs.ui.notify(this.responseText             ? JSON.parse(this.responseText).error_description             : L.system_server_connection_error, 'warning', 5);
+import Resource from './resource'; import { attr, hasOne, hasMany } from 'ember-jsonapi-resources/models/resource';
+$(".following-config-method-buttons .public-following").click( function() {         closeModal($(this));
+extractCSS = function( arrayOfStyles, styleObj){     var i, val, out, len = arrayOfStyles.length;     for( var i = 0; i < len; i++){
+function addEvent (element, event) {         var id = util.getUid(element)           , evt = events.parseEvent(event)           , eventType = (listeners[id] || (listeners[id] = {}))[evt.name]
+default:    throw new Error("unknown type="+(typeof value)+" of "+value);  }
+this.menuText.anchor.setTo(0.5,0.5);         this.startkey = this.game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);     },
+case "only":           {           case "first":
+, regexStr = '^'         , regexStrEnd = ''         , patternsStarted = false;
+renderPlaylists() {     this.setState({ currentRoute: "channels" });
+Compiler.prototype.visitRulesetList = Compiler.prototype.visitRulesetList.bind(Compiler.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRulesetList.prototype.visitRuleset
+import React, { Component } from 'react'; import { Tag } from '@blueprintjs/core'; import Country from 'src/components/common/Country'; import SearchFilterCollectionTag from './SearchFilterCollectionTag';
+var generatorCoffee = path.join(self.generators, generator + '.coffee')             , generatorJs = path.join(self.generators, generator + '.js')             , generatorPath;
+var _regex = /^(\s*\*\s*).*$/;           var editor = atom.workspace.getActiveTextEditor();           var cursor_position = editor.getCursorBufferPosition();
+var path = path.pathname.substring(1);     var requestPaths = [path];
+it("scroll", function(){    xxx
+const node = document.createElement( 'div' );             if( area.hidden ) {
+dojo.provide("dojox.widget.Toaster");
+clearInterval(interval);   update(options[this.selectedIndex]); }
+getComponentDefinition(uri, [ graphUri ]).then((res) => {         componentDefinition = res.object
+import { hasScope } from "webiny-api-security"; import { FileType } from "webiny-api-files/graphql"; import gql from "graphql-tag";
+const characters = account.getCharacters();         const deceased   = account.getDeceased();         const maxCharacters   = 3;
+});         $('input[name=show_unread_counts_in_title]', $modal).each(function() {             if (NEWSBLUR.Preferences.show_unread_counts_in_title) {                 $(this).attr('checked', true);                 return false;
+webSocket.onopen = e => {       setWebsocket(webSocket);       console.log(e.data);
+p.once( function( newVal, oldVal ) {       count++;
+describe('#hasThumbnail', function() {     it('element has a thumbnail', function () {
+const ValidatingCreateMixin = Mixin.create({   create() {     const instance = this._super(...arguments);
+return result;     }     share.cmult = function (cst) {
+Backbone.Form.editors.Base.prototype._setOptions.call(this, opts);      this.constructor.__super__.initialize.apply(this, arguments);     this.value = this.model.get(this.options.keyAttr);
+function toggleDir() {   var tr = $(this).parents("tr");   var folderid = tr.get(0).id;
+shindig.container.ContainerRender.WIDTH = 'width';
+}  var esc = querystring.escape;
+} else if (options) {           for (var i = 0; i < options.length; i++) {             data.options[i] = options[i];           }         }
+, changed   = require('gulp-changed')   , lesshint  = require('gulp-lesshint')
+define(['imp/renderModule/nodeShapeRelative'], function(nodeShapeRelative){
+var unassignObj = getTagsToAddRemove("unassign", tags, origTags);       collection = 'service_templates \/' + id + '\/ tags';       if (assignObj.resources.length > 0) {
+return E48;         case 96 :
+ret[inputtypes] = (function(props) {         for ( var i = 0; i < props.length; i++) {             f.setAttribute('type', props[i]);
+config = readConfigFile(envVal);     } catch (ignore) {     }
+<AppIcon />;   const codeIcon =
+const outer = this;     const ns = new Set(function*() {       yield* ano.entries;
+replaceSelection : function(items) {       qx.log.Logger.deprecatedMethodWarning(         arguments.callee,         "Use 'setSelection' instead!"       );       this.setSelection(items);
+provider: '',       traits: this.getSourceTraits(),    }),
+var log = logger.createLogger('storage:s3')     , app = express()     , server = http.createServer(app)
+.then(response => response.json())       .then(json => dispatch(userMarkedAsAttended(event, user)))       .then(() => dispatch(stopLoading()));
+if (parts.length === 2) {     if (match = parts[1].match(/^<([^>]*)>$/)) {       directObjectType = match[1];
+import React, { Component } from 'react' import { Grommet, Box, Grid } from 'grommet' import { injectGlobal } from 'styled-components'
+, types = require ('./lib/types')   , sourceExtract = require ('./lib/sourceExtract')   , gruntUtil = require ('./lib/gruntUtil');
+scene.remove(gridSelections[gridName].dot);   }   scriptsToRun = new Object();   for (var markedPointName in markedPoints){
+let args = []      Array.prototype.push.apply(args, arguments)      args.forEach((argu) => {
+defaults_,       x_,       y_,       data_,
+catch(e){     const pathToPartial = `${defaultPartials}/${file}.html`   }   if (fileUtils.isFile(pathToPartial)) {
+}         }         return results;
+this.checkStates();     this.collection.reset(validSelectors);
+var that = this;   this.shuffle = function() { that.seq.shuffle(); };  this.reset = function() { that.seq.reset(); };
+email: function(fieldValue) {      var emailReg = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,10})+$/;      return emailReg.test(fieldValue);
+placement: 'bottom',                 value: '',                 placeholder: 'Enter email...',
+if (templateElementNameFromCustomElementName.hasOwnProperty(tag)) {                     element.appendChild(document.importNode(elements[templateElementNameFromCustomElementName[tag]].content, true));                 }
+calculateATR(rawData.D, period);  var brickSize = function (d) { return d["atr" + period]}  var renkoData = [];  var index = 0;  prevBrickClose = rawData.D[index].open;  prevBrickOpen = rawData.D[index].open;
+app.on('tick', function() {     width = app.engine.width     height = app.engine.height     app.camera.right = width
+var breakpointGutter = function () {         this.cm = null;         this.cd = null;
+}     res.status(200).json(data);   };
+};         draw_triangle = function (ctx, outer, width, height, angle) {             ctx.beginPath();
+import "babel/polyfill"; import h from "yasmf-h"; import once from "once";
+else {                 throw new Error('buildfunc: unsupported refarg type: ' + func.name);             }             out.push('}');
+var ret = {};   for (var section in data) {     var sections = section.split(':');
+if(response.ok){           res.json(response.body);
+html = html.replace(/@CLASSNAME/g, '');   }
+}   this.prevTime = this.timingFunction();  },
+this.upstreamListeners[type] = upstreamListener;             for (var i = 0; i < this.upstream.length; i++) {                 this.upstream[i].on(type, upstreamListener);
+.catch(() => {       console.warn('Stashed changes conflicted with hook auto-fixes! Restoring from conflicts...')       return gitPopWithConflicts(options).then(() => cleanup(options))
+.ticks(this.ticks, this.tickLabel);     this.keyFunction = ((d) => d.x);
+let nangle = normalize_angle(angle - rot1 + rot2);         return new Face(npos.x, npos.y, rad, nangle);     }
+}             this.componentManager.register(axis.name, Axis, axisParams);         }, this);     },
+var menuItems = [];     for(var i = 0; i < player.qualityLevels().length; i++)     {
+if ((! "opacity" in _docElt.style) && "filters" in _docElt) {              styleHandlers.opacity = {
+if(scope.model.config.customViewPath) {             view = config.customViewPath;         }
+var newRow = {}       for (var col in row) {         var datatype = this.props.queryResult.meta[col].datatype;
+checkIfSufficientBuffer = function () {             var timeToEnd = getTimeToEnd.call(this);             if ((bufferLevel < minBufferTime) && ((minBufferTime < timeToEnd) || (minBufferTime >= timeToEnd && !isBufferingCompleted))) {
+onError(req, res, 'Operation is temporarily unavailable');     return;          database.BeginTransaction(err => {         if (err) return onError(req, res, err.message || 'Database transaction error');
+it('superscript exclusitivity', function() {       this.setContainer('<p><sup>0123</sup></p>');       let editor = new Editor(this.container);       editor.formatAt(1, 2, 'script', 'sub');
+c.on('invalidPage', (e) => {         this.sendAction('invalidPageAction',e);       });
+this.id = `${this.constructor.name}${ID--}`     app = app; }
+if (!response.is_response(resp)) {           throw "Error: node.js http adapter did not receive a proper response map"         }
+module.exports = function (ctx, name, getter) {   var context = ('function' === typeof ctx) ? ctx.prototype : ctx     , _get = Object.getOwnPropertyDescriptor(context, name)     , _super = function () {};
+ctx.fillStyle = options.lineColor;  for(var b in binary){   var x = b * options.width + encoding.barcodePadding;
+acc_x += 3;         Vex.Flow.renderGlyph(this.context, acc_x, acc_y,                              this.render_options.font_scale, this.paren_left.code);
+this.Alert = function Alert(){      console.log( colors.green('[OKAY] '+ this.fmt.apply(null,arguments)) );  }
+Compiler.prototype.page = function find(page, assets) {   var css = page.dependencies['.css'] || []     , js = page.dependencies['.js'] || []     , compiler = this;
+try {         this._stackdriver.report(...arguments);       } catch(err) {         console.error('Error while reporting error: ' + err);       }
+throw Error("expecting one argument, got: " + pr(x) + ", " + spr(other));     } else {}     return ["get", [
+Device.prototype.toString = function toString() {   var output = this.family     , version = this.toVersion();
+return '';         done();       }
+}                         emitter.emit(eventData);                     };
+function _helperRemapAsyncToGenerator() {   const data = _interopRequireDefault(require("@babel/helper-remap-async-to-generator"));   _helperRemapAsyncToGenerator = function () {     return data;
+import Logo from 'Components/header/logo'; import Heading from 'Components/text/heading'; import styles from './auth-layout.styl';
+export default ({mainStyle, address, balance, burnWallet, goBack, dollarDisplay}) => {   return (
+var reloadDirty = this.get('reloadDirty');    forEach.call(payload.meta.deletedRecords || [], function(record) {     this.deleteRecordFromStore(record.type, record.id);    }, this);    delete payload.meta;
+let expiresAt = JSON.parse(localStorage.getItem('expires_at'));       return new Date().getTime() < expiresAt;     }
+DummyAnalyser.super.constructor.call(this); } DummyAnalyser = Webvs.defineClass(DummyAnalyser, Webvs.AnalyserAdapter, {     isPlaying: function() {
+this.addItems = function(newItemDicts) {         for (i = 0; i < newItemDicts.length; i++) {             tiid = newItemDicts[i]["_id"]
+var SC = 1 + 0.045 * a_Cp;   var SH = S_H = 1 + 0.015 * a_Cp * T;   var RT = -2 * RC * sin(radians(2 * d_ro));
+return !(countryCode === "GB" && !ukPostcode.fromString(postcode).isComplete());   }
+function hideQuestions(all) {         var temp = [];         temp = (all && all == 1) ? variables.get.shownQuestions() : variables.questionsToHide;
+var PersistedModel = require('../../lib/loopback').PersistedModel   , loopback = require('../../lib/loopback')   , path = require('path')
+PlaceholderComponent(quail, test, Case, options); } module.exports = ObjectMustHaveValidTitle;
+var mongoose = require('mongoose')   , Article = mongoose.model('Article')
+{     this.layers = dotgrid.history.prev();     dotgrid.draw();   }
+var server = app.listen(app.get('port'), function () {   console.log('App is running at port', app.get('port'));
+import attr from 'ember-data/attr'; import { hasMany, belongsTo } from 'ember-data/relationships'; import {gravatarImage} from '../utils/urls';
+})(window);
+default:         var uncompressedData = compressedData;     }
+el.remove();                             onReady.callOnContentReady(this.el, {newRender: false});                         }).defer(5000, this, [el]);                     }
+layers: [baseMap.tileMap.prop_tilemap],     target: element,     renderer: ol.RendererHint.CANVAS     };
+} else {         throw new Error('illegal version: ' + version);       }
+}, params);   resultsUri = Balanced.Utils.applyUriFilters(baseUri, searchParams);   return SearchModelArray.newArrayLoadedFromUri(resultsUri, resultsType);
+const mod = require(src);     if (args && args.constructor === Array) return mod.apply(null, args);     return mod();
+"volapük": "vo",   "welsh": "cy",   "walloon": "wa",
+if ($scope.account.notificationEmail.length > 0) {             return !!!tools.validEmail($scope.account.notificationEmail);         } else {             return true;         }
+const renderer = TestUtils.createRenderer(); const defaultProps = {}; describe('ObjectName', () => {
+import React, { Component, PropTypes } from 'react'; import TopBar from './TopBar';

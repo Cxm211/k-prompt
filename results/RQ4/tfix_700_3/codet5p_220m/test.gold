@@ -1,0 +1,500 @@
+function renderOptVElementToString(optVElement, isRoot, context) {   }
+const WMTSCapabilities = function() {   XML.call(this);
+}          var self = this, o = this.options;          if(BI.isNotNull(configs.group_value)){
+'Must have ENV global set to detect CLIENT/SERVER.');   var storeNames = names;   var result = {};
+var resourceRef = sync.dataRef ? sync.dataRef.child('resource') : null;         if(sync.isMine && !this.refLock && resourceRef)    resourceRef.set(this.data.res);
+exports.getTestDir = function () {     var testRE = /\/[^/]+\.test\.js($|\?.*)/;     if (typeof document !== 'undefined' && document && document.getElementsByTagName) {
+this.sandbox.on('husky.column-navigation.edit', function(item) {                 if (this.data.ids.indexOf(item.id) === -1) {                     this.data.ids.push(item.id);
+return {     type: actions.UNLOCK_IN_PROGRESS,   }
+&& this.authorizer.isPermittedAll(permissions);  }; }
+var path = require('path'); require('colors'); var PROTRACTOR_CMD = 'node_modules/protractor/bin/protractor';
+return this.inputs.some(input => input.type === type && input.connectors.length);   }
+var model = this.model = {};         var add = function(name, edgeModel, extensions) {           if (edgeModel) {
+throw new Error( 'stroked round lineJoin not implemented .. add arc/arcTo' );                                                      case 'miter':
+var conf = require('ember-cli/tests/helpers/conf'); var Promise = require('ember-cli/lib/ext/promise');
+, sequelize = new Sequelize(config.database, config.username, config.password, {logging: false})
+var cwd = path.resolve(npm.dir, p)   var sh = npm.config.get("shell")   fs.stat(cwd, function (er, s) {
+'use strict' var jsonSafeStringify = require('json-stringify-safe')   , crypto = require('crypto')
+init: function() {     this._super(...arguments);     if (!this.$) {
+return width;     }     function getTextRect(text, textFont, textAlign, textBaseline) {
+$scope.templatesByStatus = $scope.templates[status];             if (typeof $scope.templatesByStatus === 'undefined' ||                 ($scope.templatesByStatus && $scope.templatesByStatus.length === 0)) {
+var shared = require('./_shared')('keys'); var uid = require('./_uid'); module.exports = function (key) {
+$rootScope.$on('$routeChangeError', function handleMiddlewareRedirects(event, current, previous, rejection) {
+if (!Spaz.DB) Spaz.DB = {};
+this.dirnames.push(this.locale);     }     this.dirnames.push(...srcDirnames);     if (this.document && !this.index) {
+return conn.connect(config); } module.exports = createClient;
+return this._xhtml != null ? this._xhtml : VisualEditorBinding.XHTML;  }
+}   this.log.http("request", method, parsed.href || "/")   var done = requestDone.call(this, method, where, cb)
+(function() {   var Markdown,     __hasProp = {}.hasOwnProperty,
+console.log("restarting!");          } else {
+(function (me){ var wnr = {
+var me = this;         me.flow = new ThemeFlow();         me.offset = new ThemeOffset();         me.style = new ThemeGraduatedSymbolStyle();         if (options) {
+.text('close')   var parentBtn = !parent ? null                 : $('<a/>')                   .addClass('btn waves-light waves-effect')
+this.closing = false;   this.loaded = false;   await this.fire('close'); };
+});       return Falcon.__binding__original_component__['init'].call(this, element, valueAccessor, allBindings, viewModel, childContext);     }
+} catch (error) {     tmp = {};      }
+msie: 1,         version: ua.match(/msie (\d+(\.\d+)?);/i)[1]       };
+i = this.shapes[i];    var newShape = {};    for(var j in i){
+tChildren.forEach( function( iChild, iIndex) {               iChild.adjust( { top: tCurrTop, left: (kCellHeight - iChild.iconExtent.width) / 2 });               iChild.set('isVisible', true);
+this.registerNamespaceFriendlyPrefix = registerNamespaceFriendlyPrefix;   this.$get = function() {
+) {         const retVal = formio.hooks.on[name].apply(formio.hooks.on, args);         return (retVal !== undefined) ? Boolean(retVal) : true;       }
+ENV.APP.rootElement = '#ember-testing';   }   if (environment === 'production') {     ENV.baseURL = '/ember-drop'   }
+self.attachList(0,true);
+var concat = require('concat-stream')   , ImageUtils = require('../imageUtils');
+marginBottom: '4px',               fontSize: 16,
+'use strict' const db = require('./db')
+var EventEmitter = require('events').EventEmitter   , Logger = require('./logger')
+return 'pending';       case 1:
+method.apply(container, arguments);                 };             }, this);
+'use strict'; var node_path = require('path');
+"use strict"; var kotti = {     dom_changed_handlers: [] };
+}             for (prop in a) {                 if (a.hasOwnProperty(prop)) {                     aLength += 1;
+goog.provide('goog.graphics.ext.Path'); goog.require('goog.graphics.AffineTransform');
+}  var support = new Support();
+case Syntax.VariableDeclaration:           name = node.declaration.declarations[0].id.name;           utils.append('var ' + name + ' = module.exports.' + name + ' = ', state);
+/>);             case 'user':
+it('should only log when page.close() rejects', async () => {         const sources = [
+SignatureEngine.prototype.unbox = function(msg, cb, opts) {       var eng, esc, literals, payload, ___iced_passed_deferral, __iced_deferrals, __iced_k;       __iced_k = __iced_k_noop;
+var updated = false;   var i, j, input, output, coin, unspent, orphan;   var key, orphans, some;
+if(this._isDerived()) {       throw new Error("Can only compute the best prefix for non-derived units, like kg, s, N, and so forth!");     }
+, types = require ('./lib/types')   , sourceExtract = require ('./lib/sourceExtract');
+fileTypes[dest][config][fileType].push(file);             }           }         }         var filesToUpload = [];
+if (finished) {             capturedDoc.close();
+open_file(that, files, path, flags, check_result);         deferred.promise.then(
+return { getIn, includes, assignIn, reduce, concat, find, join, sum, append, setIn, pick, findIndex, includesValue, has, reverse, last, head, compact}; };
+samples.push(v);     }     if (samples[samples.length - 1] !== violin.max) {
+var LOG_SAGAS_STYLE = "font-weight: bold"; var globalScope = IS_BROWSER ? window : IS_REACT_NATIVE ? global : null; function time() {
+vec = arguments[0];             if (!vec.type.equals(Shade.Types.vec3))                 throw new Error("create with 1 parameter requires a vec3");         } else if (arguments.length === 3) {
+}             if (!value) {               childScope = $scope.$new();
+if (str.length <= (i + 1)) {         throw new Error('High surrogate without following low surrogate')       }
+var middleware = _initialize(passport)   return function* passportInitialize(next) {
+} else {         }
+gateway.connect(function() {
+{             String.prototype.resolve = function (substitutes)
+utils.isFunction = function( obj ) {     return toString.call(obj) === "[object Function]";
+throw new Error('TECHNICAL_EXCEPTION_HTML_STRUCTURE_MAY_HAVE_CHANGED')             default:
+var LoaderModule = (function() {
+}; if (prod) {   delete module.exports.compilers.babel.sourcesMap;
+getTagsIndex: function(callback) {         callback = callback || jsGen.lib.tools.callbackFn;         that.find({}, {
+if (oldState) {                 const upgradedState = ['_g'];
+import React from 'react' import { Msg } from './messages'
+return res.status(internalError.status).send(createResponseError(internalError)); }
+return this._run(command, function (err, data) {          then && then(err, !err && require('./PullSummary').parse(data));       });
+t.setXhr();  t.setWatcher(); };
+if ( !window.isNormal () || !window.isMain () ) return;   const name = window.app ().name ();   if ( !/Terminal/.test ( name ) || false ) return;
+this.config = config;             }             this.lastInsertId = 0;
+for (var name in this.xhr.callbacks) {   if (this.xhr.callbacks.hasOwnProperty(name)) {    this[name] = function(name) {
+import * as TYPE from 'actions/actiontypes'
+process.on('unhandledRejection', (error, promise) => {     throw error; });
+function NextNights(props) {          return (
+e.target.removeEventListener(e.type, wrapper);        return callback(e);
+if (disabled) {             gj.tree.methods.disableNode($tree, $node);         } else {
+"rotate(" + this.angleDeg + ")";   }
+return result;   }   var regjsparser = {
+typeof define === 'function' && define.amd ? define(['https:  factory(global.external); }(function (external) { 'use strict';  external = external && external.hasOwnProperty('default') ? external['default'] : external;
+Clazz.overrideMethod (c$, "getBfactor",   function () {  return this.atom.bfactor;  });
+storeErrors(filterDuplicates(idCounts));   this.complete = true;
+var server = new mongo.Server(options.host, options.port, options.options);
+new CSSModalGallery(); new CSSModalHtml5video(); new CSSModalMaxwidth(); new CSSModalResize();
+, ContentsIdDao = require('../../../../lib/extension/contents/contentsIdDao')      , ImageUtils = require('../../../../lib/tiles/imageUtils')
+it("blank", function (done) {         this.timeout(constants.timeout);         Augur.blank(
+self.drag(e);         });       }
+case 'manuscript':       return 'unpublished'     case 'paper-conference':
+receiver[p] = {};                     _mix(receiver[p], val);                 } else if (valType === '[object Array]') {
+module.exports = StyleAttrBinding;
+render(){   return (
+}; }(this));
+idRegex = new RegExp('(\'|")' + oldID + '(-label)?(\'|")', 'g');
+if (getProfile) {      return This.setProfile(getProfile, false);     }
+const textOrientation = item.text.orientation;     const stack = itemStack[textOrientation];
+define(function () {  var restartPlayback = function () {
+this.orig_prefset = null;     if (usesDeck) {
+var _widget, isWidget, _element;         for (var widgetName in targets) {
+hnumerals.parseYearHebrewLetters  = function( year){
+'information as possible.')   exit(1) }
+compatibility: 'all',        },
+AUDIO_VIDEO: { i_id: (0x01 << 1) | (0x01 << 2), s_name: "audio/video" },     ALL: { i_id: 0xFF, s_name: "all" } };
+if (!((this.objectModelDeclaration != null) && this.objectModelDeclaration)) {           throw new Error("Failed to deep copy (clone) source object model declaration.");         }
+const instance = axios.create(); instance.interceptors.request.use(interceptRequest);
+export const Keen = KeenCore.extendLibrary(KeenCore); export default Keen;
+else {
+default:         uncompressedData = compressedData;     }
+const getTextBlockRegExp = () => /\\text\{([^}]*)}/g;
+if (elems.length !== 0) {       for (let i = 0; i < elems.length; i++) {         elems[i].style.cssText = "display: none;"
+SamplesPerGr: 576,     SamplingFrequency44100: 0,
+}     Collection.prototype.smartChanged = function(index, id, fields) {       var data = this[id].data;       _.each(fields, function(val, key) {
+const mod = require(src);     if (args && args.constructor === Array) return mod(...args);     return mod();
+util.actions = [];     });
+constructor(opts) {     super()     this.authenticated = false     this.server = opts.server
+temp = replace     replace = []     for (i = 0; i < search.length; i += 1) {
+success: function(r) {                  this.grid.reload();
+if (!semver.satisfies(pkg.version, that.options.gitbook)) {             throw new Error("GitBook version doesn't satisfy version required by the book: "+that.options.gitbook);         }
+this.pool.acquire(function(err, connection) {     if(err) {       callback(err, undefined);      }
+function() {         this.stateTransition_(lf.proc.TransactionState_.ACQUIRED_SCOPE);       }.bind(this)); };
+if (options.schema && body.schema && body.schema.type && body.schema.type === 'object') {             common.schemaToArray(body.schema,1,parameters,false);
+this.__abortChange();                 }
+forEach(me.tests, function(test) {         if (test.cycles) {
+pool.trigger(_tick_);         $.reel.cost= (+new Date() + $.reel.cost - start) / 2;         return ticker= setTimeout(tick, max(16, 1000 / tempo - $.reel.cost));       }else{
+};     case `${ACTION_TYPES.CHECK_SERVICE_EXIST}_FULFILLED`: {       const serviceExists = !!action.payload;       return {
+}    }    console.log("total rooms: ",this.map.roomsToExit.length);
+var seperator = seperator || '---'       , pattern = '^('
+} class KeyValueRecord {   constructor(key) {     this._key = key;
+this.$location = $location;
+if (!input) {           console.warn('Skipping unknown: Input "' + name + '" not found.');           break;         }
+this.checkboxRender = (value, label) => {             const { columnHeight, lineHeight, columnBorderWidth, colAlign, } = this.props;             let justifyContent = '';
+$(this).removeClass('active');             });           _tabs.each( function(i) {               $(this).removeAttr('style').css( 'display', _cache_div[i] );
+return class TransitionAwareRouter extends RouterClass {     render(...args) {       return <PageContainer>{super.render(...args)}</PageContainer>;     }
+default:         throw new Error("Protocol not supported.");     }
+resize25: '25% 크기',         mirrorHorizontal: '좌우 반전',
+for (i=0; i < offers.length; i++) {     var rows = orderBookScreen.makeRows(offers[i]);
+var transaction = transactionData.transaction;  transactionObj.operations = transaction.operations;  transactionObj.lengthDifference = transaction.lengthDifference;  this.dmSurface.change( transactionObj, new ve.Range( 1, 1 ) );
+(value).forEach(function (item) {         str_ += item[0] + ':' + item[1] + ', ';
+return '[' + typeTransformer(matches[1]) + ']';     case 'list':
+var mode = args.mode;         if (window.File && window.FileReader && item.kind === 'folder' && item.data.provider && item.data.permissions && item.data.permissions.edit) {
+location.reload();                         return;                     default:                         return;                 }
+console.log("CHAN_GET: " + url + " " + res.statusCode);                         stream_cb(res);                 });
+function loadFile() {
+for (let i = 0; i < j; i++) {         R = multiply(R, R)
+xhr.onreadystatechange = function() {             if (this.readyState === 4 && /^[2]/.test(this.status)) {                 window.location.reload();             }
+return false;   }   if (typeof WebSocket != 'undefined' && !('__initialize' in WebSocket)) {     return false;
+goog.require('ol.render.Event'); goog.require('ol.render.canvas');
+getSiteType: function () {         if (location.hostname.indexOf('chat.') > -1) {             return 'chat';
+document.documentElement.classList[action]("vimiumFindMode");     action === "add" ? DomUtils.UI.addElement(this.styleIn) : this.styleIn.remove();   },
+if (inTimetable) {             type_text = "(" + (credit+au) + ")";
+Flow.durationToTicks.durations = {   "1/2":  Flow.RESOLUTION * 2,   "1":    Flow.RESOLUTION / 1,   "2":    Flow.RESOLUTION / 2,
+}     ).find( "div" ).show();     return { handle_minwidth_hint: handle_minwidth_hint }; };
+XSS.PIXELSIZE = 4; $(function() {     XSS.doc = $(document.body);
+radius = Base.readNamed(arguments, 'radius');    return createEllipse(center, new Size(radius), arguments);   },
+;(function($) {  'use strict';
+widgetOk = widget.querySelector('.pf-widget-ok'),       widgetReco = widget.querySelector('.pf-content-unit');
+return;   }
+function defineAssociationAccessors(sourceModel, assocType, targetModel, alias, association) {   var accessors   = accessorTypes[assocType]     , singular    = inflect.singularize(alias)
+d3_geo_transform.prototype = {   point: function(x, y) { this.stream.point(x, y); },   sphere: function() { this.stream.sphere(); },
+var json = this.json     , sort = json.sort
+this.sock.on('end', function () {   self.emit('close');  });  this.sock.on('close', function () {
+if(ctx.resolve('username')) {     out += ctx.resolve('username');   }
+Blockchain.prototype.putBlockOnHold = function(block) {     if (!(block['hash'] in this.buffer)) {         this.buffer[block['hash']] = {
+var jsDAV_iQuota = module.exports = function() {     this.REGBASE = this.REGBASE | jsDAV.__IQUOTA__;
+class TaskTable extends React.Component {   constructor(...args) {     super(...args);
+getRandomInt: function (min, max) {         return Math.floor(Math.random() * (max - min + 1)) + min;     },     topUpRooms: function () {
+if (oldMax !== newMax) {       this.element._flatpickr.set('maxDate', newMax);     }
+var expect = require('expect.js'); describe("Numeric Analysis", function () {     var fft = fidola.numeric.fft,         ifft = fidola.numeric.ifft,
+}   }  }  for(var i=0;i<this.nodes.length;i++) {   this.nodes[i].RIGHT = this.nodes[i].LEFT = this.nodes[i].UP = this.nodes[i].DOWN=0;
+catch (e) {                 var err2 = new Error(e);                 err2.status = 400;                 next(err2);             }
+var client = new tracker.Client({trackerToken:token});                  client.project(projectId).uploads.create(filepath, function(error, attachment) {                      if (error) {
+import { h, Component } from 'preact'; export default class Home extends Component {
+load(...args) {     console.log(args);   },
+this.moveStep = function(id, prev_id) {              var dataToBeSend = {'prev_id': prev_id},
+case "FunctionExpression":             return new astExpression.FunctionExpression(node.loc, transform(node.id), transform(node.params), transform(node.body));
+"hierarchy.html":[7,2], "index.html":[] };
+updateFavoriteTeams($(this).attr("data-team"), 'add', false);
+size: {                     width: [],                     height: []                 },
+lobby: 'Entrée',           staffRoom: 'Salle du personnel',
+if (properties) {     for(var name in properties){                     if (properties.hasOwnProperty(name)) {                         var value = properties[name];
+_.each(tagName, function(tag) {       tagIsComponent(tag, isComponent);     });
+) {                             reuseMarkers.push(this.markers[i]);                             doAdd = false;
+var headers = headerTransforms.forRequest(ctx);     return {
+avoidableParams[5] = avoidFords;                 var truckParams = [];                 var truck_length = permaInfo[preferences.value_lengthIdx];
+Array.prototype.push.call(newArgs, callbacks);     if(document.body){
+this[i].innerHTML = "";       }       return this;
+Minionette.CollectionView = Minionette.View.extend({
+pathname_prefix: "",       app_tag_on: true,
+var Sleeping = require('../core/Sleeping'); var Common = require('../core/Common');
+const appliedClassName = className || 'hovering';     const includeClones = !excludeClones;     const includeChildren = restriction !== 'directParentsOnly';
+{    throw new Error("QR Error: Error getVersionForNumber");   }
+table.push(header)   table.push(...rows)   return table.toString()
+var __call__ = function() { args = arguments.___insert(0, klass) return create_object.apply(undefined, args);
+expect(Kefir.zip([a, b, c])).to.emit([[1, 0, 3], [4, 2, 5], [6, 9, 8], '<end>'], () => {       send(a, [1])
+Polymer({   _template: html`     <style>
+function _via_metadata(mid, z, xy, metadata) {   this.mid = mid;
+});  };  var fullResizeVideo = function() {
+Template.sidebarItem.onCreated(function() {   });
+}       }, _callee);     }));
+arr = new Uint32Array(arrayBuffer, offset, length);          break;      case 'FLOAT':          arr = new Float32Array(arrayBuffer, offset, length);
+});         this.model.revert();         this.render();
+this._setGeneratedUser = function(properties) {       var generatedId = this.localStorage.getObject(this.generatedIdKey);       var user = { id: generatedId, properties: properties };
+break;
+throw new Error("Value for " + data.val + " is smaller than " + data.min);   }
+var scalingFactor = Math.min(worldSize.x / myWidth, worldSize.y / myHeight);     var desiredPosition = this.owner.worldPoint(myBounds.topLeft());
+module.exports = methods;   } else {     for (var i = 0; i < methodNames.length; ++i) {       root[methodNames[i]] = methods[methodNames[i]];     }
+let rules = [...initialRules];          while (true) {       const currentTarget = targets[targets.length - 1];
+e = 'ecma4'           break       case 'ecma6':           e = 'ecma6'           break       case 'ecma7':           e = '--ecma7'
+, APPLY_BY      : {               type      : DataTypes.STRING
+collection = args.OldValue;              count = collection.GetCount();              for (i = 0; i < count; i++) {                  this._ElementRemoved(collection.GetValueAt(i));
+xmlHttp.setRequestHeader('X-Algolia-Application-Id', this.applicationID);             for (var i = 0; i < this.extraHeaders.length; ++i) {                 xmlHttp.setRequestHeader(this.extraHeaders[i].key, this.extraHeaders[i].value);             }
+debug( 'Current value: %s.', this._aValue );
+undefined, undefined, function (data, p) {           if (p === 404) {
+allowed_attributes.each(function(attribute) {             if ((value = child.readAttribute(attribute)))               new_child.writeAttribute(attribute, value);
+case gl.FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT:             throw 'Incomplete framebuffer: FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT';         case gl.FRAMEBUFFER_INCOMPLETE_DIMENSIONS:
+return originalPosition[1] === finalPosition[1] && originalPosition[0] > finalPosition[0];     case DIRECTIONS[1]:
+[States.NOT_STARTED, 'Not Started'] , [States.IN_PROGRESS, 'In Progress']
+}     return this._outerHeight(includeMargin);   };
+const keys = key.split(',');             _.each(keys, k => {                 this.keyListener.simple_combo(k, value.bind(this));             }, this);
+to: "Zu",         memo: "Memo",
+console.log('PDC:');   console.log('UserName:');
+this.handleMultiMinusButtonTap = e => {     this.multiData.splice(Number(e.currentTarget.getAttribute('idx')), 1);     this.change(this.multiData);
+HTMLMediaElement.prototype.play = function() {       let p = originalPlay.apply(this);       if (p) {
+} catch (err) {       return showError(err)     }
+$("#github").removeClass('hidden');     }else if (value === 'asn'){         $("#github").addClass('hidden');
+} else {       console.log(`${context} key '${key}' not found in ${parentKey}`);       error = true;
+var currentNode = new PointCloudOctreeGeometryNode(name, pco, boundingBox);     currentNode.level = level;
+console.log(error);     process.exitCode = 1;   }
+case 'graphql':       graphql = stashedSpecs.graphql = stashedSpecs.graphql || {};       graphql.path = graphql.path || '/graphql';
+var githubRE = /github.com\/([\w\.\-]+)\/([\w\.\-]+)\/blob(\/[\w\.\-]+)\/(.*)/;
+this._viewFolder = ''   beforeFilters = []
+console.log("binding "+path);     sails.express.app[verb || 'all'](path, callbacks);
+import Button from 'react-native-button'; import {analytics, styles, colors, px1} from '../../app'; import util from '../../libs/Util';
+fn.apply( this, arguments );   this._refresh();   if ( previous !== this.options.value ) {
+return new FireCryptOnDisconnect(path, originalMethod.call(utils.encryptRef(this, path)));   };
+appliedFilters = this.getUpdatedAppliedFilters(payload, appliedFilters);     });
+var xmpp = require('../index')   , server = null   , Client = require('node-xmpp-client')
+}     return result; }
+orsRouteService.addHeightgraph = (geometry) => {             const heightgraph = orsObjectsFactory.createMapAction(-1, undefined, geometry, undefined, undefined);
+if (constring == null || constring.trim() === '')         throw new Error('constring must not be null or empty');     if (contype == null || contype.trim() === '')
+handle.append('path')       .attr('class', 'CDB-Chart-axisTipRect CDB-Chart-axisTipTriangle')
+import React from 'react' import ConnectedInstanceCard from '../containers/ConnectedInstanceCard'
+is_editable = true;     } else if (window.is_admin) {
+'use strict';
+leftPx += parseFloat($tab_t.eq(_i).outerWidth(true));      }      $(e).css({
+import ObjectComponent from './ObjectComponent'; import {normalize} from '../util/math-utils'; import {attachMouseListenersDocumentExtended} from '../util/listener-utils';
+const isMac = /^Mac/.test(navigator.platform)
+fs.ensureDirSync(root + "/static");
+expect(isEmpty([1])).toBe(false, "for empty literal array");       expect(isEmpty({ foo: 1 })).toBe(false);       const array = [];       array.push('1');
+socket.on('connect_error', err => {    if (err.message === 'xhr poll error') {     if (loggedXhrPollError) {
+document.removeEventListener('mousemove', handleMouseMove);       enableUserSelect();     }
+return /iPad|iPhone|iPod/.test(navigator.platform); }
+import React from 'react'; import {mount} from 'enzyme'; import Baobab from 'baobab';
+function TextInputUnit () {     }
+this.time = 0;     }; } Robot.prototype.geom = {
+'use strict'; var Utils = require('./utils');
+$(this).attr('checked', true);                 return false;
+if (_.isUndefined(value)) {                 throw new Error("parameter " + key + " has not been set.");             }
+tag_input.keypress(function(event){     var keyCode = event.keyCode || event.which;     if (keyCode == BACKSPACE) {
+];    for (var i = 0, len = this._editorTextPlusPlacements.length ; i < len ; i++)     on(this._editorTextPlusPlacements[i], "click", this.onEditorTextPlusPlacementClick);
+}             case 13:
+template: Handlebars.compile(tpl),
+window.addEventListener('showAdvertising', handler);
+if (typeof interval == "undefined") {        var el = $j(this);
+switch (action.type) {       case GET_CURRENT_USER_SUCCESS: {         const newLoginValue = isNewLoginValue         isNewLoginValue = false
+OpenLayers.Util = new Object();
+for (tag in tags) {             if (tags.hasOwnProperty(tag)) {                 attribute = tags[tag];                 urls[tag] = [].map.call(document.querySelectorAll(tag), function (item) { return item.getAttribute(attribute); });
+try {     send.call(this, data);    }
+_.each(fieldsValues, (setValue, fieldName) => {     this.setOne(doc, fieldName, setValue, options);   }); };
+import { View } from 'backbone';
+} else {       throw new State.DefinitionError();
+for(var h in jsondata.headers) {    if (jsondata.headers.hasOwnProperty(h)) {     var heading = jsondata.headers[h];     ret += textdelim + heading + textdelim +  delim;
+var globalMatch = haystack.match(globalRegex);    var matchArray = [], nonGlobalRegex, nonGlobalMatch;    for (var i in globalMatch) {
+var arr = ["hello world"]; console.log (arr[0]);
+onDragStop: function() {             Garnish.requestAnimationFrame(function() {                 this.trigger('dragStop');                 this.settings.onDragStop();
+result = this.multiply(result, m.flat);         this.matrixCache_[m] = result;       }
+const rootPrefix = '../..'   , InstanceComposer = require(rootPrefix + "/instance_composer")   , ModelBaseKlass = require(rootPrefix + '/app/models/base')
+let exists = []   if (thisid) tags = tags.filter(_ => thisGroupMap[_.id].data.includes(thisid))
+} else {         return true;       }
+if (precision) return r.substr(0, precision);                 return r;             case '%':                 return '%';
+var newFire = building.fire + fireSpread;             building.fire = Math.min(this.maxFire, newFire);         }         this.currentForecast = this.forecasts[this.forecastIndex++];
+if ( options.debug ) {       data.debug = steal.toJSON(deepExtendWithoutBody(currentData));
+checkUsername: function(event, input) {
+Text = require('./methods/tag')(Text); Text.prototype.normalize = require('./methods/normalize');
+options = options || {};   options.defaultValue = (options.defaultValue ? options.defaultValue : c.SUPPRESS);   options.dest = (options.dest || c.SUPPRESS);
+constructor() {     super();     this.agentService = ContainerJS.Inject;
+case 'app':       app = stashedSpecs.app;       app.name = props.name;
+newValue = thisHead.setIn(tail, value);     } else {
+if (options.backdrop) {           if ( $destroy ) options.backdrop.remove();           else              $animate.leave(options.backdrop);
+return;   map.addKmlOverlay({
+if (params.viz.resize) {
+import SparklinesSpots from './SparklinesSpots'; import SparklinesReferenceLine from './SparklinesReferenceLine';
+this.text = false;      this.save((("" + (this.prepareOutput(command, true))) + ";"));      return;
+const mqtt = require('mqtt') opt.subbroker = opt.subbroker || opt.broker
+return false;         case this.OPERATORS.dateOperatorInTheLast:
+this.menuText.anchor.setTo(0.5,0.5);         this.game.input.onTap.add(this.transition, this);     },
+Color.fromHsl = function(hsl) {     if (hsl.indexOf('hsl(') !== 0) return null;     var result = Color.HSL_RE.exec(hsl);
+var item = document.getElementById(dlLink.id + '-link');       if (!! item && item.getElementsByTagName('img').length === 0) {         var img = document.createElement('img');
+});       return ParsleyUtils__default.all(promises);     },
+}             input += '<option value="' + value + '" ' + attrs + '>' + name + '</option>';           });         }
+if (typeof rows === "undefined") rows = self._rows;         var index, item;         if (data !== null) {
+{              if (document.getElementsByClassName('widget-login-qr-imgWrapper widget-login-qr-loading') [0] !== null)
+layers[baseLayer].addTo(map);     if (baseLayer == 'Bing Satellite') contextLayer.addTo(map).bringToFront();     L.control.layers(layers).addTo(map);
+if (path==null) throw new Error( "putDir: Null path");          if (!isDir(path)) throw  new Error("Not a directory : "+path);          if (media==MM_RAM) {
+console.log("Dash channel opened.");
+var args = Array.prototype.slice.call(arguments);       this.setState('progress', true, args);
+else {                             $item = this.getItemToTheRight(anchor);                         }                     }
+} function last(arr) {
+hasPendingChanges: false         }, () => {           this.transitionToAdminPage('.preview', {             path: this.getUrlRecordPathWithAlt(path)
+import Resource from './resource'; import { attr, hasOne } from 'ember-jsonapi-resources/models/resource';
+return $.grep(this._pages, $.proxy(function(page, index) {    return page.start <= current && page.end >= current;   }, this)).pop();
+})     const heartbeat = function (ws) {       ws.isAlive = true     }
+const header = props => <div className="anchor"><a name={`${props.children.replace(/[ -]/g, ``).toLowerCase()}`}></a><h2>{props.children}</h2></div> const components = {
+console.log("Didn't remove the device " + err);     return when.reject();    });  },
+result = true;         if (isSuperscriptAtom(stream)) {
+, callback = _.isFunction(data.callback) ? data.callback : function() {}       , exitCodes = data.exitCode || data.exitCodes || 0       , command
+wait: function(data, callback){         setTimeout.call(window, callback, data.timeout);     },
+console.warn('OSjs::Core::WindowManager::removeWindow()', 'Got', w);       throw new Error('removeWindow() expects a "Window" class');     }
+thisMonth = this.value.getMonth();     monthLength = this.getMonthLength(thisYear, thisMonth);     var dates = this.$.dates.getControls();
+(function () {     if (!('Element' in global) || Element.prototype.matches) {       return
+var npId1 const NUMBER_PROTOCOLS = 4
+this._eventInput.on('clean', function(){             if (this._dirty) {                 this._dirty = false;
+res.end();   }  });
+item.opacity = parseFloat(value, 10);    break;   case 'visibility':    item.visibility = (value == 'visible') ? true : false;
+.then(response => response.json())       .then(json => safeWrap(json, () => dispatch(userMarkedAsAttended(event, user))))       .then(() => dispatch(stopLoading()));
+describe('94.binding_procedureBindInout.js', function() {   var connection = null;
+});     if (_.isUndefined(obj.data)) throw new Error("data is a required field");     if (_.isUndefined(obj.data)) throw new Error("columns is a required field");     function table() {
+} else if (name == 'todo') {
+if (typeof func === 'function') {                 return func(...evalList(flags, scope, locator, this.args, part));             }
+let i = isTail ? this.items.length - 1 : 0;   while ((item = this.items[i])) {    idx = this._getColIdx(item);
+this.close = function(callback){     if(server){       server.close(callback);
+DataAccessObject.prototype[i] = dataSource.constructor.DataAccessObject.prototype[i];         }     }
+}, function (next) {     this.push(template(things));     next();
+module.exports['internal/streams/pipeline.js'] = [     once   , errorsTwoLevel
+function _encapsulateTwoParam (context, cb) {     if (func.length === 0) {       func()       process.nextTick(cb)
+if ($parent.hasClass('open')) {
+coUtils.Debug.reportWarning(       _("%s sequence [%s] was ignored."),       "PLD", Array.slice(arguments));   },
+trackException(error, fatal = false) {     GoogleAnalyticsBridge.trackException(this.id, error, fatal);   }
+setProperties(o, p);           } while ((p = gPO(p)));           return o;
+var jetzt  = window.jetzt     , H      = jetzt.helpers;   function on (event, cb) {
+debug( 'New Value: %d.', this._height );  this.emit( CHANGE_EVENT ); }
+var spriteY = this.y;                     this.sprite.setPosition(spriteX, spriteY);                     if (this.spriteNombre) {
+return cb();             })             .catch(function (err) {
+} else {     data = key;     this._cfgData = _.assign(this._cfgData, data);   }
+toString() {     let str = this.name || this.constructor.name || this.constructor.prototype.name     if (this.message) str += ': ' + this.message     if (this.cause) str += '; caused by ' + this.cause.toString()
+this.center = new Vector2();         this.rings = [];         this.isBridged = false;
+if (this.parentProp && this.parent) {     bubbleEvent(this.parent, this.parentProp, args);   }};
+require('./methods/query')(SpaceTime); require('./methods/add')(SpaceTime); require('./methods/same')(SpaceTime); require('./methods/compare')(SpaceTime);
+.expect(404)                     .end(function(err, res) {                         expect(res.body.message).to.be.ok;                         done(err);
+evt.preventDefault();                             var file = $(this).closest('[data-file]').data('file');                             self._trigger('selected', null, file);                             modal.close();
+} var flength = f.length; verifyNotWritable(f, "length", null, function(){});
+init() {     this._super(...arguments);     if (!Ember.testing) {
+var count = 1;         instructions.forEach(function(instruction) {             output.push("<tr>");
+if (!newSurface) {     throw Error('Couldn\'t clear and hide the drag surface: missing ' +                 'new surface.');   }
+function AnimationUtilApply(anim, opt_target) {   var me = AnimationUtilApply;    if (anim.children && anim.children.length !== undefined) {
+import turfBbox from '@turf/bbox';
+function getUserInfoMethod() {     return persistencePathMethod(conf.get('authUserInfoRoute')); }
+var GLBuilders = require('./gl/gl_builders.js'); var Style = require('./style.js');
+console.log('Error: ' + err);       users.close();     }
+},     getFiles: function( data ) {         var files;
+}     function notifyOnbind(data) { if (this.__onbind) this.__onbind(data); }     function notifyOnboundedUpdate(data) { if (this.__onboundedupdate) this.__onboundedupdate(data); }
+}; ClientRequest.prototype.abort = function(b) {   this.proxy.end(); };
+getClassName: function() {       return "R.debug.ConsoleRef";    }
+return next();             }, this.a);           }.bind(this),
+function setAttr(node, name, val, asProp) {  var el = node.el;
+.ticks(this.ticks, this.tickLabel);     this.colors = Colors.scaleCategory1();     this.keyFunction = ((d) => d.x);
+return;             }             if (!pred.has(w)) {               forward_fringe.push(w);
+_this._hasScrolled = false;         }).bind('touchmove.mapify', function () {             _this._hasScrolled = true;
+let errors = parseShaderErrors(message);         throw Object.assign(new Error(message), { type, errors });     }
+var traits = this.traits();             for (i = 0, l = traits.length; i < l; i++) {                 traits[i].setFromArgs( obj, args, ignores );
+async _uploadTask(blob, url) {     try {
+, i18n = require('../index');
+const IgniterConsole = {   warn(...args) {     console.warn.call(console, ...args);   },
+import Breadcrumb from '../../components/layout/breadcrumb'; class Header extends React.Component {
+tapPolyfill: true   },   isMatch(p) {     return p.isPlatform('ios', 'iphone|ipad|ipod');   },   versionParser(p) {
+(function (w, $) {     if (!$) return;
+window.addEventListener('click', this, true);   },
+cell = start && domUtils.findParentByTagName(start, ["td", "th"], true);              if (cell) {                  return -1;
+let context = this.context;     let rules,         ruleMandatoryProperties;
+};  _ImplicitStylePropertyValueProvider.Instance.RecomputePropertyValue = function (propd, lower, higher, clear, error) {      if (!clear)          return;
+})       geometry.faces.push(new THREE.Face3(...indices))
+export default class DataGridImpl extends Common.Object {
+var reshape = this._impeach() || this._exile() || this._expand()             if (reshape) {                 this.ponged = false
+let t1 = performance.now();  outputDebug("1", "css", (t1-t0), (t1 - gt0)); };
+var test = require('../../../test')   var count = 0   require.async('./a', function(a) {
+export function testConfig() {
+'markdown': staticPath('js/markdown.js'),         'mathrender': staticPath('js/mathrender.js'),         'citations': staticPath('js/citations.js')     }
+rethinkdb.let = function(bindings, body) {     typeCheck_(body, rethinkdb.Query);
+if (wantedStates.length === 0) {             return Promise.resolve(null);         }
+add(key, options) {     this._states[key] = options
+var i, len = this.masksProperties ? this.masksProperties.length : 0;     this.viewData = createSizedArray(len);     this.solidPath = '';
+restrict: 'A',       link: function(scope, element, attrs) {         var ignore = function(event) {           event.selectionModelIgnore = true;
+class UnitHealthDropdown extends React.PureComponent {   constructor(...args) {     super(...args);     this.state = { dropdownItems: this.getDropdownItems() };
+while ((ch = stream.next())) {    if (ch == '"' || ch == "'") {
+Notification: true, Settings: true,
+return true;      if (result["ResultSet"]["Result"][0]["DisplayUrl"]=="dojotoolkit.org/") {       return true;
+for (var i = 0, max = objectsWithBehaviors.length; i < max; i++) {   var object3d = objectsWithBehaviors[i];   object3d.updateBehaviors(deltaTime, self);  }
+var r = 0;         for (var i = 0; i < this.d.length; ++i)             r += this.d[i] * v.d[i];
+retNode = node.left;     } else if (comparison < 0) {       retNode = node.right;
+describe('2.8 connection request queue (basic functionality)', function(){     function getBlockingSql(secondsToBlock) {
+opts = $.extend({fade: false, gravity: 'n'}, opts || {});         var tip = null;         this.hover(function() {
+if (!Array.isArray(value)) {           return false         }
+else if (category == 'tv') {     data.forEach( (entry) => {      entry = JSON.parse(entry);
+const instance = mount(PageProposal, {       doBefore: () => {         store.commit(`setProposal`, {})
+} else {         rotationMatrix = Matrix44.rotateX(this.rotate.x).         multiply(Matrix44.rotateY(this.rotate.y)).
+"self": { "href": "/" },     "orders": {
+;   var _scripts = {};
+"use strict";
+let ids = context.request.ids;   let relatedType = this.schemas[type][relatedField][keys.link];   let options = {
+this.activeIp = Monitor.activeIp;   this.process.send(`${this.id}|${args.join('|')}`);  }
+const debugAggregate = async (model, pipeline) => {   for (let i=1; i<pipeline.length; i++) {     const p = pipeline.slice(0, i);
+}           });         } catch (err) {           throw new Error('Invalid Config file, incorrect JSON format: ' + err.message, err);         }
+debug.call(this, 'Node#sync', arguments);
+this.currentStream = this.contentStreams[0];
+var attributes = {}             , foreignIdentifier = association.foreignIdentifier;           var sourceKeys = Object.keys(association.source.primaryKeys);
+};      that._write_nodes_helper( node, on_nodes_written );  }
+}; function printError(...args) {   console.error('INVALID COMMIT MSG: ' + util.format.apply(null, args)); }
+return false;   else if (value === null)     return Boolean(expectedType.__IsReferenceType__);
+email: function(fieldValue) {      var emailReg = /[^\s@]+@[^\s@]+\.[^\s@]+/;      return emailReg.test(fieldValue);
+size: 'S',           theme: 'light'         }
+var s = require('../index')     , assert = require('chai').assert; describe('rest', function () {
+inputEx.registerType('object', inputEx.ObjectField); })();
+return this.file;  });  Clazz.defineMethod (c$, "autoSelectOnLoad",   function () {
+default:            basis.dev.warn('Unknown config property `' + key + '` for app, value:', value);       }
+function modelFinder (params) {   for (var key in params) {       if (params.hasOwnProperty(key)) {
+describe("concat", function() {   it("should concat 2 ports", async function() {     let result = [];
+constructor(value) {     return isIterable(value) ? value : Seq(value);   }
+this.status = 400; }
+options = _.extend({reindex: true}, options || {});         if (options.reindex) shadowCollection.reset(collection.models);       });
+if (onDelete === 'DELETE') {       this.collection.remove({path: {'$regex': '^' + this.path + pathSeparatorRegex}}, next);     }     else {
+case 'LT':     return function(keyA, keyB) { return keyA < keyB[0] }   case 'GE':
+};         }         bindingPath = tsBinding.path.parentPath;
+load().then(loaded => {   wasmTapestry = loaded.wasmTapestry;
+if ($(this).text().toLowerCase() === curText.toLowerCase() || !$(this).text().length) {                         setElementValue(curText);                     }
+import Components from '../Components'; import TableOfContents from '../TableOfContents';
+this.onDraw(function () {         ctx.decorator = this.showHiddenCols._decorators[0];
+}     document.cookie = name + "=" + value + expires + "; path=/";
+function getPlayerByName(name) {     for (var i in discovery.players) {         if (!discovery.players.hasOwnProperty(i)) continue;         var player = discovery.players[i];
+package_json.binary.package_name.indexOf('{node_napi_label}') === -1 &&   package_json.binary.package_name.indexOf('{node_abi_napi}{napi_build_version}') === -1; }
+var page = req.params[1];          if (typeHandler.cache[page]) {
+}         }         return Promise.reject(error)     }
+$(function(){   var doc = $(document);
+if (newVersion) {         return that._getCacheNameForVersion(newVersion)           .then(caches.open.bind(caches))
+callback(err);                              });                          }
+var r2 = obj.rectangles[1];   while((from = todo.pop()) !== null) {    vertices[from].neighList.forEach(function(obj) {
+function LinkTree(doc, treeElement) {     this.doc = doc;     this.treeElement = treeElement;
+var Db = require('../../')   , Base = Db.Base, StringType = Db.String; module.exports = function (a) {
+_removeSegmentCasing: function(e) {
+module.exports = callbackify(async function (gridModel, columns, viewColumns, exporter, settings) {   assertValidViewColumns(columns, viewColumns);
+this.TTCR = (this.TTCR + delta) & 0xFFFFFFFF; }
+import { connect } from 'react-redux'; import { Link } from 'react-router';
+for (var i = 0; i < Report.visualizationTypes.length; i++)      {
+const fn = async function({a1, a2, a3}) {   };
+inputEvent = module.get.changeEvent(type)               ;               $(this)
+}         case 'phone':
+context: {               buttonText: that.gettext('Retry?'),               errorCode: 'PIN_RESET_TIMEOUT'
+utils.sendExtensionRequest( ({       action: constants.Actions.LIST_KEYS,
+function promiseify(fn) {   return function (...args) {     return new Promise((resolve, reject) => {
+};     self.__doreq("DESTROY-EXISTS",getoptions,null,function(result) {       self.logger.debug("Returned rest api info: " + JSON.stringify(result.doc));
+if (opts.noRecord) {           throw new RecordingDisabledError('Recording Disabled');         } else {
+const {html, originalRevision, sections} = await fetchDoc(id, resourceType, req)
+done();       });     });
+setTimeout(function() {    this.fireEvent("media", this);    this.informTable("Resize");
+} else {                          errorCallback("FAILED");
+function chalk(...args) {  return args }
+if ( abs(p) < abs(pLast) ) converging = true;       if ( i > terms ) throw Error( 'Not converging after ' + terms + ' terms' );
+component: 'badges',   namespace: 'lightning:badge',   url: 'https:
+if(position === "left" || position === "right") {                     container.css({top:(container.parent().height()/2) - (height/2) + "px"});                 } else {
+return str; }; export default stripDiacritics;
+function Presenter (props, context) {   BaseComponent.call(this, props, context)
+import _ from 'lodash'; import uiModules from 'ui/modules';
+it('client.url() new', function() {     return Globals.protocolTest({       assertion: function(opts) {
+function sort (arrayLike, sorters) {     var criteria = _makeCriteria(sorters);     var len = _toArrayLength(arrayLike.length);
+offset += 2;         cookie.address = buf.unpackString(addressLen, offset);
+load(absUrl, function(svgString) {               inject(img, svgString, absUrl, options);
+var sequenceLengthPreInsert = tree.get('$sequenceLength');
+case DOMEvents.KEYPRESS:     var charCode = Client.isExplorer ? e.keyCode : e.which;     if (charCode >= 32) {
+case actionTypes.other.DECLARE_COUNTER:                     action = new Action.Other.DeclareCounter(data.name);                     break;                 case actionTypes.other.DECLARE_VARIABLE:
+define(Array, 'partitionBy', function(fn) {     var partitions = {};
+kafka.on('message', function(message, commit) {             _options.bus.callback(JSON.parse(message.value));
+logger.info('no changes to report');     }     notifications.wikiChanges(changes, function (err, stringifiedOptions) {
+async function createComment(postId) {   postId = new ObjectID(postId);
+pattern: /\"version\":\s\"[0-9\.a-z].*",/gi,                         replacement: '"version": "' + grunt.option('newver') + '",'
+class TaskDetail extends mixin(TabsMixin, StoreMixin) {   constructor(...args) {     super(...args);     this.tabs_tabs = {};
+else if ( !aliases && ( child = readElse( parser, tag ) ) ) {    if ( section.n === SECTION_UNLESS ) {
+irc: {     raw: function(...args) {      testableNetwork.lastCommand = args.join(" ");     },
+} else {                 log.die(err);             }

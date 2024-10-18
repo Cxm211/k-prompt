@@ -1,0 +1,116 @@
+Namespace(log_name='./tfix/3/soft9_codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='javascript', output_dir='tfix/3/soft9_codet5p_770m', data_dir='./data/tfix/3', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=6, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Please fix a buggy program', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' function executeDown(internals, config, callback) {   var callback = callback || internals.onComplete;   if (!internals.argv.count) {', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': 'the bug type is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' no-redeclare', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '.', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': 'by taking repair actions', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' Redeclaring variable.', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is the fixed version', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'function executeDown(internals, config, callback) {   if (!internals.argv.count) {'}]
+***** Running training *****
+  Num examples = 816
+  Batch size = 6
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 0
+  eval_ppl = inf
+  global_step = 137
+  train_loss = 15.24
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:inf
+  ********************
+BLEU file: ./data/tfix/3/validation.jsonl
+  codebleu-4 = 63.41 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:63.41
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 1
+  eval_ppl = inf
+  global_step = 273
+  train_loss = 7.5391
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/tfix/3/validation.jsonl
+  codebleu-4 = 69.26 	 Previous best codebleu 63.41
+  ********************
+ Achieve Best bleu:69.26
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 2
+  eval_ppl = inf
+  global_step = 409
+  train_loss = 3.3792
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/tfix/3/validation.jsonl
+  codebleu-4 = 70.12 	 Previous best codebleu 69.26
+  ********************
+ Achieve Best bleu:70.12
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 3
+  eval_ppl = inf
+  global_step = 545
+  train_loss = 1.6152
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/tfix/3/validation.jsonl
+  codebleu-4 = 68.68 	 Previous best codebleu 70.12
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 4
+  eval_ppl = inf
+  global_step = 681
+  train_loss = 0.8604
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/tfix/3/validation.jsonl
+  codebleu-4 = 69.89 	 Previous best codebleu 70.12
+  ********************
+
+***** Running evaluation *****
+  Num examples = 104
+  Batch size = 4
+  epoch = 5
+  eval_ppl = inf
+  global_step = 817
+  train_loss = 0.5617
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/tfix/3/validation.jsonl
+  codebleu-4 = 68.07 	 Previous best codebleu 70.12
+  ********************
+early stopping!!!
+reload model from tfix/3/soft9_codet5p_770m/checkpoint-best-bleu
+BLEU file: ./data/tfix/3/test.jsonl
+  codebleu = 65.96 
+  Total = 102 
+  Exact Fixed = 32 
+[1, 3, 5, 6, 8, 10, 14, 15, 17, 24, 25, 26, 29, 30, 31, 33, 36, 38, 39, 40, 50, 53, 54, 57, 58, 69, 75, 78, 80, 97, 98, 100]
+  Syntax Fixed = 1 
+[65]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 102 
+  Exact Fixed = 32 
+[1, 3, 5, 6, 8, 10, 14, 15, 17, 24, 25, 26, 29, 30, 31, 33, 36, 38, 39, 40, 50, 53, 54, 57, 58, 69, 75, 78, 80, 97, 98, 100]
+  Syntax Fixed = 1 
+[65]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 65.96 
+[1.0, 0.7971836442602579, 0.947587286567819, 0.6928185251457493, 1.0, 0.849665244706028, 0.4953557619745404, 0.9891483218006352, 0.8674961219905688, 1.0, 0.5786565320612336, 0.6763969039336931, 0.8306583090096291, 1.0, 1.0, 0.8758258406164614, 0.9891483218006352, 0.5260009416319087, 0.4006672680560794, 0.05127041479686025, 0.6335343953003008, 0.8968939355581875, 0.6332527923879377, 0.6546744440448657, 0.9891483218006352, 1.0, 0.4980397387368015, 0.4203304182602139, 0.7135428903906851, 1.0, 1.0, 0.6502973371873174, 0.8249365300761395, 0.31594770703647285, 0.4113427546743357, 0.9891483218006352, 0.5123425659061872, 0.7973479243452424, 1.0, 1.0, 0.6748885220437988, 0.4436396203812509, 0.7096115872083772, 0.19935840068588878, 0.5231716191316423, 0.8494413741851621, 0.04210007982127989, 0.16999277306539728, 0.573720780784847, 1.0, 0.8076733233026572, 0.2895327686821452, 1.0, 1.0, 0.10619887519287305, 0.6823637724501181, 0.9891483218006352, 0.8249365300761395, 0.7251487502001472, 0.6811697895341449, 0.8796531437200525, 0.6485000068806333, 0.45759530908884194, 0.5267461460334337, 0.6302333034257401, 0.545545649326698, 0.23985271067894742, 0.32876058317458745, 1.0, 0.12, 0.8191441569283882, 0.8849384145327521, 0.623947934534287, 0.34610782087094627, 0.8981920291047973, 0.8648103351245982, 0.5924424048742483, 1.0, 0.09241884757886842, 0.8249365300761395, 0.6267132287253045, 0.0, 0.2229676619447272, 0.6082742323311118, 0.7288716324298354, 0.6156024573400952, 0.5247907831317329, 0.5875706378970006, 0.6450697884607799, 0.37627573543456505, 0.0, 0.8339326133501213, 0.7279979526305214, 0.4849237989456603, 0.4402131912598308, 0.5596414762602546, 1.0, 0.8249365300761395, 0.6445712219962232, 0.9164626894135284, 0.44240821387903484, 0.34788535327965553]
+Finish training and take 26m

@@ -1,0 +1,132 @@
+Namespace(log_name='./result/sstubs/3/soft0_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='result/sstubs/3/soft0_gptneo', data_dir='./data/sstubs/3', no_cuda=False, visible_gpu='0', choice=0, num_train_epochs=15, num_test_epochs=1, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=2000, max_target_length=2000, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'grammarBuilder.append("}\\n");    grammarBuilder.append("  : r=a ;\\n");    grammarBuilder.append("a : \'x\' { \\n");   grammarBuilder.append("fmt.Println(p.GetRuleInvocationStack(nil))\\n");    grammarBuilder.append("} ;");    String grammar = grammarBuilder.toString();    String input ="x";', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is the fixed version', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'grammarBuilder.append("}\\n");    grammarBuilder.append("  : r=a ;\\n");    grammarBuilder.append("a : \'x\' { \\n");   grammarBuilder.append("fmt.Println(antlr.PrintArrayJavaStyle(p.GetRuleInvocationStack(nil)))\\n");    grammarBuilder.append("} ;");    String grammar = grammarBuilder.toString();    String input ="x";'}]
+***** Running training *****
+  Num examples = 223
+  Batch size = 8
+  Num epoch = 15
+Namespace(log_name='./result/sstubs/3/soft0_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='result/sstubs/3/soft0_gptneo', data_dir='./data/sstubs/3', no_cuda=False, visible_gpu='0', choice=0, num_train_epochs=15, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=2000, max_target_length=2000, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'grammarBuilder.append("}\\n");    grammarBuilder.append("  : r=a ;\\n");    grammarBuilder.append("a : \'x\' { \\n");   grammarBuilder.append("fmt.Println(p.GetRuleInvocationStack(nil))\\n");    grammarBuilder.append("} ;");    String grammar = grammarBuilder.toString();    String input ="x";', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is the fixed version', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'grammarBuilder.append("}\\n");    grammarBuilder.append("  : r=a ;\\n");    grammarBuilder.append("a : \'x\' { \\n");   grammarBuilder.append("fmt.Println(antlr.PrintArrayJavaStyle(p.GetRuleInvocationStack(nil)))\\n");    grammarBuilder.append("} ;");    String grammar = grammarBuilder.toString();    String input ="x";'}]
+***** Running training *****
+  Num examples = 223
+  Batch size = 4
+  Num epoch = 15
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 2518704.52393
+  global_step = 57
+  train_loss = 58.3136
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:2518704.52393
+  ********************
+BLEU file: ./data/sstubs/3/validation.jsonl
+Namespace(log_name='./result/sstubs/3/soft0_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='result/sstubs/3/soft0_gptneo', data_dir='./data/sstubs/3', no_cuda=False, visible_gpu='0', choice=0, num_train_epochs=15, num_test_epochs=1, train_batch_size=2, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=2000, max_target_length=2000, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Namespace(log_name='./result/sstubs/3/soft0_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='result/sstubs/3/soft0_gptneo', data_dir='./data/sstubs/3', no_cuda=False, visible_gpu='0', choice=0, num_train_epochs=15, num_test_epochs=1, train_batch_size=2, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=2000, max_target_length=2000, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'grammarBuilder.append("}\\n");    grammarBuilder.append("  : r=a ;\\n");    grammarBuilder.append("a : \'x\' { \\n");   grammarBuilder.append("fmt.Println(p.GetRuleInvocationStack(nil))\\n");    grammarBuilder.append("} ;");    String grammar = grammarBuilder.toString();    String input ="x";', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is the fixed version', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'grammarBuilder.append("}\\n");    grammarBuilder.append("  : r=a ;\\n");    grammarBuilder.append("a : \'x\' { \\n");   grammarBuilder.append("fmt.Println(antlr.PrintArrayJavaStyle(p.GetRuleInvocationStack(nil)))\\n");    grammarBuilder.append("} ;");    String grammar = grammarBuilder.toString();    String input ="x";'}]
+***** Running training *****
+  Num examples = 223
+  Batch size = 2
+  Num epoch = 15
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 5662192.65857
+  global_step = 113
+  train_loss = 45.4039
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:5662192.65857
+  ********************
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 36.72 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:36.72
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 3913078.03183
+  global_step = 225
+  train_loss = 7.2843
+  ********************
+Previous best ppl:5662192.65857
+Achieve Best ppl:3913078.03183
+  ********************
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 34.24 	 Previous best codebleu 36.72
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 340440484.674
+  global_step = 337
+  train_loss = 4.649
+  ********************
+Previous best ppl:3913078.03183
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 32.56 	 Previous best codebleu 36.72
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 144482367.87726
+  global_step = 449
+  train_loss = 3.961
+  ********************
+Previous best ppl:3913078.03183
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 31.87 	 Previous best codebleu 36.72
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 53948133380.36784
+  global_step = 561
+  train_loss = 4.4645
+  ********************
+Previous best ppl:3913078.03183
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 36.16 	 Previous best codebleu 36.72
+  ********************
+early stopping!!!
+reload model from result/sstubs/3/soft0_gptneo/checkpoint-best-bleu
+BLEU file: ./data/sstubs/3/test.jsonl
+  codebleu = 44.54 
+  Total = 27 
+  Exact Fixed = 1 
+[1]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 27 
+  Exact Fixed = 1 
+[1]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 44.54 
+[1.0, 0.23485209722103462, 0.9548431641738979, 0.5918809792463919, 0.3133126748065981, 0.6025607954383402, 0.3038192072205039, 0.24674336231215008, 0.24201031151184643, 0.601614462360331, 0.3162157725252821, 0.24913527733428517, 0.6045947958097033, 0.3090555821968818, 0.25881171617138965, 0.0517530376780803, 0.7595178459004281, 0.8186995567252285, 0.6356765660939894, 0.9543920430664012, 0.3073961756548033, 0.24711781373080208, 0.3202260567140427, 0.022213545752272523, 0.16293638303596159, 0.31335558964784477, 0.6020235565100912]
+Finish training and take 1h13m

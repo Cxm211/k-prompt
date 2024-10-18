@@ -1,0 +1,7 @@
+{"placeholder":"text_a", "shortenable": "True"} {"mask"} is the fixed version
+{"placeholder":"text_a", "shortenable": "True"} the fixed version is {"mask"}
+Fix the bug in {"placeholder":"text_a", "shortenable": "True"} {"mask"}
+Fix {"placeholder":"text_a", "shortenable": "True"} fixed program is {"mask"}
+Fix {"placeholder":"text_a", "shortenable": "True"} {"mask"} is fixed program
+{"placeholder":"text_a", "shortenable": "True"} is buggy program {"mask"} is fixed program
+Fix {"placeholder":"text_a", "shortenable": "True"} is buggy program {"mask"} is fixed program

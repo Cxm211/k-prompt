@@ -1,0 +1,275 @@
+Namespace(log_name='./xcodeeval/3/soft2_codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='c', output_dir='xcodeeval/3/soft2_codet5p_770m', data_dir='./data/xcodeeval/3', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=6, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': '#include<stdio.h> int main() { int t,i=1; scanf("%d",&t); while(i<=t)  {  int s,a,b,c,d;  scanf("%d%d%d%d",&s,&a,&b,&c);  d=(s/c)+((s/a)*b);  printf("%d",d);  } return 0; }', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is the fixed version', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '#include<stdio.h> int main() { long long s,a,b,c,d,p; int t,i; scanf("%d",&t); for(i=1;i<=t;i++)  {  scanf("%I64d%I64d%I64d%I64d",&s,&a,&b,&c);  p=s/c;  d=(p)+((p/a)*b);  printf("%I64d\\n",d);  } return 0; }'}]
+***** Running training *****
+  Num examples = 1082
+  Batch size = 6
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 0
+  eval_ppl = inf
+  global_step = 182
+  train_loss = 62.3527
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:inf
+  ********************
+BLEU file: ./data/xcodeeval/3/validation.jsonl
+  codebleu-4 = 75.88 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:75.88
+  ********************
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 1
+  eval_ppl = inf
+  global_step = 363
+  train_loss = 50.861
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:inf
+  ********************
+BLEU file: ./data/xcodeeval/3/validation.jsonl
+  codebleu-4 = 76.03 	 Previous best codebleu 75.88
+  ********************
+ Achieve Best bleu:76.03
+  ********************
+Namespace(log_name='./xcodeeval/3/soft2_codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='javascript', output_dir='xcodeeval/3/soft2_codet5p_770m', data_dir='./data/xcodeeval/3', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=6, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Fix the bug in', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' #include<stdio.h> int main() { int t,i=1; scanf("%d",&t); while(i<=t)  {  int s,a,b,c,d;  scanf("%d%d%d%d",&s,&a,&b,&c);  d=(s/c)+((s/a)*b);  printf("%d",d);  } return 0; }', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '#include<stdio.h> int main() { long long s,a,b,c,d,p; int t,i; scanf("%d",&t); for(i=1;i<=t;i++)  {  scanf("%I64d%I64d%I64d%I64d",&s,&a,&b,&c);  p=s/c;  d=(p)+((p/a)*b);  printf("%I64d\\n",d);  } return 0; }'}]
+***** Running training *****
+  Num examples = 1082
+  Batch size = 6
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 0
+  eval_ppl = inf
+  global_step = 182
+  train_loss = 61.2701
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:inf
+  ********************
+BLEU file: ./data/xcodeeval/3/validation.jsonl
+  codebleu-4 = 76.39 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:76.39
+  ********************
+Namespace(log_name='./xcodeeval/3/soft2_codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='c', output_dir='xcodeeval/3/soft2_codet5p_770m', data_dir='./data/xcodeeval/3', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=6, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Fix the bug in', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' #include<stdio.h> int main() { int t,i=1; scanf("%d",&t); while(i<=t)  {  int s,a,b,c,d;  scanf("%d%d%d%d",&s,&a,&b,&c);  d=(s/c)+((s/a)*b);  printf("%d",d);  } return 0; }', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '#include<stdio.h> int main() { long long s,a,b,c,d,p; int t,i; scanf("%d",&t); for(i=1;i<=t;i++)  {  scanf("%I64d%I64d%I64d%I64d",&s,&a,&b,&c);  p=s/c;  d=(p)+((p/a)*b);  printf("%I64d\\n",d);  } return 0; }'}]
+***** Running training *****
+  Num examples = 1082
+  Batch size = 6
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 0
+  eval_ppl = inf
+  global_step = 182
+  train_loss = 61.1623
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:inf
+  ********************
+BLEU file: ./data/xcodeeval/3/validation.jsonl
+  codebleu-4 = 75.71 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:75.71
+  ********************
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 1
+  eval_ppl = inf
+  global_step = 363
+  train_loss = 49.4102
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/xcodeeval/3/validation.jsonl
+Namespace(log_name='./xcodeeval/3/soft2_codet5p_770m.log', model_name='Salesforce/codet5p-770m', lang='c', output_dir='xcodeeval/3/soft2_codet5p_770m', data_dir='./data/xcodeeval/3', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=6, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Fix the bug in', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' #include<stdio.h> int main() { int t,i=1; scanf("%d",&t); while(i<=t)  {  int s,a,b,c,d;  scanf("%d%d%d%d",&s,&a,&b,&c);  d=(s/c)+((s/a)*b);  printf("%d",d);  } return 0; }', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': '#include<stdio.h> int main() { long long s,a,b,c,d,p; int t,i; scanf("%d",&t); for(i=1;i<=t;i++)  {  scanf("%I64d%I64d%I64d%I64d",&s,&a,&b,&c);  p=s/c;  d=(p)+((p/a)*b);  printf("%I64d\\n",d);  } return 0; }'}]
+***** Running training *****
+  Num examples = 1082
+  Batch size = 6
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 0
+  eval_ppl = inf
+  global_step = 182
+  train_loss = 61.1623
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:inf
+  ********************
+BLEU file: ./data/xcodeeval/3/validation.jsonl
+  codebleu-4 = 75.74 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:75.74
+  ********************
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 1
+  eval_ppl = inf
+  global_step = 363
+  train_loss = 49.4102
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/xcodeeval/3/validation.jsonl
+  codebleu-4 = 76.11 	 Previous best codebleu 75.74
+  ********************
+ Achieve Best bleu:76.11
+  ********************
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 2
+  eval_ppl = inf
+  global_step = 544
+  train_loss = 36.4143
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/xcodeeval/3/validation.jsonl
+  codebleu-4 = 75.75 	 Previous best codebleu 76.11
+  ********************
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 3
+  eval_ppl = inf
+  global_step = 725
+  train_loss = 26.4786
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/xcodeeval/3/validation.jsonl
+  codebleu-4 = 76.12 	 Previous best codebleu 76.11
+  ********************
+ Achieve Best bleu:76.12
+  ********************
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 4
+  eval_ppl = inf
+  global_step = 906
+  train_loss = 18.6298
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/xcodeeval/3/validation.jsonl
+  codebleu-4 = 76.14 	 Previous best codebleu 76.12
+  ********************
+ Achieve Best bleu:76.14
+  ********************
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 5
+  eval_ppl = inf
+  global_step = 1087
+  train_loss = 12.9369
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/xcodeeval/3/validation.jsonl
+  codebleu-4 = 75.39 	 Previous best codebleu 76.14
+  ********************
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 6
+  eval_ppl = inf
+  global_step = 1268
+  train_loss = 8.8273
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:inf
+  ********************
+BLEU file: ./data/xcodeeval/3/validation.jsonl
+  codebleu-4 = 75.68 	 Previous best codebleu 76.14
+  ********************
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 7
+  eval_ppl = inf
+  global_step = 1449
+  train_loss = 5.7831
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/xcodeeval/3/validation.jsonl
+  codebleu-4 = 75.77 	 Previous best codebleu 76.14
+  ********************
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 8
+  eval_ppl = inf
+  global_step = 1630
+  train_loss = 4.0259
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/xcodeeval/3/validation.jsonl
+  codebleu-4 = 75.77 	 Previous best codebleu 76.14
+  ********************
+
+***** Running evaluation *****
+  Num examples = 136
+  Batch size = 4
+  epoch = 9
+  eval_ppl = inf
+  global_step = 1811
+  train_loss = 3.0154
+  ********************
+Previous best ppl:inf
+BLEU file: ./data/xcodeeval/3/validation.jsonl
+  codebleu-4 = 75.71 	 Previous best codebleu 76.14
+  ********************
+early stopping!!!
+reload model from xcodeeval/3/soft2_codet5p_770m/checkpoint-best-bleu
+BLEU file: ./data/xcodeeval/3/test.jsonl
+  codebleu = 75.19 
+  Total = 135 
+  Exact Fixed = 6 
+[22, 27, 36, 53, 88, 111]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 135 
+  Exact Fixed = 6 
+[22, 27, 36, 53, 88, 111]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 75.19 
+[0.7802656127733693, 0.5455287293048208, 0.6311616600954335, 0.9503998344473819, 0.9759316203623163, 0.08651205986326166, 0.25656679901645385, 0.7669842146074164, 0.6450304794017896, 0.5124474841624163, 0.4173059309717686, 0.8164468849403668, 0.8805670984187464, 0.9432628994248902, 0.9377858074101935, 0.9175636111085979, 0.38735431410528753, 0.947175667983928, 0.7822722252676139, 0.8106836338492169, 0.9705776794701617, 1.0, 0.8333813540442871, 0.5524112337326081, 0.7657560530824576, 0.9450171055839813, 1.0, 0.9343575548388978, 0.5790261988125887, 0.8896800467143886, 0.9386663091558518, 0.4328828981880556, 0.43429740782545445, 0.9716642922960141, 0.5925258544448675, 1.0, 0.739909040388661, 0.9025560323310975, 0.7928989537722857, 0.9670641264245079, 0.867980815381816, 0.8583791034780668, 0.9306240015142291, 0.955626584171517, 0.7618252716823823, 0.8470562047308248, 0.9623079709182942, 0.6788771844775876, 0.950524665864859, 0.9292979625847417, 0.9712222651426679, 0.9828198222975641, 1.0, 0.8633963363946109, 0.7801949080730365, 0.9648891735454908, 0.8403497788628866, 0.8825582267252379, 0.951315622822358, 0.33295797590328613, 0.35624122019684656, 0.7982100679121421, 0.8929074683265098, 0.8689970404457057, 0.8227179636514886, 0.9392671091427115, 0.9701665687159924, 0.15351946048762036, 0.9289471675486692, 0.8339849455214231, 0.9109344104254649, 0.9669138743101213, 0.9503712900963834, 0.9006565330934351, 0.9525069902299836, 0.4677062722821731, 0.8214517035764007, 0.8657268209604377, 0.6927725662122917, 0.8269793321315543, 0.8947151965627762, 0.9650446019275767, 0.7761391783604946, 0.9512693309096103, 0.6230524667375235, 0.7763879223350485, 0.26765125761038455, 1.0, 0.9569804034257428, 0.8980952928375916, 0.5797226856861304, 0.48170226274723915, 0.9498733743967636, 0.4810662834928253, 0.30278837455257246, 0.8333124373352575, 0.4196734157127252, 0.6352418602881265, 0.9258576635726143, 0.3913905692778357, 0.9555110270475338, 0.9107175165049317, 0.47266766836385843, 0.9534278780598358, 0.9393217253155881, 0.8897945586059963, 0.3355749130492112, 0.35148053648224986, 0.9153371174320708, 0.3868507250835175, 0.9401516494838915, 0.3396237334800502, 0.4954735182274035, 0.9427008679312978, 0.5442886701759317, 0.3816802695568956, 0.8759700055210595, 0.7052622199542771, 0.9732456940628658, 0.817850581479403, 0.6131424394366902, 0.68941044587298, 0.7934303369700066, 0.9764351042658364, 0.4953415641367399, 0.6908535288138271, 0.9294284870142819, 0.2395264521894329, 0.37224533982578545, 0.4191471722230175, 0.9393874070011292, 0.9720712010457695, 0.9213416713097093, 0.4094542044720756, 0.3357637568330429]
+Finish training and take 59m

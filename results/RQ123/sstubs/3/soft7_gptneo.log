@@ -1,0 +1,178 @@
+Namespace(log_name='./result/sstubs/3/soft7_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='result/sstubs/3/soft7_gptneo', data_dir='./data/sstubs/3', no_cuda=False, visible_gpu='0', choice=7, num_train_epochs=10, num_test_epochs=1, train_batch_size=2, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=2000, max_target_length=2000, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Please fix an buggy program', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' grammarBuilder.append("}\\n");    grammarBuilder.append("  : r=a ;\\n");    grammarBuilder.append("a : \'x\' { \\n");   grammarBuilder.append("fmt.Println(p.GetRuleInvocationStack(nil))\\n");    grammarBuilder.append("} ;");    String grammar = grammarBuilder.toString();    String input ="x";', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': 'the bug type is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' Change Numeric Literal', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': '.', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': 'the fixed version is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'grammarBuilder.append("}\\n");    grammarBuilder.append("  : r=a ;\\n");    grammarBuilder.append("a : \'x\' { \\n");   grammarBuilder.append("fmt.Println(antlr.PrintArrayJavaStyle(p.GetRuleInvocationStack(nil)))\\n");    grammarBuilder.append("} ;");    String grammar = grammarBuilder.toString();    String input ="x";'}]
+***** Running training *****
+  Num examples = 223
+  Batch size = 2
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 7.22818724479799e+16
+  global_step = 113
+  train_loss = 36.3366
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:7.22818724479799e+16
+  ********************
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 87.41 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:87.41
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 3.3202873900432476e+16
+  global_step = 225
+  train_loss = 6.5255
+  ********************
+Previous best ppl:7.22818724479799e+16
+Achieve Best ppl:3.3202873900432476e+16
+  ********************
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 86.03 	 Previous best codebleu 87.41
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 1.3411969305625058e+16
+  global_step = 337
+  train_loss = 4.0169
+  ********************
+Previous best ppl:3.3202873900432476e+16
+Achieve Best ppl:1.3411969305625058e+16
+  ********************
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 91.96 	 Previous best codebleu 87.41
+  ********************
+ Achieve Best bleu:91.96
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 9.245297626296918e+20
+  global_step = 449
+  train_loss = 3.2968
+  ********************
+Previous best ppl:1.3411969305625058e+16
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 91.05 	 Previous best codebleu 91.96
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 80484485071.70471
+  global_step = 561
+  train_loss = 2.1549
+  ********************
+Previous best ppl:1.3411969305625058e+16
+Achieve Best ppl:80484485071.70471
+  ********************
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 93.29 	 Previous best codebleu 91.96
+  ********************
+ Achieve Best bleu:93.29
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 45822276414067.51
+  global_step = 673
+  train_loss = 0.9628
+  ********************
+Previous best ppl:80484485071.70471
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 93.56 	 Previous best codebleu 93.29
+  ********************
+ Achieve Best bleu:93.56
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 6
+  eval_ppl = 20976496123101.96
+  global_step = 785
+  train_loss = 0.638
+  ********************
+Previous best ppl:80484485071.70471
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 94.14 	 Previous best codebleu 93.56
+  ********************
+ Achieve Best bleu:94.14
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 7
+  eval_ppl = 54973727797055.21
+  global_step = 897
+  train_loss = 0.6283
+  ********************
+Previous best ppl:80484485071.70471
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 93.63 	 Previous best codebleu 94.14
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 8
+  eval_ppl = 931381635710493.9
+  global_step = 1009
+  train_loss = 0.2706
+  ********************
+Previous best ppl:80484485071.70471
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 93.63 	 Previous best codebleu 94.14
+  ********************
+
+***** Running evaluation *****
+  Num examples = 28
+  Batch size = 4
+  epoch = 9
+  eval_ppl = 3309398263274155.5
+  global_step = 1121
+  train_loss = 0.1669
+  ********************
+Previous best ppl:80484485071.70471
+BLEU file: ./data/sstubs/3/validation.jsonl
+  codebleu-4 = 93.63 	 Previous best codebleu 94.14
+  ********************
+early stopping!!!
+reload model from result/sstubs/3/soft7_gptneo/checkpoint-best-bleu
+BLEU file: ./data/sstubs/3/test.jsonl
+  codebleu = 93.74 
+  Total = 27 
+  Exact Fixed = 15 
+[1, 4, 5, 6, 7, 8, 10, 11, 12, 16, 22, 23, 25, 26, 27]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 27 
+  Exact Fixed = 15 
+[1, 4, 5, 6, 7, 8, 10, 11, 12, 16, 22, 23, 25, 26, 27]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 93.74 
+[1.0, 0.881869732718652, 0.9548431641738979, 1.0, 1.0, 1.0, 1.0, 1.0, 0.936752055107628, 1.0, 1.0, 1.0, 0.8977573831682686, 0.963531800540206, 0.7888431522760508, 1.0, 0.8648103351245982, 0.704560716701746, 0.6385255267698355, 0.9543920430664012, 0.8459152611805056, 1.0, 1.0, 0.8772724139191397, 1.0, 1.0, 1.0]
+Finish training and take 30m

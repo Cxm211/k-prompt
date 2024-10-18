@@ -1,0 +1,122 @@
+Namespace(log_name='./coderefine/3/soft3_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='coderefine/3/soft3_gptneo', data_dir='./data/coderefine/3', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=2, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1024, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+Namespace(log_name='./coderefine/3/soft3_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='coderefine/3/soft3_gptneo', data_dir='./data/coderefine/3', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=2, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1024, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+Namespace(log_name='./coderefine/3/soft3_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='coderefine/3/soft3_gptneo', data_dir='./data/coderefine/3', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=2, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1024, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'Fix', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': ' public java.lang.String toString ( ) { if ( ( VAR_1 ) == null ) { return STRING_1 ; } TYPE_1 VAR_2 = null ; if ( ( ( VAR_3 ) == null ) || ( STRING_1 . equals ( VAR_3 . trim ( ) ) ) ) { VAR_2 = TYPE_1 . METHOD_1 ( VAR_4 ) ; } else { VAR_2 = TYPE_1 . METHOD_1 ( VAR_3 ) ; } return new java.lang.String ( VAR_1 , VAR_2 ) ; }', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': 'fixed program is', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'public java.lang.String toString ( ) { if ( ( VAR_1 ) == null ) { return null ; } TYPE_1 VAR_2 = null ; if ( ( ( VAR_3 ) == null ) || ( STRING_1 . equals ( VAR_3 . trim ( ) ) ) ) { VAR_2 = TYPE_1 . METHOD_1 ( VAR_4 ) ; } else { VAR_2 = TYPE_1 . METHOD_1 ( VAR_3 ) ; } return new java.lang.String ( VAR_1 , VAR_2 ) ; }'}]
+***** Running training *****
+  Num examples = 523
+  Batch size = 2
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 68
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 3.315595185107311e+79
+  global_step = 263
+  train_loss = 23.6118
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:3.315595185107311e+79
+  ********************
+BLEU file: ./data/coderefine/3/validation.jsonl
+  codebleu-4 = 83.03 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:83.03
+  ********************
+
+***** Running evaluation *****
+  Num examples = 68
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 4.1621814822389214e+93
+  global_step = 525
+  train_loss = 11.4651
+  ********************
+Previous best ppl:3.315595185107311e+79
+BLEU file: ./data/coderefine/3/validation.jsonl
+  codebleu-4 = 83.09 	 Previous best codebleu 83.03
+  ********************
+ Achieve Best bleu:83.09
+  ********************
+
+***** Running evaluation *****
+  Num examples = 68
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 3.9071377251524494e+95
+  global_step = 787
+  train_loss = 9.1886
+  ********************
+Previous best ppl:3.315595185107311e+79
+BLEU file: ./data/coderefine/3/validation.jsonl
+  codebleu-4 = 84.42 	 Previous best codebleu 83.09
+  ********************
+ Achieve Best bleu:84.42
+  ********************
+
+***** Running evaluation *****
+  Num examples = 68
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 2.13582742387279e+111
+  global_step = 1049
+  train_loss = 4.6177
+  ********************
+Previous best ppl:3.315595185107311e+79
+BLEU file: ./data/coderefine/3/validation.jsonl
+  codebleu-4 = 83.07 	 Previous best codebleu 84.42
+  ********************
+
+***** Running evaluation *****
+  Num examples = 68
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 1.6082121736694574e+125
+  global_step = 1311
+  train_loss = 2.968
+  ********************
+Previous best ppl:3.315595185107311e+79
+BLEU file: ./data/coderefine/3/validation.jsonl
+  codebleu-4 = 83.12 	 Previous best codebleu 84.42
+  ********************
+
+***** Running evaluation *****
+  Num examples = 68
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 2.3210352631656044e+133
+  global_step = 1573
+  train_loss = 1.848
+  ********************
+Previous best ppl:3.315595185107311e+79
+BLEU file: ./data/coderefine/3/validation.jsonl
+  codebleu-4 = 83.45 	 Previous best codebleu 84.42
+  ********************
+early stopping!!!
+reload model from coderefine/3/soft3_gptneo/checkpoint-best-bleu
+BLEU file: ./data/coderefine/3/test.jsonl
+  codebleu = 86.11 
+  Total = 65 
+  Exact Fixed = 2 
+[16, 21]
+  Syntax Fixed = 1 
+[26]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 65 
+  Exact Fixed = 2 
+[16, 21]
+  Syntax Fixed = 1 
+[26]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 86.11 
+[0.8344531615285882, 0.9630303652763479, 0.9635936712235131, 0.8695053775921413, 0.807801001879222, 0.9903835840244344, 0.9425904504260924, 0.7565622907995917, 0.8663253022517741, 0.7853787852753416, 0.7179134360258046, 0.8199341694961335, 0.7110712709791147, 0.9466557278151304, 0.8930766761936788, 1.0, 0.8582714031602161, 0.903251591588007, 0.7851173213682643, 0.9492125710440397, 1.0, 0.9276082610967489, 0.8109600859148496, 0.8400491181531569, 0.9011983828889045, 0.984760788668561, 0.9341143879369677, 0.9069552571509669, 0.9003448563397379, 0.9312622441935581, 0.8908547015116461, 0.7992584603170283, 0.7054732667366189, 0.8453364826765044, 0.805701077610373, 0.7616565022076692, 0.787467876312185, 0.8292599825198161, 0.8629693959820761, 0.7654333285915558, 0.9135467631052718, 0.9478920794481374, 0.8534763801158689, 0.8836694765163731, 0.8887329713543033, 0.7697777567996368, 0.7884056971276038, 0.8834808527576432, 0.8879409283531179, 0.8865098527737512, 0.6673622053236036, 0.7561927282770964, 0.8648744008167688, 0.7685879515332055, 0.883976193615452, 0.8470699380914073, 0.9441114284551342, 0.9749570195926033, 0.9276740311170688, 0.9823198166397258, 0.7663340506773442, 0.934343306344736, 0.9370554506699724, 0.8798931665046563, 0.5778624281512992]
+Finish training and take 26m

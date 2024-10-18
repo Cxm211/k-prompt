@@ -1,0 +1,131 @@
+Namespace(log_name='./defects4j/soft5_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='defects4j/soft5_gptneo', data_dir='./data/defects4j', no_cuda=False, visible_gpu='0', num_train_epochs=10, num_test_epochs=1, train_batch_size=4, eval_batch_size=4, gradient_accumulation_steps=1, load_model_path=None, config_name='', tokenizer_name='', max_source_length=1024, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, freeze=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False
+Model created!!
+[[{'text': 'static TernaryValue getImpureBooleanValue(Node n) {          return TernaryValue.TRUE;        default:          return getPureBooleanValue(n);', 'loss_ids': 0, 'shortenable_ids': 1}, {'text': 'is buggy program', 'loss_ids': 0, 'shortenable_ids': 0}, {'text': '<mask>', 'loss_ids': 1, 'shortenable_ids': 0}, {'text': 'is fixed program', 'loss_ids': 0, 'shortenable_ids': 0}], {'guid': 0, 'tgt_text': 'static TernaryValue getImpureBooleanValue(Node n) {          return TernaryValue.TRUE;       case Token.VOID:         return TernaryValue.FALSE;        default:          return getPureBooleanValue(n);'}]
+***** Running training *****
+  Num examples = 502
+  Batch size = 4
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 6.559286102117817e+89
+  global_step = 127
+  train_loss = 79.0925
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:6.559286102117817e+89
+  ********************
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 37.44 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:37.44
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 3.2380390350401286e+94
+  global_step = 253
+  train_loss = 26.0468
+  ********************
+Previous best ppl:6.559286102117817e+89
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 37.68 	 Previous best codebleu 37.44
+  ********************
+ Achieve Best bleu:37.68
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 2.3775050261868344e+103
+  global_step = 379
+  train_loss = 13.3606
+  ********************
+Previous best ppl:6.559286102117817e+89
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 42.33 	 Previous best codebleu 37.68
+  ********************
+ Achieve Best bleu:42.33
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 4.098757866496501e+100
+  global_step = 505
+  train_loss = 8.2611
+  ********************
+Previous best ppl:6.559286102117817e+89
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 43.95 	 Previous best codebleu 42.33
+  ********************
+ Achieve Best bleu:43.95
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 7.951341267810561e+111
+  global_step = 631
+  train_loss = 4.6668
+  ********************
+Previous best ppl:6.559286102117817e+89
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 38.0 	 Previous best codebleu 43.95
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 1.379203119979093e+100
+  global_step = 757
+  train_loss = 2.9592
+  ********************
+Previous best ppl:6.559286102117817e+89
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 43.84 	 Previous best codebleu 43.95
+  ********************
+
+***** Running evaluation *****
+  Num examples = 64
+  Batch size = 4
+  epoch = 6
+  eval_ppl = 8.14087694185694e+99
+  global_step = 883
+  train_loss = 2.2791
+  ********************
+Previous best ppl:6.559286102117817e+89
+BLEU file: ./data/defects4j/validation.jsonl
+  codebleu-4 = 36.55 	 Previous best codebleu 43.95
+  ********************
+early stopping!!!
+reload model from defects4j/soft5_gptneo/checkpoint-best-bleu
+BLEU file: ./data/defects4j/test.jsonl
+  codebleu = 38.5 
+  Total = 64 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 2 
+[30, 43]
+  Cleaned Fixed = 4 
+[30, 31, 43, 48]
+  ********************
+  Total = 64 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 2 
+[30, 43]
+  Cleaned Fixed = 4 
+[30, 31, 43, 48]
+  codebleu = 38.5 
+[0.3583313714900778, 0.049213982084814215, 0.37123346201076657, 0.5951391637868334, 0.5587521016565749, 0.7500708127820562, 0.3465216692345761, 0.4282679239119397, 0.5108803266342512, 0.36557621628224124, 0.19388541001554876, 0.31371392972690043, 0.3578895593809299, 0.3004067725235758, 0.15712388606168998, 0.2931645358264662, 0.24903453810246443, 0.34400319493811193, 0.36517683331228223, 0.2929186304577743, 0.2736679906448402, 0.6693077705597148, 0.5334133132046092, 0.40112323019509855, 0.3569617153441181, 0.32905184355692146, 0.20074900952391522, 0.21905337085846724, 0.33745422177569856, 0.6140160785822399, 0.5235872712331221, 0.27324856566478334, 0.19362229394016695, 0.6087030474758863, 0.4052955674403864, 0.2355261236075045, 0.7262829342323228, 0.7811273417749671, 0.33213598529197425, 0.1508718049666667, 0.532394159841429, 0.3039996829606353, 0.6140160785822399, 0.15053595715503215, 0.3209706300715046, 0.647033668842145, 0.37109983971453603, 0.592296643074085, 0.320803986337809, 0.49754336913383834, 0.5633905274557849, 0.4256314602188289, 0.6772432002947886, 0.20418783640136592, 0.3330902964380757, 0.17421471067214078, 0.33436278973196404, 0.2654548968313852, 0.8531696724120137, 0.16399452961232583, 0.189968237875959, 0.30117128154597683, 0.2408846452438742, 0.19848184232892602]
+Finish training and take 1h31m

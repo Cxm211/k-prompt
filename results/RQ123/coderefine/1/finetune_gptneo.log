@@ -1,0 +1,376 @@
+Namespace(log_name='./coderefine/1/finetune_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='coderefine/1/finetune_gptneo', data_dir='./data/coderefine/1', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=128, max_target_length=128, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: EleutherAI/gpt-neo-1.3B
+model created!
+Total 523 training instances 
+***** Running training *****
+  Num examples = 523
+  Batch size = 8
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 65
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.00509
+  global_step = 66
+  train_loss = 3.004
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.00509
+  ********************
+BLEU file: ./data/coderefine/1/validation.jsonl
+  codebleu-4 = 36.23 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:36.23
+  ********************
+
+***** Running evaluation *****
+  Num examples = 65
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 1.00492
+  global_step = 131
+  train_loss = 2.0675
+  ********************
+Previous best ppl:1.00509
+Achieve Best ppl:1.00492
+  ********************
+BLEU file: ./data/coderefine/1/validation.jsonl
+  codebleu-4 = 40.16 	 Previous best codebleu 36.23
+  ********************
+ Achieve Best bleu:40.16
+  ********************
+
+***** Running evaluation *****
+  Num examples = 65
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 1.00491
+  global_step = 196
+  train_loss = 1.861
+  ********************
+Previous best ppl:1.00492
+Achieve Best ppl:1.00491
+  ********************
+BLEU file: ./data/coderefine/1/validation.jsonl
+  codebleu-4 = 47.8 	 Previous best codebleu 40.16
+  ********************
+ Achieve Best bleu:47.8
+  ********************
+
+***** Running evaluation *****
+  Num examples = 65
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 1.00522
+  global_step = 261
+  train_loss = 1.604
+  ********************
+Previous best ppl:1.00491
+BLEU file: ./data/coderefine/1/validation.jsonl
+  codebleu-4 = 49.08 	 Previous best codebleu 47.8
+  ********************
+ Achieve Best bleu:49.08
+  ********************
+
+***** Running evaluation *****
+  Num examples = 65
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 1.00572
+  global_step = 326
+  train_loss = 1.2454
+  ********************
+Previous best ppl:1.00491
+BLEU file: ./data/coderefine/1/validation.jsonl
+  codebleu-4 = 49.58 	 Previous best codebleu 49.08
+  ********************
+ Achieve Best bleu:49.58
+  ********************
+
+***** Running evaluation *****
+  Num examples = 65
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 1.00686
+  global_step = 391
+  train_loss = 0.8502
+  ********************
+Previous best ppl:1.00491
+BLEU file: ./data/coderefine/1/validation.jsonl
+  codebleu-4 = 50.52 	 Previous best codebleu 49.58
+  ********************
+ Achieve Best bleu:50.52
+  ********************
+
+***** Running evaluation *****
+  Num examples = 65
+  Batch size = 4
+  epoch = 6
+  eval_ppl = 1.00831
+  global_step = 456
+  train_loss = 0.474
+  ********************
+Previous best ppl:1.00491
+BLEU file: ./data/coderefine/1/validation.jsonl
+  codebleu-4 = 49.77 	 Previous best codebleu 50.52
+  ********************
+
+***** Running evaluation *****
+  Num examples = 65
+  Batch size = 4
+  epoch = 7
+  eval_ppl = 1.00901
+  global_step = 521
+  train_loss = 0.2486
+  ********************
+Previous best ppl:1.00491
+BLEU file: ./data/coderefine/1/validation.jsonl
+  codebleu-4 = 51.29 	 Previous best codebleu 50.52
+  ********************
+ Achieve Best bleu:51.29
+  ********************
+
+***** Running evaluation *****
+  Num examples = 65
+  Batch size = 4
+  epoch = 8
+  eval_ppl = 1.00977
+  global_step = 586
+  train_loss = 0.1465
+  ********************
+Previous best ppl:1.00491
+BLEU file: ./data/coderefine/1/validation.jsonl
+  codebleu-4 = 51.29 	 Previous best codebleu 51.29
+  ********************
+
+***** Running evaluation *****
+  Num examples = 65
+  Batch size = 4
+  epoch = 9
+  eval_ppl = 1.01021
+  global_step = 651
+  train_loss = 0.1134
+  ********************
+Previous best ppl:1.00491
+BLEU file: ./data/coderefine/1/validation.jsonl
+  codebleu-4 = 49.22 	 Previous best codebleu 51.29
+  ********************
+reload model from coderefine/1/finetune_gptneo/checkpoint-best-bleu
+BLEU file: ./data/coderefine/1/test.jsonl
+  codebleu = 49.48 
+  Total = 65 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 1 
+[11]
+  ********************
+  Total = 65 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 1 
+[11]
+  codebleu = 49.48 
+[0.47158052331817557, 0.7972230258006827, 0.5825161895147746, 0.06848078335058498, 0.4128258535735856, 0.32443230489506114, 0.5421027430888492, 0.545175966038342, 0.5851823260037576, 0.5500743578771494, 0.5258151650485826, 0.40745806952405583, 0.5937387536824589, 0.5385438718848857, 0.07777053576954691, 0.3617662427944897, 0.507568857003486, 0.3383334944616653, 0.43129042622180935, 0.5490420096824442, 0.8404442372850423, 0.3178168540909092, 0.6426702506180472, 0.37433708526260207, 0.5531902977096628, 0.30720707185217044, 0.4919042710721621, 0.672554978932018, 0.6656976935514639, 0.3774679155376417, 0.5631994519615999, 0.42901539903655234, 0.30220434154258263, 0.5883031560327135, 0.5414322571593955, 0.6013868079039301, 0.5696496775431273, 0.03965857066802255, 0.4377723672712561, 0.885967754116437, 0.5508813016336985, 0.5405346299176985, 0.27217003450595284, 0.3601062390542359, 0.5329426745703831, 0.591008017945063, 0.5272648982130426, 0.46605122263798915, 0.5946535480047699, 0.46922556697290957, 0.4527562576069314, 0.4760157134863282, 0.3812780943780928, 0.5374973148860194, 0.42344805798322804, 0.5922866857617921, 0.5481669927155288, 0.5625562623077258, 0.5708186794799887, 0.7313298887568851, 0.5313038389205711, 0.42776928489981125, 0.5752525473970854, 0.561719116610932, 0.4723485343499628]
+Finish training and take 27m
+Namespace(log_name='./coderefine/1/finetune_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='javascript', output_dir='coderefine/1/finetune_gptneo', data_dir='./data/coderefine/1', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: EleutherAI/gpt-neo-1.3B
+model created!
+Total 523 training instances 
+***** Running training *****
+  Num examples = 523
+  Batch size = 8
+  Num epoch = 10
+Namespace(log_name='./coderefine/1/finetune_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='coderefine/1/finetune_gptneo', data_dir='./data/coderefine/1', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: EleutherAI/gpt-neo-1.3B
+model created!
+Total 523 training instances 
+***** Running training *****
+  Num examples = 523
+  Batch size = 8
+  Num epoch = 10
+Namespace(log_name='./coderefine/1/finetune_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='coderefine/1/finetune_gptneo', data_dir='./data/coderefine/1', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: EleutherAI/gpt-neo-1.3B
+model created!
+Total 523 training instances 
+***** Running training *****
+  Num examples = 523
+  Batch size = 8
+  Num epoch = 10
+Namespace(log_name='./coderefine/1/finetune_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='coderefine/1/finetune_gptneo', data_dir='./data/coderefine/1', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=1024, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: EleutherAI/gpt-neo-1.3B
+model created!
+Total 523 training instances 
+***** Running training *****
+  Num examples = 523
+  Batch size = 8
+  Num epoch = 10
+Namespace(log_name='./coderefine/1/finetune_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='coderefine/1/finetune_gptneo', data_dir='./data/coderefine/1', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: EleutherAI/gpt-neo-1.3B
+model created!
+Total 523 training instances 
+***** Running training *****
+  Num examples = 523
+  Batch size = 8
+  Num epoch = 10
+Namespace(log_name='./coderefine/1/finetune_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='coderefine/1/finetune_gptneo', data_dir='./data/coderefine/1', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: EleutherAI/gpt-neo-1.3B
+model created!
+Total 4 training instances 
+***** Running training *****
+  Num examples = 4
+  Batch size = 8
+  Num epoch = 10
+Namespace(log_name='./coderefine/1/finetune_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='coderefine/1/finetune_gptneo', data_dir='./data/coderefine/1', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: EleutherAI/gpt-neo-1.3B
+model created!
+Total 1 training instances 
+***** Running training *****
+  Num examples = 1
+  Batch size = 8
+  Num epoch = 10
+Namespace(log_name='./coderefine/1/finetune_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='coderefine/1/finetune_gptneo', data_dir='./data/coderefine/1', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: EleutherAI/gpt-neo-1.3B
+model created!
+Total 3 training instances 
+***** Running training *****
+  Num examples = 3
+  Batch size = 8
+  Num epoch = 10
+Namespace(log_name='./coderefine/1/finetune_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='coderefine/1/finetune_gptneo', data_dir='./data/coderefine/1', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: EleutherAI/gpt-neo-1.3B
+model created!
+Total 523 training instances 
+***** Running training *****
+  Num examples = 523
+  Batch size = 8
+  Num epoch = 10
+Namespace(log_name='./coderefine/1/finetune_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='coderefine/1/finetune_gptneo', data_dir='./data/coderefine/1', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: EleutherAI/gpt-neo-1.3B
+model created!
+Total 523 training instances 
+***** Running training *****
+  Num examples = 523
+  Batch size = 8
+  Num epoch = 10
+Namespace(log_name='./coderefine/1/finetune_gptneo.log', model_name='EleutherAI/gpt-neo-1.3B', lang='java', output_dir='coderefine/1/finetune_gptneo', data_dir='./data/coderefine/1', no_cuda=False, visible_gpu='0', add_task_prefix=False, add_lang_ids=False, num_train_epochs=10, num_test_epochs=10, train_batch_size=8, eval_batch_size=4, gradient_accumulation_steps=2, load_model_path=None, config_name='', tokenizer_name='', max_source_length=512, max_target_length=512, warm_up_ratio=0.1, do_train=True, do_eval=True, do_test=True, do_lower_case=False, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, max_steps=-1, eval_steps=-1, train_steps=-1, local_rank=-1, seed=42, early_stop_threshold=3)
+Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, model_name: EleutherAI/gpt-neo-1.3B
+model created!
+Total 523 training instances 
+***** Running training *****
+  Num examples = 523
+  Batch size = 8
+  Num epoch = 10
+
+***** Running evaluation *****
+  Num examples = 65
+  Batch size = 4
+  epoch = 0
+  eval_ppl = 1.00482
+  global_step = 66
+  train_loss = 3.0903
+  ********************
+Previous best ppl:inf
+Achieve Best ppl:1.00482
+  ********************
+BLEU file: ./data/coderefine/1/validation.jsonl
+  codebleu-4 = 9.88 	 Previous best codebleu 0
+  ********************
+ Achieve Best bleu:9.88
+  ********************
+
+***** Running evaluation *****
+  Num examples = 65
+  Batch size = 4
+  epoch = 1
+  eval_ppl = 1.00469
+  global_step = 131
+  train_loss = 2.1322
+  ********************
+Previous best ppl:1.00482
+Achieve Best ppl:1.00469
+  ********************
+BLEU file: ./data/coderefine/1/validation.jsonl
+  codebleu-4 = 41.29 	 Previous best codebleu 9.88
+  ********************
+ Achieve Best bleu:41.29
+  ********************
+
+***** Running evaluation *****
+  Num examples = 65
+  Batch size = 4
+  epoch = 2
+  eval_ppl = 1.00466
+  global_step = 196
+  train_loss = 1.9329
+  ********************
+Previous best ppl:1.00469
+Achieve Best ppl:1.00466
+  ********************
+BLEU file: ./data/coderefine/1/validation.jsonl
+  codebleu-4 = 23.92 	 Previous best codebleu 41.29
+  ********************
+
+***** Running evaluation *****
+  Num examples = 65
+  Batch size = 4
+  epoch = 3
+  eval_ppl = 1.00494
+  global_step = 261
+  train_loss = 1.6902
+  ********************
+Previous best ppl:1.00466
+BLEU file: ./data/coderefine/1/validation.jsonl
+  codebleu-4 = 22.42 	 Previous best codebleu 41.29
+  ********************
+
+***** Running evaluation *****
+  Num examples = 65
+  Batch size = 4
+  epoch = 4
+  eval_ppl = 1.00536
+  global_step = 326
+  train_loss = 1.3497
+  ********************
+Previous best ppl:1.00466
+BLEU file: ./data/coderefine/1/validation.jsonl
+  codebleu-4 = 31.47 	 Previous best codebleu 41.29
+  ********************
+
+***** Running evaluation *****
+  Num examples = 65
+  Batch size = 4
+  epoch = 5
+  eval_ppl = 1.00613
+  global_step = 391
+  train_loss = 0.9654
+  ********************
+Previous best ppl:1.00466
+BLEU file: ./data/coderefine/1/validation.jsonl
+  codebleu-4 = 38.68 	 Previous best codebleu 41.29
+  ********************
+reload model from coderefine/1/finetune_gptneo/checkpoint-best-bleu
+BLEU file: ./data/coderefine/1/test.jsonl
+  codebleu = 37.82 
+  Total = 65 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  ********************
+  Total = 65 
+  Exact Fixed = 0 
+[]
+  Syntax Fixed = 0 
+[]
+  Cleaned Fixed = 0 
+[]
+  codebleu = 37.82 
+[0.45319774983503736, 0.8177030165609775, 0.03361709257719675, 0.8249566498523997, 0.47002904971957904, 0.5381668959862543, 0.755092203858313, 0.24461986986287876, 0.05179749392087117, 0.7685480183872073, 0.04631644931780959, 0.03190455188435345, 0.47642860311555263, 0.2478902127577248, 0.03526633671887826, 0.34275016774158695, 0.5077757904583691, 0.46381454942662603, 0.7192886136484575, 0.5409190072419152, 0.5731730653507132, 0.5035730839615571, 0.04176032205499217, 0.01841558786879837, 0.5697336123875599, 0.05164538460690486, 0.6860745828485842, 0.04937574271256131, 0.04595594367844395, 0.18180328178341856, 0.29716581273838816, 0.05068453492824959, 0.5867692712123177, 0.5878328754715201, 0.5438141503621788, 0.5964046829107609, 0.5848987912082892, 0.6291829666177933, 0.8634772905539483, 0.8958994066450319, 0.02714733426440467, 0.5407227662403433, 0.025575380542408436, 0.07107588344398107, 0.043700990977025345, 0.5844773253624763, 0.6917919538179778, 0.5185966328901264, 0.5896524439749002, 0.6820067047018672, 0.03941511655401726, 0.45927341664961385, 0.7215763317460012, 0.05660073424690837, 0.04748976932207612, 0.5227677100717206, 0.04408336396682955, 0.033462244110998775, 0.5599655038426661, 0.03091604461890156, 0.6231669004543012, 0.03328345869095382, 0.03544459634731461, 0.8347556729622412, 0.0359052988044394]
+Finish training and take 36m

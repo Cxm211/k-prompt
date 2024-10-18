@@ -1,0 +1,10 @@
+{"placeholder":"text_a"} {"mask"} {"soft": "is the fixed version"}
+{"placeholder":"text_a"} {"soft": "the fixed version is"} {"mask"}
+{"soft": "Fix the bug in"} {"placeholder":"text_a"} {"mask"}
+{"soft": "Fix"} {"placeholder":"text_a"} {"soft": "fixed program is"} {"mask"}
+{"soft": "Fix"} {"placeholder":"text_a"} {"mask"} {"soft": "is fixed program"}
+{"placeholder":"text_a"} {"soft": "is buggy program"} {"mask"} {"soft": "is fixed program"}
+{"soft": "Fix"} {"placeholder":"text_a"} {"soft": "is buggy program"} {"mask"} {"soft": "is fixed program"}
+{"soft": "Please fix an buggy program"} {"placeholder":"text_a"} {"soft": "the bug type is"} {"meta":"bugType", "shortenable":False}. {"soft": "the fixed version is"} {"mask"}
+{"soft": "Please fix an buggy program"} {"placeholder":"text_a"} {"soft": "error message is"} {"meta":"message", "shortenable":False} {"soft": "the fixed version is"} {"mask"}
+{"soft": "Please fix an buggy program"} {"placeholder":"text_a"} {"soft": "the bug type is"} {"meta":"bugType", "shortenable":False}. {"soft": "error message is"} {"meta":"message", "shortenable":False} {"soft": "the fixed version is"} {"mask"}

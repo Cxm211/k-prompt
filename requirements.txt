@@ -7,3 +7,15 @@ sympy==1.12
 tree_sitter
 codebleu==0.7.0
 tree-sitter==0.22.3
+sentencepiece==0.1.96
+tqdm>=4.62.2
+tensorboardX
+nltk
+yacs
+dill
+datasets
+rouge==1.0.0
+pyarrow
+scipy
+accelerate
+torchmetrics

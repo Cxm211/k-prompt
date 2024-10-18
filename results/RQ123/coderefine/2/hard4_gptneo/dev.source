@@ -1,0 +1,1 @@
+public static boolean METHOD_1 ( TYPE_1 VAR_1 ) { java.util.List < java.lang.String > result = TYPE_2 . METHOD_2 ( TYPE_2 . METHOD_3 ( VAR_2 , VAR_1 ) ) ; if ( ( result == null ) || ( ! ( result . isEmpty ( ) ) ) ) return false ; else return true ; }
