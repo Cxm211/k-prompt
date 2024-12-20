@@ -42,7 +42,7 @@ from bleu2 import _bleu
 from my_lib_sstubs import read_prompt_examples, get_elapse_time, read_examples
 
 generation_arguments = {
-    "max_length": 2000,
+    "max_length": 1024,
     "max_new_tokens": None,
     "min_length": 5,
     "temperature": 1.0,
