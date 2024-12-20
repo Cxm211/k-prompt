@@ -44,7 +44,7 @@ from my_lib_bugsinpy import read_prompt_examples, get_elapse_time, read_examples
 
 
 generation_arguments = {
-    "max_length": 512,
+    "max_length": 1024,
     "max_new_tokens": None,
     "min_length": 5,
     "temperature": 1.0,
